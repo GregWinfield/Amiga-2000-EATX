@@ -1,0 +1,76 @@
+slot,ref,signal,corner,variant,slot_to_cap_mm,cap_to_resistor_mm,peak_V,settle_5pct_ns,crossings_at_2V
+CN605,C672,BD4,fast/light,A stored,31.626,2.544,6.486,11.1,1
+CN605,C672,BD4,fast/light,B SIP,34.626,36.585,6.457,11.825,1
+CN605,C672,BD4,fast/light,C axial,34.626,44.0,6.457,11.975,1
+CN605,C672,BD4,fast/light,C compact,34.626,5.0,6.483,11.2,1
+CN605,C672,BD4,slow/heavy,A stored,31.626,2.544,4.783,24.925,1
+CN605,C672,BD4,slow/heavy,B SIP,34.626,36.585,4.785,25.625,1
+CN605,C672,BD4,slow/heavy,C axial,34.626,44.0,4.785,25.75,1
+CN605,C672,BD4,slow/heavy,C compact,34.626,5.0,4.783,25.05,1
+CN605,C672,BD4,fast/heavy,A stored,31.626,2.544,5.666,12.925,1
+CN605,C672,BD4,fast/heavy,B SIP,34.626,36.585,5.637,13.125,1
+CN605,C672,BD4,fast/heavy,C axial,34.626,44.0,5.631,13.175,1
+CN605,C672,BD4,fast/heavy,C compact,34.626,5.0,5.662,12.95,1
+CN605,C672,BD4,lower impedance,A stored,31.626,2.544,6.107,10.3,1
+CN605,C672,BD4,lower impedance,B SIP,34.626,36.585,6.124,11.025,1
+CN605,C672,BD4,lower impedance,C axial,34.626,44.0,6.116,11.25,1
+CN605,C672,BD4,lower impedance,C compact,34.626,5.0,6.11,10.4,1
+CN605,C672,BD4,higher impedance,A stored,31.626,2.544,6.892,19.5,1
+CN605,C672,BD4,higher impedance,B SIP,34.626,36.585,6.802,20.3,1
+CN605,C672,BD4,higher impedance,C axial,34.626,44.0,6.807,20.5,1
+CN605,C672,BD4,higher impedance,C compact,34.626,5.0,6.879,19.625,1
+CN605,C668,BD2,fast/light,A stored,33.173,2.607,6.484,11.125,1
+CN605,C668,BD2,fast/light,B SIP,36.173,25.014,6.427,11.65,1
+CN605,C668,BD2,fast/light,C axial,36.173,27.0,6.43,11.65,1
+CN605,C668,BD2,fast/light,C compact,36.173,11.5,6.469,11.375,1
+CN605,C668,BD2,slow/heavy,A stored,33.173,2.607,4.783,24.975,1
+CN605,C668,BD2,slow/heavy,B SIP,36.173,25.014,4.784,25.45,1
+CN605,C668,BD2,slow/heavy,C axial,36.173,27.0,4.784,25.475,1
+CN605,C668,BD2,slow/heavy,C compact,36.173,11.5,4.784,25.2,1
+CN605,C668,BD2,fast/heavy,A stored,33.173,2.607,5.665,12.925,1
+CN605,C668,BD2,fast/heavy,B SIP,36.173,25.014,5.644,13.075,1
+CN605,C668,BD2,fast/heavy,C axial,36.173,27.0,5.641,13.075,1
+CN605,C668,BD2,fast/heavy,C compact,36.173,11.5,5.655,13.0,1
+CN605,C668,BD2,lower impedance,A stored,33.173,2.607,6.106,10.325,1
+CN605,C668,BD2,lower impedance,B SIP,36.173,25.014,6.08,10.85,1
+CN605,C668,BD2,lower impedance,C axial,36.173,27.0,6.091,10.925,1
+CN605,C668,BD2,lower impedance,C compact,36.173,11.5,6.093,10.55,1
+CN605,C668,BD2,higher impedance,A stored,33.173,2.607,6.889,19.525,1
+CN605,C668,BD2,higher impedance,B SIP,36.173,25.014,6.819,20.1,1
+CN605,C668,BD2,higher impedance,C axial,36.173,27.0,6.809,20.15,1
+CN605,C668,BD2,higher impedance,C compact,36.173,11.5,6.868,19.8,1
+CN702,C714,Net-(C714-Pad2),fast/light,A stored,5.405,12.646,6.495,10.775,1
+CN702,C714,Net-(C714-Pad2),fast/light,B SIP,8.405,23.002,6.486,11.025,1
+CN702,C714,Net-(C714-Pad2),fast/light,C axial,8.405,23.002,6.486,11.025,1
+CN702,C714,Net-(C714-Pad2),fast/light,C compact,8.405,23.002,6.486,11.025,1
+CN702,C714,Net-(C714-Pad2),slow/heavy,A stored,5.405,12.646,4.784,24.475,1
+CN702,C714,Net-(C714-Pad2),slow/heavy,B SIP,8.405,23.002,4.784,24.75,1
+CN702,C714,Net-(C714-Pad2),slow/heavy,C axial,8.405,23.002,4.784,24.75,1
+CN702,C714,Net-(C714-Pad2),slow/heavy,C compact,8.405,23.002,4.784,24.75,1
+CN702,C714,Net-(C714-Pad2),fast/heavy,A stored,5.405,12.646,5.68,18.45,1
+CN702,C714,Net-(C714-Pad2),fast/heavy,B SIP,8.405,23.002,5.669,12.9,1
+CN702,C714,Net-(C714-Pad2),fast/heavy,C axial,8.405,23.002,5.669,12.9,1
+CN702,C714,Net-(C714-Pad2),fast/heavy,C compact,8.405,23.002,5.669,12.9,1
+CN702,C714,Net-(C714-Pad2),lower impedance,A stored,5.405,12.646,6.113,9.975,1
+CN702,C714,Net-(C714-Pad2),lower impedance,B SIP,8.405,23.002,6.098,10.25,1
+CN702,C714,Net-(C714-Pad2),lower impedance,C axial,8.405,23.002,6.098,10.25,1
+CN702,C714,Net-(C714-Pad2),lower impedance,C compact,8.405,23.002,6.098,10.25,1
+CN702,C714,Net-(C714-Pad2),higher impedance,A stored,5.405,12.646,6.913,19.1,1
+CN702,C714,Net-(C714-Pad2),higher impedance,B SIP,8.405,23.002,6.893,19.425,1
+CN702,C714,Net-(C714-Pad2),higher impedance,C axial,8.405,23.002,6.893,19.425,1
+CN702,C714,Net-(C714-Pad2),higher impedance,C compact,8.405,23.002,6.893,19.425,1
+CN601,C675,_GBG,fast/light,A stored,14.435,2.546,6.495,10.75,1
+CN601,C675,_GBG,fast/light,C axial,14.435,8.589,6.492,10.875,1
+CN601,C675,_GBG,fast/light,C compact,14.435,8.589,6.492,10.875,1
+CN601,C675,_GBG,slow/heavy,A stored,14.435,2.546,4.783,24.525,1
+CN601,C675,_GBG,slow/heavy,C axial,14.435,8.589,4.784,24.625,1
+CN601,C675,_GBG,slow/heavy,C compact,14.435,8.589,4.784,24.625,1
+CN601,C675,_GBG,fast/heavy,A stored,14.435,2.546,5.681,18.5,1
+CN601,C675,_GBG,fast/heavy,C axial,14.435,8.589,5.676,18.375,1
+CN601,C675,_GBG,fast/heavy,C compact,14.435,8.589,5.676,18.375,1
+CN601,C675,_GBG,lower impedance,A stored,14.435,2.546,6.112,9.95,1
+CN601,C675,_GBG,lower impedance,C axial,14.435,8.589,6.11,10.075,1
+CN601,C675,_GBG,lower impedance,C compact,14.435,8.589,6.11,10.075,1
+CN601,C675,_GBG,higher impedance,A stored,14.435,2.546,6.914,19.075,1
+CN601,C675,_GBG,higher impedance,C axial,14.435,8.589,6.906,19.225,1
+CN601,C675,_GBG,higher impedance,C compact,14.435,8.589,6.906,19.225,1
