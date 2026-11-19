@@ -1,4 +1,4 @@
-﻿"""Check the socket lands and drill hits in the three KiCad review archives."""
+"""Check the socket lands and drill hits in the three KiCad review archives."""
 from pathlib import Path
 import re
 from zipfile import ZipFile
@@ -54,4 +54,3 @@ if __name__ == "__main__":
                 read_copper(archive.read(name).decode(), diameter)
             read_drill(archive.read(f"Zorro-{design}.drl").decode().replace("\r\n", "\n"))
         print(f"{design}: 100 socket pads on each of four copper layers and 100 matching 1.02 mm holes.")
-

@@ -1,4 +1,4 @@
-﻿# Termination coupon fabrication readiness
+# Termination coupon fabrication readiness
 
 **Layout approved provisionally. Manufacturing release is on hold.** All three four-layer review archives contain the revised J2 pattern. Supplier acceptance, inspection of a genuine -3 sample and representative measurements are open. The user's SDS1104X-U measurement-plan revision will be reviewed separately.
 
@@ -32,4 +32,3 @@ The oblique views use available KiCad component models. J2's plated pattern is v
 | Electrical disposition | Measure A/B/C in the same lot and configuration, including all-lanes switching, both edge polarities, load sweep, quiet victims, ground bounce and valid logic crossings. Retain raw captures, uncertainties and device-specific timing limits. Receiver timing and full system behaviour need an instrumented motherboard with real cards. |
 
 [TE application specification §§3.6 and 3.13](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=114-13018&DocType=Specification+Or+Standard&PartCntxt=5645235-3) · [Measurement procedure and acceptance worksheet](MEASUREMENT_PLAN.md)
-

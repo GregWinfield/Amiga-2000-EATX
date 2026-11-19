@@ -1,4 +1,4 @@
-﻿# TE 5645235-3 socket footprint
+# TE 5645235-3 socket footprint
 
 **Disposition.** Greg approved this geometry provisionally for Scenario B+ layout on 20 November 2026. The production datum is the centre of the mating card. The review covers the -3 solder-tail socket in Jason Beer's shopping list. Supplier process acceptance and a physical fit test are outstanding. [Shopping list](../BOM/A2000EATX-REV31-ShoppingList.csv) · [TE part record](https://www.te.com/en/product-5645235-3.html)
 
@@ -42,4 +42,3 @@ The screen places candidate copper at all 500 new pad centres and measures dista
 Request a four-layer, 1.6 mm nominal, ENIG build with the 100 circular J2 holes flagged for the precision ±0.05 mm finished-hole process (0.97–1.07). The public standard PTH tolerance of +0.13/−0.08 permits 1.15 mm. JLCPCB lists precision capability for selected ENIG multilayer holes and requires identification in the fabrication remarks. Its advertised average hole copper of 18 µm and hole-position tolerance alone do not establish TE barrel minimum or relative registration. A ±0.075 mm limit on each Cartesian axis would permit 0.106 mm radial displacement. [JLCPCB rigid board capabilities](https://jlcpcb.com/capabilities/pcb-capabilities)
 
 Require written CAM concurrence on finished-hole range, TE tool and barrel limits, ENIG finish to figure 2, ≤0.040 mm land undersize, ≤0.060 mm radial combined registration, drawing hole pattern, **all 100 capture lands on both inner layers**, and the residual rings above. Obtain proposed stack, mask/annular rules, actual board thickness over the mounting area, local flatness, tool table, registration target data and representative lot microsections. Have the supplier identify any feature it cannot guarantee. If these conditions exceed its process, qualify another process or revise the stack/lands and reroute before fabrication approval. An accepted quote, inspection evidence and physical sample are still open. [Fabrication readiness and first article](FABRICATION_READINESS.md)
-
