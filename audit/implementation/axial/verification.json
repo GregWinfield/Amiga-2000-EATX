@@ -1,0 +1,145 @@
+{
+  "board": "axial",
+  "compared_to": "dee224d, same KiCad version and fresh zone fills",
+  "schematic_pin_assignments": 3631,
+  "nets": 858,
+  "physical_pad_records": 3726,
+  "pad_net_changes": 0,
+  "changed_pad_geometry_per_ref": {
+    "R803": 2
+  },
+  "moved_footprint_origins": [
+    "R803"
+  ],
+  "fixed_mounts": [
+    [
+      "H1",
+      [
+        117299690,
+        64027500
+      ],
+      0.0
+    ],
+    [
+      "H10",
+      [
+        112295890,
+        376447500
+      ],
+      0.0
+    ],
+    [
+      "H11",
+      [
+        241759690,
+        376447500
+      ],
+      0.0
+    ],
+    [
+      "H12",
+      [
+        399239690,
+        376447500
+      ],
+      0.0
+    ],
+    [
+      "H2",
+      [
+        241759690,
+        64027500
+      ],
+      0.0
+    ],
+    [
+      "H3",
+      [
+        399239690,
+        86887500
+      ],
+      0.0
+    ],
+    [
+      "H4",
+      [
+        117299690,
+        218967500
+      ],
+      0.0
+    ],
+    [
+      "H5",
+      [
+        241810490,
+        218967500
+      ],
+      0.0
+    ],
+    [
+      "H6",
+      [
+        399239690,
+        218967500
+      ],
+      0.0
+    ],
+    [
+      "H7",
+      [
+        117375890,
+        291357500
+      ],
+      0.0
+    ],
+    [
+      "H9",
+      [
+        399239690,
+        291357500
+      ],
+      0.0
+    ]
+  ],
+  "edge_items": 4,
+  "edge_geometry_changed": false,
+  "stackup_changed": false,
+  "erc": {
+    "warning": 1182,
+    "error": 24
+  },
+  "drc": {
+    "starved_thermal": 82,
+    "lib_footprint_mismatch": 199,
+    "silk_overlap": 2,
+    "mirrored_text_on_front_layer": 1
+  },
+  "same_tool_control_drc": {
+    "starved_thermal": 82,
+    "lib_footprint_mismatch": 199,
+    "silk_overlap": 2,
+    "mirrored_text_on_front_layer": 1
+  },
+  "unrouted": 0,
+  "parity_findings": 17,
+  "drc_item_deltas": {
+    "appeared": [
+      {
+        "type": "lib_footprint_mismatch",
+        "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+        "items": [
+          "Footprint C623"
+        ]
+      }
+    ],
+    "absent": [
+      {
+        "type": "lib_footprint_mismatch",
+        "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+        "items": [
+          "Footprint R803"
+        ]
+      }
+    ]
+  }
+}
