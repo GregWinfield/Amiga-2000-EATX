@@ -1,0 +1,12 @@
+assembly,references,quantity_per_board,value_or_function,manufacturer_or_specification,part_or_qualification,population
+A B C,J1,1,2x10 vertical pattern header,2.54 mm dual-row THT unshrouded,Samtec TSW-110-07-G-D or measured equivalent,Fit same connector and cable on all boards
+A B C,J2,1,100 position Zorro II card socket,TE Connectivity 5645235-3,Production shopping code A121376-ND. Solder posts with retention features. Specify 1.02 +/-0.08 mm finished holes,Fit same socket on all boards
+A B C,C10,1,100 nF 50 V X7R 0805,KEMET C0805C104K5RACTU,External source rail bypass,Fit
+A B C,CL1-CL9,9,15 pF C0G 0805,50 V capacitor matched across all boards,Use measured values and record vendor lot,Nominal load. DNP for open or passive card test
+A B C,CL1-CL9,9,82 pF C0G 0805,50 V capacitor matched across all boards,Use measured values and record vendor lot,Heavy load alternative to 15 pF. Mutually exclusive
+A,C1-C9,9,1 nF 0805,Production value and lands. Use R3.1 fitted MPN when identifiable,Review fallback 50 V C0G 5 percent. Record deviation if fitted dielectric unknown,Fit
+A,R1-R9,9,1 kOhm 0805,1 percent thick film or actual R3.1 fitted part,Record MPN tolerance and measured sample,Fit
+B C,C1-C9,9,1 nF 50 V 5 percent radial C0G,KEMET C315C102J5G5TA,2.54 mm nominal leads in 2.50 mm nominal footprint. Check body and hole fit,Fit
+B,RN1,1,9 x 1 kOhm bussed SIP10,Bourns 4610X-101-102LF,2 percent. Pin 1 GND. Pins 2-10 are separate RC junctions,Fit
+C,R1-R9,9,1 kOhm 1 percent DIN0204,Vishay MRS16000C1001FCT00,3.6 x 1.6 mm body. Form leads to 5.08 mm without loading end caps,Fit
+A B C,TP1-TP9 and TP11-TP19,0,Signal and ground pads,Etched copper,1.0 mm probe lands,No purchased part

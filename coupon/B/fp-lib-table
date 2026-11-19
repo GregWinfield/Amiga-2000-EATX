@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EATX_R31")(type "KiCad")(uri "${KIPRJMOD}/../EATX_R31.pretty")(options "")(descr "Production 0805 lands"))
+   (lib (name "AmigaFootprints")(type "KiCad")(uri "${KIPRJMOD}/../../2000EATX-KiCAD-R31/Amiga-KiCad/AmigaFootprints.pretty")(options "")(descr "Jason Beer motherboard library")))

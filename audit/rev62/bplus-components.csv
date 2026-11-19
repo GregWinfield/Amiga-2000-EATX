@@ -1,0 +1,585 @@
+eatx_reference,physical_package,construction,authenticity,proposed_footprint,baseline_value,basis_or_release_condition
+BT800,BT800,THT,B,Battery:BatteryHolder_Keystone_103_1x20mm,Battery_Cell,Retain production land and fit. Confirm actual ordered body and pad map.
+C100,C100,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,"Evaluate at legacy IC power pin only. Compare supply and ground loop geometry to the baseline, then measure local supply bounce under bus activity. Fall back to original SMD if increased."
+C101,C101,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C102,C102,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,"Evaluate at legacy IC power pin only. Compare supply and ground loop geometry to the baseline, then measure local supply bounce under bus activity. Fall back to original SMD if increased."
+C103,C103,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C104,C104,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C105,C105,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C106,C106,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C107,C107,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C108,C108,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C109,C109,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C110,C110,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C111,C111,SMD,E,Capacitor_SMD:C_1206_3216Metric,22pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C112,C112,SMD,E,Capacitor_SMD:C_1206_3216Metric,0.1uF,Back-side Agnus jumper/supply node. Preserve local loop at socket and variant access.
+C200,C200,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,"Evaluate at legacy IC power pin only. Compare supply and ground loop geometry to the baseline, then measure local supply bounce under bus activity. Fall back to original SMD if increased."
+C201,C201,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.22uF,"Evaluate at legacy IC power pin only. Compare supply and ground loop geometry to the baseline, then measure local supply bounce under bus activity. Fall back to original SMD if increased."
+C202,C202,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,"Evaluate at legacy IC power pin only. Compare supply and ground loop geometry to the baseline, then measure local supply bounce under bus activity. Fall back to original SMD if increased."
+C203,C203,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C204,C204,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.01uF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C205,C205,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C206,C206,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C207,C207,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C210,C210,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.047uF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C211,C211,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.047uF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C212,C212,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.047uF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C213,C213,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.047uF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C214,C214,THT,A,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,470uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C218,C218,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C219,C219,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.22uF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C220,C220,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.22uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C221,C221,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.22uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C222,C222,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C223,C223,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C224,C224,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,4.7uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C225,C225,THT,A,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,470uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C226,C226,THT,A,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,470uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C231,C231,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,6800pF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C232,C232,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,3900pF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C233,C233,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,22uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C234,C234,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,Audio filter capacitor. Match effective capacitance and distortion at the working bias. Keep both channels symmetric and measure the filter response.
+C241,C241,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,6800pF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C242,C242,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,3900pF,Match effective capacitance and leakage at operating bias. Preserve mirrored audio/filter paths where applicable. Body and grid depend on final part.
+C243,C243,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,22uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C244,C244,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,Audio filter capacitor. Match effective capacitance and distortion at the working bias. Keep both channels symmetric and measure the filter response.
+C259,C259,SMD,D,Capacitor_SMD:C_1206_3216Metric,100pF,"Preserve existing port filter, TICK or reset shunt at the named node. Check loading and edge or reset behaviour."
+C260,C260,SMD,D,Capacitor_SMD:C_1206_3216Metric,100pF,"Preserve existing port filter, TICK or reset shunt at the named node. Check loading and edge or reset behaviour."
+C261,C261,SMD,D,Capacitor_SMD:C_1206_3216Metric,100pF,"Preserve existing port filter, TICK or reset shunt at the named node. Check loading and edge or reset behaviour."
+C300,C300,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,"Evaluate at legacy IC power pin only. Compare supply and ground loop geometry to the baseline, then measure local supply bounce under bus activity. Fall back to original SMD if increased."
+C301,C301,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,"Evaluate at legacy IC power pin only. Compare supply and ground loop geometry to the baseline, then measure local supply bounce under bus activity. Fall back to original SMD if increased."
+C302,C302,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C303,C303,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C304,C304,SMD,D,Capacitor_SMD:C_1206_3216Metric,100pF,"Preserve existing port filter, TICK or reset shunt at the named node. Check loading and edge or reset behaviour."
+C305,C305,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C306,C306,SMD,D,Capacitor_SMD:C_1206_3216Metric,100pF,"Preserve existing port filter, TICK or reset shunt at the named node. Check loading and edge or reset behaviour."
+C310,C310,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Keep port shunt at its signal tap with a direct ground via or pad. Measure interface bandwidth and EMI.
+C311,C311,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Keep port shunt at its signal tap with a direct ground via or pad. Measure interface bandwidth and EMI.
+C312,C312,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Keep port shunt at its signal tap with a direct ground via or pad. Measure interface bandwidth and EMI.
+C313,C313,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Keep port shunt at its signal tap with a direct ground via or pad. Measure interface bandwidth and EMI.
+C314,C314,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Keep port shunt at its signal tap with a direct ground via or pad. Measure interface bandwidth and EMI.
+C315,C315,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Keep port shunt at its signal tap with a direct ground via or pad. Measure interface bandwidth and EMI.
+C316,C316,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Keep port shunt at its signal tap with a direct ground via or pad. Measure interface bandwidth and EMI.
+C317,C317,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,22uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C318,C318,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,22uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C322,C322,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C323,C323,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C400,C400,THT,A,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,220uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C401,C401,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.01uf,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C402,C402,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C403,C403,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C404,C404,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C405,C405,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C406,C406,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C407,C407,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.01uf,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C408,C408,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C409,C409,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uf,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C412,C412,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C413,C413,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.01uf,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C415,C415,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,4.7uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C416,C416,THT,B,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,220uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C417,C417,THT,B,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,220uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C418,C418,THT,B,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,220uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C419,C419,THT,B,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,220uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C420,C420,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C421,C421,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C422,C422,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,47uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C500,C500,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.22uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C501,C501,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C502,C502,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C503,C503,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C504,C504,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C540,C540,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C541,C541,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C600,C600,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C601,C601,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C602,C602,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C603,C603,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C604,C604,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C605,C605,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C606,C606,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C607,C607,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C617,C617,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C619,C619,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C620,C620,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C621,C621,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C622,C622,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C623,C623,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C624,C624,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C625,C625,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C626,C626,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C627,C627,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C628,C628,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C629,C629,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C630,C630,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C631,C631,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C632,C632,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C633,C633,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C635,C635,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C637,C637,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C639,C639,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C641,C641,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C645,C645,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C647,C647,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C649,C649,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C650,C650,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C651,C651,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C652,C652,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C654,C654,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C655,C655,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C657,C657,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C658,C658,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C659,C659,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C660,C660,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C661,C661,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C662,C662,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C663,C663,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C664,C664,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C665,C665,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C666,C666,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C667,C667,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C668,C668,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C669,C669,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C670,C670,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C671,C671,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C672,C672,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C673,C673,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C674,C674,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C675,C675,SMD,D,Capacitor_SMD:C_0805_2012Metric,1000pF,Dedicated _GBG path to CN601. Preserve its own tap/return and measure arbitration edges.
+C700,C700,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
+C701,C701,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,22uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C702,C702,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
+C703,C703,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
+C704,C704,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
+C705,C705,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
+C711,C711,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C713,C713,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C714,C714,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C716,C716,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C717,C717,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C719,C719,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C720,C720,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C722,C722,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C726,C726,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C728,C728,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C730,C730,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C732,C732,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C734,C734,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C736,C736,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C738,C738,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C740,C740,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C742,C742,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C744,C744,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C746,C746,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C748,C748,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C750,C750,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C752,C752,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C754,C754,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C756,C756,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C758,C758,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C760,C760,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C762,C762,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C764,C764,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C766,C766,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C768,C768,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C770,C770,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C776,C776,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C778,C778,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C780,C780,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C782,C782,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C784,C784,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C786,C786,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C787,C787,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C789,C789,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C790,C790,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C791,C791,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C793,C793,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C794,C794,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C796,C796,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C800,C800,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C802,C802,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C803,C803,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C804,C804,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C805,C805,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C810,C810,SMD,E,Capacitor_SMD:C_1206_3216Metric,20pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C811,C811,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,4.7uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C812,C812,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C813,C813,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,22uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C814,C814,THT,A,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,22uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C815,C815,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,Control-node shunt capacitor. Match effective capacitance and leakage and verify the associated node transient.
+C900,C900,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C9000,C9000,SMD,E,Capacitor_SMD:C_1206_3216Metric,1uF,Local regulator input or output capacitor. Keep regulator-to-ground loop and impedance for stability.
+C9001,C9001,SMD,E,Capacitor_SMD:C_1206_3216Metric,0.33uF,Local regulator input or output capacitor. Keep regulator-to-ground loop and impedance for stability.
+C901,C901,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C903,C903,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uf,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C904,C904,SMD,E,Capacitor_SMD:C_1206_3216Metric,100pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C905,C905,SMD,E,Capacitor_SMD:C_1206_3216Metric,100pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C906,C906,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uf,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C907,C907,SMD,E,Capacitor_SMD:C_1206_3216Metric,100pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C908,C908,SMD,E,Capacitor_SMD:C_1206_3216Metric,47pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C910,C910,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uf,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C9101,C9101,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C9102,C9102,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
+C9103,C9103,THT,B,Radial 5.08 mm trial,10uF,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+C9104,C9104,THT,B,Radial 5.08 mm trial,10uF,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+C9105,C9105,THT,B,Radial 5.08 mm trial,10uF,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+C912,C912,THT,A,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,470uF,"Match ripple, ESR, leakage, lifetime and bias polarity. Check case height against fitted cards. Audio and reset nodes additionally require low leakage."
+C913,C913,SMD,E,Capacitor_SMD:C_1206_3216Metric,47pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C914,C914,SMD,E,Capacitor_SMD:C_1206_3216Metric,100pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+C915,C915,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,"Preserve existing port filter, TICK or reset shunt at the named node. Check loading and edge or reset behaviour."
+C916,C916,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,"Preserve existing port filter, TICK or reset shunt at the named node. Check loading and edge or reset behaviour."
+C918,C918,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+C919,C919,THT,B,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0.1uF,Control-node shunt capacitor. Match effective capacitance and leakage and verify the associated node transient.
+C920,C920,SMD,E,Capacitor_SMD:C_1206_3216Metric,100pF,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+CN1,CN1,THT,B,Connector_Molex:Molex_Mini-Fit_Jr_5566-24A_2x12_P4.20mm_Vertical,ATX-24,Retain production land and fit. Confirm actual ordered body and pad map.
+CN200,CN200,THT,B,AmigaFootprints:DSUB-9_Male_Stack,DB9_Male_Stack,Retain production land and fit. Confirm actual ordered body and pad map.
+CN202,CN202,THT,B,AmigaFootprints:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm,DB15_Female_HighDensity,Retain production land and fit. Confirm actual ordered body and pad map.
+CN203,CN203,THT,B,AmigaFootprints:2x18_P2.54mm_Horizontal,Amiga-2000-Video-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN205,CN205,THT,B,AmigaFootprints:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles,AudioJack,Retain production land and fit. Confirm actual ordered body and pad map.
+CN207,CN207,THT,B,AmigaFootprints:2x18_P2.54mm_Horizontal,Amiga-2000-Video-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN300,CN300,THT,B,AmigaFootprints:DIN5,KEYBOARD,Retain production land and fit. Confirm actual ordered body and pad map.
+CN303,CN303,THT,B,Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical,INTERNAL FLOPPY,Retain production land and fit. Confirm actual ordered body and pad map.
+CN304,CN304,THT,B,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,EXTERNAL FLOPPY,Retain production land and fit. Confirm actual ordered body and pad map.
+CN305,CN305,THT,B,AmigaFootprints:DSUB-25_Stack_Female_Bottom_Male_Top,DB25_Stack_FemaleAndMale,Retain production land and fit. Confirm actual ordered body and pad map.
+CN600,CN600,THT,B,AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x43_P2.54mm_Horizontal,Amiga-2000-CPU-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN601,CN601,THT,A,AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal,Amiga-2000-Zorro-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN602,CN602,THT,A,AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal,Amiga-2000-Zorro-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN603,CN603,THT,A,AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal,Amiga-2000-Zorro-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN604,CN604,THT,A,AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal,Amiga-2000-Zorro-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN605,CN605,THT,A,AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal,Amiga-2000-Zorro-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN700,CN700,THT,B,AmigaFootprints:ISA_16-BIT_P2.54mm_Horizontal,ISA-16-BIT-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN701,CN701,THT,B,AmigaFootprints:ISA_16-BIT_P2.54mm_Horizontal,ISA-16-BIT-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CN702,CN702,THT,B,AmigaFootprints:ISA_16-BIT_P2.54mm_Horizontal,ISA-16-BIT-Slot,Retain production land and fit. Confirm actual ordered body and pad map.
+CX2,CX2,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
+D200,D200,SMD,E,Diode_SMD:D_SOD-123F,S1MWF-7,"Board names S1MWF-7. BOM orders RS1MWF-7. Resolve rectifier recovery class, surge, drop and thermal duty before choosing an axial device."
+D300,D300,THT,B,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,"Match forward drop, current, capacitance and recovery. Keep close to Q300 control node."
+D301,D301,SMD,E,Diode_SMD:D_SOD-123F,S1MWF-7,"Board names S1MWF-7. BOM orders RS1MWF-7. Resolve rectifier recovery class, surge, drop and thermal duty before choosing an axial device."
+D400,D400,SMD,E,Diode_SMD:D_SOD-123F,S1MWF-7,"Board names S1MWF-7. BOM orders RS1MWF-7. Resolve rectifier recovery class, surge, drop and thermal duty before choosing an axial device."
+D401,D401,SMD,E,Diode_SMD:D_SOD-123F,S1MWF-7,"Board names S1MWF-7. BOM orders RS1MWF-7. Resolve rectifier recovery class, surge, drop and thermal duty before choosing an axial device."
+D800,D800,SMD,E,Package_TO_SOT_SMD:SOT-23,BAT54C,"Dual common-cathode RTC battery steering. Preserve reverse leakage, backup life, voltage drop and topology."
+D9100,D9100,THT,B,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+EMI200,EMI200,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI206,EMI206,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI207,EMI207,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI229,EMI229,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI230,EMI230,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI231,EMI231,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI232,EMI232,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI233,EMI233,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI234,EMI234,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI235,EMI235,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI236,EMI236,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI237,EMI237,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI238,EMI238,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI239,EMI239,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI240,EMI240,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI241,EMI241,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI242,EMI242,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI243,EMI243,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI300,EMI300,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI301,EMI301,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI302,EMI302,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI303,EMI303,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI304,EMI304,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI305,EMI305,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI306,EMI306,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI307,EMI307,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI308,EMI308,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI309,EMI309,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI310,EMI310,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI311,EMI311,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI312,EMI312,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI313,EMI313,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI314,EMI314,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI315,EMI315,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI316,EMI316,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI317,EMI317,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI318,EMI318,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI319,EMI319,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI320,EMI320,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI321,EMI321,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI322,EMI322,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI323,EMI323,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI324,EMI324,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI325,EMI325,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI326,EMI326,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI327,EMI327,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI328,EMI328,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI329,EMI329,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI330,EMI330,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI331,EMI331,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI332,EMI332,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI333,EMI333,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI334,EMI334,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI335,EMI335,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI336,EMI336,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI337,EMI337,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI338,EMI338,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI339,EMI339,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI340,EMI340,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+EMI341,EMI341,SMD,C,AmigaFootprints:C_1206_3216_Feedthrough,100pF,"Three-terminal feedthrough in/out and short dual-land ground, current and installed attenuation require equivalence."
+F1,F1,SMD,E,Fuse:Fuse_1206_3216Metric,4A,"Port overcurrent protection. Match time-current curve, I-squared-t, interrupt rating and fault impedance. F3/F4 board values omit amperage."
+F2,F2,SMD,E,Fuse:Fuse_1206_3216Metric,4A,"Port overcurrent protection. Match time-current curve, I-squared-t, interrupt rating and fault impedance. F3/F4 board values omit amperage."
+F3,F3,SMD,E,Fuse:Fuse_1206_3216Metric,Fuse,"Port overcurrent protection. Match time-current curve, I-squared-t, interrupt rating and fault impedance. F3/F4 board values omit amperage."
+F4,F4,SMD,E,Fuse:Fuse_1206_3216Metric,Fuse,"Port overcurrent protection. Match time-current curve, I-squared-t, interrupt rating and fault impedance. F3/F4 board values omit amperage."
+FB101,FB101,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB102,FB102,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB103,FB103,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB104,FB104,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB215,FB215,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB301,FB301,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB302,FB302,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB303,FB303,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB401,FB401,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB900,FB900,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB901,FB901,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB902,FB902,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+FB907,FB907,SMD,E,Capacitor_SMD:C_1206_3216Metric,Ferrite_Bead,"Ferrite in series with clock, I/O, supply or audio return. BOM gives 80 ohms without a complete impedance-frequency curve, DC bias rating or DCR."
+HY200,HY200,THT,B,Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical,VIDIOT,Retain production land and fit. Confirm actual ordered body and pad map.
+J300,J300,THT,B,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,TICK Header,Retain production land and fit. Confirm actual ordered body and pad map.
+J301,J301,THT,B,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,SHORT FOR DF1,Retain production land and fit. Confirm actual ordered body and pad map.
+J9001,J9001,THT,B,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,RESET,Retain production land and fit. Confirm actual ordered body and pad map.
+J9002,J9002,THT,B,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,POWER LED,Retain production land and fit. Confirm actual ordered body and pad map.
+J9003,J9003,THT,B,AmigaFootprints:FanHeader_1x03_P2.54mm_Vertical,Case Fan,Retain production land and fit. Confirm actual ordered body and pad map.
+J9004,J9004,THT,B,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,HSYNC/COMPSYNC,Retain production land and fit. Confirm actual ordered body and pad map.
+J9100,J9100,THT,B,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,POWER_SWITCH,Retain production land and fit. Confirm actual ordered body and pad map.
+Q200,Q200,THT,A,TO-92 formed 2.54 mm trial,MMBFJ211,"Scenario C formed J211 body. Check G/D/S, cutoff spread, matched channel response and installed height."
+Q201,Q201,THT,A,TO-92 formed 2.54 mm trial,MMBFJ211,"Scenario C formed J211 body. Check G/D/S, cutoff spread, matched channel response and installed height."
+Q202,Q202,THT,B,Package_TO_SOT_THT:TO-92_Inline,MMBT3906,"Verify gain at operating collector current, switching margin, lead form and dissipation. Reassign symbol pins by terminal function."
+Q300,Q300,THT,B,Package_TO_SOT_THT:TO-92_Inline,MMBT3904,"Verify gain at operating collector current, switching margin, lead form and dissipation. Reassign symbol pins by terminal function."
+Q301,Q301,THT,B,Package_TO_SOT_THT:TO-92_Inline,MMBT3904,"Verify gain at operating collector current, switching margin, lead form and dissipation. Reassign symbol pins by terminal function."
+Q302,Q302,THT,B,Package_TO_SOT_THT:TO-92_Inline,MMBT3906,"Verify gain at operating collector current, switching margin, lead form and dissipation. Reassign symbol pins by terminal function."
+Q9100,Q9100,THT,B,Package_TO_SOT_THT:TO-92_Inline,MMBT3904,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R1000,R1000,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R101,R101,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R104,R104,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R105,R105,SMD,D,Resistor_SMD:R_1206_3216Metric,22,Keep the driver-side lead short. Verify damping and edge crossing under worst loading.
+R106,R106,SMD,D,Resistor_SMD:R_1206_3216Metric,22,Keep the driver-side lead short. Verify damping and edge crossing under worst loading.
+R109,R109,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Move pull-up to the front while retaining the local Agnus jumper node.
+R111,R111,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R114,R114,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,330,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R115,R115,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,330,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R200,R200,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,"Check continuous dissipation, surge current and hot-board derating on this supply path. Retain original series voltage drop."
+R201,R201,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R202,R202,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R203,R203,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R203A1,R203A1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R203B1,R203B1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R204,R204,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R205,R205,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R206,R206,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R207,R207,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10,"Check continuous dissipation, surge current and hot-board derating on this supply path. Retain original series voltage drop."
+R208,R208,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10,"Check continuous dissipation, surge current and hot-board derating on this supply path. Retain original series voltage drop."
+R209,R209,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1.2k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R210,R210,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1.2k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R211,R211,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R212,R212,SMD,C,Resistor_SMD:R_1206_3216Metric,22,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R213,R213,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,2.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R214,R214,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R215,R215,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,"Check continuous dissipation, surge current and hot-board derating on this supply path. Retain original series voltage drop."
+R216,R216,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R217,R217,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R230,R230,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,360,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R231,R231,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R232,R232,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R233,R233,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R234,R234,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,390,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R240,R240,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,360,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R241,R241,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R242,R242,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R243,R243,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R244,R244,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,390,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R300,R300,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R301,R301,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R302,R302,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R305,R305,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R306,R306,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R307,R307,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,68,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R308,R308,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,200,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R309,R309,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R310,R310,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,47 0.5W,"Check continuous dissipation, surge current and hot-board derating on this supply path. Retain original series voltage drop."
+R311,R311,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R312,R312,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R500,R500,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R500-1,R500-1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-10,R500-10,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-11,R500-11,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-12,R500-12,SMD,C,Resistor_SMD:R_1206_3216Metric,22,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-13,R500-13,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-14,R500-14,SMD,C,Resistor_SMD:R_1206_3216Metric,22,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-15,R500-15,SMD,C,Resistor_SMD:R_1206_3216Metric,22,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-2,R500-2,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-3,R500-3,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-4,R500-4,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-5,R500-5,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-6,R500-6,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-7,R500-7,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-8,R500-8,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R500-9,R500-9,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R600,R600,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R601,R601,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R601A1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601B1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601C1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601D1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601E1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601F1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601G1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601H1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R601I1,ZS1,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602,R602,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R602A1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602B1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602C1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602D1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602E1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602F1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602G1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602H1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R602I1,ZS2,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603,R603,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R603A1,ZS3,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603B1,ZS3,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603C1,ZS3,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603D1,ZS3,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603E1,ZS3,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603F1,ZS4,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603G1,ZS4,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603H1,ZS4,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R603I1,ZS4,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604,R604,THT,A,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1k,Retain distinct historical axial return and private junction. Check the trial drill and return loop.
+R604A1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604B1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604C1,ZS4,SIP element,A,Resistor_THT:R_Array_SIP6,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604D1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604E1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604F1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604G1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604H1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R604I1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605,R605,THT,A,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1k,Retain distinct historical axial return and private junction. Check the trial drill and return loop.
+R605A1,ZS5,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605B1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605C1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605D1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605E1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605F1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605G1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R605H1,ZS6,SIP element,A,Resistor_THT:R_Array_SIP10,1k,Independent 1k element to common ground. Verify pin against termination crosswalk and test common-lead bounce.
+R606,R606,SMD,D,Resistor_SMD:R_0805_2012Metric,1k,Dedicated _GBG path to CN601. Preserve its own tap/return and measure arbitration edges.
+R800,R800,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R801,R801,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R802,R802,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R803,R803,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R804,R804,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,10k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R805,R805,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,47k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R806,R806,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R807,R807,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R900,R900,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R902,R902,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R904,R904,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R905,R905,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+R9100,R9100,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,30k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R9101,R9101,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,6.2k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R9102,R9102,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,30k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R9103,R9103,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,47k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R9104,R9104,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R9105,R9105,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,30k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R914,R914,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1 0.5W,"Check continuous dissipation, surge current and hot-board derating on this supply path. Retain original series voltage drop."
+R916,R916,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+R917,R917,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,470,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+RN100,RN100,THT,A,Resistor_THT:R_Array_SIP10,4.7k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN101,RN101,THT,A,Resistor_THT:R_Array_SIP10,2.7k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN102,RN102,THT,A,Resistor_THT:R_Array_SIP8,47,Retain production land and fit. Confirm actual ordered body and pad map.
+RN200,RN200,THT,A,Resistor_THT:R_Array_SIP9,4.7k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN201A1,RN201A1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN201B1,RN201B1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN201C1,RN201C1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN201D1,RN201D1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN203E1,RN203E1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN204A1,RN204A1,SMD,D,Resistor_SMD:R_1206_3216Metric,68,Keep the driver-side lead short. Verify damping and edge crossing under worst loading.
+RN204B1,RN204B1,SMD,D,Resistor_SMD:R_1206_3216Metric,68,Keep the driver-side lead short. Verify damping and edge crossing under worst loading.
+RN204C1,RN204C1,SMD,D,Resistor_SMD:R_1206_3216Metric,68,Keep the driver-side lead short. Verify damping and edge crossing under worst loading.
+RN204D1,RN204D1,SMD,D,Resistor_SMD:R_1206_3216Metric,68,Keep the driver-side lead short. Verify damping and edge crossing under worst loading.
+RN205,RN205,THT,A,Resistor_THT:R_Array_SIP6,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN300,RN300,THT,A,Resistor_THT:R_Array_SIP10,10k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN301,RN301,THT,A,Resistor_THT:R_Array_SIP6,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN503,RN503,THT,A,Resistor_THT:R_Array_SIP6,470,Retain production land and fit. Confirm actual ordered body and pad map.
+RN504,RN504,THT,A,Resistor_THT:R_Array_SIP6,470,Retain production land and fit. Confirm actual ordered body and pad map.
+RN600,RN600,THT,A,Resistor_THT:R_Array_SIP6,10k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN607,RN607,THT,A,Resistor_THT:R_Array_SIP6,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN700,RN700,THT,A,Resistor_THT:R_Array_SIP10,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN701,RN701,THT,A,Resistor_THT:R_Array_SIP10,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN702,RN702,THT,A,Resistor_THT:R_Array_SIP10,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN703,RN703,THT,A,Resistor_THT:R_Array_SIP10,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN704,RN704,THT,A,Resistor_THT:R_Array_SIP10,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN705,RN705,THT,A,Resistor_THT:R_Array_SIP10,4.7k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN800,RN800,THT,A,Resistor_THT:R_Array_SIP6,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN801,RN801,THT,A,Resistor_THT:R_Array_SIP8,4.7k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN802,RN802,THT,A,Resistor_THT:R_Array_SIP10,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN902,RN902,THT,A,Resistor_THT:R_Array_SIP8,47,Retain production land and fit. Confirm actual ordered body and pad map.
+RN903,RN903,THT,A,Resistor_THT:R_Array_SIP6,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RN907A1,RN907A1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN907B1,RN907B1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN907C1,RN907C1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+RN908,RN908,THT,A,Resistor_THT:R_Array_SIP6,1k,Retain production land and fit. Confirm actual ordered body and pad map.
+RNX1,RNX1,THT,A,Resistor_THT:R_Array_SIP10,3.3k,Retain production land and fit. Confirm actual ordered body and pad map.
+RNX2,RNX2,THT,A,Resistor_THT:R_Array_SIP10,3.3k,Retain production land and fit. Confirm actual ordered body and pad map.
+RX1,RX1,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+U100,U100,THT,A,Package_DIP:DIP-64_W22.86mm_Socket,MC68000,Retain production land and fit. Confirm actual ordered body and pad map.
+U101,U101,THT,A,Package_LCC:PLCC-84_THT-Socket,Agnus_MULTI,Retain production land and fit. Confirm actual ordered body and pad map.
+U102,U102,THT,A,Package_DIP:DIP-48_W15.24mm,GARY,Retain production land and fit. Confirm actual ordered body and pad map.
+U103,U103,THT,A,Package_DIP:DIP-20_W7.62mm,74AHCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U104,U104,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT373,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U105,U105,THT,A,Package_DIP:DIP-20_W7.62mm,74AHCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U106,U106,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT373,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U107,U107,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT04,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U108,U108,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT74,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U109,U109,SMD,D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,74F258,"Check TTL levels, min/max select/enable delay, clock pulse width or SRAM setup/hold including rerouting."
+U200,U200,THT,A,Package_DIP:DIP-48_W15.24mm,PAULA,Retain production land and fit. Confirm actual ordered body and pad map.
+U201,U201,THT,A,Package_DIP:DIP-48_W15.24mm,DENISE,Retain production land and fit. Confirm actual ordered body and pad map.
+U202,U202,THT,A,Package_DIP:DIP-16_W7.62mm,74HCT157,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U203,U203,THT,A,Package_DIP:DIP-14_W7.62mm,74LS38,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U204,U204,THT,A,Package_DIP:DIP-14_W7.62mm,LF347,"Match JFET input bias, supply range, slew rate, bandwidth, noise and dual-channel filter response. Upstream issue 41 identifies reversed input labels on units B and D."
+U205,U205,THT,A,Package_DIP:DIP-20_W7.62mm,74AHCT244,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U206,U206,THT,A,Package_DIP:DIP-20_W7.62mm,74AHCT244,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U207,U207,THT,B,Package_DIP:DIP-14_W7.62mm,74HCT08,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U300,U300,THT,A,AmigaFootprints:DIP-40_W15.24mm,8520,Retain production land and fit. Confirm actual ordered body and pad map.
+U301,U301,THT,A,AmigaFootprints:DIP-40_W15.24mm,8520,Retain production land and fit. Confirm actual ordered body and pad map.
+U302,U302,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT32,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U303,U303,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT08,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U304,U304,THT,A,Package_DIP:DIP-14_W7.62mm,SN75188DR,"Check RS-232 supply rails, voltage swing, thresholds, loading and signal return."
+U305,U305,THT,A,Package_DIP:DIP-14_W7.62mm,SN75189DR,"Check RS-232 supply rails, voltage swing, thresholds, loading and signal return."
+U500,U500,THT,B,Package_DIP:DIP-42_W15.24mm,KICKSTART,Retain production land and fit. Confirm actual ordered body and pad map.
+U501,U501,THT,B,Package_DIP:DIP-14_W7.62mm,74HCT00,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U502,U502,SMD,C,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,CY74FCT821T,"Clocked memory address register. Data sheet lists a historical leaded package. Exact speed-grade sourcing, loading, trace delay and timing margin remain open."
+U503,U503,SMD,C,Package_SO:TSOP-I-48_18.4x12mm_P0.5mm,CY62167ELL-45ZXI,"5 V 1M x 16 SRAM footprint in the existing multiplexed chip RAM implementation. Preserve bus load, byte enables and local bypass."
+U504,U504,SMD,C,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,CY74FCT821T,"Clocked memory address register. Data sheet lists a historical leaded package. Exact speed-grade sourcing, loading, trace delay and timing margin remain open."
+U540,U540,SMD,D,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,74AHCT244,"Check TTL levels, min/max select/enable delay, clock pulse width or SRAM setup/hold including rerouting."
+U541,U541,SMD,D,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,74AHCT244,"Check TTL levels, min/max select/enable delay, clock pulse width or SRAM setup/hold including rerouting."
+U600,U600,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U601,U601,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U602,U602,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U603,U603,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U604,U604,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U605,U605,THT,A,Package_DIP:DIP-20_W7.62mm,74HCT245,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U606,U606,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT32,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U607,U607,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT08,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U800,U800,THT,A,Package_DIP:DIP-48_W15.24mm,BUSTER,Retain production land and fit. Confirm actual ordered body and pad map.
+U801,U801,SMD,E,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,RTC62423,Preserve both mutually exclusive assembly options. Existing X1 or U899 already supports the leaded variant.
+U802,U802,THT,A,Package_DIP:DIP-16_W7.62mm,74HCT138,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U803,U803,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT08,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U804,U804,THT,A,Package_DIP:DIP-16_W7.62mm,74LS148,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U805,U805,THT,A,Package_DIP:DIP-14_W7.62mm,LM339,"Preserve open-collector pull-up, input common-mode range, saturation and reset threshold."
+U899,U899,THT,A,Package_DIP:DIP-18_W7.62mm_Socket,MSM6242,Retain production land and fit. Confirm actual ordered body and pad map.
+U900,U900,THT,A,Package_DIP:DIP-14_W7.62mm,74HCT00,"Match same-family thresholds, drive, worst-case propagation and enable/disable delays at actual loading. Keep adjacent bypass and bus escape. Verify DIP pin table including enables."
+U9000,U9000,SMD,E,AmigaFootprints:TO-263-3_TabPin2,MC7905,"TO-220 needs proven dissipation and clearance including a live input tab, heatsink and card sweep."
+U9101,U9101,THT,B,Package_DIP:DIP-14_W7.62mm,74HCT14,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+U9102,U9102,THT,B,Package_DIP:DIP-14_W7.62mm,74HCT74,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+VC800,VC800,THT,B,AmigaFootprints:TrimmerCap,22-47pF,Retain production land and fit. Confirm actual ordered body and pad map.
+X1,X1,THT,B,Oscillator:Oscillator_DIP-14,28.63636MHz,Retain production land and fit. Confirm actual ordered body and pad map.
+X2,X2,SMD,E,Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm,7C-28.63636MBB-T,Preserve both mutually exclusive assembly options. Existing X1 or U899 already supports the leaded variant.
+XC1,XC1,SMD,E,Capacitor_SMD:C_1206_3216Metric,270pf,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
+XR1,XR1,SMD,C,Resistor_SMD:R_1206_3216Metric,68,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
+XU1,XU1,THT,B,Package_TO_SOT_THT:TO-92_Inline,DS1813,"Keep the BOM -5 threshold grade, reset pulse width, open-drain behavior and manual reset. Check package view before insertion."
+Y800,Y800,SMD,E,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,32.768KHz,"Optional RTC crystal. Motional parameters, load capacitance, ESR and drive level determine start-up and trim range."

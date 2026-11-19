@@ -4,6 +4,8 @@
 
 The accepted starting point is `d14bc6e`, based on production R3.1 at `dfde457`. The floorplans are coordinate studies in separate files. The KiCad project, released copper, schematic, rule settings and fabrication outputs are the production baseline. [Accepted audit](THROUGH_HOLE_CONVERSION.md) · [Per-reference A/B/C decisions](audit/layout/scenarios.csv)
 
+The accepted B study is continued in the [Scenario B+ design](SCENARIO_B_PLUS_DESIGN.md), with the [Rev 6.2 historical comparison](ORIGINAL_A2000_REV62_COMPARISON.md) and [routed A/B/C termination coupons](coupon/README.md).
+
 ## Design matrix
 
 | Measure | A — Conservative | B — Predominantly through-hole | C — Maximum practical |
