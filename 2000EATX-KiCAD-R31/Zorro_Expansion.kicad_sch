@@ -19793,7 +19793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal"
+		(property "Footprint" "AmigaFootprints:TE_5645235-3_Zorro"
 			(at 130.81 66.04 0)
 			(effects
 				(font
@@ -20157,7 +20157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal"
+		(property "Footprint" "AmigaFootprints:TE_5645235-3_Zorro"
 			(at 156.21 66.04 0)
 			(effects
 				(font
@@ -20521,7 +20521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal"
+		(property "Footprint" "AmigaFootprints:TE_5645235-3_Zorro"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -20885,7 +20885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal"
+		(property "Footprint" "AmigaFootprints:TE_5645235-3_Zorro"
 			(at 205.74 66.04 0)
 			(effects
 				(font
@@ -21455,7 +21455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "AmigaFootprints:Samtec_HLE-150-02-xx-DV-TE_2x50_P2.54mm_Horizontal"
+		(property "Footprint" "AmigaFootprints:TE_5645235-3_Zorro"
 			(at 229.87 66.04 0)
 			(effects
 				(font
