@@ -1,6 +1,6 @@
 assembly,references,quantity_per_board,value_or_function,manufacturer_or_specification,part_or_qualification,population
 A B C,J1,1,2x10 vertical pattern header,2.54 mm dual-row THT unshrouded,Samtec TSW-110-07-G-D or measured equivalent,Fit same connector and cable on all boards
-A B C,J2,1,100 position Zorro II card socket,TE Connectivity 5645235-3,Production shopping code A121376-ND. Solder posts with retention features. Specify 1.02 +/-0.08 mm finished holes,Fit same socket on all boards
+A B C,J2,1,100 position Zorro II card socket,TE Connectivity 5645235-3,Production shopping code A121376-ND. Solder posts with retention features. Precision order target 1.02 +/-0.05 mm finished within TE limits. See CONNECTOR_RESOLUTION.md,Fit same socket on all boards
 A B C,C10,1,100 nF 50 V X7R 0805,KEMET C0805C104K5RACTU,External source rail bypass,Fit
 A B C,CL1-CL9,9,15 pF C0G 0805,50 V capacitor matched across all boards,Use measured values and record vendor lot,Nominal load. DNP for open or passive card test
 A B C,CL1-CL9,9,82 pF C0G 0805,50 V capacitor matched across all boards,Use measured values and record vendor lot,Heavy load alternative to 15 pF. Mutually exclusive

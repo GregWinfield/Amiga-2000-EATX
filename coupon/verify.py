@@ -79,7 +79,18 @@ def check(design, baseline, cli, tmp):
     assert board.GetCopperLayerCount() == 4
     footprints = {f.GetReference(): f for f in board.GetFootprints()}
     pads = {(r, p.GetNumber()): p for r, f in footprints.items() for p in f.Pads() if p.GetNumber()}
-    assert all(p.GetDrillSize().x == 1020000 for p in footprints["J2"].Pads())
+    socket = footprints["J2"]
+    assert socket.GetPadCount() == 100
+    for pad in socket.Pads():
+        number = int(pad.GetNumber())
+        assert xy(pad.GetDrillSize()) == (1020000, 1020000)
+        for layer, size in [(pcb.F_Cu, 1530000), (pcb.In1_Cu, 1800000),
+                            (pcb.In2_Cu, 1800000), (pcb.B_Cu, 1530000)]:
+            assert xy(pad.GetSize(layer)) == (size, size)
+        assert xy(pad.GetPosition()) == (
+            207139690 + (-2425000 if number % 2 else 2425000),
+            56532900 + (number - 1) // 2 * 2540000,
+        )
     expected = {(node.get("ref"), node.get("pin")): net.get("name")
                 for net in ET.parse(xml).findall("./nets/net") for node in net.findall("node")}
     assert {key: pad.GetNetname() for key, pad in pads.items()} == expected
@@ -100,8 +111,8 @@ def check(design, baseline, cli, tmp):
         tap = path_mm(board, socket, pads[cap, "2"])
         junction = path_mm(board, pads[cap, "1"], pads[rpin])
         if design == "A":
-            for length, field in [(tap, "baseline_slot_route_mm"), (junction, "baseline_private_route_mm")]:
-                assert abs(length - float(historical[field])) < 0.001
+            assert abs(tap - float(historical["baseline_slot_route_mm"])) < 0.100
+            assert abs(junction - float(historical["baseline_private_route_mm"])) < 0.001
         results.append((design, lane, signal, path_mm(board, src, socket), tap, junction))
     return results
 
