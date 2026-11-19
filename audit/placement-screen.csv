@@ -1,0 +1,152 @@
+reference,candidate_footprint,screen_rotation_deg,front_body_neighbours,nearby_existing_holes,inner_track_layers_nets,screen,other_trial_envelopes
+C100,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+C102,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+C200,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+C201,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+C202,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,C211 | U202
+C204,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,R205,0,,Review conflict,R205
+C210,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C212 | C213,0,,Review conflict,C211 | C212 | C213
+C211,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C213,0,,Review conflict,C202 | C210 | C213 | U202
+C212,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C210,0,,Review conflict,C210 | C213
+C213,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C210 | C211,0,,Review conflict,C210 | C211 | C212
+C214,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,0,,0,,No hit in limited screen,
+C219,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C242 | R210,0,In2.Cu/+12V | In2.Cu/-12V,Review conflict,C242 | R209 | R210
+C222,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C223,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,U204
+C224,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C225,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,0,,0,,No hit in limited screen,
+C226,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,0,,0,,No hit in limited screen,R203
+C231,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,90,R232,0,,Review conflict,R232 | R242
+C232,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C220 | R242,0,,Review conflict,C242 | R208 | R242
+C233,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C234,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,R233 | R234,0,,Review conflict,R233 | R234
+C241,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C221,0,,Review conflict,
+C242,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,C219 | C220,0,In2.Cu/+12V | In2.Cu/-12V,Review conflict,C219 | C232 | R209 | R210 | R242
+C243,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C244,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,R243 | R244,0,,Review conflict,R243 | R244 | R302
+C300,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+C301,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+C317,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C318,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C400,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,0,,0,,No hit in limited screen,
+C402,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C403,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C404,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C405,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C406,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C408,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C412,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,In2.Cu/-12V,Review conflict,
+C415,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C416,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,0,,0,,No hit in limited screen,
+C417,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,0,,0,,No hit in limited screen,
+C418,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,0,,0,,No hit in limited screen,
+C419,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,0,,0,,No hit in limited screen,R800
+C420,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C421,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C422,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C701,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C811,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C813,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,U805
+C814,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,0,,0,,No hit in limited screen,
+C815,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+C912,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,0,,0,,No hit in limited screen,U202
+C919,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,0,,0,,No hit in limited screen,
+D300,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,90,,0,,No hit in limited screen,
+Q202,Package_TO_SOT_THT:TO-92_Inline,0,,0,,No hit in limited screen,R202 | R213 | R232
+Q300,Package_TO_SOT_THT:TO-92_Inline,0,,0,,No hit in limited screen,
+Q301,Package_TO_SOT_THT:TO-92_Inline,0,,0,,No hit in limited screen,
+Q302,Package_TO_SOT_THT:TO-92_Inline,0,,0,,No hit in limited screen,
+R1000,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,,1,,Review conflict,
+R101,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,FB101,0,,Review conflict,
+R104,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,,1,,Review conflict,
+R111,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,,0,,No hit in limited screen,
+R114,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R115 | R500,1,,Review conflict,R115 | R500
+R115,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R114,0,,Review conflict,R114
+R200,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,,0,,No hit in limited screen,
+R201,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,,No hit in limited screen,
+R202,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C607 | Q202 | R208,0,In2.Cu/+12V,Review conflict,Q202 | R208 | R232 | U607
+R203,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C226,0,,Review conflict,C226 | U205
+R204,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C901 | FB401,1,,Review conflict,
+R205,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C204 | R206,0,,Review conflict,C204 | R206 | R240
+R206,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,R205 | R240 | R241,0,,Review conflict,R205 | R231 | R240 | R241
+R207,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R214,0,In2.Cu/+12V,Review conflict,R214
+R208,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C232 | R202 | R242,0,,Review conflict,C232 | R202 | R242 | U607
+R209,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C219 | R210,0,In2.Cu/+12V | In2.Cu/-12V,Review conflict,C219 | C242 | R210
+R210,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C219 | C242 | R209,0,In2.Cu/-12V,Review conflict,C219 | C242 | R209
+R211,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,,0,,No hit in limited screen,
+R213,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,Q202 | R230,0,,Review conflict,Q202 | R230
+R214,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R207,0,,Review conflict,R207
+R215,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,EMI200,0,,Review conflict,
+R216,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,,No hit in limited screen,
+R217,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,,No hit in limited screen,
+R230,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C221 | R213,0,,Review conflict,R213 | R231
+R231,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R240,0,,Review conflict,R206 | R230 | R240 | R241
+R232,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C231 | R242,0,,Review conflict,C231 | Q202 | R202 | R242
+R233,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C234 | CN202 | HY200,0,,Review conflict,C234 | R244
+R234,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C234 | CN205 | HY200,0,,Review conflict,C234
+R240,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R231,0,,Review conflict,R205 | R206 | R231 | R241
+R241,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,R206 | R240,0,,Review conflict,R206 | R231 | R240
+R242,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C220 | C231 | C232 | R232,0,,Review conflict,C231 | C232 | C242 | R208 | R232
+R243,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C244 | R244 | R302,0,,Review conflict,C244 | R244 | R302
+R244,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C244 | CN202 | HY200,0,,Review conflict,C244 | R233 | R243 | R302
+R300,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R309,0,,Review conflict,R309
+R301,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,,1,,Review conflict,
+R302,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C244 | EMI207 | R243,0,,Review conflict,C244 | R243 | R244
+R305,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R306 | U607,0,,Review conflict,R306 | R602 | U607
+R306,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R305 | U607,0,,Review conflict,R305 | U607
+R307,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,,No hit in limited screen,U804
+R308,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,U804,0,,Review conflict,U804
+R309,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R300,0,,Review conflict,R300
+R310,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C313 | D301 | U305,0,In2.Cu/+12V | In2.Cu/-12V,Review conflict,U305
+R311,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,R312,0,,Review conflict,R312
+R312,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,R311,0,,Review conflict,R311
+R500,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,R114,0,,Review conflict,R114
+R600,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,CN203,0,In2.Cu/-5V,Review conflict,
+R601,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,R603,0,,Review conflict,R603
+R602,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,U607,0,In2.Cu/+12V,Review conflict,R305 | U607
+R603,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,R601,0,,Review conflict,R601
+R800,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C419,0,,Review conflict,C419
+R801,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,U899,0,,Review conflict,R804
+R802,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,,No hit in limited screen,U805
+R803,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,,No hit in limited screen,
+R804,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,U899,0,,Review conflict,R801
+R805,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,C814,0,,Review conflict,
+R806,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,U800,0,,Review conflict,
+R807,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,U800,0,,Review conflict,
+R900,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,RN204C1,0,,Review conflict,
+R902,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,,No hit in limited screen,
+R914,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,C261,0,,Review conflict,
+R916,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,U102,0,,Review conflict,
+R917,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,90,,0,,No hit in limited screen,
+RX1,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,0,,0,In2.Cu/+3V3,Review conflict,
+U103,Package_DIP:DIP-20_W7.62mm,90,U104,0,,Review conflict,U104
+U104,Package_DIP:DIP-20_W7.62mm,0,C104,1,,Review conflict,U103
+U105,Package_DIP:DIP-20_W7.62mm,90,U106,2,,Review conflict,U106
+U106,Package_DIP:DIP-20_W7.62mm,270,U105,1,,Review conflict,U105
+U107,Package_DIP:DIP-14_W7.62mm,90,,3,In2.Cu/+3V3,Review conflict,
+U108,Package_DIP:DIP-14_W7.62mm,0,U900,0,,Review conflict,U900
+U202,Package_DIP:DIP-16_W7.62mm,90,C202 | C912,5,,Review conflict,C202 | C211 | C912
+U203,Package_DIP:DIP-14_W7.62mm,0,U900,0,,Review conflict,U900
+U204,Package_DIP:DIP-14_W7.62mm,90,C223,1,,Review conflict,C223
+U205,Package_DIP:DIP-20_W7.62mm,0,R203,4,In2.Cu/+VID,Review conflict,R203 | U303
+U206,Package_DIP:DIP-20_W7.62mm,90,C205 | C206,0,In2.Cu/+VID,Review conflict,
+U207,Package_DIP:DIP-14_W7.62mm,0,HY200,1,In2.Cu/+VID,Review conflict,
+U302,Package_DIP:DIP-14_W7.62mm,0,C302,0,,Review conflict,
+U303,Package_DIP:DIP-14_W7.62mm,0,,0,,No hit in limited screen,U205
+U304,Package_DIP:DIP-14_W7.62mm,0,EMI309 | EMI335 | EMI336 | EMI337 | RN300,3,In1.Cu/AUDIO | In1.Cu/Net-(C314-Pad2) | In2.Cu/+12V | In2.Cu/-12V,Review conflict,
+U305,Package_DIP:DIP-14_W7.62mm,90,C305 | C310 | D301 | R310,2,In2.Cu/+12V,Review conflict,R310
+U501,Package_DIP:DIP-14_W7.62mm,0,C501,1,,Review conflict,
+U600,Package_DIP:DIP-20_W7.62mm,270,CN600,2,,Review conflict,
+U601,Package_DIP:DIP-20_W7.62mm,90,CN600,4,,Review conflict,
+U602,Package_DIP:DIP-20_W7.62mm,90,CN600,5,,Review conflict,
+U603,Package_DIP:DIP-20_W7.62mm,90,CN600,3,,Review conflict,
+U604,Package_DIP:DIP-20_W7.62mm,90,CN600,3,,Review conflict,
+U605,Package_DIP:DIP-20_W7.62mm,0,C603 | C605,0,,Review conflict,
+U606,Package_DIP:DIP-14_W7.62mm,0,,2,,Review conflict,
+U607,Package_DIP:DIP-14_W7.62mm,0,C607 | C916 | R202,0,In2.Cu/+12V | In2.Cu/-12V,Review conflict,R202 | R208 | R305 | R306 | R602
+U802,Package_DIP:DIP-16_W7.62mm,0,C802,3,,Review conflict,U804
+U803,Package_DIP:DIP-14_W7.62mm,90,RN801,0,,Review conflict,
+U804,Package_DIP:DIP-16_W7.62mm,180,C804,1,,Review conflict,R307 | R308 | U802
+U805,Package_DIP:DIP-14_W7.62mm,0,C813 | R802,1,,Review conflict,C813 | R802
+U900,Package_DIP:DIP-14_W7.62mm,90,C918,3,,Review conflict,U108 | U203
+XU1,Package_TO_SOT_THT:TO-92_Inline,0,,0,,No hit in limited screen,

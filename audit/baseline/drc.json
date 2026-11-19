@@ -1,0 +1,5303 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-20T07:16:41",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [
+        {
+            "description": "Field 'Datasheet' differs (PCB: ' ~', Schematic: '~')",
+            "items": [
+                {
+                    "description": "Footprint CN202",
+                    "pos": {
+                        "x": 266.34969,
+                        "y": 53.8675
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006055f766"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN202",
+                    "pos": {
+                        "x": 278.59269,
+                        "y": 65.2975
+                    },
+                    "uuid": "2ae0dcb2-8ffe-4233-805d-faa0297f88d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN202",
+                    "pos": {
+                        "x": 253.59269,
+                        "y": 65.2975
+                    },
+                    "uuid": "b0b6b34c-4240-4efa-b177-12f296ba8e71"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Field 'Datasheet' differs (PCB: ' ~', Schematic: '~')",
+            "items": [
+                {
+                    "description": "Footprint CN200",
+                    "pos": {
+                        "x": 368.42849,
+                        "y": 53.9183
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060f06a6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN200",
+                    "pos": {
+                        "x": 380.97649,
+                        "y": 70.3183
+                    },
+                    "uuid": "b56ee56d-1f42-4528-96a8-d642631a0ace"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN200",
+                    "pos": {
+                        "x": 380.97649,
+                        "y": 62.4183
+                    },
+                    "uuid": "5595f304-b31a-46cd-8cb0-5d332fdf1fd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN200",
+                    "pos": {
+                        "x": 355.97649,
+                        "y": 70.3183
+                    },
+                    "uuid": "2bbd7ec3-c189-41ee-854d-7bce6e492ef4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN200",
+                    "pos": {
+                        "x": 355.97649,
+                        "y": 62.4183
+                    },
+                    "uuid": "cc9f1ae6-35cd-4359-b82e-6882f2beaaa1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN300",
+                    "pos": {
+                        "x": 399.18409,
+                        "y": 55.3407
+                    },
+                    "uuid": "de5451f1-b688-4268-a481-1faf1d0d1ec7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN300",
+                    "pos": {
+                        "x": 396.68409,
+                        "y": 55.3407
+                    },
+                    "uuid": "078d0e94-6f01-482b-95d7-aeedea4aa5c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN300",
+                    "pos": {
+                        "x": 391.68409,
+                        "y": 55.3407
+                    },
+                    "uuid": "e7a111be-8657-4a99-b641-aa0597215dc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN300",
+                    "pos": {
+                        "x": 389.18409,
+                        "y": 55.3407
+                    },
+                    "uuid": "378e83fd-bf45-4039-8dc4-16f1c9d8640c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Field 'Datasheet' differs (PCB: ' ~', Schematic: '~')",
+            "items": [
+                {
+                    "description": "Footprint CN305",
+                    "pos": {
+                        "x": 323.74049,
+                        "y": 53.9183
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605edad4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN305",
+                    "pos": {
+                        "x": 347.27349,
+                        "y": 70.3183
+                    },
+                    "uuid": "675e354c-961a-4f69-bf50-8f5a3b055931"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN305",
+                    "pos": {
+                        "x": 347.27349,
+                        "y": 62.4183
+                    },
+                    "uuid": "93b7c2cc-fdec-4a1a-a3f8-b3e8f68a1a44"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN305",
+                    "pos": {
+                        "x": 300.17349,
+                        "y": 70.3183
+                    },
+                    "uuid": "bf2ff59b-ec72-47a7-a349-4f8e10689708"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 0 [GND] of CN305",
+                    "pos": {
+                        "x": 300.17349,
+                        "y": 62.4183
+                    },
+                    "uuid": "1bc75ac5-0875-4e3c-b9e4-ba3afdca260f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "2000ATX.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of CN202",
+                    "pos": {
+                        "x": 270.93769,
+                        "y": 67.8375
+                    },
+                    "uuid": "2fceb51b-13fe-4a6d-82f6-4c833fd5d968"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 1 [GND] of C205 on F.Cu",
+                    "pos": {
+                        "x": 244.42669,
+                        "y": 109.3175
+                    },
+                    "uuid": "b9846948-8791-4bc8-88c2-d9d5313106df"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 10 [GND] of CN202",
+                    "pos": {
+                        "x": 269.79269,
+                        "y": 65.2975
+                    },
+                    "uuid": "817df8e7-95b5-41bb-849c-cfe8ad2b0cb1"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 16 [GND] of U100",
+                    "pos": {
+                        "x": 274.83049,
+                        "y": 314.2937
+                    },
+                    "uuid": "c90f15f7-11e1-4b40-9bce-1e86a7c61fc6"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 12 [GND] of CN207",
+                    "pos": {
+                        "x": 211.25429,
+                        "y": 156.4021
+                    },
+                    "uuid": "fef40978-1ff8-47be-aa6b-04e05e750aac"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of U102",
+                    "pos": {
+                        "x": 367.13409,
+                        "y": 332.8103
+                    },
+                    "uuid": "0d8cae5c-16bc-4f6b-a83d-196381381d67"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 24 [GND] of U102",
+                    "pos": {
+                        "x": 367.13409,
+                        "y": 274.3903
+                    },
+                    "uuid": "258bf99a-a5f2-43a5-823b-a4fdff958e6c"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 8 [GND] of U200",
+                    "pos": {
+                        "x": 324.71609,
+                        "y": 174.4159
+                    },
+                    "uuid": "4e02e15b-81c1-49eb-9f54-d20d843cab9b"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of U301",
+                    "pos": {
+                        "x": 365.91489,
+                        "y": 115.2847
+                    },
+                    "uuid": "077e7cf8-6fea-4727-bab4-69986b4b7fbd"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 26 [GND] of CN305",
+                    "pos": {
+                        "x": 340.34349,
+                        "y": 71.7383
+                    },
+                    "uuid": "0baa0575-9327-4eb8-b260-341407e97136"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 9 [GND] of CN207",
+                    "pos": {
+                        "x": 206.17429,
+                        "y": 153.8621
+                    },
+                    "uuid": "ac564b76-9c55-4734-b779-8fa00f317d13"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer In1.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on In1.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "859a2f5f-a539-4c18-ba8a-cddf325c479d"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 125.1907
+                    },
+                    "uuid": "97e506bc-e22b-461f-8809-38f208b61ada"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer In1.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on In1.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "859a2f5f-a539-4c18-ba8a-cddf325c479d"
+                },
+                {
+                    "description": "PTH pad 7 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 127.7307
+                    },
+                    "uuid": "cfcc17af-db87-4832-b68a-b5e91db6c9d0"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 160.7507
+                    },
+                    "uuid": "51adebb8-118e-4844-93d4-135b6d106e15"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer In1.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on In1.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "859a2f5f-a539-4c18-ba8a-cddf325c479d"
+                },
+                {
+                    "description": "PTH pad 9 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 130.2707
+                    },
+                    "uuid": "b78b45c6-088e-4121-8efb-c903f2be4862"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer In1.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on In1.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "859a2f5f-a539-4c18-ba8a-cddf325c479d"
+                },
+                {
+                    "description": "PTH pad 11 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 132.8107
+                    },
+                    "uuid": "b2f5f644-5d75-471e-9af4-a19e18a946b7"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of U300",
+                    "pos": {
+                        "x": 316.94369,
+                        "y": 115.2847
+                    },
+                    "uuid": "750fec46-b834-4da6-bb7b-b869ed4c1ffd"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer In2.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [+5V] on In2.Cu, priority 0",
+                    "pos": {
+                        "x": 405.58469,
+                        "y": 384.0375
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a4a"
+                },
+                {
+                    "description": "PTH pad 5 [+5V] of CN605",
+                    "pos": {
+                        "x": 104.59969,
+                        "y": 226.6129
+                    },
+                    "uuid": "85d34d05-c6d9-4b2a-9ba3-e7e8170f7042"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of RN700",
+                    "pos": {
+                        "x": 168.88709,
+                        "y": 101.0353
+                    },
+                    "uuid": "f365c9a5-b542-4918-914b-409119a64ea3"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 73 [GND] of CN600",
+                    "pos": {
+                        "x": 226.62129,
+                        "y": 342.8075
+                    },
+                    "uuid": "4295ac35-50e7-4083-8e08-68531c601a52"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 11 [GND] of U500",
+                    "pos": {
+                        "x": 313.51977,
+                        "y": 306.64862
+                    },
+                    "uuid": "fe8b3092-667e-43fd-b528-a5e6c5e53682"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; 2 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 12 [GND] of U500",
+                    "pos": {
+                        "x": 313.51977,
+                        "y": 309.18862
+                    },
+                    "uuid": "09e34da2-69bb-4b00-b9ea-dfa56932062a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 20 [GND] of CN304",
+                    "pos": {
+                        "x": 340.05769,
+                        "y": 120.1615
+                    },
+                    "uuid": "135067f9-2da3-4c1f-b577-5a596a551a13"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of CN604",
+                    "pos": {
+                        "x": 125.02129,
+                        "y": 221.5329
+                    },
+                    "uuid": "d1cc69c4-d6cb-44b0-80d5-7c0a7b161e91"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of CN604",
+                    "pos": {
+                        "x": 125.02129,
+                        "y": 224.0729
+                    },
+                    "uuid": "ace1a12b-5c23-4429-9c41-ac177605daa4"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 8 [GND] of U200",
+                    "pos": {
+                        "x": 324.71609,
+                        "y": 174.4159
+                    },
+                    "uuid": "4e02e15b-81c1-49eb-9f54-d20d843cab9b"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of CN605",
+                    "pos": {
+                        "x": 104.59969,
+                        "y": 224.0729
+                    },
+                    "uuid": "0e2b96ae-0c4b-4b10-80ae-00857d1f1ef8"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 61 [GND] of CN605",
+                    "pos": {
+                        "x": 104.59969,
+                        "y": 297.7329
+                    },
+                    "uuid": "76240e6c-14b7-47d2-8b69-43927c1bb7a0"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 73 [GND] of CN605",
+                    "pos": {
+                        "x": 104.59969,
+                        "y": 312.9729
+                    },
+                    "uuid": "374a96b3-ce44-4a6d-bb6f-96bc6d7e770a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 85 [GND] of CN605",
+                    "pos": {
+                        "x": 104.59969,
+                        "y": 328.2129
+                    },
+                    "uuid": "e2d99e25-5a7c-43be-83d8-964735ffbaee"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 91 [GND] of CN605",
+                    "pos": {
+                        "x": 104.59969,
+                        "y": 335.8329
+                    },
+                    "uuid": "e92c0658-aaf0-4a46-8d0d-8a401c9cdf37"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of J300",
+                    "pos": {
+                        "x": 294.66789,
+                        "y": 159.6839
+                    },
+                    "uuid": "ccdffe1b-3572-4e4c-a222-645bf5e47ea9"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of CN1",
+                    "pos": {
+                        "x": 268.42969,
+                        "y": 178.8535
+                    },
+                    "uuid": "5a6c262d-d025-41b3-a3ed-90f6994ecc9c"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of CN1",
+                    "pos": {
+                        "x": 268.42969,
+                        "y": 187.2535
+                    },
+                    "uuid": "9e580b40-45a4-458d-af43-eb7cfca7e595"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "PTH pad 7 [GND] of CN1",
+                    "pos": {
+                        "x": 268.42969,
+                        "y": 195.6535
+                    },
+                    "uuid": "21e3cee0-657f-4f52-b339-6e5d42818492"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 4 [GND] of CN300",
+                    "pos": {
+                        "x": 389.18409,
+                        "y": 67.8407
+                    },
+                    "uuid": "d443eb6d-62d9-4c5b-a85f-e7a2a0e2acf9"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "Pad 1 [GND] of C322 on B.Cu",
+                    "pos": {
+                        "x": 350.16869,
+                        "y": 119.6535
+                    },
+                    "uuid": "39f6e4df-75a4-45f2-8698-cd95b586a1f0"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 405.503876,
+                        "y": 53.9255
+                    },
+                    "uuid": "752313d0-b56a-4468-89ad-09021da1816e"
+                },
+                {
+                    "description": "Pad 3 [GND] of EMI322 on B.Cu",
+                    "pos": {
+                        "x": 348.69369,
+                        "y": 151.9115
+                    },
+                    "uuid": "bafa45cc-f59f-484b-bc5c-9f1106e2b8a3"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 3 [GND] of EMI301 on F.Cu",
+                    "pos": {
+                        "x": 292.91529,
+                        "y": 88.4623
+                    },
+                    "uuid": "85c30f9d-877f-45cb-bce0-ffe21593d531"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 0 [GND] of CN305",
+                    "pos": {
+                        "x": 300.17349,
+                        "y": 70.3183
+                    },
+                    "uuid": "bf2ff59b-ec72-47a7-a349-4f8e10689708"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 8 [GND] of U804 on F.Cu",
+                    "pos": {
+                        "x": 232.88089,
+                        "y": 166.7197
+                    },
+                    "uuid": "5872c65e-cd7e-40f1-bcab-1d0a6e9922bc"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 3 [GND] of EMI206 on F.Cu",
+                    "pos": {
+                        "x": 261.97809,
+                        "y": 73.5017
+                    },
+                    "uuid": "aac72285-0b42-4797-8cd3-ae713ec25e9d"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 125.1907
+                    },
+                    "uuid": "97e506bc-e22b-461f-8809-38f208b61ada"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 7 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 127.7307
+                    },
+                    "uuid": "cfcc17af-db87-4832-b68a-b5e91db6c9d0"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 9 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 130.2707
+                    },
+                    "uuid": "b78b45c6-088e-4121-8efb-c903f2be4862"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 11 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 132.8107
+                    },
+                    "uuid": "b2f5f644-5d75-471e-9af4-a19e18a946b7"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 31 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 158.2107
+                    },
+                    "uuid": "f5b65e9d-2018-42ad-8534-f45be8b97daa"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 160.7507
+                    },
+                    "uuid": "51adebb8-118e-4844-93d4-135b6d106e15"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of HY200",
+                    "pos": {
+                        "x": 241.27889,
+                        "y": 79.5723
+                    },
+                    "uuid": "166a78f7-c3da-4b9f-950f-28606738a64e"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 22 [GND] of HY200",
+                    "pos": {
+                        "x": 294.61889,
+                        "y": 79.5723
+                    },
+                    "uuid": "015db72e-d21a-449d-84c5-526d37f0c7b6"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of CN603",
+                    "pos": {
+                        "x": 145.34129,
+                        "y": 224.0729
+                    },
+                    "uuid": "41310168-9e39-4651-bae9-e4f7c64fd4f2"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 61 [GND] of CN603",
+                    "pos": {
+                        "x": 145.34129,
+                        "y": 297.7329
+                    },
+                    "uuid": "bec25911-766a-4241-b1a7-000fe0a7dc50"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of CN601",
+                    "pos": {
+                        "x": 185.98129,
+                        "y": 221.5329
+                    },
+                    "uuid": "1404f332-4cdc-48e3-9e8d-249cae3eb88f"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 85 [GND] of CN601",
+                    "pos": {
+                        "x": 185.98129,
+                        "y": 328.2129
+                    },
+                    "uuid": "ee431e80-e6f7-4b05-b07b-b8ee56f2433f"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 2 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of RN607",
+                    "pos": {
+                        "x": 196.21749,
+                        "y": 207.7407
+                    },
+                    "uuid": "732bf9e5-b10b-457d-a452-8930112b5f8f"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of RN704",
+                    "pos": {
+                        "x": 162.74029,
+                        "y": 203.0671
+                    },
+                    "uuid": "94fbe18c-79ad-4727-b212-3e35780db195"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad B10 [GND] of CN702",
+                    "pos": {
+                        "x": 145.23969,
+                        "y": 102.1275
+                    },
+                    "uuid": "18d705a2-e4a1-4753-8768-8e63eda30227"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad D18 [GND] of CN702",
+                    "pos": {
+                        "x": 145.23969,
+                        "y": 208.8075
+                    },
+                    "uuid": "b5779139-6270-47cb-840d-abb8cb737451"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad B1 [GND] of CN701",
+                    "pos": {
+                        "x": 124.91969,
+                        "y": 79.2675
+                    },
+                    "uuid": "3bed8d14-db4c-44f4-8f57-39a35e632f22"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 43 [GND] of U800",
+                    "pos": {
+                        "x": 193.01709,
+                        "y": 140.4307
+                    },
+                    "uuid": "a5b62afd-65b2-4afb-a9f1-ac42e94a071e"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of CN600",
+                    "pos": {
+                        "x": 226.62129,
+                        "y": 251.3675
+                    },
+                    "uuid": "844742c3-bd44-4bba-a2fa-c54a837fb060"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 25 [GND] of CN600",
+                    "pos": {
+                        "x": 226.62129,
+                        "y": 281.8475
+                    },
+                    "uuid": "d1500cbc-7c1f-4cbc-95e2-9c131663becf"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 37 [GND] of CN600",
+                    "pos": {
+                        "x": 226.62129,
+                        "y": 297.0875
+                    },
+                    "uuid": "3b3da8e3-c83f-4245-86cf-f24443daa124"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 73 [GND] of CN600",
+                    "pos": {
+                        "x": 226.62129,
+                        "y": 342.8075
+                    },
+                    "uuid": "4295ac35-50e7-4083-8e08-68531c601a52"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 85 [GND] of CN600",
+                    "pos": {
+                        "x": 226.62129,
+                        "y": 358.0475
+                    },
+                    "uuid": "a6e998b7-862a-43a8-b64a-a6337678fe13"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 12 [GND] of CN203",
+                    "pos": {
+                        "x": 211.25429,
+                        "y": 103.0621
+                    },
+                    "uuid": "717151d9-0030-48e8-bb5b-537d915129c6"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 13 [GND] of CN203",
+                    "pos": {
+                        "x": 206.17429,
+                        "y": 105.6021
+                    },
+                    "uuid": "cfe4c6a8-4a74-45b1-ae60-18a008434679"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 20 [GND] of CN203",
+                    "pos": {
+                        "x": 211.25429,
+                        "y": 113.2221
+                    },
+                    "uuid": "abb82a7e-eb65-4891-96e1-44a655d674e8"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 2 [GND] of C804 on F.Cu",
+                    "pos": {
+                        "x": 231.90629,
+                        "y": 180.5627
+                    },
+                    "uuid": "e12fc8f7-1b5c-4f7a-ab1e-8ce4505b48aa"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 12 [GND] of U501 on F.Cu",
+                    "pos": {
+                        "x": 350.10697,
+                        "y": 372.50542
+                    },
+                    "uuid": "541cd100-27e6-465f-b41c-c63ab21614fc"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 11 [GND] of U500",
+                    "pos": {
+                        "x": 313.51977,
+                        "y": 306.64862
+                    },
+                    "uuid": "fe8b3092-667e-43fd-b528-a5e6c5e53682"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 12 [GND] of U500",
+                    "pos": {
+                        "x": 313.51977,
+                        "y": 309.18862
+                    },
+                    "uuid": "09e34da2-69bb-4b00-b9ea-dfa56932062a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 3 [GND] of U109 on F.Cu",
+                    "pos": {
+                        "x": 244.40637,
+                        "y": 241.35402
+                    },
+                    "uuid": "d9f54dcd-e52a-49c7-9c34-990979195153"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 8 [GND] of U109 on F.Cu",
+                    "pos": {
+                        "x": 238.05637,
+                        "y": 241.35402
+                    },
+                    "uuid": "2221df44-b308-4d14-9548-7a2eb98807bb"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 2 [GND] of C811 on F.Cu",
+                    "pos": {
+                        "x": 265.38169,
+                        "y": 362.9635
+                    },
+                    "uuid": "b6026b0e-d4d8-4933-b70e-1b707b04ecc4"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of CN304",
+                    "pos": {
+                        "x": 342.59769,
+                        "y": 137.9415
+                    },
+                    "uuid": "ae2d6d39-83fc-4950-97b7-3b04851ada16"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 7 [GND] of CN304",
+                    "pos": {
+                        "x": 342.59769,
+                        "y": 135.4015
+                    },
+                    "uuid": "a8dbded5-88ef-4bbb-9264-9ac55bb4bb73"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 3 [GND] of CN604",
+                    "pos": {
+                        "x": 125.02129,
+                        "y": 224.0729
+                    },
+                    "uuid": "ace1a12b-5c23-4429-9c41-ac177605daa4"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 13 [GND] of CN604",
+                    "pos": {
+                        "x": 125.02129,
+                        "y": 236.7729
+                    },
+                    "uuid": "3f08c877-9206-45e3-88a5-83e3435f5a72"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 73 [GND] of CN605",
+                    "pos": {
+                        "x": 104.59969,
+                        "y": 312.9729
+                    },
+                    "uuid": "374a96b3-ce44-4a6d-bb6f-96bc6d7e770a"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 2 [GND] of C207 on F.Cu",
+                    "pos": {
+                        "x": 252.55469,
+                        "y": 91.728
+                    },
+                    "uuid": "3dcf65c3-023f-4a18-9920-f25a9ea3b661"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 7 [GND] of U207 on F.Cu",
+                    "pos": {
+                        "x": 241.31519,
+                        "y": 86.254
+                    },
+                    "uuid": "c6296b43-3e89-4842-a937-7d362aaef648"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 9 [GND] of U207 on F.Cu",
+                    "pos": {
+                        "x": 242.58519,
+                        "y": 91.204
+                    },
+                    "uuid": "c01ddbfe-7467-4f1b-9683-5102c0d8a210"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "Pad 12 [GND] of U207 on F.Cu",
+                    "pos": {
+                        "x": 246.39519,
+                        "y": 91.204
+                    },
+                    "uuid": "71d2a949-7811-462d-8a3e-320c26995109"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 405.55669,
+                        "y": 53.9255
+                    },
+                    "uuid": "00000000-0000-0000-0000-000061f11a47"
+                },
+                {
+                    "description": "PTH pad 17 [GND] of CN1",
+                    "pos": {
+                        "x": 262.92969,
+                        "y": 187.2535
+                    },
+                    "uuid": "8d65a039-2831-4ca2-ae99-712bd513e911"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R1000",
+                    "pos": {
+                        "x": 292.40729,
+                        "y": 297.1995
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000604cbe31"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R917",
+                    "pos": {
+                        "x": 296.16649,
+                        "y": 297.1995
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000604cbe42"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U106",
+                    "pos": {
+                        "x": 370.74089,
+                        "y": 226.2827
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000604cbf9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 277.01489,
+                        "y": 201.2383
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006052dd8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C205",
+                    "pos": {
+                        "x": 244.42669,
+                        "y": 107.8425
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006052dda0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C206",
+                    "pos": {
+                        "x": 264.30219,
+                        "y": 102.826
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006052ddb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C915",
+                    "pos": {
+                        "x": 243.15669,
+                        "y": 158.9981
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006052ea66"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R212",
+                    "pos": {
+                        "x": 231.04089,
+                        "y": 125.8765
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006052f47a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R215",
+                    "pos": {
+                        "x": 224.33529,
+                        "y": 67.7359
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006052f48b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R216",
+                    "pos": {
+                        "x": 230.99009,
+                        "y": 120.8981
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006052f49c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN201A1",
+                    "pos": {
+                        "x": 219.96649,
+                        "y": 96.9205
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605300e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN201B1",
+                    "pos": {
+                        "x": 219.91569,
+                        "y": 100.2225
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605300f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN201C1",
+                    "pos": {
+                        "x": 219.91569,
+                        "y": 104.0071
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060530109"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN201D1",
+                    "pos": {
+                        "x": 219.91569,
+                        "y": 107.5885
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006053011a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN203E1",
+                    "pos": {
+                        "x": 219.91569,
+                        "y": 111.3985
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006053012b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U205",
+                    "pos": {
+                        "x": 234.83819,
+                        "y": 104.1759
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006053074f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C903",
+                    "pos": {
+                        "x": 275.28769,
+                        "y": 180.1055
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060537c61"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C906",
+                    "pos": {
+                        "x": 292.00089,
+                        "y": 255.5943
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060537c72"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C910",
+                    "pos": {
+                        "x": 336.83969,
+                        "y": 266.2425
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060537c83"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C802",
+                    "pos": {
+                        "x": 220.50497,
+                        "y": 181.18246
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605536fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U302",
+                    "pos": {
+                        "x": 245.59001,
+                        "y": 262.89426
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060555bef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-16_3.9x9.9mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U802",
+                    "pos": {
+                        "x": 220.80469,
+                        "y": 171.1393
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060555ec9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U803",
+                    "pos": {
+                        "x": 233.65709,
+                        "y": 199.6381
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060555ee9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C106",
+                    "pos": {
+                        "x": 375.4,
+                        "y": 216.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060588fdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U303",
+                    "pos": {
+                        "x": 242.42009,
+                        "y": 124.6065
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006058901e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'DIP-64_W22.86mm_Socket' does not match copy in library 'Package_DIP'",
+            "items": [
+                {
+                    "description": "Footprint U100",
+                    "pos": {
+                        "x": 274.83049,
+                        "y": 352.3937
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006058f211"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U103",
+                    "pos": {
+                        "x": 354.28169,
+                        "y": 247.2123
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060591108"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U105",
+                    "pos": {
+                        "x": 354.28169,
+                        "y": 226.2827
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060591186"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C409",
+                    "pos": {
+                        "x": 253.64689,
+                        "y": 217.6467
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605913b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C9000",
+                    "pos": {
+                        "x": 253.59609,
+                        "y": 220.1359
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605913e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C9001",
+                    "pos": {
+                        "x": 240.43889,
+                        "y": 230.6007
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060591415"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C102",
+                    "pos": {
+                        "x": 373.19929,
+                        "y": 290.7479
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060596f70"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C107",
+                    "pos": {
+                        "x": 274.75,
+                        "y": 221.945
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060597001"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C905",
+                    "pos": {
+                        "x": 353.36429,
+                        "y": 269.9961
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060597e08"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C907",
+                    "pos": {
+                        "x": 337.87329,
+                        "y": 282.0611
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060597e39"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C908",
+                    "pos": {
+                        "x": 337.87329,
+                        "y": 278.5051
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060597e4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C918",
+                    "pos": {
+                        "x": 386.13329,
+                        "y": 135.4015
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060597edb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB102",
+                    "pos": {
+                        "x": 364.67029,
+                        "y": 269.8691
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060598c9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R105",
+                    "pos": {
+                        "x": 340.03229,
+                        "y": 331.9721
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060598ec5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 345.87429,
+                        "y": 320.1611
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060598ed6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R114",
+                    "pos": {
+                        "x": 337.87329,
+                        "y": 288.9191
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060598f07"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R115",
+                    "pos": {
+                        "x": 337.87329,
+                        "y": 286.3791
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060598f18"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN907B1",
+                    "pos": {
+                        "x": 253.56053,
+                        "y": 266.9989
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006059a39c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN907C1",
+                    "pos": {
+                        "x": 253.46401,
+                        "y": 261.42106
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006059a3ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'DIP-48_W15.24mm' does not match copy in library 'Package_DIP'",
+            "items": [
+                {
+                    "description": "Footprint U102",
+                    "pos": {
+                        "x": 367.13409,
+                        "y": 332.8103
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006059a783"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U107",
+                    "pos": {
+                        "x": 272.23969,
+                        "y": 230.3467
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006059a8f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U900",
+                    "pos": {
+                        "x": 394.69309,
+                        "y": 135.4269
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006059ae97"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C812",
+                    "pos": {
+                        "x": 302.7225,
+                        "y": 371.14
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b58f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint D800",
+                    "pos": {
+                        "x": 302.1225,
+                        "y": 367.3925
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b62ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R801",
+                    "pos": {
+                        "x": 302.7025,
+                        "y": 373.968066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b676d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R803",
+                    "pos": {
+                        "x": 276.03,
+                        "y": 359.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b677e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R804",
+                    "pos": {
+                        "x": 302.7025,
+                        "y": 376.766132
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b678f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-24W_7.5x15.4mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U801",
+                    "pos": {
+                        "x": 275.965698,
+                        "y": 370.38
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b8283"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C200",
+                    "pos": {
+                        "x": 289.51169,
+                        "y": 169.7423
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b91e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 363.47649,
+                        "y": 93.8471
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b9211"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C210",
+                    "pos": {
+                        "x": 353.82449,
+                        "y": 93.7963
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b9273"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C211",
+                    "pos": {
+                        "x": 358.65049,
+                        "y": 93.7963
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b9284"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C212",
+                    "pos": {
+                        "x": 351.43689,
+                        "y": 93.7963
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b9295"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C213",
+                    "pos": {
+                        "x": 356.21209,
+                        "y": 93.7963
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b92a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C218",
+                    "pos": {
+                        "x": 378.41169,
+                        "y": 83.8395
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b9305"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C219",
+                    "pos": {
+                        "x": 269.53119,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b9316"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C234",
+                    "pos": {
+                        "x": 285.09717,
+                        "y": 73.37978
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605b9492"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Fuse_1206_3216Metric' does not match copy in library 'Fuse'",
+            "items": [
+                {
+                    "description": "Footprint F1",
+                    "pos": {
+                        "x": 379.60041,
+                        "y": 77.43362
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb052"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB401",
+                    "pos": {
+                        "x": 306.47889,
+                        "y": 135.4015
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb0a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Q200",
+                    "pos": {
+                        "x": 294.43929,
+                        "y": 134.5887
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb25a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R205",
+                    "pos": {
+                        "x": 305.61529,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb46f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R206",
+                    "pos": {
+                        "x": 303.22769,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb480"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R207",
+                    "pos": {
+                        "x": 297.13169,
+                        "y": 114.3195
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb491"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R209",
+                    "pos": {
+                        "x": 264.46729,
+                        "y": 126.2883
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb4b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R213",
+                    "pos": {
+                        "x": 288.74969,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb515"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R232",
+                    "pos": {
+                        "x": 282.32594,
+                        "y": 126.2883
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb599"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R233",
+                    "pos": {
+                        "x": 282.55717,
+                        "y": 73.37978
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb5aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R234",
+                    "pos": {
+                        "x": 287.63717,
+                        "y": 73.37978
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb5bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R240",
+                    "pos": {
+                        "x": 301.75449,
+                        "y": 121.0759
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb5cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R241",
+                    "pos": {
+                        "x": 300.84009,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb5dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R243",
+                    "pos": {
+                        "x": 274.655343,
+                        "y": 73.37978
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb5ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R244",
+                    "pos": {
+                        "x": 279.73969,
+                        "y": 73.37978
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb610"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R900",
+                    "pos": {
+                        "x": 362.86689,
+                        "y": 106.8011
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bb7a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN204B1",
+                    "pos": {
+                        "x": 381.25649,
+                        "y": 106.8011
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bc6eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN204C1",
+                    "pos": {
+                        "x": 370.02969,
+                        "y": 106.8235
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bc6fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN204D1",
+                    "pos": {
+                        "x": 377.54809,
+                        "y": 106.8011
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bc70d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'DIP-48_W15.24mm' does not match copy in library 'Package_DIP'",
+            "items": [
+                {
+                    "description": "Footprint U200",
+                    "pos": {
+                        "x": 342.49609,
+                        "y": 174.4159
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bd1dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U204",
+                    "pos": {
+                        "x": 290.47689,
+                        "y": 142.8691
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605bd2a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C301",
+                    "pos": {
+                        "x": 367.4,
+                        "y": 169.25
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605cf6a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C305",
+                    "pos": {
+                        "x": 303.005,
+                        "y": 100.28
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605cf6c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C110",
+                    "pos": {
+                        "x": 270.30929,
+                        "y": 244.7231
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d02ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C805",
+                    "pos": {
+                        "x": 380.95,
+                        "y": 178.75
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d044b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C815",
+                    "pos": {
+                        "x": 371.24889,
+                        "y": 184.3727
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d04ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C919",
+                    "pos": {
+                        "x": 239.67689,
+                        "y": 183.7123
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d069d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R305",
+                    "pos": {
+                        "x": 281.33289,
+                        "y": 109.7475
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d1f36"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R306",
+                    "pos": {
+                        "x": 281.33289,
+                        "y": 107.2075
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d1f47"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R307",
+                    "pos": {
+                        "x": 239.67689,
+                        "y": 179.6483
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d1f58"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB101",
+                    "pos": {
+                        "x": 292.00089,
+                        "y": 240.56766
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d1f65"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R308",
+                    "pos": {
+                        "x": 239.67689,
+                        "y": 175.7875
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d1f69"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R802",
+                    "pos": {
+                        "x": 387.3125,
+                        "y": 172.975
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d207a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R805",
+                    "pos": {
+                        "x": 378.00529,
+                        "y": 183.3567
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d20cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R902",
+                    "pos": {
+                        "x": 231.06329,
+                        "y": 131.7693
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d213c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U805",
+                    "pos": {
+                        "x": 387.35249,
+                        "y": 181.4771
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605d42ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U304",
+                    "pos": {
+                        "x": 333.70769,
+                        "y": 97.9111
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605ec7e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C315",
+                    "pos": {
+                        "x": 344.52809,
+                        "y": 100.1463
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605ec831"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U305",
+                    "pos": {
+                        "x": 313.79409,
+                        "y": 97.8095
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605ecbc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C314",
+                    "pos": {
+                        "x": 344.52809,
+                        "y": 97.8095
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605ed407"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Fuse_1206_3216Metric' does not match copy in library 'Fuse'",
+            "items": [
+                {
+                    "description": "Footprint F2",
+                    "pos": {
+                        "x": 325.32569,
+                        "y": 95.4219
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605ed98f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C310",
+                    "pos": {
+                        "x": 303.07529,
+                        "y": 102.9403
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605ed9bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C306",
+                    "pos": {
+                        "x": 291.24905,
+                        "y": 73.4001
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605eda1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C500",
+                    "pos": {
+                        "x": 334.21061,
+                        "y": 331.9467
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605edd41"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C100",
+                    "pos": {
+                        "x": 245.28521,
+                        "y": 314.63406
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605f33d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C105",
+                    "pos": {
+                        "x": 349.525,
+                        "y": 216.9
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605f3404"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C103",
+                    "pos": {
+                        "x": 354.02769,
+                        "y": 236.5443
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605f3434"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C104",
+                    "pos": {
+                        "x": 370.79169,
+                        "y": 236.4935
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605f3464"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R111",
+                    "pos": {
+                        "x": 288.64809,
+                        "y": 297.1995
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605f3494"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C501",
+                    "pos": {
+                        "x": 347.31193,
+                        "y": 365.8303
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605fb2aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R500",
+                    "pos": {
+                        "x": 337.87329,
+                        "y": 291.4591
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000605fd8bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'DIP-48_W15.24mm' does not match copy in library 'Package_DIP'",
+            "items": [
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 342.59769,
+                        "y": 196.3107
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006064cad6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C401",
+                    "pos": {
+                        "x": 239.70229,
+                        "y": 172.0029
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006065fd34"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C313",
+                    "pos": {
+                        "x": 295.04889,
+                        "y": 96.3871
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006065fdc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C312",
+                    "pos": {
+                        "x": 295.04889,
+                        "y": 98.8255
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606600be"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C304",
+                    "pos": {
+                        "x": 293.92113,
+                        "y": 73.36962
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006066011e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R202",
+                    "pos": {
+                        "x": 278.23409,
+                        "y": 118.9931
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606601ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C316",
+                    "pos": {
+                        "x": 344.57889,
+                        "y": 102.5847
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606604ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP9' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN200",
+                    "pos": {
+                        "x": 361.54449,
+                        "y": 101.5179
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060670209"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP6' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN205",
+                    "pos": {
+                        "x": 389.07969,
+                        "y": 110.4079
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060670222"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP8' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN801",
+                    "pos": {
+                        "x": 224.21629,
+                        "y": 199.9683
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606702f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C260",
+                    "pos": {
+                        "x": 384.69565,
+                        "y": 78.40898
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060675d80"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C261",
+                    "pos": {
+                        "x": 390.48685,
+                        "y": 78.38358
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060675d91"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C300",
+                    "pos": {
+                        "x": 323.03969,
+                        "y": 169.4883
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060675da2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C302",
+                    "pos": {
+                        "x": 245.18361,
+                        "y": 254.71546
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060675dd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C607",
+                    "pos": {
+                        "x": 271.57929,
+                        "y": 119.8059
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606766c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP10' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN100",
+                    "pos": {
+                        "x": 281.73929,
+                        "y": 281.2483
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060676b33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C916",
+                    "pos": {
+                        "x": 266.29609,
+                        "y": 119.8313
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060677006"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP10' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RNX1",
+                    "pos": {
+                        "x": 238.58469,
+                        "y": 338.7031
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606772bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB301",
+                    "pos": {
+                        "x": 396.29329,
+                        "y": 73.33914
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606784d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB303",
+                    "pos": {
+                        "x": 390.53765,
+                        "y": 73.25278
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606784f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint J301",
+                    "pos": {
+                        "x": 345.67109,
+                        "y": 159.5315
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060678648"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R201",
+                    "pos": {
+                        "x": 375.87169,
+                        "y": 321.5327
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006067894c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R300",
+                    "pos": {
+                        "x": 376.9325,
+                        "y": 169.425
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060678c7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R301",
+                    "pos": {
+                        "x": 311.35569,
+                        "y": 165.2211
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060678c8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R309",
+                    "pos": {
+                        "x": 382.0125,
+                        "y": 169.425
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060678d3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R310",
+                    "pos": {
+                        "x": 303.02449,
+                        "y": 95.2695
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060678d50"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R914",
+                    "pos": {
+                        "x": 396.54729,
+                        "y": 79.23194
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060678fd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP10' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN300",
+                    "pos": {
+                        "x": 347.22049,
+                        "y": 108.7315
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060679dbf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U108",
+                    "pos": {
+                        "x": 394.66769,
+                        "y": 146.6791
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006067a91b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R602",
+                    "pos": {
+                        "x": 281.33289,
+                        "y": 112.5415
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060693099"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB907",
+                    "pos": {
+                        "x": 277.82769,
+                        "y": 219.1707
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606a5d1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP8' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN102",
+                    "pos": {
+                        "x": 283.61889,
+                        "y": 216.5291
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606a7610"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP8' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN902",
+                    "pos": {
+                        "x": 288.64809,
+                        "y": 216.5291
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606a7797"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP10' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN101",
+                    "pos": {
+                        "x": 281.68849,
+                        "y": 319.3991
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606d3597"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-16_3.9x9.9mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U804",
+                    "pos": {
+                        "x": 230.40589,
+                        "y": 171.1647
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606da67f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R242",
+                    "pos": {
+                        "x": 279.80899,
+                        "y": 126.2883
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606dc14f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 304.04049,
+                        "y": 135.4015
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606dc442"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP10' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RNX2",
+                    "pos": {
+                        "x": 243.71549,
+                        "y": 329.3559
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000606eda0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB900",
+                    "pos": {
+                        "x": 244.59179,
+                        "y": 73.5652
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607056e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB901",
+                    "pos": {
+                        "x": 246.94129,
+                        "y": 73.5652
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060705710"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB902",
+                    "pos": {
+                        "x": 249.29079,
+                        "y": 73.5652
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060705740"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R203A1",
+                    "pos": {
+                        "x": 255.37409,
+                        "y": 73.4763
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607059f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R203B1",
+                    "pos": {
+                        "x": 258.42209,
+                        "y": 73.5271
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060705a28"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R302",
+                    "pos": {
+                        "x": 272.14317,
+                        "y": 73.37978
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060705d7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C203",
+                    "pos": {
+                        "x": 385.98089,
+                        "y": 124.4287
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060710458"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP10' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN802",
+                    "pos": {
+                        "x": 363.93369,
+                        "y": 197.4791
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060712002"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_Array_SIP6' does not match copy in library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint RN301",
+                    "pos": {
+                        "x": 337.87329,
+                        "y": 150.6715
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060718d39"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C259",
+                    "pos": {
+                        "x": 398.88409,
+                        "y": 73.33914
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006071aad0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN907A1",
+                    "pos": {
+                        "x": 253.46401,
+                        "y": 258.98266
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006072f335"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_2x17_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint CN303",
+                    "pos": {
+                        "x": 355.18969,
+                        "y": 120.1107
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006073081e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R214",
+                    "pos": {
+                        "x": 297.13169,
+                        "y": 116.7579
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060745e04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint Q201",
+                    "pos": {
+                        "x": 286.20969,
+                        "y": 134.7411
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006074820f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinSocket_1x22_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'",
+            "items": [
+                {
+                    "description": "Footprint HY200",
+                    "pos": {
+                        "x": 241.27889,
+                        "y": 79.5723
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006075415e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C204",
+                    "pos": {
+                        "x": 308.00289,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607546f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C221",
+                    "pos": {
+                        "x": 293.62649,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060754756"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C231",
+                    "pos": {
+                        "x": 284.87289,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607547b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C241",
+                    "pos": {
+                        "x": 296.06489,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060754846"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C901",
+                    "pos": {
+                        "x": 301.60209,
+                        "y": 135.4015
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607548d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C900",
+                    "pos": {
+                        "x": 274.22089,
+                        "y": 135.2999
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060758a5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C232",
+                    "pos": {
+                        "x": 277.26204,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006075b647"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            "items": [
+                {
+                    "description": "Footprint U104",
+                    "pos": {
+                        "x": 370.74089,
+                        "y": 247.0599
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006075bead"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R230",
+                    "pos": {
+                        "x": 291.18809,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006076bfe0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R231",
+                    "pos": {
+                        "x": 296.97929,
+                        "y": 121.0759
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006076c11a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint RN204A1",
+                    "pos": {
+                        "x": 373.78889,
+                        "y": 106.8011
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060774a77"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C220",
+                    "pos": {
+                        "x": 274.68509,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006078b119"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R210",
+                    "pos": {
+                        "x": 266.98424,
+                        "y": 126.2883
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006078b18b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C242",
+                    "pos": {
+                        "x": 272.10814,
+                        "y": 126.3083
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006078b9d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint CX2",
+                    "pos": {
+                        "x": 269.69969,
+                        "y": 253.2575
+                    },
+                    "uuid": "00000000-0000-0000-0000-000060799bb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm' does not match copy in library 'Oscillator'",
+            "items": [
+                {
+                    "description": "Footprint X2",
+                    "pos": {
+                        "x": 269.69969,
+                        "y": 260.1155
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006079cdc5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C108",
+                    "pos": {
+                        "x": 386.18409,
+                        "y": 146.4251
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607a9641"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C311",
+                    "pos": {
+                        "x": 303.07529,
+                        "y": 105.3279
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607d7f15"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C407",
+                    "pos": {
+                        "x": 325.32569,
+                        "y": 101.1115
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607dab8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint XU1",
+                    "pos": {
+                        "x": 376.125,
+                        "y": 206.0125
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607e1466"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C303",
+                    "pos": {
+                        "x": 250.29409,
+                        "y": 121.1013
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000607fe046"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R200",
+                    "pos": {
+                        "x": 359.61569,
+                        "y": 175.7875
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006080acee"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint FB215",
+                    "pos": {
+                        "x": 375.61769,
+                        "y": 83.8395
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006080d55b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint XC1",
+                    "pos": {
+                        "x": 178.08189,
+                        "y": 283.2295
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a131d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C600",
+                    "pos": {
+                        "x": 215.145,
+                        "y": 238.03
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a134d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C601",
+                    "pos": {
+                        "x": 214.91189,
+                        "y": 258.7947
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a137d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C603",
+                    "pos": {
+                        "x": 215.31829,
+                        "y": 340.4303
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a13ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C604",
+                    "pos": {
+                        "x": 215.36909,
+                        "y": 301.5683
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a13dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C602",
+                    "pos": {
+                        "x": 214.935,
+                        "y": 280.44
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a140d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C605",
+                    "pos": {
+                        "x": 211.76229,
+                        "y": 361.4615
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a143d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C619",
+                    "pos": {
+                        "x": 115.26769,
+                        "y": 232.4295
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a149d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C621",
+                    "pos": {
+                        "x": 115.14069,
+                        "y": 243.9865
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a14fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint C622",
+                    "pos": {
+                        "x": 115.20419,
+                        "y": 237.1285
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000609a152d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 317.92413,
+                        "y": 282.67578
+                    },
+                    "uuid": "43a997f4-7bb2-4dc5-bd29-935b5284ada3"
+                },
+                {
+                    "description": "Segment of U500 on F.Silkscreen",
+                    "pos": {
+                        "x": 314.67977,
+                        "y": 279.91862
+                    },
+                    "uuid": "e051cf35-e942-4e5c-a899-141838ff3d00"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 317.92413,
+                        "y": 334.45114
+                    },
+                    "uuid": "86ecfc0c-b8d6-4678-bd47-d9f22079c72f"
+                },
+                {
+                    "description": "Segment of U500 on F.Silkscreen",
+                    "pos": {
+                        "x": 314.67977,
+                        "y": 333.37862
+                    },
+                    "uuid": "cff02372-6e9c-46b2-8ad2-cc139d7720c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Mirrored text on front layer",
+            "items": [
+                {
+                    "description": "PCB text '+' on F.Silkscreen",
+                    "pos": {
+                        "x": 121.09445,
+                        "y": 363.37158
+                    },
+                    "uuid": "c65baa5d-70dd-45f8-ae95-efca47a5cea8"
+                }
+            ],
+            "severity": "warning",
+            "type": "mirrored_text_on_front_layer"
+        }
+    ]
+}
