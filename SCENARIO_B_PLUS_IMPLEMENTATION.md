@@ -134,3 +134,7 @@ R104, R211, R216, R600, R603, R916. [Conversion manifest and verification](audit
 ## Interface bias and reset timing resistors
 
 R306, R805, R900. [Conversion manifest and verification](audit/implementation/quick-interface-bias/README.md)
+
+## Processor and Buster arbitration bias
+
+R114, R807. [Conversion manifest and verification](audit/implementation/quick-arbitration-bias/README.md)
