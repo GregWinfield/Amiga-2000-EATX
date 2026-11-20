@@ -12640,7 +12640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904"
+		(property "Value" "2N3904"
 			(at 150.9014 149.733 0)
 			(effects
 				(font
@@ -12649,7 +12649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "AmigaFootprints:TO-92_2N3904_E2_B1_C3"
 			(at 151.13 150.495 0)
 			(effects
 				(font
@@ -12660,7 +12660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/2n3903-d.pdf"
 			(at 146.05 148.59 0)
 			(effects
 				(font
