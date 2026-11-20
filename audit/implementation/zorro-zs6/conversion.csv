@@ -1,0 +1,11 @@
+original_reference,original_pin,new_reference,new_pin,private_junction,capacitor,signal,connector_contact,ohms,return,pin1_xy_mm,package
+R604,2,R604,2,Net-(C665-Pad1),C665,BD10,CN605.76,1000,GND,"[118.0, 335.636]",Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R605C1,2,ZS6,2,Net-(C669-Pad1),C669,BD8,CN605.80,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10
+R605E1,2,ZS6,3,Net-(C671-Pad1),C671,BD7,CN605.82,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10
+R605G1,2,ZS6,4,Net-(C673-Pad1),C673,BD6,CN605.84,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10
+R605H1,2,ZS6,5,Net-(C674-Pad1),C674,BD5,CN605.86,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10
+R604I1,2,ZS6,6,Net-(C664-Pad1),C664,BD0,CN605.75,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10
+R605,2,R605,2,Net-(C666-Pad1),C666,BD1,CN605.77,1000,GND,"[118.0, 351.305]",Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R605B1,2,ZS6,8,Net-(C668-Pad1),C668,BD2,CN605.79,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10
+R605D1,2,ZS6,9,Net-(C670-Pad1),C670,BD3,CN605.81,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10
+R605F1,2,ZS6,10,Net-(C672-Pad1),C672,BD4,CN605.83,1000,GND,"[120.73, 330.905]",Resistor_THT:R_Array_SIP10

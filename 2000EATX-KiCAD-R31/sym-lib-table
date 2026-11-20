@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Amiga-Library")(type "KiCad")(uri "${KIPRJMOD}/Amiga-KiCad/Amiga-Library.kicad_sym")(options "")(descr ""))
   (lib (name "2000ATX-rescue")(type "KiCad")(uri "${KIPRJMOD}/2000ATX-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "BPlus")(type "KiCad")(uri "${KIPRJMOD}/BPlus.kicad_sym")(options "")(descr "Scenario B+ termination networks"))
 )
