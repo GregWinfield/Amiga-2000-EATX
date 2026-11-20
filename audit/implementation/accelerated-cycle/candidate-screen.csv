@@ -1,0 +1,120 @@
+reference,disposition,original_local_options,underside_screen_options,alternate_existing_barrel_options,bulk_can_options,finding_or_next_check
+C204,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+C210,Deferred,56,0,0,0,With C211 and C212 installed there was no local C210 solution. The surviving C213 candidate overlaps C210.
+C211,Implemented,67,0,0,0,AmigaFootprints:C_Radial_KEMET_C320_P2.54mm
+C212,Implemented,56,0,0,0,AmigaFootprints:C_Radial_KEMET_C320_P2.54mm
+C213,Deferred,53,0,0,0,With C211 and C212 installed there was no local C210 solution. The surviving C213 candidate overlaps C210.
+C222,Implemented,0,0,0,81,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+C223,Implemented,0,0,0,84,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
+C224,Deferred,0,0,0,0,Radial audio-reference trial has unresolved broadband impedance and 11 mm can clearance.
+C231,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+C232,"Screened, remains planned",31,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+C241,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+C242,"Screened, remains planned",29,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+C310,Retain pending EMC review,0,0,0,0,Serial shunt. A radial moves the shunt loop and adds lead inductance. Check connector-side high-frequency impedance before routing.
+C311,Retain pending EMC review,0,0,0,0,Serial shunt. A radial moves the shunt loop and adds lead inductance. Check connector-side high-frequency impedance before routing.
+C312,Retain pending EMC review,13,0,0,0,Serial shunt. A radial moves the shunt loop and adds lead inductance. Check connector-side high-frequency impedance before routing.
+C313,Retain pending EMC review,0,0,0,0,Serial shunt. A radial moves the shunt loop and adds lead inductance. Check connector-side high-frequency impedance before routing.
+C314,Retain pending EMC review,0,0,0,0,Serial shunt. A radial moves the shunt loop and adds lead inductance. Check connector-side high-frequency impedance before routing.
+C315,Retain pending EMC review,3,0,0,0,Serial shunt. A radial moves the shunt loop and adds lead inductance. Check connector-side high-frequency impedance before routing.
+C316,Retain pending EMC review,95,0,0,0,Serial shunt. A radial moves the shunt loop and adds lead inductance. Check connector-side high-frequency impedance before routing.
+C402,Deferred,0,0,0,0,No front-body placement with both 0.8 mm holes and local broad escapes within 4.5 mm of the original can centre.
+C403,Deferred,0,0,0,116,Bulk rail candidate was included in the nine-can trial. The original 47 µF can has no order code or impedance specification and the distributed ATX supply lacks a comparative loaded impedance bound.
+C404,Deferred,0,0,0,196,Bulk rail candidate was included in the nine-can trial. The original 47 µF can has no order code or impedance specification and the distributed ATX supply lacks a comparative loaded impedance bound.
+C405,Deferred,0,0,0,76,Bulk rail candidate was included in the nine-can trial. The original 47 µF can has no order code or impedance specification and the distributed ATX supply lacks a comparative loaded impedance bound.
+C406,Deferred,0,0,0,63,Bulk rail candidate was included in the nine-can trial. The original 47 µF can has no order code or impedance specification and the distributed ATX supply lacks a comparative loaded impedance bound.
+C408,"Screened, remains planned",0,0,0,34,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+C412,"Screened, remains planned",0,0,0,112,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+C420,Deferred,0,0,0,22,Bulk rail candidate was included in the nine-can trial. The original 47 µF can has no order code or impedance specification and the distributed ATX supply lacks a comparative loaded impedance bound.
+C421,Deferred,0,0,0,196,Bulk rail candidate was included in the nine-can trial. The original 47 µF can has no order code or impedance specification and the distributed ATX supply lacks a comparative loaded impedance bound.
+C422,Deferred,0,0,0,112,Nine-can trial produced 0.0364 mm clearance against a 0.2000 mm rule and a starved ground thermal at C422.
+C813,Deferred,0,0,0,0,"These 22 µF parts set comparator and reset behaviour. The shopping list identifies a case size, without a leakage grade or an exact electrical part."
+C814,Deferred,0,0,0,0,"These 22 µF parts set comparator and reset behaviour. The shopping list identifies a case size, without a leakage grade or an exact electrical part."
+D300,Deferred,0,0,0,0,The reviewed 7.62 mm DO-35 pattern found no clear cardinal placement and direct front escape in the local ±9 mm screen.
+Q200,Package envelope screen only,0,0,0,0,"34 of 450 sites fit the [7.5, 5.3] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+Q201,Package envelope screen only,0,0,0,0,"120 of 450 sites fit the [7.5, 5.3] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+Q202,Package envelope screen only,0,0,0,0,"40 of 450 sites fit the [7.5, 5.3] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+Q300,Package envelope screen only,0,0,0,0,"35 of 450 sites fit the [7.5, 5.3] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+Q301,Package envelope screen only,0,0,0,0,"102 of 450 sites fit the [7.5, 5.3] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+Q302,Package envelope screen only,0,0,0,0,"216 of 450 sites fit the [7.5, 5.3] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+Q9100,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [7.5, 5.3] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+R1000,Implemented,44,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R101,Implemented,22,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R109,Deferred,0,0,0,0,Original underside and JA1 pad searches found no short front-body layout outside the Agnus socket in a 40.64 mm window.
+R111,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R115,Implemented,0,0,12,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R200,Implemented,112,0,0,0,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R202,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R203,Implemented,277,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R204,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R205,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R206,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R207,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R208,Implemented,18,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R209,Implemented,15,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R210,"Screened, remains planned",0,0,28,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R213,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R214,Implemented,15,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R215,Implemented,84,0,0,0,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R217,Implemented,73,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R230,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R231,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R232,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R233,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R234,Deferred,120,0,0,0,The verified left audio output resistor takes the only routable local corridor found for the right branch.
+R240,Implemented,5,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R241,Implemented,13,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R242,"Screened, remains planned",0,0,25,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R243,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R244,Implemented,65,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R300,Implemented,27,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R301,Implemented,1,0,0,0,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R302,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R305,Implemented,1,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R307,Deferred,39,0,0,0,The old LED pad bridges two distinct trace ends. The first trial opened that junction and the updated R308 area has no local placement in this screen.
+R308,Implemented,120,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R310,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R311,"Screened, remains planned",195,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R312,Deferred,192,0,0,0,The local two-leg screen needs a longer branch on a shared expansion input.
+R500,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R601,Implemented,192,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R601A1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601B1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601C1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601D1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601E1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601F1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601G1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601H1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R601I1,Deferred,0,0,0,0,ZS1 drill row narrows the auxiliary rails and interrupts the immediate reference beneath _OWN.
+R800,Deferred,0,0,0,0,The trial produced an isolated 0.772 mm² In2 +5 V contour at the new supply pin and removed −5 V and +12 V copper.
+R806,"Screened, remains planned",0,0,0,0,Local geometric search only. Review a grouped placement or alternate actual same-net tap before selecting a routed batch.
+R902,Implemented,67,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R9100,Deferred,0,0,0,0,No short front-body conversion remained in the updated standby area using the local copper escapes.
+R9101,Implemented,0,57,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+R9102,Deferred,0,68,0,0,No short front-body conversion remained in the updated standby area using the local copper escapes.
+R9103,Deferred,0,0,0,0,No short front-body conversion remained in the updated standby area using the local copper escapes.
+R9104,Deferred,0,60,0,0,No short front-body conversion remained in the updated standby area using the local copper escapes.
+R9105,Deferred,0,55,0,0,The revised standby area requires a long back trace to the high-impedance timing node.
+R917,Deferred,0,0,30,0,Back tap at existing _DTACK via left a single-layer via connection. The front-tap search yielded no local site.
+RX1,Implemented,0,0,0,0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+U107,Package envelope screen only,0,0,0,0,"18 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U108,Package envelope screen only,0,0,0,0,"76 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U202,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [10.3, 23.42] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U203,Package envelope screen only,0,0,0,0,"61 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U204,Package envelope screen only,0,0,0,0,"21 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U207,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U302,Package envelope screen only,0,0,0,0,"46 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U303,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U304,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U305,Package envelope screen only,0,0,0,0,"14 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U501,Package envelope screen only,0,0,0,0,"36 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U606,Package envelope screen only,0,0,0,0,"49 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U607,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U802,Package envelope screen only,0,0,0,0,"43 of 450 sites fit the [10.3, 23.42] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U803,Package envelope screen only,0,0,0,0,"27 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U804,Package envelope screen only,0,0,0,0,"6 of 450 sites fit the [10.3, 23.42] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U805,Package envelope screen only,0,0,0,0,"13 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U900,Package envelope screen only,0,0,0,0,"20 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U9101,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."
+U9102,Package envelope screen only,0,0,0,0,"0 of 450 sites fit the [10.3, 20.88] mm envelope within ±7 mm. Pin escape, terminal mapping and full signal verification remain outstanding."

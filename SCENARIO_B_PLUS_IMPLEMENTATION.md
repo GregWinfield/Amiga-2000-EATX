@@ -141,3 +141,7 @@ R306, R805, R900. [Conversion manifest and verification](audit/implementation/qu
 R114, R807. [Conversion manifest and verification](audit/implementation/quick-arbitration-bias/README.md)
 
 [Quick-win cycle totals, held positions and next batch](audit/implementation/quick-win-cycle/README.md)
+
+## Accelerated through-hole implementation
+
+25 additional positions in 8 verified batches bring the board to 115 through-hole packages out of 554. [Board changes, verification, hardware risks and current deferrals](audit/implementation/accelerated-cycle/README.md)
