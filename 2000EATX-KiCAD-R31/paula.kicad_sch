@@ -12659,7 +12659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 231.14 112.522 90)
 			(effects
 				(font
@@ -13477,7 +13477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "AmigaFootprints:C_Radial_KEMET_C315_P2.54mm"
 			(at 249.8852 121.92 0)
 			(effects
 				(font
