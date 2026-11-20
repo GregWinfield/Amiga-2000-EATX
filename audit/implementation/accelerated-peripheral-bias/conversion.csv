@@ -1,0 +1,6 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R305,10k,MRS16000C1002FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Net-(D300-K),GND,282.60289,110.0015,0.0
+R214,10k,MRS16000C1002FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,_CUTOFF,Net-(Q202-B),300.68769,116.7579,180.0
+R300,4.7k,MRS16000C4701FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Net-(Q301-B),Net-(U108B-~{Q}),373.3765,176.537,90.0
+R902,4.7k,MRS16000C4701FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Net-(Q302-B),Net-(R902-Pad2),231.82529,132.7853,0.0
+R308,200,MRS16000C2000FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,+5V,Net-(J9002-Pin_1),245.26489,171.7235,-90.0
