@@ -109,3 +109,7 @@ KiCad 10.0.8 reports 24 ERC errors and 1,182 warnings, 73 DRC errors and 202 war
 ## Installed ZS3
 
 5 discrete termination resistors now occupy one grounded SIP. The checked motherboard contains 75 through-hole packages and 490 SMD packages. [Implementation, verification and batch-specific risks](audit/implementation/zorro-zs3/README.md)
+
+## Installed ZS4
+
+5 discrete termination resistors now occupy one grounded SIP. The checked motherboard contains 76 through-hole packages and 485 SMD packages. [Implementation, verification and batch-specific risks](audit/implementation/zorro-zs4/README.md)
