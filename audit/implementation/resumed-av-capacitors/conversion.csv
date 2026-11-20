@@ -1,0 +1,6 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+C317,22uF,UKL1E220MDD,Capacitor_SMD:CP_Elec_6.3x5.8,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,AUDIN,Net-(C306-Pad1),275.83449,89.1923,90.0
+C226,470uF,EEU-FR1C471,Capacitor_SMD:CP_Elec_8x10,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,+VID,GND,217.22449,86.7551,0.0
+C233,22uF,UKL1E220MDD,Capacitor_SMD:CP_Elec_6.3x5.8,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Net-(U204B-+),Net-(C233-Pad2),276.83449,97.5555,180.0
+C243,22uF,UKL1E220MDD,Capacitor_SMD:CP_Elec_6.3x5.8,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Net-(U204A--),AUDOUT,285.70169,97.5555,180.0
+C214,470uF,EEU-FR1C471,Capacitor_SMD:CP_Elec_8x10,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,+VID,GND,217.42769,76.9815,0.0

@@ -13609,7 +13609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 299.72 115.8748 0)
 			(effects
 				(font
@@ -18899,7 +18899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 276.86 38.4048 0)
 			(effects
 				(font

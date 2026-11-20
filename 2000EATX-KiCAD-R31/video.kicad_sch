@@ -17223,7 +17223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 336.55 121.92 0)
 			(effects
 				(font
@@ -17290,7 +17290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 326.39 121.92 0)
 			(effects
 				(font
