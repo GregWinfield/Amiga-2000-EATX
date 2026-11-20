@@ -1,13 +1,13 @@
 # Accelerated through-hole conversion cycle
 
-25 physical SMD positions now use through-hole packages in 8 verified board commits. Results compare the accepted 5f8ea56 artwork with 4f8d886. The BOM includes optional design positions, including RX1. The count describes the design, not a populated or tested assembly.
+25 physical SMD positions now use through-hole packages in 8 verified board commits. Results compare the accepted 5f8ea56 artwork with 4f8d886. The BOM includes optional design positions, including RX1. Counts describe the KiCad design. Physical assembly and electrical measurements are pending.
 
 | Metric | Before | After | Change |
 |---|---:|---:|---:|
 | THT packages | 90 | 115 | +25 |
 | SMD packages | 464 | 439 | -25 |
-| Physical packages | 554 | 554 | +0 |
-| THT percentage | 16.2% | 20.8% | +4.6 pp |
+| Physical packages | 554 | 554 | 0 |
+| THT percentage | 16.2% | 20.8% | +4.5 pp |
 | Completed THT conversions | 25 | 50 | +25 |
 | Planned SMD positions remaining | 260 | 235 | -25 |
 | Deferred positions | 17 | 34 | +17 |
