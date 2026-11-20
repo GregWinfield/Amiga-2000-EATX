@@ -1,0 +1,11 @@
+# Paula potentiometer capacitors
+
+C211 and C212 are the separate P0Y and P1X charge-measurement capacitors. Both retain their original 47 nF nominal value and AUDIO return. Their KEMET C320C473J5G5TA is nonpolar, 50 V, ±5%, C0G, with a ±30 ppm/°C temperature coefficient. The original shopping list specifies ceramic 1206 and gives no tolerance, dielectric or ordering code. The new grade limits variation of the input time constant. Check the full travel and channel tracking with representative controllers.
+
+The drawing uses a 5.08 × 3.18 mm maximum body, a 7.36 mm seated height and straight leads at 2.54 mm pitch. At 0.80 mm finished hole and a maximum 0.61 mm lead the nominal diametral clearance is 0.19 mm. Specify bore tolerance with the fabricator. Seat the parts close to the board, relieve lead-forming stress and check case and tool clearance on a physical assembly. The project footprint defines the body on the fabrication and courtyard layers. A supplier-specific 3D solid is outstanding. [KEMET GoldMax family drawing](https://content.kemet.com/datasheets/KEM_C1049_GOLDMAX_C0G.pdf)
+
+At 1 kHz a 0.1% dissipation factor corresponds to about 3.39 Ω effective series resistance at nominal capacitance. For scale, 40 nH of assumed series inductance contributes about 0.005 Ω at 20 kHz. These are engineering sensitivity calculations. Installed ESR, ESL and controller response have not been measured. This application measures a low-frequency charge interval. Its copper changes are confined to individual inputs and their AUDIO return.
+
+The old silkscreen rectangle grouping the four 1206 parts moved to F.Fab. C202 and EMI243 references remain on the component side. All traces and vias outside the local added branches are preserved. The underlying ground changes only around the new C211 leads on its own input and return. The auxiliary rails and all plane contour counts match. C210 and C213 retain their 1206 packages. On the two-radial board the remaining C213 trial overlaps C210, and no independent C210 site passed the local screen.
+
+[Installed positions and pin mapping](conversion.csv) · [Net lengths](routing.csv) · [Verification and fixed datums](verification.json) · [Native KiCad reports and netlists](kicad-reports.zip)
