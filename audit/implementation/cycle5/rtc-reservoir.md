@@ -1,0 +1,16 @@
+# C811 backup reservoir
+
+C811 connects CLKVCC to ground after the BAT54C battery/mains steering pair. The battery leg has 470 Ω in series. C812 remains the local 100 nF bypass. The original parts list specifies a 4.7 µF aluminium can, 4 × 5.8 mm, without an order code or leakage grade. Its leakage cannot be used as a guaranteed limit. Confirm which RTC option and battery are fitted to the comparison board.
+
+| Room-temperature budget | Basis |
+|---|---|
+| 4.29 µA total for five years | Engineering scenario using 188 mAh, 80% of the CR2032’s typical 235 mAh to 2.0 V. |
+| 1.8 µA RTC example | Epson maximum at 2.0 V, 25 °C and CS1 low, excluding I/O current. At the actual battery voltage and enclosure temperature, measure the populated board. |
+| 0.27 µA cell ageing and 1.0 µA diode/PCB allowance | Planning allowances. BAT54C reverse current and board contamination are temperature dependent. |
+| 0.10 µA incremental capacitor allocation | 2.3% of the five-year budget. A general-purpose radial electrolytic with a microampere-scale leakage floor requires individual evidence. |
+
+WIMA MKS2C044701M00KO00 is 4.7 µF ±10%, 63 V metallized PET, on 5 mm centres. Its 7.2 × 8.5 mm body is 14 mm high. The catalogue specifies an insulation time constant of at least 1,250 s after one minute at 50 V and 20 °C. Using 5.17 µF gives 242 MΩ and an estimated 13.2 nA at 3.2 V under an ohmic model. This extrapolation requires a leakage measurement at the actual operating voltage. The 1 kHz loss-factor limit gives 0.38 Ω maximum equivalent series resistance at minimum capacitance. As a sensitivity example 20 nH adds 0.126 Ω at 1 MHz. The retained ceramic supplies the fast bypass. The film rating spans −55 to +125 °C with voltage derating above 85 °C. Capacitor ripple is set by supply changeover on this reservoir. [WIMA catalogue, MKS 2](https://www.wima.de/wp-content/uploads/media/WIMA_Main_Catalogue_2026.pdf) · [Exact order code and packaging](https://www.tme.eu/en/details/mks2-4.7u_63-r/tht-film-capacitors/wima/mks2c044701m00ko00/)
+
+At 1.8 µA RTC, 1.0 µA board/diode, 0.27 µA cell allowance and 0.014 µA capacitor, the capacity calculation yields 7.0 years. At 10 µA RTC it yields 1.9 years. Both are sensitivity cases. Cell ageing, Schottky forward drop and the fitted clock’s retention threshold can shorten this interval. At 10 µA the 470 Ω leg alone drops 4.7 mV. The 4.23 µF low-tolerance reservoir supplies 10 µA for about 42 ms per 0.1 V of droop during changeover. [Epson clock limits](https://download.epsondevice.com/td/pdf/brief/RTC-62423_en.pdf) · [CR2032 discharge conditions](https://energizer.com/wp-content/uploads/2025/01/cr2032.pdf)
+
+For assembly qualification, compare the original and film-loaded board with the same RTC. Measure settled battery current with a guarded source-measure unit or low-burden picoammeter at fresh-cell and near-end-of-life voltages, at room temperature and the intended upper enclosure temperature. Measure capacitor leakage separately, then capture CLKVCC, chip-select and the 5 V rail through power loss/restoration. Confirm time retention during both transitions. Check the fitted 14 mm body, battery access and adjacent RTC socket extraction. Quantities for the selected taped order code require supplier confirmation.

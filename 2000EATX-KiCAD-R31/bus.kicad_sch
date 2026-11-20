@@ -12823,7 +12823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -14873,7 +14873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2000ATX-rescue:CP-Device")
+		(lib_id "Device:C")
 		(at 337.82 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14899,7 +14899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W8.5mm_P5.00mm_FKP2_FKP2_MKS2_MKP2"
 			(at 338.7852 170.18 0)
 			(effects
 				(font

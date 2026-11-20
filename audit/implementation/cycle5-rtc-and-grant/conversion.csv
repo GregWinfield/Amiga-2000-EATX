@@ -1,0 +1,3 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+C811,4.7uF,MKS2C044701M00KO00,Capacitor_SMD:CP_Elec_4x5.8,Capacitor_THT:C_Rect_L7.2mm_W8.5mm_P5.00mm_FKP2_FKP2_MKS2_MKP2,/Buster and RTC/CLKVCC,GND,265.30169,366.7865,90.0
+R806,4.7k,MRS16000C4701FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,_CBG,+5V,196.57309,168.5739,-90.0
