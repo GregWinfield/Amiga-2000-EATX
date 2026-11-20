@@ -74,13 +74,13 @@ C406,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
 C407,0.01uf,Capacitor_SMD:C_1206_3216Metric,SMD,
 C408,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
 C409,0.1uf,Capacitor_SMD:C_1206_3216Metric,SMD,
-C412,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
+C412,47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,THT,EEU-FR1E470
 C413,0.01uf,Capacitor_SMD:C_1206_3216Metric,SMD,
 C415,4.7uF,Capacitor_SMD:CP_Elec_4x5.8,SMD,
-C416,220uF,Capacitor_SMD:CP_Elec_8x10,SMD,
+C416,220uF,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,THT,EEU-FR1C221
 C417,220uF,Capacitor_SMD:CP_Elec_8x10,SMD,
 C418,220uF,Capacitor_SMD:CP_Elec_8x10,SMD,
-C419,220uF,Capacitor_SMD:CP_Elec_8x10,SMD,
+C419,220uF,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,THT,EEU-FR1C221
 C420,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
 C421,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
 C422,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
