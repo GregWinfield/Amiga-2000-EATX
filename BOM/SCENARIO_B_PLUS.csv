@@ -30,8 +30,8 @@ C218,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C219,0.22uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C220,0.22uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C221,0.22uF,Capacitor_SMD:C_1206_3216Metric,SMD,
-C222,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
-C223,47uF,Capacitor_SMD:CP_Elec_8x10,SMD,
+C222,47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,THT,EEU-FR1E470
+C223,47uF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,THT,EEU-FR1E470
 C224,4.7uF,Capacitor_SMD:CP_Elec_4x5.8,SMD,
 C225,470uF,Capacitor_SMD:CP_Elec_8x10,SMD,
 C226,470uF,Capacitor_SMD:CP_Elec_8x10,SMD,
