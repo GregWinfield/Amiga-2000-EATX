@@ -1,0 +1,705 @@
+{
+  "control_commit": "40db66db9284a099003aca705bb249b1ef4dbd72",
+  "kicad": "10.0.8",
+  "checked_board_sha256": "0878da49af046e73c3a0101db302aa9e84da4a4126804c9f36f741cd27aa3b4c",
+  "schematic_pin_assignments": [
+    3603,
+    3603
+  ],
+  "pad_net_records": [
+    3698,
+    3698
+  ],
+  "expanded_differences": 0,
+  "via_objects_identical": true,
+  "via_count": 1209,
+  "existing_track_objects_identical": false,
+  "removed_segments": [
+    "00000000-0000-0000-0000-0000609a5d7f",
+    "00000000-0000-0000-0000-0000609a5d82",
+    "00000000-0000-0000-0000-0000609a5da0",
+    "00000000-0000-0000-0000-0000609a5da3",
+    "00000000-0000-0000-0000-0000609a5da9",
+    "00000000-0000-0000-0000-0000609a5dc1",
+    "00000000-0000-0000-0000-0000609a5dc4",
+    "00000000-0000-0000-0000-0000609a5dca",
+    "00000000-0000-0000-0000-0000609a5de5",
+    "00000000-0000-0000-0000-0000609a5de8",
+    "00000000-0000-0000-0000-0000609a5dee",
+    "00000000-0000-0000-0000-0000609a5e06",
+    "00000000-0000-0000-0000-0000609a5e09",
+    "00000000-0000-0000-0000-0000609a5e0f",
+    "00000000-0000-0000-0000-0000609a6139",
+    "00000000-0000-0000-0000-0000609a613c",
+    "00000000-0000-0000-0000-0000609a613f",
+    "00000000-0000-0000-0000-0000609a6154",
+    "f7a63314-802f-4d44-bbb2-9baf2f9a3077"
+  ],
+  "added_front_segments": 37,
+  "added_back_segments": 6,
+  "added_route_plane_samples_mm": {
+    "F.Cu Net-(RN700-R1)": [
+      12.968184407169872,
+      2.1864212896116224,
+      0.9869714285714283
+    ],
+    "F.Cu Net-(C726-Pad2)": [
+      6.712563917484258,
+      2.289612838795065,
+      1.0922453559858458
+    ],
+    "F.Cu Net-(RN704-R6)": [
+      5.97445116593762,
+      2.463741461682801,
+      1.195610727154504
+    ],
+    "F.Cu Net-(C780-Pad2)": [
+      7.486814598460316,
+      2.2325735364854755,
+      1.0492927299445987
+    ],
+    "F.Cu Net-(RN704-R5)": [
+      10.326107411765712,
+      2.449392332143046,
+      1.2661115256021682
+    ],
+    "B.Cu Net-(C782-Pad2)": [
+      4.6958258438337355,
+      2.3762217855202317,
+      1.093574266197765
+    ],
+    "F.Cu Net-(RN704-R4)": [
+      5.2055181329822116,
+      2.494688409312296,
+      1.1938730420481485
+    ],
+    "F.Cu Net-(C784-Pad2)": [
+      9.936140534529434,
+      2.3871921083340744,
+      1.1626117281882786
+    ],
+    "F.Cu Net-(RN704-R3)": [
+      9.040502390151463,
+      2.3847205031857275,
+      1.195610727154504
+    ],
+    "F.Cu Net-(C786-Pad2)": [
+      4.615322938113187,
+      2.23710338605074,
+      1.0479936100195164
+    ],
+    "F.Cu Net-(RN704-R2)": [
+      12.721404896855287,
+      3.0864590951189346,
+      1.7855903136908058
+    ],
+    "B.Cu Net-(C787-Pad2)": [
+      4.432095860924655,
+      2.3653496269529413,
+      1.0827021076304748
+    ]
+  },
+  "physical_stackup_and_edges_equal": true,
+  "fixed_datums": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "added": [],
+  "removed": [],
+  "changed_shared_footprints": [
+    "C726",
+    "C780",
+    "C782",
+    "C784",
+    "C786",
+    "C787"
+  ],
+  "population": {
+    "THT": 147,
+    "SMD": 407
+  },
+  "nearest_front_courtyards_mm": {
+    "C726": [
+      [
+        0.934,
+        "C722"
+      ],
+      [
+        2.0684,
+        "CN702"
+      ],
+      [
+        2.4424,
+        "RN701"
+      ]
+    ],
+    "C780": [
+      [
+        0.2864,
+        "C784"
+      ],
+      [
+        0.288,
+        "C778"
+      ],
+      [
+        0.4896,
+        "C782"
+      ]
+    ],
+    "C782": [
+      [
+        0.4896,
+        "C780"
+      ],
+      [
+        0.5404,
+        "C786"
+      ],
+      [
+        0.6332,
+        "CN702"
+      ]
+    ],
+    "C784": [
+      [
+        0.2864,
+        "C780"
+      ],
+      [
+        0.7436,
+        "C786"
+      ],
+      [
+        0.934,
+        "C782"
+      ]
+    ],
+    "C786": [
+      [
+        0.0872,
+        "CN702"
+      ],
+      [
+        0.426,
+        "C789"
+      ],
+      [
+        0.5404,
+        "C782"
+      ]
+    ],
+    "C787": [
+      [
+        0.172,
+        "C789"
+      ],
+      [
+        1.154,
+        "CN702"
+      ],
+      [
+        3.3414,
+        "RN704"
+      ]
+    ]
+  },
+  "plane_areas": {
+    "24fb3a22-9621-50fc-9c57-2ea155916a82 GND": [
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      },
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      }
+    ],
+    "47578734-c322-4597-a67e-b5f76c57f39b GND": [
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      },
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      }
+    ],
+    "5175addb-db9f-5b18-9f43-0f4a14a18455 GND": [
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      },
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      }
+    ],
+    "52da9264-b986-414a-b478-5edf15caf204 GND": [
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      },
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      }
+    ],
+    "698ed2d4-165a-51ff-a5e0-2589480ce711 GND": [
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      }
+    ],
+    "80945dc7-0fc8-5710-82d6-7277d35d98e8 GND": [
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      },
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      }
+    ],
+    "859a2f5f-a539-4c18-ba8a-cddf325c479d GND": [
+      {
+        "area_mm2": 85617.5645,
+        "islands": 180
+      },
+      {
+        "area_mm2": 85562.5891,
+        "islands": 180
+      }
+    ],
+    "8e7f25c9-b383-4620-9042-0ab68da69405 GND": [
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      },
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      }
+    ],
+    "c09ee2d8-9c40-435e-ba12-4f187673cf9c GND": [
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      },
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      }
+    ],
+    "f147ee7f-44d5-4732-ba6b-64595aa4fdb4 GND": [
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      },
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      }
+    ],
+    "00000000-0000-0000-0000-000061f11a4a +5V": [
+      {
+        "area_mm2": 82926.666,
+        "islands": 6
+      },
+      {
+        "area_mm2": 82872.0359,
+        "islands": 6
+      }
+    ],
+    "0a670621-705a-5f96-a5bc-b660db88235a +5V": [
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      },
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      }
+    ],
+    "3abc2beb-0a3c-4fbf-b69f-ba30e4ec5ce6 -5V": [
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      },
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      }
+    ],
+    "3f4f6b1a-8d48-4251-8cb2-48fb354b55f4 -12V": [
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      },
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      }
+    ],
+    "588aca6e-e2a9-4695-9d15-5dd97e167a1e +5V": [
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      },
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      }
+    ],
+    "613d426f-3aa9-505b-8a6f-0020868dea29 +5V": [
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      }
+    ],
+    "6bf6e243-ce13-4e56-9663-f1926a5b60b7 +5V": [
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      },
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      }
+    ],
+    "7ff6bb5d-7fb8-4963-ac90-5c445989080f +5V": [
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      }
+    ],
+    "97ef5659-cb24-5673-8c54-55e1a82b725c +5V": [
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      },
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      }
+    ],
+    "9d9bd969-041d-5750-953f-d5da43f930bc +5V": [
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      },
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      }
+    ],
+    "b414093d-e6d5-419d-b12e-a099295f2832 +5V": [
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      }
+    ],
+    "e49d556e-40ab-439f-be4b-1bb39eaed9c6 +5V": [
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      },
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      }
+    ],
+    "eab3356d-1847-4f4f-8e2a-0944efe4ceb8 +12V": [
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      },
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      }
+    ]
+  },
+  "local_reference_and_thermals": {
+    "C726": {
+      "front": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C780": {
+      "front": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 47,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C782": {
+      "front": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C784": {
+      "front": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 94,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C786": {
+      "front": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C787": {
+      "front": {
+        "sample_comparisons": 47,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    }
+  },
+  "reports": {
+    "violations": {
+      "before": {
+        "error": 73,
+        "warning": 202
+      },
+      "after": {
+        "error": 73,
+        "warning": 202
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              50.8
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              50.8
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB8 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              90.17
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              91.44
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              285.75,
+              165.1
+            ],
+            [
+              "Symbol #PWR0237 Hidden pin 1 [GND, Power input, Line]",
+              337.82,
+              86.36
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB8 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              88.9
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              90.17
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              100.33
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              100.33
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              204.47,
+              148.59
+            ],
+            [
+              "Symbol #PWR0236 Hidden pin 1 [GND, Power input, Line]",
+              110.49,
+              124.46
+            ]
+          ]
+        ]
+      ]
+    }
+  }
+}
