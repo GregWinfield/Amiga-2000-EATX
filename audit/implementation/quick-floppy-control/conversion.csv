@@ -1,0 +1,3 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R309,4.7k,MRS25000C4701FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Net-(Q301-B),Net-(U102C-MTRON),380.7325,169.625,0.0
+R602,1k,MRS25000C1001FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,+5V,_BRST,290.21289,112.7415,180.0

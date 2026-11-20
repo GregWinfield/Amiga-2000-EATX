@@ -122,3 +122,7 @@ KiCad 10.0.8 reports 24 ERC errors and 1,182 warnings, 73 DRC errors and 202 war
 8 discrete termination resistors now occupy one grounded SIP. The checked motherboard contains 77 through-hole packages and 477 SMD packages. [Implementation, verification and batch-specific risks](audit/implementation/zorro-zs5/README.md)
 
 [November conversion review, annotated board views and held trials](audit/implementation/2026-11-conversion/README.md)
+
+## Floppy motor and reset control axials
+
+R309, R602. [Batch manifest, electrical checks and mechanical findings](audit/implementation/quick-floppy-control/README.md)
