@@ -1,0 +1,2 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R914,1 0.5W,PR01000101008FA500,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,+5V,Net-(FB301-Pad2),401.75429,81.77194,90.0
