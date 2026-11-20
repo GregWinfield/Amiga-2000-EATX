@@ -1,0 +1,65 @@
+{
+  "min_changed_to_changed_mm": [
+    0.226,
+    "BA1",
+    "BA9"
+  ],
+  "min_changed_to_existing_mm": [
+    0.249099,
+    "BA3",
+    "BA6"
+  ],
+  "min_all_B_tracks_to_SIP_land_mm": [
+    0.237,
+    "BA10",
+    5
+  ],
+  "min_all_B_tracks_to_SIP_mask_mm": [
+    0.187,
+    "BA10",
+    5
+  ],
+  "BA8_land_clearance": [
+    0.237,
+    "BA8",
+    3
+  ],
+  "protected_front_signal_copper_to_edited_F_copper_and_SIP_mm": {
+    "_EBG3": [
+      5.94477,
+      "GND",
+      "_EBG3"
+    ],
+    "_EBR3": [
+      6.419922,
+      "GND",
+      "_EBR3"
+    ],
+    "_BAS": [
+      8.645465,
+      "GND",
+      "_BAS"
+    ],
+    "_BUDS": [
+      8.19481,
+      "GND",
+      "_BUDS"
+    ],
+    "_BLDS": [
+      7.745932,
+      "GND",
+      "_BLDS"
+    ],
+    "READ": [
+      7.319877,
+      "GND",
+      "READ"
+    ]
+  },
+  "for_contract_trace_width_pm_0p02_land_diameter_pm_0p04_mm": {
+    "pair_space": 0.206,
+    "other_trace_space": 0.229099,
+    "land_space": 0.207,
+    "trace_width": 0.2
+  }
+}

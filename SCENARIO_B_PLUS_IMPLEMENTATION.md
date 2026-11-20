@@ -81,6 +81,10 @@ After refill, KiCad 10.0.8 reports zero open connections, 73 DRC errors, 202 DRC
 
 The current motherboard has 71 THT and 506 SMD packages across 577 positions (12.3% THT). Of the 506 SMD positions, 302 are planned for conversion, 165 are designated for retention and 39 await review. The original 584-package board had 65 THT and 519 SMD.
 
-## ZS2 placement decision
+## Rejected ZS2 position at 7f82c5c
 
-The 1.40 mm B.Cu trial routes all 17 bus passes. BA8 and four front-layer controls still short to the SIP, and nine RC branches are open. The implementation retains the existing nine discrete returns at this station. Review a placement nearer the capacitor row before authorizing longer bus escapes or a change of reference layer. [Measurements, manufacturing margins and alternatives](audit/implementation/zs2-evaluation/README.md)
+The 1.40 mm B.Cu trial routes all 17 bus passes. BA8 and four front-layer controls still short to the SIP, and nine RC branches are open. That trial kept the discrete returns. The subsequent capacitor-side layout is recorded below. [Measurements, manufacturing margins and alternatives](audit/implementation/zs2-evaluation/README.md)
+
+## Installed ZS2 on the capacitor side of the grants
+
+The relocated nine-branch SIP passed the isolated routing, plane, mechanical and full-board checks against 1f461ed. Narrow local same-net plane fills restore +5 V under all 18 modified bus centrelines. All via objects match. The remaining risks are the 0.53 mm inner plane bridges, solder-side annulus, adjacent body clearances, card handling and loaded receiver response. [Placement, comparison, raw KiCad evidence and fabrication conditions](audit/implementation/zorro-zs2/README.md)

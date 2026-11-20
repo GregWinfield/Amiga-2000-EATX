@@ -1,0 +1,2310 @@
+{
+  "kicad": "10.0.8",
+  "control_commit": "1f461ed9fffa2e7c2df3a1c181017bcd2cc1196f",
+  "source_board_sha256": "cda355fc35fe169fcd9ef2923496e91129254e6a4dcedcc0c618b5d8fe72819c",
+  "checked_board_sha256": "ed21d72c4bf66e195d852a0ba167f73e892131bf01ff7e5e7bf515988461d441",
+  "schematic_pin_assignments": [
+    3625,
+    3617
+  ],
+  "pad_net_records": [
+    3720,
+    3712
+  ],
+  "expanded_differences": 0,
+  "via_objects_identical": true,
+  "via_count": 1212,
+  "layers": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "thickness": 1.6,
+  "physical_stackup_and_edges_equal": true,
+  "fixed_datums": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "changed_shared_footprints": [
+    "R601I1",
+    "R603A1",
+    "R603B1"
+  ],
+  "removed": [
+    "R602A1",
+    "R602B1",
+    "R602C1",
+    "R602D1",
+    "R602E1",
+    "R602F1",
+    "R602G1",
+    "R602H1",
+    "R602I1"
+  ],
+  "added": [
+    "ZS2"
+  ],
+  "zone_polygons": {
+    "00000000-0000-0000-0000-000061f11a4a +5V": [
+      {
+        "area_mm2": 83757.2218,
+        "islands": 6
+      },
+      {
+        "area_mm2": 83644.4718,
+        "islands": 6
+      }
+    ],
+    "3abc2beb-0a3c-4fbf-b69f-ba30e4ec5ce6 -5V": [
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      },
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      }
+    ],
+    "3f4f6b1a-8d48-4251-8cb2-48fb354b55f4 -12V": [
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      },
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      }
+    ],
+    "47578734-c322-4597-a67e-b5f76c57f39b GND": [
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      },
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      }
+    ],
+    "52da9264-b986-414a-b478-5edf15caf204 GND": [
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      },
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      }
+    ],
+    "588aca6e-e2a9-4695-9d15-5dd97e167a1e +5V": [
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      },
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      }
+    ],
+    "613d426f-3aa9-505b-8a6f-0020868dea29 +5V": [
+      null,
+      {
+        "area_mm2": 80.3853,
+        "islands": 1
+      }
+    ],
+    "698ed2d4-165a-51ff-a5e0-2589480ce711 GND": [
+      null,
+      {
+        "area_mm2": 79.6581,
+        "islands": 1
+      }
+    ],
+    "6bf6e243-ce13-4e56-9663-f1926a5b60b7 +5V": [
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      },
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      }
+    ],
+    "7ff6bb5d-7fb8-4963-ac90-5c445989080f +5V": [
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      }
+    ],
+    "859a2f5f-a539-4c18-ba8a-cddf325c479d GND": [
+      {
+        "area_mm2": 86478.3893,
+        "islands": 180
+      },
+      {
+        "area_mm2": 86365.6393,
+        "islands": 180
+      }
+    ],
+    "8e7f25c9-b383-4620-9042-0ab68da69405 GND": [
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      },
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      }
+    ],
+    "b414093d-e6d5-419d-b12e-a099295f2832 +5V": [
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      }
+    ],
+    "c09ee2d8-9c40-435e-ba12-4f187673cf9c GND": [
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      },
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      }
+    ],
+    "e49d556e-40ab-439f-be4b-1bb39eaed9c6 +5V": [
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      },
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      }
+    ],
+    "eab3356d-1847-4f4f-8e2a-0944efe4ceb8 +12V": [
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      },
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      }
+    ],
+    "f147ee7f-44d5-4732-ba6b-64595aa4fdb4 GND": [
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      },
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      }
+    ]
+  },
+  "reports": {
+    "violations": {
+      "before": {
+        "error": 73,
+        "warning": 202
+      },
+      "after": {
+        "error": 73,
+        "warning": 202
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              57.15
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              59.69
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB4 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              62.23
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              64.77
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB1 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              48.26
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              50.8
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              50.8
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              50.8
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB8 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              90.17
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              91.44
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              285.75,
+              165.1
+            ],
+            [
+              "Symbol #PWR0237 Hidden pin 1 [GND, Power input, Line]",
+              337.82,
+              86.36
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB1 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              46.99
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              49.53
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB8 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              88.9
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              90.17
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              45.72
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB4 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              55.88
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              58.42
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              100.33
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              100.33
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              204.47,
+              148.59
+            ],
+            [
+              "Symbol #PWR0231 Hidden pin 1 [GND, Power input, Line]",
+              142.24,
+              153.67
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "court_to_neighbours_mm": {
+    "C625": 2.376324,
+    "C626": 2.24931,
+    "C627": 2.24931,
+    "C628": 2.24931,
+    "C629": 2.24931,
+    "C630": 2.24931,
+    "C631": 2.24931,
+    "C632": 2.24931,
+    "C633": 2.24931,
+    "C635": 2.24931,
+    "C637": 2.24931,
+    "C639": 2.24931,
+    "C641": 2.24931,
+    "C647": 2.414779,
+    "R601H1": 0.7965,
+    "R601I1": 0.1,
+    "R603A1": 0.1,
+    "R603B1": 0.1,
+    "R603D1": 0.9085,
+    "CN604": 0.12129
+  },
+  "previous_17_untouched_entire_net": [
+    "BA16",
+    "_BEER",
+    "_VPA"
+  ],
+  "new_station_additional_bus_nets": [
+    "BA2",
+    "BA3",
+    "BA7",
+    "BA8"
+  ],
+  "reference_sampling": {
+    "control": {
+      "trace_samples_mm": {
+        "BA1": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA10": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA11": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA12": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA13": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA14": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA15": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA2": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA3": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA7": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA8": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA9": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "BFC0": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "BFC1": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "BFC2": {
+          "length": 4.4,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C627-Pad1)": {
+          "length": 2.316,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C628-Pad1)": {
+          "length": 2.316,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C629-Pad1)": {
+          "length": 2.3795,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C630-Pad1)": {
+          "length": 2.3795,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C631-Pad1)": {
+          "length": 2.316,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C632-Pad1)": {
+          "length": 2.3795,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C633-Pad1)": {
+          "length": 2.3795,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C635-Pad1)": {
+          "length": 2.3795,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C637-Pad1)": {
+          "length": 2.3795,
+          "outside_adjacent_reference": 0.0
+        },
+        "_EINT4": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "_EINT5": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        },
+        "_EINT7": {
+          "length": 4.40032,
+          "outside_adjacent_reference": 0.0
+        }
+      },
+      "in2_bridges_at_x120p74_y_interval": {
+        "1": [
+          [
+            251.995,
+            254.535
+          ]
+        ],
+        "2": [
+          [
+            254.535,
+            257.075
+          ]
+        ],
+        "3": [
+          [
+            257.075,
+            259.615
+          ]
+        ],
+        "4": [
+          [
+            259.615,
+            262.155
+          ]
+        ],
+        "5": [
+          [
+            262.155,
+            264.695
+          ]
+        ],
+        "6": [
+          [
+            264.695,
+            267.235
+          ]
+        ],
+        "7": [
+          [
+            267.235,
+            269.775
+          ]
+        ],
+        "8": [
+          [
+            269.775,
+            272.315
+          ]
+        ],
+        "9": [
+          [
+            272.315,
+            274.855
+          ]
+        ]
+      },
+      "ground_angles_at_1p08_mm": {}
+    },
+    "before-local": {
+      "trace_samples_mm": {
+        "BA1": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA10": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA11": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA12": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA13": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA14": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA15": {
+          "length": 4.40271,
+          "outside_adjacent_reference": 1.14
+        },
+        "BA2": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA3": {
+          "length": 4.40391,
+          "outside_adjacent_reference": 2.24884
+        },
+        "BA7": {
+          "length": 4.40391,
+          "outside_adjacent_reference": 1.14
+        },
+        "BA8": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 1.17
+        },
+        "BA9": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 1.17
+        },
+        "BFC0": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 1.17
+        },
+        "BFC1": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 1.17
+        },
+        "BFC2": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 1.17
+        },
+        "Net-(C627-Pad1)": {
+          "length": 5.17847,
+          "outside_adjacent_reference": 1.19448
+        },
+        "Net-(C628-Pad1)": {
+          "length": 5.28368,
+          "outside_adjacent_reference": 1.19496
+        },
+        "Net-(C629-Pad1)": {
+          "length": 5.38889,
+          "outside_adjacent_reference": 1.1953
+        },
+        "Net-(C630-Pad1)": {
+          "length": 5.5204,
+          "outside_adjacent_reference": 1.19561
+        },
+        "Net-(C631-Pad1)": {
+          "length": 5.65191,
+          "outside_adjacent_reference": 1.19584
+        },
+        "Net-(C632-Pad1)": {
+          "length": 5.73082,
+          "outside_adjacent_reference": 1.19596
+        },
+        "Net-(C633-Pad1)": {
+          "length": 5.83603,
+          "outside_adjacent_reference": 1.19608
+        },
+        "Net-(C635-Pad1)": {
+          "length": 6.00331,
+          "outside_adjacent_reference": 1.2072
+        },
+        "Net-(C637-Pad1)": {
+          "length": 6.50635,
+          "outside_adjacent_reference": 1.19749
+        },
+        "_EINT4": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 1.17
+        },
+        "_EINT5": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 1.17
+        },
+        "_EINT7": {
+          "length": 4.40391,
+          "outside_adjacent_reference": 1.14
+        }
+      },
+      "in2_bridges_at_x120p74_y_interval": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "ground_angles_at_1p08_mm": {
+        "F.Cu": [
+          0,
+          5,
+          10,
+          260,
+          265,
+          270,
+          275,
+          280,
+          350,
+          355
+        ],
+        "In1.Cu": [
+          0,
+          5,
+          10,
+          170,
+          175,
+          180,
+          185,
+          190,
+          260,
+          265,
+          270,
+          275,
+          280,
+          350,
+          355
+        ],
+        "In2.Cu": [],
+        "B.Cu": []
+      }
+    },
+    "trial": {
+      "trace_samples_mm": {
+        "BA1": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA10": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA11": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA12": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA13": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA14": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA15": {
+          "length": 4.40271,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA2": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA3": {
+          "length": 4.40391,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA7": {
+          "length": 4.40391,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA8": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 0.0
+        },
+        "BA9": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 0.0
+        },
+        "BFC0": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 0.0
+        },
+        "BFC1": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 0.0
+        },
+        "BFC2": {
+          "length": 4.40181,
+          "outside_adjacent_reference": 0.0
+        },
+        "Net-(C627-Pad1)": {
+          "length": 5.17847,
+          "outside_adjacent_reference": 1.00038
+        },
+        "Net-(C628-Pad1)": {
+          "length": 5.28368,
+          "outside_adjacent_reference": 1.00078
+        },
+        "Net-(C629-Pad1)": {
+          "length": 5.38889,
+          "outside_adjacent_reference": 1.00107
+        },
+        "Net-(C630-Pad1)": {
+          "length": 5.5204,
+          "outside_adjacent_reference": 1.00133
+        },
+        "Net-(C631-Pad1)": {
+          "length": 5.65191,
+          "outside_adjacent_reference": 1.00152
+        },
+        "Net-(C632-Pad1)": {
+          "length": 5.73082,
+          "outside_adjacent_reference": 1.00161
+        },
+        "Net-(C633-Pad1)": {
+          "length": 5.83603,
+          "outside_adjacent_reference": 1.00172
+        },
+        "Net-(C635-Pad1)": {
+          "length": 6.00331,
+          "outside_adjacent_reference": 0.99855
+        },
+        "Net-(C637-Pad1)": {
+          "length": 6.50635,
+          "outside_adjacent_reference": 1.0029
+        },
+        "_EINT4": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 0.0
+        },
+        "_EINT5": {
+          "length": 4.40286,
+          "outside_adjacent_reference": 0.0
+        },
+        "_EINT7": {
+          "length": 4.40391,
+          "outside_adjacent_reference": 0.0
+        }
+      },
+      "in2_bridges_at_x120p74_y_interval": {
+        "1": [
+          [
+            253.0,
+            253.53
+          ]
+        ],
+        "2": [
+          [
+            255.54,
+            256.07
+          ]
+        ],
+        "3": [
+          [
+            258.08,
+            258.61
+          ]
+        ],
+        "4": [
+          [
+            260.62,
+            261.15
+          ]
+        ],
+        "5": [
+          [
+            263.16,
+            263.69
+          ]
+        ],
+        "6": [
+          [
+            265.7,
+            266.23
+          ]
+        ],
+        "7": [
+          [
+            268.24,
+            268.77
+          ]
+        ],
+        "8": [
+          [
+            270.78,
+            271.31
+          ]
+        ],
+        "9": [
+          [
+            273.32,
+            273.85
+          ]
+        ]
+      },
+      "ground_angles_at_1p08_mm": {
+        "F.Cu": [
+          0,
+          5,
+          10,
+          260,
+          265,
+          270,
+          275,
+          280,
+          350,
+          355
+        ],
+        "In1.Cu": [
+          0,
+          5,
+          10,
+          80,
+          85,
+          90,
+          95,
+          100,
+          170,
+          175,
+          180,
+          185,
+          190,
+          260,
+          265,
+          270,
+          275,
+          280,
+          350,
+          355
+        ],
+        "In2.Cu": [],
+        "B.Cu": []
+      }
+    }
+  },
+  "local_segments": [
+    {
+      "net": "BA3",
+      "gap_after_pin": "0",
+      "baseline_cross_y_mm": "251.01779391911234",
+      "trial_cross_y_mm": "250.937",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA7",
+      "gap_after_pin": "1",
+      "baseline_cross_y_mm": "253.55779391911233",
+      "trial_cross_y_mm": "253.477",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA2",
+      "gap_after_pin": "2",
+      "baseline_cross_y_mm": "255.532901",
+      "trial_cross_y_mm": "255.582",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA8",
+      "gap_after_pin": "2",
+      "baseline_cross_y_mm": "256.09779391911235",
+      "trial_cross_y_mm": "256.028",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA1",
+      "gap_after_pin": "3",
+      "baseline_cross_y_mm": "258.072901",
+      "trial_cross_y_mm": "258.122",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA9",
+      "gap_after_pin": "3",
+      "baseline_cross_y_mm": "258.6377939191123",
+      "trial_cross_y_mm": "258.568",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BFC0",
+      "gap_after_pin": "4",
+      "baseline_cross_y_mm": "260.612901",
+      "trial_cross_y_mm": "260.662",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA10",
+      "gap_after_pin": "4",
+      "baseline_cross_y_mm": "261.17779391911233",
+      "trial_cross_y_mm": "261.108",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BFC1",
+      "gap_after_pin": "5",
+      "baseline_cross_y_mm": "263.152901",
+      "trial_cross_y_mm": "263.202",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA11",
+      "gap_after_pin": "5",
+      "baseline_cross_y_mm": "263.71779391911235",
+      "trial_cross_y_mm": "263.648",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BFC2",
+      "gap_after_pin": "6",
+      "baseline_cross_y_mm": "265.692901",
+      "trial_cross_y_mm": "265.742",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA12",
+      "gap_after_pin": "6",
+      "baseline_cross_y_mm": "266.2577939191123",
+      "trial_cross_y_mm": "266.188",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "_EINT7",
+      "gap_after_pin": "7",
+      "baseline_cross_y_mm": "268.79779391911234",
+      "trial_cross_y_mm": "268.717",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA13",
+      "gap_after_pin": "8",
+      "baseline_cross_y_mm": "270.772901",
+      "trial_cross_y_mm": "270.822",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "_EINT5",
+      "gap_after_pin": "8",
+      "baseline_cross_y_mm": "271.3377939191123",
+      "trial_cross_y_mm": "271.268",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA14",
+      "gap_after_pin": "9",
+      "baseline_cross_y_mm": "273.312901",
+      "trial_cross_y_mm": "273.362",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "_EINT4",
+      "gap_after_pin": "9",
+      "baseline_cross_y_mm": "273.8777939191123",
+      "trial_cross_y_mm": "273.808",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    },
+    {
+      "net": "BA15",
+      "gap_after_pin": "10",
+      "baseline_cross_y_mm": "275.852901",
+      "trial_cross_y_mm": "275.913",
+      "splice_start_x_mm": "118.53999999999999",
+      "splice_end_x_mm": "122.94",
+      "splice_width_mm": "0.22"
+    }
+  ],
+  "per_branch_paths": [
+    {
+      "net": "Net-(C627-Pad1)",
+      "pin": "ZS2.2",
+      "points": [
+        [
+          [
+            116.09069,
+            253.2575
+          ],
+          0
+        ],
+        [
+          [
+            119.4625,
+            253.2575
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            254.535
+          ],
+          0
+        ]
+      ],
+      "mm": 5.178467825931635,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C628-Pad1)",
+      "pin": "ZS2.3",
+      "points": [
+        [
+          [
+            116.09069,
+            255.5435
+          ],
+          0
+        ],
+        [
+          [
+            119.2085,
+            255.5435
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            257.075
+          ],
+          0
+        ]
+      ],
+      "mm": 5.283678070774393,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C629-Pad1)",
+      "pin": "ZS2.4",
+      "points": [
+        [
+          [
+            116.09069,
+            257.8295
+          ],
+          0
+        ],
+        [
+          [
+            118.9545,
+            257.8295
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            259.615
+          ],
+          0
+        ]
+      ],
+      "mm": 5.388888315617171,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C630-Pad1)",
+      "pin": "ZS2.5",
+      "points": [
+        [
+          [
+            116.09069,
+            260.052
+          ],
+          0
+        ],
+        [
+          [
+            118.637,
+            260.052
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            262.155
+          ],
+          0
+        ]
+      ],
+      "mm": 5.520401121670586,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C631-Pad1)",
+      "pin": "ZS2.6",
+      "points": [
+        [
+          [
+            116.09069,
+            262.2745
+          ],
+          0
+        ],
+        [
+          [
+            118.3195,
+            262.2745
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            264.695
+          ],
+          0
+        ]
+      ],
+      "mm": 5.651913927724083,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C632-Pad1)",
+      "pin": "ZS2.7",
+      "points": [
+        [
+          [
+            116.09069,
+            264.624
+          ],
+          0
+        ],
+        [
+          [
+            118.129,
+            264.624
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            267.235
+          ],
+          0
+        ]
+      ],
+      "mm": 5.730821611356147,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C633-Pad1)",
+      "pin": "ZS2.8",
+      "points": [
+        [
+          [
+            116.09069,
+            266.91
+          ],
+          0
+        ],
+        [
+          [
+            117.875,
+            266.91
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            269.775
+          ],
+          0
+        ]
+      ],
+      "mm": 5.836031856198885,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C635-Pad1)",
+      "pin": "ZS2.9",
+      "points": [
+        [
+          [
+            116.09069,
+            269.196
+          ],
+          0
+        ],
+        [
+          [
+            118.6,
+            269.6
+          ],
+          0
+        ],
+        [
+          [
+            119.5,
+            270.6
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            272.315
+          ],
+          0
+        ]
+      ],
+      "mm": 6.0033098910528135,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C637-Pad1)",
+      "pin": "ZS2.10",
+      "points": [
+        [
+          [
+            116.09069,
+            271.482
+          ],
+          0
+        ],
+        [
+          [
+            116.6,
+            271.7
+          ],
+          0
+        ],
+        [
+          [
+            118.9,
+            271.7
+          ],
+          0
+        ],
+        [
+          [
+            120.74,
+            274.855
+          ],
+          0
+        ]
+      ],
+      "mm": 6.506349357322622,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C626-Pad1)",
+      "pin": "R601I1.2",
+      "points": [
+        [
+          [
+            116.09069,
+            250.908
+          ],
+          0
+        ],
+        [
+          [
+            116.6455,
+            250.908
+          ],
+          0
+        ],
+        [
+          [
+            118.04,
+            252.3025
+          ],
+          0
+        ]
+      ],
+      "mm": 2.5269308127293053,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C639-Pad1)",
+      "pin": "R603A1.2",
+      "points": [
+        [
+          [
+            116.09069,
+            273.8315
+          ],
+          0
+        ],
+        [
+          [
+            115.2,
+            272.7
+          ],
+          0
+        ],
+        [
+          [
+            115.2,
+            270.6
+          ],
+          0
+        ],
+        [
+          [
+            115.4,
+            270.4
+          ],
+          0
+        ],
+        [
+          [
+            117.6,
+            270.4
+          ],
+          0
+        ],
+        [
+          [
+            118.04,
+            270.8075
+          ],
+          0
+        ]
+      ],
+      "mm": 6.622563451715275,
+      "vias": 0
+    },
+    {
+      "net": "Net-(C641-Pad1)",
+      "pin": "R603B1.2",
+      "points": [
+        [
+          [
+            116.09069,
+            276.054
+          ],
+          0
+        ],
+        [
+          [
+            117.8115,
+            276.054
+          ],
+          0
+        ],
+        [
+          [
+            118.04,
+            276.2825
+          ],
+          0
+        ]
+      ],
+      "mm": 2.043957799002298,
+      "vias": 0
+    }
+  ],
+  "initial_1p60_trial": {
+    "violations": {
+      "before": {
+        "error": 73,
+        "warning": 202
+      },
+      "after": {
+        "error": 103,
+        "warning": 208
+      },
+      "appeared": [
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 10 [Net-(C637-Pad1)] of ZS2",
+              120.74,
+              274.855
+            ],
+            [
+              "Track [BA15] on B.Cu, length 6.6764 mm",
+              117.237926,
+              275.852901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 9 [Net-(C635-Pad1)] of ZS2",
+              120.74,
+              272.315
+            ],
+            [
+              "Track [BA14] on B.Cu, length 6.6764 mm",
+              117.237926,
+              273.312901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 8 [Net-(C633-Pad1)] of ZS2",
+              120.74,
+              269.775
+            ],
+            [
+              "Track [BA13] on B.Cu, length 6.6764 mm",
+              117.237926,
+              270.772901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 7 [Net-(C632-Pad1)] of ZS2",
+              120.74,
+              267.235
+            ],
+            [
+              "Track [BA12] on B.Cu, length 1.6690 mm",
+              120.648664,
+              266.258942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 7 [Net-(C632-Pad1)] of ZS2",
+              120.74,
+              267.235
+            ],
+            [
+              "Track [BA12] on B.Cu, length 3.3380 mm",
+              117.310654,
+              266.272899
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 6 [Net-(C631-Pad1)] of ZS2",
+              120.74,
+              264.695
+            ],
+            [
+              "Track [BA11] on B.Cu, length 3.3380 mm",
+              120.648664,
+              263.718942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 6 [Net-(C631-Pad1)] of ZS2",
+              120.74,
+              264.695
+            ],
+            [
+              "Track [BA11] on B.Cu, length 1.6690 mm",
+              122.317497,
+              263.697965
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 6 [Net-(C631-Pad1)] of ZS2",
+              120.74,
+              264.695
+            ],
+            [
+              "Track [BFC2] on B.Cu, length 6.6764 mm",
+              117.237926,
+              265.692901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 5 [Net-(C630-Pad1)] of ZS2",
+              120.74,
+              262.155
+            ],
+            [
+              "Track [BA10] on B.Cu, length 3.3380 mm",
+              117.310654,
+              261.192899
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 5 [Net-(C630-Pad1)] of ZS2",
+              120.74,
+              262.155
+            ],
+            [
+              "Track [BA10] on B.Cu, length 1.6690 mm",
+              120.648664,
+              261.178942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 5 [Net-(C630-Pad1)] of ZS2",
+              120.74,
+              262.155
+            ],
+            [
+              "Track [BFC1] on B.Cu, length 6.6764 mm",
+              117.237926,
+              263.152901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 4 [Net-(C629-Pad1)] of ZS2",
+              120.74,
+              259.615
+            ],
+            [
+              "Track [BA9] on B.Cu, length 1.6690 mm",
+              120.648664,
+              258.638942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 4 [Net-(C629-Pad1)] of ZS2",
+              120.74,
+              259.615
+            ],
+            [
+              "Track [BA9] on B.Cu, length 3.3380 mm",
+              117.310654,
+              258.652899
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 4 [Net-(C629-Pad1)] of ZS2",
+              120.74,
+              259.615
+            ],
+            [
+              "Track [BFC0] on B.Cu, length 6.6764 mm",
+              117.237926,
+              260.612901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 3 [Net-(C628-Pad1)] of ZS2",
+              120.74,
+              257.075
+            ],
+            [
+              "Track [BA8] on B.Cu, length 3.3380 mm",
+              117.310654,
+              256.112899
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 3 [Net-(C628-Pad1)] of ZS2",
+              120.74,
+              257.075
+            ],
+            [
+              "Track [BA8] on B.Cu, length 1.6690 mm",
+              120.648664,
+              256.098942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 3 [Net-(C628-Pad1)] of ZS2",
+              120.74,
+              257.075
+            ],
+            [
+              "Track [BA1] on B.Cu, length 6.6764 mm",
+              117.237926,
+              258.072901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 2 [Net-(C627-Pad1)] of ZS2",
+              120.74,
+              254.535
+            ],
+            [
+              "Track [BA7] on B.Cu, length 3.3380 mm",
+              117.310654,
+              253.572899
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 2 [Net-(C627-Pad1)] of ZS2",
+              120.74,
+              254.535
+            ],
+            [
+              "Track [BA7] on B.Cu, length 1.6690 mm",
+              120.648664,
+              253.558942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0729 mm)",
+          [
+            [
+              "PTH pad 2 [Net-(C627-Pad1)] of ZS2",
+              120.74,
+              254.535
+            ],
+            [
+              "Track [BA2] on B.Cu, length 6.6764 mm",
+              117.237926,
+              255.532901
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0511 mm)",
+          [
+            [
+              "PTH pad 1 [GND] of ZS2",
+              120.74,
+              251.995
+            ],
+            [
+              "Track [BA3] on B.Cu, length 1.6690 mm",
+              122.317497,
+              250.997965
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0481 mm)",
+          [
+            [
+              "PTH pad 1 [GND] of ZS2",
+              120.74,
+              251.995
+            ],
+            [
+              "Track [BA3] on B.Cu, length 3.3380 mm",
+              120.648664,
+              251.018942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 8 [Net-(C633-Pad1)] of ZS2",
+              120.74,
+              269.775
+            ],
+            [
+              "Track [_EINT7] on B.Cu, length 1.6690 mm",
+              122.317497,
+              268.777965
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 8 [Net-(C633-Pad1)] of ZS2",
+              120.74,
+              269.775
+            ],
+            [
+              "Track [_EINT7] on B.Cu, length 3.3380 mm",
+              120.648664,
+              268.798942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 9 [Net-(C635-Pad1)] of ZS2",
+              120.74,
+              272.315
+            ],
+            [
+              "Track [_EINT5] on B.Cu, length 1.6690 mm",
+              122.317497,
+              271.317965
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 9 [Net-(C635-Pad1)] of ZS2",
+              120.74,
+              272.315
+            ],
+            [
+              "Track [_EINT5] on B.Cu, length 3.3380 mm",
+              120.648664,
+              271.338942
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0521 mm)",
+          [
+            [
+              "PTH pad 10 [Net-(C637-Pad1)] of ZS2",
+              120.74,
+              274.855
+            ],
+            [
+              "Track [_EINT4] on B.Cu, length 1.6690 mm",
+              122.317497,
+              273.857965
+            ]
+          ]
+        ],
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0553 mm)",
+          [
+            [
+              "PTH pad 10 [Net-(C637-Pad1)] of ZS2",
+              120.74,
+              274.855
+            ],
+            [
+              "Track [_EINT4] on B.Cu, length 3.3380 mm",
+              120.648664,
+              273.878942
+            ]
+          ]
+        ],
+        [
+          "starved_thermal",
+          "error",
+          "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+          [
+            [
+              "Pad 1 [GND] of R603B1 on F.Cu",
+              118.04,
+              274.4575
+            ],
+            [
+              "Zone [GND] on F.Cu, priority 0",
+              405.55669,
+              53.9255
+            ]
+          ]
+        ],
+        [
+          "solder_mask_bridge",
+          "error",
+          "Rear solder mask aperture bridges items with different nets",
+          [
+            [
+              "PTH pad 1 [GND] of ZS2",
+              120.74,
+              251.995
+            ],
+            [
+              "Track [BA3] on B.Cu, length 3.3380 mm",
+              120.648664,
+              251.018942
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "Pad 1 [GND] of R603B1 on F.Cu",
+              118.04,
+              274.4575
+            ],
+            [
+              "Reference field of R603A1",
+              118.04,
+              274.006
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "Pad 1 [GND] of R603A1 on F.Cu",
+              118.04,
+              272.6325
+            ],
+            [
+              "Reference field of R603A1",
+              118.04,
+              274.006
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "Pad 2 [Net-(C647-Pad1)] of R603D1 on F.Cu",
+              118.48269,
+              278.4035
+            ],
+            [
+              "Reference field of R603B1",
+              118.04,
+              277.4655
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "Pad 2 [Net-(C641-Pad1)] of R603B1 on F.Cu",
+              118.04,
+              276.2825
+            ],
+            [
+              "Reference field of R603B1",
+              118.04,
+              277.4655
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "Pad 1 [GND] of R601I1 on F.Cu",
+              118.04,
+              250.4775
+            ],
+            [
+              "Reference field of R601I1",
+              118.04,
+              249.1675
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "Pad 2 [Net-(C625-Pad1)] of R601H1 on F.Cu",
+              118.41919,
+              248.5585
+            ],
+            [
+              "Reference field of R601I1",
+              118.04,
+              249.1675
+            ]
+          ]
+        ]
+      ],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    }
+  },
+  "population": {
+    "THT": 72,
+    "SMD": 497
+  }
+}
