@@ -480,7 +480,7 @@ R902,R902,THT,A,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4
 R904,R904,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
 R905,R905,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
 R9100,R9100,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,30k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
-R9101,R9101,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,6.2k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
+R9101,R9101,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,6.2k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring. Installed MRS16000C6201FCT00 in accelerated-standby-clock. See audit/implementation/accelerated-standby-clock/verification.json."
 R9102,R9102,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,30k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
 R9103,R9103,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,47k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
 R9104,R9104,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,"Shift to top-side local standby block. Preserve reset/power timing, DC bias, supply separation and accessible jumper wiring."
@@ -525,7 +525,7 @@ RN907C1,RN907C1,SMD,C,Resistor_SMD:R_1206_3216Metric,47,Series signal conditioni
 RN908,RN908,THT,A,Resistor_THT:R_Array_SIP6,1k,Retain production land and fit. Confirm actual ordered body and pad map.
 RNX1,RNX1,THT,A,Resistor_THT:R_Array_SIP10,3.3k,Retain production land and fit. Confirm actual ordered body and pad map.
 RNX2,RNX2,THT,A,Resistor_THT:R_Array_SIP10,3.3k,Retain production land and fit. Confirm actual ordered body and pad map.
-RX1,RX1,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area.
+RX1,RX1,THT,B,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4.7k,Keep load or bias node and return in same circuit group. Place axial rows only within the available local area. Installed MRS16000C4701FCT00 in accelerated-standby-clock. See audit/implementation/accelerated-standby-clock/verification.json.
 U100,U100,THT,A,Package_DIP:DIP-64_W22.86mm_Socket,MC68000,Retain production land and fit. Confirm actual ordered body and pad map.
 U101,U101,THT,A,Package_LCC:PLCC-84_THT-Socket,Agnus_MULTI,Retain production land and fit. Confirm actual ordered body and pad map.
 U102,U102,THT,A,Package_DIP:DIP-48_W15.24mm,GARY,Retain production land and fit. Confirm actual ordered body and pad map.
