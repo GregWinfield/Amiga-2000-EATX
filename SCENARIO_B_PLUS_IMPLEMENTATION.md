@@ -70,6 +70,7 @@ After this group the population is 69 THT and 508 SMD in 577 design positions (1
 | SIP land and escape fabrication | Installed dense banks use 1.40 mm B.Cu lands with 1.60 mm on other copper layers and 0.80 mm finished holes. Etch, registration and mask errors can reduce rear clearance or residual annulus. | Fabricator to guarantee actual minimum finished dimensions and overlay; inspect a plated witness and solder-fill cross section before release. |
 | ZS1 auxiliary rails | The routed SIP trial sharply narrows all three auxiliary rails and interrupts the immediate reference beneath _OWN. Nine discrete returns remain installed. | Review a different site or quantify an engineered rail bypass under loaded-slot conditions. [Routed trial](audit/implementation/zs1-evaluation/README.md) |
 | End-slot tap length and assembly | ZS5 lengthens four signal-side taps by up to 9.36 mm; ZS3 capacitors and adjacent SIP bodies have narrow nominal assembly gaps. | Check near/far receiver settling, strobes and SIP ground bounce. Gauge actual body tolerance, card withdrawal, solder access and lead trim. [ZS3](audit/implementation/zorro-zs3/README.md) · [ZS5](audit/implementation/zorro-zs5/README.md) |
+| Quick-win axial assembly and lead clearance | Compact axial substitutions add drilled barrels, local reference gaps and narrow rework margins. | Verify finished bores, formed leads, R306/R305 service access, reset behaviour and loaded arbitration timing. [Cycle evidence](audit/implementation/quick-win-cycle/README.md) |
 | C224 radial candidate | Unknown baseline ESR/ESL and an 11 mm can affect Vref behaviour and harness clearance. The current board retains the SMD package. | Compare loaded Vref and audio output, impedance and actual body clearance. [Radial trial](audit/implementation/c224-evaluation/README.md) |
 | Installed ZS6 and axial returns | Eight switching branches share the SIP common. Ground connection and fit depend on assembled joints, available soldering heat and card clearance. | Measure the assembled branch matrix, fit, common-ground bounce and loaded receiver response. The SDS1104X-U remains the available bench scope. |
 
@@ -138,3 +139,5 @@ R306, R805, R900. [Conversion manifest and verification](audit/implementation/qu
 ## Processor and Buster arbitration bias
 
 R114, R807. [Conversion manifest and verification](audit/implementation/quick-arbitration-bias/README.md)
+
+[Quick-win cycle totals, held positions and next batch](audit/implementation/quick-win-cycle/README.md)
