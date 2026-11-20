@@ -1,0 +1,6 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R240,360,MRS16000C3600FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RAWLEFT,Net-(U200-LEFT),300.48449,120.5679,0.0
+R241,10k,MRS16000C1002FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Net-(C241-Pad2),RAWLEFT,300.84009,124.7843,-90.0
+R209,1.2k,MRS16000C1201FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,+AUD,Vref,267.00729,131.6223,0.0
+R244,390,MRS16000C3900FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,GND,FLTLEFT,294.72569,66.77578,90.0
+R203,10k,MRS16000C1002FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,_HSYNC,+5V,234.64769,91.0785,180.0
