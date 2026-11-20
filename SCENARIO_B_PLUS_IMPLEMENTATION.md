@@ -126,3 +126,7 @@ KiCad 10.0.8 reports 24 ERC errors and 1,182 warnings, 73 DRC errors and 202 war
 ## Floppy motor and reset control axials
 
 R309, R602. [Batch manifest, electrical checks and mechanical findings](audit/implementation/quick-floppy-control/README.md)
+
+## System control and expansion reset pull-ups
+
+R104, R211, R216, R600, R603, R916. [Conversion manifest and verification](audit/implementation/quick-control-pullups/README.md)

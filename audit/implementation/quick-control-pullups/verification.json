@@ -1,0 +1,1144 @@
+{
+  "control_commit": "fe26dc8b2c3adca2a36639215f6b56e5c3e37ad3",
+  "kicad": "10.0.8",
+  "checked_board_sha256": "f9081ad17320ed54718519ccee98074e1499aa14ed10fe2f00533005e8e4da94",
+  "schematic_pin_assignments": [
+    3603,
+    3603
+  ],
+  "pad_net_records": [
+    3698,
+    3698
+  ],
+  "expanded_differences": 0,
+  "via_objects_identical": true,
+  "via_count": 1211,
+  "existing_track_objects_identical": true,
+  "added_front_segments": 24,
+  "physical_stackup_and_edges_equal": true,
+  "fixed_datums": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "added": [],
+  "removed": [],
+  "changed_shared_footprints": [
+    "R104",
+    "R211",
+    "R216",
+    "R600",
+    "R603",
+    "R916"
+  ],
+  "population": {
+    "THT": 85,
+    "SMD": 469
+  },
+  "nearest_front_courtyards_mm": {
+    "R104": [
+      [
+        1.6388,
+        "U800"
+      ],
+      [
+        11.1143,
+        "R211"
+      ],
+      [
+        11.536,
+        "R806"
+      ]
+    ],
+    "R211": [
+      [
+        2.2027,
+        "R600"
+      ],
+      [
+        5.2016,
+        "U800"
+      ],
+      [
+        8.8554,
+        "R905"
+      ]
+    ],
+    "R216": [
+      [
+        2.1184,
+        "R212"
+      ],
+      [
+        5.95,
+        "U303"
+      ],
+      [
+        8.0112,
+        "R902"
+      ]
+    ],
+    "R600": [
+      [
+        0.7805,
+        "U800"
+      ],
+      [
+        2.2027,
+        "R211"
+      ],
+      [
+        3.6536,
+        "C800"
+      ]
+    ],
+    "R603": [
+      [
+        1.1014,
+        "CN602"
+      ],
+      [
+        1.9276,
+        "R601"
+      ],
+      [
+        1.9586,
+        "CN603"
+      ]
+    ],
+    "R916": [
+      [
+        0.235,
+        "J900"
+      ],
+      [
+        3.4796,
+        "C102"
+      ],
+      [
+        3.6381,
+        "U102"
+      ]
+    ]
+  },
+  "plane_areas": {
+    "24fb3a22-9621-50fc-9c57-2ea155916a82 GND": [
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      },
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      }
+    ],
+    "47578734-c322-4597-a67e-b5f76c57f39b GND": [
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      },
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      }
+    ],
+    "5175addb-db9f-5b18-9f43-0f4a14a18455 GND": [
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      },
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      }
+    ],
+    "52da9264-b986-414a-b478-5edf15caf204 GND": [
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      },
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      }
+    ],
+    "698ed2d4-165a-51ff-a5e0-2589480ce711 GND": [
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      }
+    ],
+    "80945dc7-0fc8-5710-82d6-7277d35d98e8 GND": [
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      },
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      }
+    ],
+    "859a2f5f-a539-4c18-ba8a-cddf325c479d GND": [
+      {
+        "area_mm2": 86122.9403,
+        "islands": 180
+      },
+      {
+        "area_mm2": 86077.0398,
+        "islands": 180
+      }
+    ],
+    "8e7f25c9-b383-4620-9042-0ab68da69405 GND": [
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      },
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      }
+    ],
+    "c09ee2d8-9c40-435e-ba12-4f187673cf9c GND": [
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      },
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      }
+    ],
+    "f147ee7f-44d5-4732-ba6b-64595aa4fdb4 GND": [
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      },
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      }
+    ],
+    "00000000-0000-0000-0000-000061f11a4a +5V": [
+      {
+        "area_mm2": 83403.1462,
+        "islands": 6
+      },
+      {
+        "area_mm2": 83370.1751,
+        "islands": 6
+      }
+    ],
+    "0a670621-705a-5f96-a5bc-b660db88235a +5V": [
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      },
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      }
+    ],
+    "3abc2beb-0a3c-4fbf-b69f-ba30e4ec5ce6 -5V": [
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      },
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      }
+    ],
+    "3f4f6b1a-8d48-4251-8cb2-48fb354b55f4 -12V": [
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      },
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      }
+    ],
+    "588aca6e-e2a9-4695-9d15-5dd97e167a1e +5V": [
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      },
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      }
+    ],
+    "613d426f-3aa9-505b-8a6f-0020868dea29 +5V": [
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      }
+    ],
+    "6bf6e243-ce13-4e56-9663-f1926a5b60b7 +5V": [
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      },
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      }
+    ],
+    "7ff6bb5d-7fb8-4963-ac90-5c445989080f +5V": [
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      }
+    ],
+    "97ef5659-cb24-5673-8c54-55e1a82b725c +5V": [
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      },
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      }
+    ],
+    "9d9bd969-041d-5750-953f-d5da43f930bc +5V": [
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      },
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      }
+    ],
+    "b414093d-e6d5-419d-b12e-a099295f2832 +5V": [
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      }
+    ],
+    "e49d556e-40ab-439f-be4b-1bb39eaed9c6 +5V": [
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      },
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      }
+    ],
+    "eab3356d-1847-4f4f-8e2a-0944efe4ceb8 +12V": [
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      },
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      }
+    ]
+  },
+  "local_reference_and_thermals": {
+    "R104": {
+      "front": {
+        "sample_comparisons": 47,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In2.Cu +5V": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          80,
+          85,
+          90,
+          95,
+          100,
+          105,
+          110,
+          115,
+          120,
+          125,
+          130,
+          135,
+          140,
+          145,
+          150,
+          155,
+          160,
+          165,
+          170,
+          175,
+          180,
+          185,
+          190,
+          195,
+          200,
+          205,
+          210,
+          215,
+          220,
+          225,
+          230,
+          235,
+          240,
+          245,
+          250,
+          255,
+          260,
+          265,
+          270,
+          275,
+          280,
+          285,
+          290,
+          295,
+          300,
+          305,
+          310,
+          315,
+          320,
+          325,
+          330,
+          335,
+          340,
+          345,
+          350,
+          355
+        ]
+      }
+    },
+    "R211": {
+      "front": {
+        "sample_comparisons": 85,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In2.Cu +5V": [
+          125,
+          130,
+          135,
+          140,
+          145,
+          215,
+          220,
+          225,
+          230,
+          235,
+          305,
+          310,
+          315,
+          320,
+          325
+        ]
+      }
+    },
+    "R216": {
+      "front": {
+        "sample_comparisons": 48,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "5ba9edc8-61f5-445b-b02f-e2dde814b365",
+              1
+            ],
+            "Net-(R216-Pad2)",
+            2
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In2.Cu +5V": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          80,
+          85,
+          90,
+          95,
+          100,
+          105,
+          110,
+          115,
+          120,
+          125,
+          130,
+          135,
+          140,
+          145,
+          150,
+          155,
+          160,
+          165,
+          170,
+          175,
+          180,
+          185,
+          190,
+          195,
+          200,
+          205,
+          210,
+          215,
+          220,
+          225,
+          230,
+          235,
+          240,
+          245,
+          250,
+          255,
+          260,
+          265,
+          270,
+          275,
+          280,
+          285,
+          290,
+          295,
+          300,
+          305,
+          310,
+          315,
+          320,
+          325,
+          330,
+          335,
+          340,
+          345,
+          350,
+          355
+        ]
+      }
+    },
+    "R600": {
+      "front": {
+        "sample_comparisons": 90,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "2a6fc71b-5545-45e0-a211-24be86e98e0a",
+              0
+            ],
+            "_DBOE",
+            29
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "2 In2.Cu +5V": [
+          35,
+          40,
+          45,
+          50,
+          55,
+          125,
+          130,
+          135,
+          140,
+          145,
+          215,
+          220,
+          225,
+          230,
+          235
+        ]
+      }
+    },
+    "R603": {
+      "front": {
+        "sample_comparisons": 83,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "00000000-0000-0000-0000-0000609a2e6b",
+              0
+            ],
+            "+5V",
+            10
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 47,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In2.Cu +5V": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          75,
+          80,
+          85,
+          90,
+          95,
+          100,
+          105,
+          110,
+          115,
+          120,
+          125,
+          130,
+          135,
+          140,
+          145,
+          150,
+          155,
+          160,
+          165,
+          170,
+          175,
+          180,
+          185,
+          190,
+          195,
+          200,
+          205,
+          210,
+          215,
+          220,
+          225,
+          230,
+          235,
+          240,
+          245,
+          250,
+          255,
+          260,
+          265,
+          270,
+          275,
+          280,
+          285,
+          290,
+          295,
+          300,
+          305,
+          310,
+          315,
+          320,
+          325,
+          330,
+          335,
+          340,
+          345,
+          350,
+          355
+        ]
+      }
+    },
+    "R916": {
+      "front": {
+        "sample_comparisons": 55,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 47,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "2 In2.Cu +5V": [
+          35,
+          40,
+          45,
+          50,
+          55,
+          125,
+          130,
+          135,
+          140,
+          145,
+          215,
+          220,
+          225,
+          230,
+          235,
+          305,
+          310,
+          315,
+          320,
+          325
+        ]
+      }
+    }
+  },
+  "reports": {
+    "violations": {
+      "before": {
+        "error": 73,
+        "warning": 202
+      },
+      "after": {
+        "error": 73,
+        "warning": 202
+      },
+      "appeared": [
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C630",
+              115.14069,
+              260.052
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint R216",
+              230.99009,
+              120.8981
+            ]
+          ]
+        ]
+      ]
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              57.15
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              59.69
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              45.72
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "new_front_routes_mm__total_without_ground_without_ground_outside_1p3mm_of_barrels": {
+    "+5V": [
+      21.203190585622846,
+      7.294586904984368,
+      0.44559782608695647
+    ],
+    "Net-(R216-Pad2)": [
+      1.0394132337514648,
+      1.0394132337514648,
+      0.0
+    ],
+    "Net-(CN203-Pad33)": [
+      2.906581474458473,
+      1.2255539953085568,
+      0.0
+    ],
+    "_BOSS": [
+      1.9349051950532472,
+      1.195494534459285,
+      0.0
+    ],
+    "Net-(J900-B)": [
+      3.857398987322334,
+      1.0889444430272832,
+      0.0
+    ],
+    "_BUSRST": [
+      2.332882587796748,
+      1.1230575674710126,
+      0.0
+    ],
+    "_DBOE": [
+      1.432101551083915,
+      1.138212662195026,
+      0.0
+    ]
+  },
+  "excluded_R800": {
+    "candidate_pin1_mm": [
+      139.40069,
+      235.8487
+    ],
+    "control_plus5_contours": [
+      [
+        83381.779,
+        [
+          100.84,
+          53.918,
+          405.539,
+          384.017
+        ]
+      ],
+      [
+        21.3671,
+        [
+          151.681,
+          235.956,
+          164.401,
+          239.744
+        ]
+      ],
+      [
+        0.0,
+        [
+          171.951,
+          226.985,
+          171.986,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          151.631,
+          226.985,
+          151.666,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          131.311,
+          226.985,
+          131.346,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          110.889,
+          226.985,
+          110.924,
+          227.093
+        ]
+      ]
+    ],
+    "seven_part_trial_plus5_contours": [
+      [
+        83348.808,
+        [
+          100.84,
+          53.918,
+          405.539,
+          384.017
+        ]
+      ],
+      [
+        21.3671,
+        [
+          151.681,
+          235.956,
+          164.401,
+          239.744
+        ]
+      ],
+      [
+        0.7718,
+        [
+          138.906,
+          235.354,
+          139.896,
+          236.344
+        ]
+      ],
+      [
+        0.0,
+        [
+          171.951,
+          226.985,
+          171.986,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          151.631,
+          226.985,
+          151.666,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          131.311,
+          226.985,
+          131.346,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          110.889,
+          226.985,
+          110.924,
+          227.093
+        ]
+      ]
+    ],
+    "installed_six_part_plus5_contours": [
+      [
+        83348.808,
+        [
+          100.84,
+          53.918,
+          405.539,
+          384.017
+        ]
+      ],
+      [
+        21.3671,
+        [
+          151.681,
+          235.956,
+          164.401,
+          239.744
+        ]
+      ],
+      [
+        0.0,
+        [
+          171.951,
+          226.985,
+          171.986,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          151.631,
+          226.985,
+          151.666,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          131.311,
+          226.985,
+          131.346,
+          227.093
+        ]
+      ],
+      [
+        0.0,
+        [
+          110.889,
+          226.985,
+          110.924,
+          227.093
+        ]
+      ]
+    ]
+  }
+}
