@@ -308,6 +308,10 @@ def build(root, original, current, provenance):
     audit = index(table(root, PLAN, "reference sheet mount category existing_footprint"), "reference", PLAN)
     target = index(table(root, TARGET, "eatx_reference physical_package authenticity construction proposed_footprint basis_or_release_condition"),
                    "eatx_reference", TARGET)
+    hold_register = next((f"audit/implementation/{cycle}/deferred.csv"
+                          for cycle in ("resumed-cycle", "accelerated-cycle", "quick-win-cycle")
+                          if (root / "audit/implementation" / cycle / "deferred.csv").is_file()), None)
+    holds = index(table(root, hold_register, "reference reason_for_hold"), "reference", hold_register) if hold_register else {}
     crosswalk = table(root, CROSSWALK, "eatx_cap eatx_element eatx_private eatx_signal eatx_contact historical_cap historical_element bplus_element return_net")
     index(crosswalk, "eatx_cap", CROSSWALK)
     sips = index(table(root, SIPS, "reference topology historical_function_lookup"), "reference", SIPS)
@@ -393,6 +397,9 @@ def build(root, original, current, provenance):
         if after and not base_row:
             warnings.append(f"{ref}: present in current PCB; original identity and disposition are undocumented.")
         notes = item.get("basis_or_release_condition") or base_row.get("rationale_and_checks") or MISSING
+        if ref in holds:
+            notes += " Engineering hold: " + holds[ref]["reason_for_hold"]
+            sources.add(hold_register)
         if item.get("authenticity") == "D":
             notes = "Optional conversion trial. " + notes
         if item.get("authenticity") == "E":
@@ -401,6 +408,8 @@ def build(root, original, current, provenance):
         implemented = ("Changed in current PCB" if physically_implemented else
                        "Removed from current PCB" if not after else
                        "Planned conversion" if status == "planned" else "Original layout retained")
+        if ref in holds:
+            implemented = "Deferred conversion"
         if not evidence or not after or status == "excluded":
             electrical = MISSING if status == "excluded" or not after else "Awaiting checks on this source revision"
             mechanical = electrical
@@ -454,5 +463,10 @@ def build(root, original, current, provenance):
              "categories": list(breakdown.values()), "excluded": sum(r["status"] == "excluded" and bool(r["currentRefs"]) for r in comps)}
     if sum(stats["status"].values()) != stats["current"]["total"]:
         raise ValueError("Current package counts do not reconcile with the component manifest")
+    planned = {row["ref"] for row in current_population if row["status"] == "planned"}
+    if holds.keys() - planned:
+        raise ValueError(f"{hold_register}: held references outside the current plan: {sorted(holds.keys() - planned)}")
+    if hold_register:
+        stats["deferred"] = len(holds)
     return {"components": comps, "stats": stats, "groups": groups, "regions": regions_for(comps, new),
             "verification": report, "warnings": warnings, "provenance": provenance}
