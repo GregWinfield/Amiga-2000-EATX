@@ -1,0 +1,91 @@
+{
+  "kicad": "10.0.8",
+  "control_artwork": "23396e0",
+  "control_board_sha256": "52fd6b9ed309efcdd4dbc95416366b3f3e8041aa75956f401681d1d67379f424",
+  "evaluated_board_sha256": "f51b6b0431cf41680587448ec4d98d2f241f590af552d744985bf59abe698d37",
+  "evaluated_part_positions": {
+    "C417": [
+      [
+        180.42079,
+        222.5964
+      ],
+      [
+        177.92079,
+        222.5964
+      ]
+    ],
+    "C418": [
+      [
+        157.77097,
+        222.55506
+      ],
+      [
+        155.27097,
+        222.55506
+      ]
+    ]
+  },
+  "drc": {
+    "before": {
+      "error": 73,
+      "warning": 202
+    },
+    "after": {
+      "error": 75,
+      "warning": 202
+    },
+    "appeared": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer In1.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 3 [GND] of CN602",
+            165.77629,
+            224.0729
+          ],
+          [
+            "Zone [GND] on In1.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer In1.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 4 [GND] of CN602",
+            170.62629,
+            224.0729
+          ],
+          [
+            "Zone [GND] on In1.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "absent": []
+  },
+  "opens": {
+    "before": {},
+    "after": {},
+    "appeared": [],
+    "absent": []
+  },
+  "parity": {
+    "before": {
+      "warning": 17
+    },
+    "after": {
+      "warning": 17
+    },
+    "appeared": [],
+    "absent": []
+  }
+}
