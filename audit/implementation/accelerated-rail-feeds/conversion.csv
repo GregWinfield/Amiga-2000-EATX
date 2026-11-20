@@ -1,0 +1,4 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R208,10,MBA02040C1009FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,-AV,-12V,281.02809,122.7015,180.0
+R200,1,PR01000101008FA500,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,+5V,+AUD,359.61569,182.8995,90.0
+R215,1,PR01000101008FA500,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,+VID,Net-(EMI200-Pad2),224.84329,68.2439,90.0
