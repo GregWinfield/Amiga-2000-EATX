@@ -130,3 +130,7 @@ R309, R602. [Batch manifest, electrical checks and mechanical findings](audit/im
 ## System control and expansion reset pull-ups
 
 R104, R211, R216, R600, R603, R916. [Conversion manifest and verification](audit/implementation/quick-control-pullups/README.md)
+
+## Interface bias and reset timing resistors
+
+R306, R805, R900. [Conversion manifest and verification](audit/implementation/quick-interface-bias/README.md)

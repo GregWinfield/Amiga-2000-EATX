@@ -1,0 +1,4 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R306,10k,MRS16000C1002FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Net-(EMI333-Pad2),Net-(D300-K),280.19289,107.4075,0.0
+R805,47k,MRS16000C4702FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,+5V,/Serial/RESET,375.80529,181.0167,-90.0
+R900,1k,MRS16000C1001FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,GND,_MC1,360.52689,107.4011,0.0
