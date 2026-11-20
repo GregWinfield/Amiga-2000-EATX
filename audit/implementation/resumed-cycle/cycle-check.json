@@ -1,0 +1,184 @@
+{
+  "start_artwork": "4f8d88683aea83586f66474429128974cd439b6f",
+  "final_artwork": "e59e244e798712bfd0d617a8f9a7dc695bc016b4",
+  "checked_board_lf_sha256": "0c257142780149644597b7cecd219b8b0c7fc68d0f110cf9aba36260f1d87cfd",
+  "verified_batches": [
+    {
+      "batch": "resumed-av-capacitors",
+      "commit": "f89074ea3d777a54c84b7281e9e6599ffa2f71f3",
+      "parts": [
+        "C214",
+        "C226",
+        "C233",
+        "C243",
+        "C317"
+      ]
+    },
+    {
+      "batch": "resumed-termination-capacitors",
+      "commit": "7341f06a1f78edc0c7abaddc5530d2c53936680f",
+      "parts": [
+        "C664",
+        "C672",
+        "C711",
+        "C776",
+        "C789",
+        "C794"
+      ]
+    },
+    {
+      "batch": "resumed-indicator-driver",
+      "commit": "20b9c276e16dbb7e27d33c25b317cf29f7441263",
+      "parts": [
+        "Q302"
+      ]
+    },
+    {
+      "batch": "resumed-isa-rn700",
+      "commit": "a19d0fe3e6320ccc1e356e4cfb0e5bcd88279638",
+      "parts": [
+        "C713",
+        "C714",
+        "C716",
+        "C717",
+        "C719",
+        "C720",
+        "C722"
+      ]
+    },
+    {
+      "batch": "resumed-keyboard-audio",
+      "commit": "43bfbff1aef021d672cfd4c4ee53f2b41a9ad863",
+      "parts": [
+        "C912",
+        "R204"
+      ]
+    },
+    {
+      "batch": "resumed-atx-driver",
+      "commit": "e59e244e798712bfd0d617a8f9a7dc695bc016b4",
+      "parts": [
+        "Q9100"
+      ]
+    }
+  ],
+  "converted_positions": [
+    "C214",
+    "C226",
+    "C233",
+    "C243",
+    "C317",
+    "C664",
+    "C672",
+    "C711",
+    "C713",
+    "C714",
+    "C716",
+    "C717",
+    "C719",
+    "C720",
+    "C722",
+    "C776",
+    "C789",
+    "C794",
+    "C912",
+    "Q302",
+    "Q9100",
+    "R204"
+  ],
+  "population": {
+    "THT": 137,
+    "SMD": 417
+  },
+  "planned": 213,
+  "deferred": 39,
+  "original_through_hole": 65,
+  "converted_total": 72,
+  "physical_pad_net_records": 3698,
+  "schematic_pin_assignments": 3603,
+  "changed_net_assignments": 0,
+  "unrouted": 0,
+  "fixed_mounts": [
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9"
+  ],
+  "zorro_sockets": [
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605"
+  ],
+  "all_fixed_refs": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "vias_before": 1211,
+  "vias_after": 1209,
+  "vias_added": 0,
+  "retired_via_ids": [
+    "64dd3c2b-7179-4c38-a186-29526c80861b",
+    "f4ae07bf-0d2d-4ba3-b150-1e788775ce3d"
+  ]
+}

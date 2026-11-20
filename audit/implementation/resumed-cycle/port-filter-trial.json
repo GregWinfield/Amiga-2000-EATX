@@ -1,0 +1,347 @@
+{
+  "control_artwork": "a19d0fe3e6320ccc1e356e4cfb0e5bcd88279638",
+  "installed": false,
+  "positions": {
+    "C315": [
+      340.21009000000004,
+      101.4163
+    ],
+    "C312": [
+      296.06489,
+      93.2375
+    ],
+    "C316": [
+      346.86489,
+      103.0927
+    ]
+  },
+  "results": {
+    "violations": {
+      "before": {
+        "error": 73,
+        "warning": 202
+      },
+      "after": {
+        "error": 76,
+        "warning": 212
+      },
+      "appeared": [
+        [
+          "clearance",
+          "error",
+          "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1886 mm)",
+          [
+            [
+              "PTH pad 2 [GND] of C312",
+              293.52489,
+              93.2375
+            ],
+            [
+              "Track [PSTROBE] on F.Cu, length 2.2989 mm",
+              293.93129,
+              91.2563
+            ]
+          ]
+        ],
+        [
+          "starved_thermal",
+          "error",
+          "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+          [
+            [
+              "PTH pad 1 [GND] of C316",
+              346.86489,
+              103.0927
+            ],
+            [
+              "Zone [GND] on F.Cu, priority 0",
+              405.55669,
+              53.9255
+            ]
+          ]
+        ],
+        [
+          "starved_thermal",
+          "error",
+          "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+          [
+            [
+              "PTH pad 1 [GND] of C315",
+              340.21009,
+              101.4163
+            ],
+            [
+              "Zone [GND] on B.Cu, priority 0",
+              405.503876,
+              53.9255
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C663",
+              120.85,
+              321.56
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C665",
+              114.08,
+              326.1555
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C667",
+              114.08,
+              328.886
+            ]
+          ]
+        ],
+        [
+          "silk_overlap",
+          "warning",
+          "Silkscreen clearance",
+          [
+            [
+              "Reference field of EMI310",
+              297.33489,
+              91.7135
+            ],
+            [
+              "Segment of C312 on F.Silkscreen",
+              296.69989,
+              91.8475
+            ]
+          ]
+        ],
+        [
+          "silk_overlap",
+          "warning",
+          "Silkscreen clearance",
+          [
+            [
+              "Reference field of C314",
+              341.42929,
+              97.8095
+            ],
+            [
+              "Segment of C315 on F.Silkscreen",
+              341.60009,
+              102.0513
+            ]
+          ]
+        ],
+        [
+          "silk_overlap",
+          "warning",
+          "Silkscreen clearance",
+          [
+            [
+              "Segment of C315 on F.Silkscreen",
+              338.82009,
+              102.0513
+            ],
+            [
+              "Value field of U304 (SN75188DR)",
+              338.98769,
+              97.9111
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "PTH pad 1 [Net-(C312-Pad1)] of C312",
+              296.06489,
+              93.2375
+            ],
+            [
+              "Segment on F.Silkscreen",
+              291.03569,
+              93.4915
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "PTH pad 2 [GND] of C312",
+              293.52489,
+              93.2375
+            ],
+            [
+              "Segment on F.Silkscreen",
+              291.03569,
+              93.4915
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "PTH pad 1 [GND] of C315",
+              340.21009,
+              101.4163
+            ],
+            [
+              "Segment on F.Silkscreen",
+              340.41329,
+              94.4059
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "PTH pad 2 [Net-(C315-Pad2)] of C315",
+              340.21009,
+              98.8763
+            ],
+            [
+              "Segment on F.Silkscreen",
+              340.41329,
+              94.4059
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "PTH pad 2 [Net-(C315-Pad2)] of C315",
+              340.21009,
+              98.8763
+            ],
+            [
+              "Reference field of C314",
+              341.42929,
+              97.8095
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "PTH pad 1 [GND] of C315",
+              340.21009,
+              101.4163
+            ],
+            [
+              "Value field of U304 (SN75188DR)",
+              338.98769,
+              97.9111
+            ]
+          ]
+        ],
+        [
+          "silk_over_copper",
+          "warning",
+          "Silkscreen clipped by solder mask",
+          [
+            [
+              "PTH pad 2 [Net-(C315-Pad2)] of C315",
+              340.21009,
+              98.8763
+            ],
+            [
+              "Value field of U304 (SN75188DR)",
+              338.98769,
+              97.9111
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C315",
+              344.52809,
+              100.1463
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C312",
+              295.04889,
+              98.8255
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C316",
+              344.57889,
+              102.5847
+            ]
+          ]
+        ]
+      ]
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    }
+  },
+  "erc": {
+    "warning": 1182,
+    "error": 24
+  }
+}
