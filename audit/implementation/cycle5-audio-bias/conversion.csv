@@ -1,0 +1,4 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R202,10k,MRS16000C1002FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,AUDIN,Net-(U200-RIGHT),277.85309,120.1361,0.0
+R206,10k,MRS16000C1002FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,Net-(Q202-C),-AV,303.10069,124.7843,-90.0
+R213,2.7k,MRS16000C2701FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical,+AV,Net-(Q202-B),288.74969,127.7053,90.0
