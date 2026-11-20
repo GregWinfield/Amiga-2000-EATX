@@ -29532,7 +29532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 299.72 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29540,7 +29540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007477a8a2")
-		(property "Reference" "R604A1"
+		(property "Reference" "ZS5"
 			(at 298.45 132.08 90)
 			(effects
 				(font
@@ -29556,7 +29556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 299.72 130.302 90)
 			(effects
 				(font
@@ -29565,7 +29565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 299.72 132.08 0)
 			(effects
 				(font
@@ -29574,7 +29574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 299.72 132.08 0)
 			(effects
 				(font
@@ -29592,22 +29592,22 @@
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R604A1")
+					(reference "ZS5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 309.88 134.62 270)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007555b93e")
-		(property "Reference" "R604B1"
+		(property "Reference" "ZS5"
 			(at 308.61 134.62 90)
 			(effects
 				(font
@@ -29623,7 +29623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 309.88 132.842 90)
 			(effects
 				(font
@@ -29632,7 +29632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 309.88 134.62 0)
 			(effects
 				(font
@@ -29641,7 +29641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 309.88 134.62 0)
 			(effects
 				(font
@@ -29653,14 +29653,14 @@
 		(pin "1"
 			(uuid "b33de36a-7187-44e1-bd96-672c882f2152")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "25c9fffb-1acc-4c22-8d5e-b76462f14948")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R604B1")
-					(unit 1)
+					(reference "ZS5")
+					(unit 3)
 				)
 			)
 		)
@@ -29733,15 +29733,15 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 309.88 139.7 270)
-		(unit 1)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007555c4a3")
-		(property "Reference" "R604D1"
+		(property "Reference" "ZS5"
 			(at 308.61 139.7 90)
 			(effects
 				(font
@@ -29757,7 +29757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 309.88 137.922 90)
 			(effects
 				(font
@@ -29766,7 +29766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 309.88 139.7 0)
 			(effects
 				(font
@@ -29775,7 +29775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 309.88 139.7 0)
 			(effects
 				(font
@@ -29787,28 +29787,28 @@
 		(pin "1"
 			(uuid "62ef4c94-0718-4c76-8231-8882673ee6f6")
 		)
-		(pin "2"
+		(pin "6"
 			(uuid "60cfb15a-5fe7-41cf-a311-9a05afef3bed")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R604D1")
-					(unit 1)
+					(reference "ZS5")
+					(unit 5)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 309.88 142.24 270)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007555cad7")
-		(property "Reference" "R604E1"
+		(property "Reference" "ZS5"
 			(at 308.61 142.24 90)
 			(effects
 				(font
@@ -29824,7 +29824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 309.88 140.462 90)
 			(effects
 				(font
@@ -29833,7 +29833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 309.88 142.24 0)
 			(effects
 				(font
@@ -29842,7 +29842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 309.88 142.24 0)
 			(effects
 				(font
@@ -29854,28 +29854,28 @@
 		(pin "1"
 			(uuid "1c2a8b0b-d644-431c-8335-6e45a8013828")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "ddf8a472-0ec7-4d2d-94a0-b0b57f84744b")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R604E1")
-					(unit 1)
+					(reference "ZS5")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 309.88 144.78 270)
-		(unit 1)
+		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007555d0d4")
-		(property "Reference" "R604F1"
+		(property "Reference" "ZS5"
 			(at 308.61 144.78 90)
 			(effects
 				(font
@@ -29891,7 +29891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 309.88 143.002 90)
 			(effects
 				(font
@@ -29900,7 +29900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 309.88 144.78 0)
 			(effects
 				(font
@@ -29909,7 +29909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 309.88 144.78 0)
 			(effects
 				(font
@@ -29921,28 +29921,28 @@
 		(pin "1"
 			(uuid "3d1856a5-1173-4671-abf9-e3666a2d9a27")
 		)
-		(pin "2"
+		(pin "8"
 			(uuid "cf7831a5-3d58-4b94-a132-d050eaf5b3e5")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R604F1")
-					(unit 1)
+					(reference "ZS5")
+					(unit 7)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 309.88 147.32 270)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007568ac17")
-		(property "Reference" "R604G1"
+		(property "Reference" "ZS5"
 			(at 308.61 147.32 90)
 			(effects
 				(font
@@ -29958,7 +29958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 309.88 145.542 90)
 			(effects
 				(font
@@ -29967,7 +29967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 309.88 147.32 0)
 			(effects
 				(font
@@ -29976,7 +29976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 309.88 147.32 0)
 			(effects
 				(font
@@ -29988,28 +29988,28 @@
 		(pin "1"
 			(uuid "d4459392-bca6-4a60-8fda-379cadc0bda3")
 		)
-		(pin "2"
+		(pin "5"
 			(uuid "12f47a73-c1ad-42ab-9258-81f047958ac2")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R604G1")
-					(unit 1)
+					(reference "ZS5")
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 309.88 149.86 270)
-		(unit 1)
+		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007568b190")
-		(property "Reference" "R604H1"
+		(property "Reference" "ZS5"
 			(at 308.61 149.86 90)
 			(effects
 				(font
@@ -30025,7 +30025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 309.88 148.082 90)
 			(effects
 				(font
@@ -30034,7 +30034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 309.88 149.86 0)
 			(effects
 				(font
@@ -30043,7 +30043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 309.88 149.86 0)
 			(effects
 				(font
@@ -30055,14 +30055,14 @@
 		(pin "1"
 			(uuid "400e8410-ec79-42ea-8651-b4baab11ae4b")
 		)
-		(pin "2"
+		(pin "7"
 			(uuid "822b7abf-d23a-45a6-8adc-3b0571d71c27")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R604H1")
-					(unit 1)
+					(reference "ZS5")
+					(unit 6)
 				)
 			)
 		)
@@ -30671,15 +30671,15 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4610X-101-102LF")
 		(at 276.86 163.83 180)
-		(unit 1)
+		(unit 9)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000076ead3a2")
-		(property "Reference" "R605A1"
+		(property "Reference" "ZS5"
 			(at 276.86 162.56 90)
 			(effects
 				(font
@@ -30695,7 +30695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
 			(at 278.638 163.83 90)
 			(effects
 				(font
@@ -30704,7 +30704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 276.86 163.83 0)
 			(effects
 				(font
@@ -30713,7 +30713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 276.86 163.83 0)
 			(effects
 				(font
@@ -30725,14 +30725,14 @@
 		(pin "1"
 			(uuid "8ea60c03-35ae-4d9e-ae8c-05b9f311b7c1")
 		)
-		(pin "2"
+		(pin "10"
 			(uuid "25c478ee-ab2a-4a31-ad23-5dacbee08169")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R605A1")
-					(unit 1)
+					(reference "ZS5")
+					(unit 9)
 				)
 			)
 		)
@@ -31004,4 +31004,137 @@
 		)
 	)
 	(no_connect (at 331.4700 181.6100) (uuid "47e3bcc9-8126-50ae-ae27-53902d830442"))
+	(symbol
+		(lib_id "BPlus:4610X-101-102LF")
+		(at 335.2800 173.9900 270)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f5298de-de78-53ca-bf7c-e688e19ca18a")
+		(property "Reference" "ZS5"
+			(at 334.0100 173.9900 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 336.5500 173.9900 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "AmigaFootprints:BPlus_SIP10_BCu140"
+			(at 335.2800 172.2120 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
+			(at 335.2800 173.9900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
+			(at 335.2800 173.9900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d66de449-10e8-5b7b-aa01-fb6cbdea73b8")
+		)
+		(pin "9"
+			(uuid "2cd017fc-7e33-5551-93d2-8490f72481fb")
+		)
+		(instances
+			(project "2000ATX"
+				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
+					(reference "ZS5")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 339.0900 173.9900 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e57dfba3-2f10-5e0f-b4e4-0e09a260e219")
+		(property "Reference" "#PWR0985"
+			(at 339.0900 180.3400 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 339.2170 178.3842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.0900 173.9900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.0900 173.9900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.0900 173.9900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81365080-706d-5e57-8188-7483952abb87")
+		)
+		(instances
+			(project "2000ATX"
+				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
+					(reference "#PWR0985")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect (at 331.4700 173.9900) (uuid "3b72cebc-1952-5974-afb5-6c27b9bdf096"))
 )
