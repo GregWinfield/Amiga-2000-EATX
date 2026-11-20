@@ -1,0 +1,44 @@
+{
+  "00000000-0000-0000-0000-0000609a6d12": {
+    "net": "+5V",
+    "lost_mm": 1.142,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 1.142,
+    "max_distance_to_ground_mm": 0.85
+  },
+  "9a1300c8-dcba-4ad5-90f3-affcd3c2964a": {
+    "net": "+5V",
+    "lost_mm": 0.396,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.396,
+    "max_distance_to_ground_mm": 0.35
+  },
+  "00000000-0000-0000-0000-0000609a69f1": {
+    "net": "GND",
+    "lost_mm": 0.493,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.493,
+    "max_distance_to_ground_mm": 0.35
+  },
+  "3f159dae-02a8-4e2f-bbc1-a6527b637d29": {
+    "net": "_BEER",
+    "lost_mm": 1.395,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 1.395,
+    "max_distance_to_ground_mm": 0.6
+  },
+  "70327bd4-0974-4b4a-ba92-bcaf16d13703": {
+    "net": "_BEER",
+    "lost_mm": 0.199,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.199,
+    "max_distance_to_ground_mm": 0.1
+  },
+  "00000000-0000-0000-0000-0000609a58f9": {
+    "net": "Net-(CN700-PadB2)",
+    "lost_mm": 0.849,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.849,
+    "max_distance_to_ground_mm": 0.45
+  }
+}
