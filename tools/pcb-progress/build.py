@@ -101,8 +101,17 @@ def build(args):
         source, base, data = temp / "current", temp / "original", temp / "data"
         snapshot(commit, source, INPUTS)
         snapshot(original, base, [PROJECT])
-        results = json.loads((source / "audit/implementation/slots/verification.json").read_text())
-        tested = results.get("source_commit", VERIFIED)
+        board_bytes = (source / BOARD).read_bytes()
+        lf = board_bytes.replace(b"\r\n", b"\n")
+        hashes = {hashlib.sha256(data).hexdigest() for data in (lf, lf.replace(b"\n", b"\r\n"))}
+        evidence = "audit/implementation/slots/verification.json"
+        tested = VERIFIED
+        for path in sorted((source / "audit/implementation").glob("*/verification.json")):
+            result = json.loads(path.read_text(encoding="utf-8-sig"))
+            if result.get("checked_board_sha256") in hashes and "reports" in result:
+                evidence = path.relative_to(source).as_posix()
+                tested = git("log", "-1", "--format=%H", commit, "--", evidence)
+                break
         checked = subprocess.run(["git", "-C", str(ROOT), "diff", "--quiet", tested, commit, "--",
                                   PROJECT], check=False)
         if checked.returncode not in (0, 1):
@@ -111,7 +120,7 @@ def build(args):
                                       timezone.utc).replace(microsecond=0).isoformat()
         p = {"schema": 1, "branch": branch, "commit": commit, "baselineCommit": original,
              "boardCommit": git("log", "-1", "--format=%H", commit, "--", BOARD),
-             "verified": checked.returncode == 0, "verifiedCommit": git("rev-parse", tested),
+             "evidenceFile": evidence, "verified": checked.returncode == 0, "verifiedCommit": git("rev-parse", tested),
              "kicad": str(pcbnew.GetBuildVersion()), "generated": date,
              "boardFile": BOARD, "boardSHA256": hashlib.sha256((source / BOARD).read_bytes()).hexdigest()}
         boards = {}

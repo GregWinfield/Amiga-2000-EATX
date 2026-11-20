@@ -77,12 +77,45 @@ def plain(text):
     return re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text).replace("**", "").replace(chr(96), "")
 
 
-def verification(root, current_evidence):
-    report = json.loads((root / VERIFICATION).read_text(encoding="utf-8-sig"))
-    with ZipFile(root / RAW) as archive:
-        pcb = json.loads(archive.read("slots-pcb.json"))
-        erc = json.loads(archive.read("slots-sch.json"))
-        ctrl = json.loads(archive.read("control-pcb.json"))
+def verification(root, provenance):
+    evidence = provenance["evidenceFile"]
+    archive_path = evidence.rsplit("/", 1)[0] + "/kicad-reports.zip"
+    report = json.loads((root / evidence).read_text(encoding="utf-8-sig"))
+    with ZipFile(root / archive_path) as archive:
+        if "reports" in report:
+            pcb = json.loads(archive.read("evaluated-drc.json"))
+            erc = json.loads(archive.read("evaluated-erc.json"))
+            ctrl = json.loads(archive.read("baseline-drc.json"))
+            netlist = ET.fromstring(archive.read("evaluated.xml"))
+            checks = report["reports"]
+            for group, key in (("violations", "violations"), ("schematic_parity", "schematic_parity"),
+                               ("unconnected_items", "unconnected_items")):
+                for side, document in (("before", ctrl), ("after", pcb)):
+                    actual = Counter(item["severity"] for item in document[group])
+                    if actual != Counter(checks[key][side]):
+                        raise ValueError(f"{evidence}: {group} {side} counts differ from raw report")
+            pins = sum(len(net.findall("node")) for net in netlist.findall("./nets/net"))
+            if pins != report["schematic_pin_assignments"][1]:
+                raise ValueError(f"{evidence}: netlist pin count differs from report")
+            fixed = report["fixed_datums"]
+            report = {
+                "drc": Counter(item["type"] for item in pcb["violations"]),
+                "same_tool_control_drc": Counter(item["type"] for item in ctrl["violations"]),
+                "erc": checks["erc"]["after"], "unrouted": len(pcb["unconnected_items"]),
+                "parity_findings": len(pcb["schematic_parity"]), "nets": len(netlist.findall("./nets/net")),
+                "pad_net_changes": report["expanded_differences"], "schematic_pin_assignments": pins,
+                "edge_geometry_changed": not report["physical_stackup_and_edges_equal"],
+                "stackup_changed": not report["physical_stackup_and_edges_equal"],
+                "fixed_mounts": [r for r in fixed if re.fullmatch(r"H\d+", r)],
+                "all_five_TE_socket_padstacks_checked": all(f"CN60{i}" in fixed for i in range(1, 6)),
+                "changed_pad_geometry_per_ref": report["changed_shared_footprints"] + report["added"],
+                "drc_item_deltas": {key: [{"description": row[2], "items": [i[0] for i in row[3]]}
+                                           for row in checks["violations"][key]] for key in ("appeared", "absent")}
+            }
+        else:
+            pcb = json.loads(archive.read("slots-pcb.json"))
+            erc = json.loads(archive.read("slots-sch.json"))
+            ctrl = json.loads(archive.read("control-pcb.json"))
     drc = Counter(v["type"] for v in pcb["violations"])
     errors = Counter(v["severity"] for v in pcb["violations"])
     erc_counts = Counter(v["severity"] for sheet in erc["sheets"] for v in sheet["violations"])
@@ -90,15 +123,15 @@ def verification(root, current_evidence):
             or len(pcb["unconnected_items"]) != report["unrouted"]
             or len(pcb["schematic_parity"]) != report["parity_findings"]
             or Counter(v["type"] for v in ctrl["violations"]) != Counter(report["same_tool_control_drc"])):
-        raise ValueError(f"{VERIFICATION}: counts differ from the raw {RAW} archive")
+        raise ValueError(f"{evidence}: counts differ from the raw {archive_path} archive")
     risks = [{"risk": title, "consequence": plain(effect), "action": plain(action)}
              for title, effect, action in doc_table(root, IMPLEMENTATION, "Risk")]
-    return {**report, "currentEvidence": current_evidence,
+    return {**report, "currentEvidence": provenance["verified"],
             "resultDate": pcb["date"], "tool": pcb["kicad_version"],
             "drcErrors": errors["error"], "drcWarnings": errors["warning"],
             "controlDrcErrors": sum(v["severity"] == "error" for v in ctrl["violations"]),
             "controlDrcWarnings": sum(v["severity"] == "warning" for v in ctrl["violations"]),
-            "risks": risks, "sources": [VERIFICATION, RAW, IMPLEMENTATION,
+            "risks": risks, "sources": [evidence, archive_path, IMPLEMENTATION,
                                        "coupon/CONNECTOR_RESOLUTION.md", "coupon/FABRICATION_READINESS.md"]}
 
 
@@ -289,7 +322,7 @@ def build(root, original, current, provenance):
                 or target[ref]["authenticity"] not in {"A", "B", "C", "D", "E"}):
             raise ValueError(f"{TARGET}: invalid disposition for {ref}")
     evidence = provenance["verified"]
-    report = verification(root, evidence)
+    report = verification(root, provenance)
     warnings = [] if evidence else ["Stored verification applies to an earlier design. Rerun electrical and mechanical checks for this snapshot."]
     original_symbols = {}
     for comp in ET.parse(root / BASE_NETLIST).findall("./components/comp"):
@@ -376,7 +409,7 @@ def build(root, original, current, provenance):
                           if not report["pad_net_changes"] else "See board pad-net difference report")
             mechanical = ("Projected footprint and board datums checked" if ref in report["changed_pad_geometry_per_ref"]
                           else "Footprint origin compared with baseline")
-            sources.add(VERIFICATION)
+            sources.add(provenance["evidenceFile"])
         if ref in report["changed_pad_geometry_per_ref"]:
             sources.add(IMPLEMENTATION)
         if re.fullmatch(r"CN60[1-5]", ref):
