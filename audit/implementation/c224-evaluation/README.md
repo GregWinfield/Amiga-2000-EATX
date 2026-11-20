@@ -1,0 +1,12 @@
+# C224 audio-reference radial trial
+
+**Keep C224 on its existing 4.7 µF SMD footprint pending impedance and fit verification.** The isolated trial places the proposed Panasonic EEU-FR1H4R7 at 2.00 mm pitch with its positive lead on Vref and negative lead on AUDIO. It preserves the AUDIO copper junction and the parallel C219 ceramic. J9003 keeps its position and connector footprint. Its Case Fan service legend moved to clear the capacitor body. Against 86c9236, the raw PCB results match at 73 errors, 202 warnings, zero opens and 17 inherited parity warnings. The 3,617 schematic assignments compare equal. The archive contains the review-only PCB and schematic patches. [CAD patches and KiCad reports](review.zip)
+
+| Property | Evidence and decision |
+|---|---|
+| Original | The shopping list specifies a 4 × 5.8 mm 4.7 µF electrolytic without an exact part, ESR, ESL, leakage or temperature rating. An installed reference part or original purchasing record is needed for a quantitative comparison. |
+| Candidate | Polar aluminium electrolytic, 4.7 µF ±20%, 50 V, −40 to +105 °C, 3 µA maximum leakage, 185 mA rated ripple and 0.620 Ω maximum impedance at 100 kHz. That impedance is a magnitude at one frequency. Separate broadband ESR and ESL remain unverified. |
+| Circuit | R209 and R210 are 1.2 kΩ each. Their nominal parallel resistance is 600 Ω. The specified maximum leakage gives up to 1.8 mV of additional static reference error. C219 retains the separate 0.22 µF high-frequency path. Confirm Vref settling, ripple and audio output on both channels under load. |
+| Mechanical | The Panasonic can is nominally 5 × 11 mm. The stock through-hole footprint describes a 7 mm-high component and its generic model understates the actual can. Check the 11 mm envelope plus tolerance and installation allowance with the case, fan harness and fitted cards before accepting the change. |
+
+Measure impedance versus frequency on a representative baseline capacitor and the candidate in its intended lead form with a calibrated impedance analyser and a compensated fixture. Record capacitance, ESR and the inductive region beyond self-resonance. Measure leakage and Vref on the running board. These results, the true can envelope and retained polarity are required to move this trial onto the implementation branch. [Panasonic part specification](https://na.industrial.panasonic.com/products/capacitors/aluminum-electrolytic-capacitors/series/83367/model/83760) · [Original shopping list](../../../BOM/A2000EATX-REV31-ShoppingList.csv)
