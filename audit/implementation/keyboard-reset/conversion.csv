@@ -1,0 +1,2 @@
+ref,value,mpn,pin1_net,pin2_net,footprint,x_mm,y_mm
+R201,4.7k,MRS25000C4701FCT00,+5V,_KBRST,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,375.87,333.075
