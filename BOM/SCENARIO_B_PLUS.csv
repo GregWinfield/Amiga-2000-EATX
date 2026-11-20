@@ -1,4 +1,4 @@
-reference,schematic_value,installed_footprint,mount,selected_mpn_for_this_batch
+reference,schematic_value,installed_footprint,mount,selected_mpn_for_implemented_conversions
 BT800,Battery_Cell,Battery:BatteryHolder_Keystone_103_1x20mm,THT,
 C100,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C101,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
@@ -460,10 +460,10 @@ R605,1k,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,THT,MRS160
 R605A1,1k,Resistor_SMD:R_0805_2012Metric,SMD,
 R606,1k,Resistor_SMD:R_0805_2012Metric,SMD,
 R800,1k,Resistor_SMD:R_1206_3216Metric,SMD,
-R801,470,Resistor_SMD:R_1206_3216Metric,SMD,
+R801,470,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,THT,MRS25000C4700FCT00
 R802,10k,Resistor_SMD:R_1206_3216Metric,SMD,
 R803,470,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,THT,
-R804,10k,Resistor_SMD:R_1206_3216Metric,SMD,
+R804,10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,THT,MRS25000C1002FCT00
 R805,47k,Resistor_SMD:R_1206_3216Metric,SMD,
 R806,4.7k,Resistor_SMD:R_1206_3216Metric,SMD,
 R807,4.7k,Resistor_SMD:R_1206_3216Metric,SMD,

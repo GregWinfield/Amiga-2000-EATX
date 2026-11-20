@@ -1,0 +1,3 @@
+net,before_total_copper_mm,after_total_copper_mm,difference_mm,via_count_change
++5V,974.430578,969.956573,-4.474005,-1
+/Buster and RTC/STDP,21.257125,25.689359,4.432234,0
