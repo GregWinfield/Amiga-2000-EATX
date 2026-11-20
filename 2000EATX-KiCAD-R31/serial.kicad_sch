@@ -20289,7 +20289,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3906"
+		(property "Value" "2N3906"
 			(at 172.4914 41.783 0)
 			(effects
 				(font
@@ -20298,7 +20298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "AmigaFootprints:TO-92_2N3906_E2_B1_C3"
 			(at 172.72 38.735 0)
 			(effects
 				(font
@@ -20309,7 +20309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/2n3906-d.pdf"
 			(at 167.64 40.64 0)
 			(effects
 				(font
