@@ -10,6 +10,279 @@
 		(rev "3.1")
 	)
 	(lib_symbols
+		(symbol "BPlus:4606X-101-102LF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ZS"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4606X-101-102LF"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Array_SIP6"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4606X-101-102LF_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4606X-101-102LF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4606X-101-102LF_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4606X-101-102LF_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4606X-101-102LF_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4606X-101-102LF_5_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "BPlus:4610X-101-102LF"
 			(pin_numbers hide)
 			(pin_names
@@ -28656,7 +28929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4606X-101-102LF")
 		(at 299.72 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28664,7 +28937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000074775bee")
-		(property "Reference" "R603A1"
+		(property "Reference" "ZS3"
 			(at 298.45 109.22 90)
 			(effects
 				(font
@@ -28680,7 +28953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP6_BCu140"
 			(at 299.72 107.442 90)
 			(effects
 				(font
@@ -28689,7 +28962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 299.72 109.22 0)
 			(effects
 				(font
@@ -28698,7 +28971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 299.72 109.22 0)
 			(effects
 				(font
@@ -28716,22 +28989,22 @@
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R603A1")
+					(reference "ZS3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4606X-101-102LF")
 		(at 299.72 111.76 270)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000074776362")
-		(property "Reference" "R603B1"
+		(property "Reference" "ZS3"
 			(at 298.45 111.76 90)
 			(effects
 				(font
@@ -28747,7 +29020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP6_BCu140"
 			(at 299.72 109.982 90)
 			(effects
 				(font
@@ -28756,7 +29029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 299.72 111.76 0)
 			(effects
 				(font
@@ -28765,7 +29038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 299.72 111.76 0)
 			(effects
 				(font
@@ -28777,28 +29050,28 @@
 		(pin "1"
 			(uuid "644bf62e-cbb3-41a6-842c-47f65d99b6fc")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "ed97c577-f38d-43f2-b1ec-a244851ce689")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R603B1")
-					(unit 1)
+					(reference "ZS3")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4606X-101-102LF")
 		(at 299.72 114.3 270)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007477714c")
-		(property "Reference" "R603C1"
+		(property "Reference" "ZS3"
 			(at 298.45 114.3 90)
 			(effects
 				(font
@@ -28814,7 +29087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP6_BCu140"
 			(at 299.72 112.522 90)
 			(effects
 				(font
@@ -28823,7 +29096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 299.72 114.3 0)
 			(effects
 				(font
@@ -28832,7 +29105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 299.72 114.3 0)
 			(effects
 				(font
@@ -28844,28 +29117,28 @@
 		(pin "1"
 			(uuid "6ef9366d-baaf-4e43-b18a-1d6b702e476e")
 		)
-		(pin "2"
+		(pin "5"
 			(uuid "516fef50-9029-4479-9f92-a07568437c7d")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R603C1")
-					(unit 1)
+					(reference "ZS3")
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4606X-101-102LF")
 		(at 299.72 116.84 270)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000747779b9")
-		(property "Reference" "R603D1"
+		(property "Reference" "ZS3"
 			(at 298.45 116.84 90)
 			(effects
 				(font
@@ -28881,7 +29154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP6_BCu140"
 			(at 299.72 115.062 90)
 			(effects
 				(font
@@ -28890,7 +29163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 299.72 116.84 0)
 			(effects
 				(font
@@ -28899,7 +29172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 299.72 116.84 0)
 			(effects
 				(font
@@ -28911,28 +29184,28 @@
 		(pin "1"
 			(uuid "a7207b74-b7e0-4179-9e4b-e5da01c3a4ee")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "57bf85b5-807a-49b2-b1ce-9389b3d9a3d6")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R603D1")
-					(unit 1)
+					(reference "ZS3")
+					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "BPlus:4606X-101-102LF")
 		(at 299.72 119.38 270)
-		(unit 1)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000747781f3")
-		(property "Reference" "R603E1"
+		(property "Reference" "ZS3"
 			(at 298.45 119.38 90)
 			(effects
 				(font
@@ -28948,7 +29221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "AmigaFootprints:BPlus_SIP6_BCu140"
 			(at 299.72 117.602 90)
 			(effects
 				(font
@@ -28957,7 +29230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/Product-Datasheets/4600x.pdf"
 			(at 299.72 119.38 0)
 			(effects
 				(font
@@ -28966,7 +29239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns bussed SIP, 1 kOhm per branch, common pin 1"
 			(at 299.72 119.38 0)
 			(effects
 				(font
@@ -28978,14 +29251,14 @@
 		(pin "1"
 			(uuid "212d543e-3424-47d5-8047-3cc87cd91f89")
 		)
-		(pin "2"
+		(pin "6"
 			(uuid "b0bac77b-557c-431c-b3f4-541b7c1c8ddd")
 		)
 		(instances
 			(project "2000ATX"
 				(path "/bb595301-1c72-49dc-ac6f-007419f3a7fd/00000000-0000-0000-0000-0000604cafd0"
-					(reference "R603E1")
-					(unit 1)
+					(reference "ZS3")
+					(unit 5)
 				)
 			)
 		)

@@ -105,3 +105,7 @@ R802 is a 10 kΩ axial Vishay MRS25000C1002FCT00. Pad 1 meets the existing compa
 The 10.16 mm pitch DIN0207 footprint has 1.60 mm pads, 0.80 mm finished holes and at least 0.840 mm between front courtyard bounding boxes. MRS25 is specified at ±1% and 0.6 W at 70 °C under the specified mounting conditions. At 5 V the nominal dissipation is 2.5 mW. The baseline BOM gives no tolerance. Check lead forming, solder fill, underside clearance and comparator/reset behaviour on hardware. [Vishay data](https://www.vishay.com/docs/28724/mrs16m25.pdf)
 
 KiCad 10.0.8 reports 24 ERC errors and 1,182 warnings, 73 DRC errors and 202 warnings, zero unrouted items and the same 17 schematic-parity warnings. Four inherited ERC findings selected different representative items. Converting R802 removed its library warning and brought C627 into the bounded list. All 3,617 schematic pins, 3,712 physical pad-net records, fixed connector and mounting datums, four-layer stack and outline match the control. Current population is 74 THT and 495 SMD across 569 packages (13.0% THT). [Conversion manifest](audit/implementation/r802/conversion.csv) · [Object-level comparison](audit/implementation/r802/verification.json) · [Raw KiCad reports](audit/implementation/r802/kicad-reports.zip)
+
+## Installed ZS3
+
+5 discrete termination resistors now occupy one grounded SIP. The checked motherboard contains 75 through-hole packages and 490 SMD packages. [Implementation, verification and batch-specific risks](audit/implementation/zorro-zs3/README.md)
