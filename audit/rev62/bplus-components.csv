@@ -100,7 +100,7 @@ C605,C605,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DI
 C606,C606,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.
 C607,C607,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
 C617,C617,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
-C619,C619,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C619,C619,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground. Deferred after routed trial. Drill pair reduces +12 V area by 6.3101 mm2. See audit/implementation/resumed-cycle/deferred.csv.
 C620,C620,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C621,C621,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C622,C622,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
@@ -134,7 +134,7 @@ C660,C660,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each 
 C661,C661,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C662,C662,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C663,C663,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
-C664,C664,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C664,C664,THT,B,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground. Installed C315C102J5G5TA in resumed-termination-capacitors. See audit/implementation/resumed-termination-capacitors/verification.json.
 C665,C665,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C666,C666,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C667,C667,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
@@ -142,7 +142,7 @@ C668,C668,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each 
 C669,C669,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C670,C670,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C671,C671,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
-C672,C672,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C672,C672,THT,B,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground. Installed C315C102J5G5TA in resumed-termination-capacitors. See audit/implementation/resumed-termination-capacitors/verification.json.
 C673,C673,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C674,C674,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C675,C675,SMD,D,Capacitor_SMD:C_0805_2012Metric,1000pF,Dedicated _GBG path to CN601. Preserve its own tap/return and measure arbitration edges.
@@ -152,7 +152,7 @@ C702,C702,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed IS
 C703,C703,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
 C704,C704,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
 C705,C705,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,0.22uF,Distributed ISA rail bypass. Retain same rail and ground contact near the slot. Measure rail bounce under load.
-C711,C711,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C711,C711,THT,B,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground. Installed C315C102J5G5TA in resumed-termination-capacitors. See audit/implementation/resumed-termination-capacitors/verification.json.
 C713,C713,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C714,C714,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C716,C716,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
@@ -183,18 +183,18 @@ C764,C764,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each 
 C766,C766,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C768,C768,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C770,C770,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
-C776,C776,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C776,C776,THT,B,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground. Installed C315C102J5G5TA in resumed-termination-capacitors. See audit/implementation/resumed-termination-capacitors/verification.json.
 C778,C778,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C780,C780,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C782,C782,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C784,C784,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C786,C786,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C787,C787,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
-C789,C789,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C789,C789,THT,B,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground. Installed C315C102J5G5TA in resumed-termination-capacitors. See audit/implementation/resumed-termination-capacitors/verification.json.
 C790,C790,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C791,C791,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C793,C793,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
-C794,C794,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
+C794,C794,THT,B,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground. Installed C315C102J5G5TA in resumed-termination-capacitors. See audit/implementation/resumed-termination-capacitors/verification.json.
 C796,C796,THT,B,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,1000pF,Preserve each private series RC junction and slot endpoint. Check loaded settling and local ground.
 C800,C800,SMD,C,Capacitor_SMD:C_1206_3216Metric,0.1uF,Preserve local supply bypass and return loop on the two listed nets. A leaded alternative requires a package-specific loop and impedance comparison.
 C802,C802,SMD,D,Capacitor_SMD:C_1206_3216Metric,0.1uF,Co-place at the powered DIP or original distribution/filter tap. Compare loop inductance and local voltage droop against baseline.

@@ -1,0 +1,719 @@
+{
+  "control_commit": "f89074ea3d777a54c84b7281e9e6599ffa2f71f3",
+  "kicad": "10.0.8",
+  "checked_board_sha256": "f3c40a6df5dd853bd085f0224c741d305029506f7a4808c1c6bf98eec0d59a63",
+  "schematic_pin_assignments": [
+    3603,
+    3603
+  ],
+  "pad_net_records": [
+    3698,
+    3698
+  ],
+  "expanded_differences": 0,
+  "via_objects_identical": true,
+  "via_count": 1211,
+  "existing_track_objects_identical": true,
+  "removed_segments": [],
+  "added_front_segments": 16,
+  "added_back_segments": 0,
+  "added_route_plane_samples_mm": {
+    "F.Cu Net-(C664-Pad1)": [
+      1.2717138042814509,
+      1.2228017348860105,
+      0.0
+    ],
+    "F.Cu BD0": [
+      1.4844532892444031,
+      1.2929450893546852,
+      0.0
+    ],
+    "F.Cu Net-(C672-Pad1)": [
+      1.3773516888474773,
+      1.280385837037505,
+      0.0
+    ],
+    "F.Cu BD4": [
+      1.591660159756077,
+      1.217820577772238,
+      0.0
+    ],
+    "F.Cu Net-(RN700-R9)": [
+      0.28533489096148057,
+      0.28533489096148057,
+      0.0
+    ],
+    "F.Cu Net-(C711-Pad2)": [
+      0.28533489096148057,
+      0.28533489096148057,
+      0.0
+    ],
+    "F.Cu Net-(RN704-R8)": [
+      0.28265172916506276,
+      0.28265172916506276,
+      0.0
+    ],
+    "F.Cu Net-(C776-Pad2)": [
+      0.5800922685228618,
+      0.5800922685228618,
+      0.0
+    ],
+    "F.Cu Net-(RN704-R1)": [
+      0.28533489096148057,
+      0.28533489096148057,
+      0.0
+    ],
+    "F.Cu Net-(C789-Pad2)": [
+      0.179655225362359,
+      0.179655225362359,
+      0.0
+    ],
+    "F.Cu Net-(RN703-R8)": [
+      0.7432102448427663,
+      0.7432102448427663,
+      0.0
+    ],
+    "F.Cu Net-(C794-Pad2)": [
+      0.45541190146942795,
+      0.45541190146942795,
+      0.0
+    ]
+  },
+  "physical_stackup_and_edges_equal": true,
+  "fixed_datums": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "added": [],
+  "removed": [],
+  "changed_shared_footprints": [
+    "C664",
+    "C672",
+    "C711",
+    "C776",
+    "C789",
+    "C794"
+  ],
+  "population": {
+    "THT": 126,
+    "SMD": 428
+  },
+  "nearest_front_courtyards_mm": {
+    "C776": [
+      [
+        0.034,
+        "C778"
+      ],
+      [
+        1.9136,
+        "C770"
+      ],
+      [
+        2.036,
+        "RN704"
+      ]
+    ],
+    "C794": [
+      [
+        0.034,
+        "C796"
+      ],
+      [
+        1.4588,
+        "CN702"
+      ],
+      [
+        2.574,
+        "C760"
+      ]
+    ],
+    "C664": [
+      [
+        0.16,
+        "CN605"
+      ],
+      [
+        0.712,
+        "C666"
+      ],
+      [
+        0.9025,
+        "C674"
+      ]
+    ],
+    "C672": [
+      [
+        0.0343,
+        "R605"
+      ],
+      [
+        0.1591,
+        "CN605"
+      ],
+      [
+        0.966,
+        "C670"
+      ]
+    ],
+    "C711": [
+      [
+        0.034,
+        "C713"
+      ],
+      [
+        2.0684,
+        "CN702"
+      ],
+      [
+        2.574,
+        "C714"
+      ]
+    ],
+    "C789": [
+      [
+        0.034,
+        "C787"
+      ],
+      [
+        2.17,
+        "CN702"
+      ],
+      [
+        2.2392,
+        "RN704"
+      ]
+    ]
+  },
+  "plane_areas": {
+    "24fb3a22-9621-50fc-9c57-2ea155916a82 GND": [
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      },
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      }
+    ],
+    "47578734-c322-4597-a67e-b5f76c57f39b GND": [
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      },
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      }
+    ],
+    "5175addb-db9f-5b18-9f43-0f4a14a18455 GND": [
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      },
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      }
+    ],
+    "52da9264-b986-414a-b478-5edf15caf204 GND": [
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      },
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      }
+    ],
+    "698ed2d4-165a-51ff-a5e0-2589480ce711 GND": [
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      }
+    ],
+    "80945dc7-0fc8-5710-82d6-7277d35d98e8 GND": [
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      },
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      }
+    ],
+    "859a2f5f-a539-4c18-ba8a-cddf325c479d GND": [
+      {
+        "area_mm2": 85804.414,
+        "islands": 180
+      },
+      {
+        "area_mm2": 85749.4385,
+        "islands": 180
+      }
+    ],
+    "8e7f25c9-b383-4620-9042-0ab68da69405 GND": [
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      },
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      }
+    ],
+    "c09ee2d8-9c40-435e-ba12-4f187673cf9c GND": [
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      },
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      }
+    ],
+    "f147ee7f-44d5-4732-ba6b-64595aa4fdb4 GND": [
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      },
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      }
+    ],
+    "00000000-0000-0000-0000-000061f11a4a +5V": [
+      {
+        "area_mm2": 83114.2404,
+        "islands": 6
+      },
+      {
+        "area_mm2": 83059.2441,
+        "islands": 6
+      }
+    ],
+    "0a670621-705a-5f96-a5bc-b660db88235a +5V": [
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      },
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      }
+    ],
+    "3abc2beb-0a3c-4fbf-b69f-ba30e4ec5ce6 -5V": [
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      },
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      }
+    ],
+    "3f4f6b1a-8d48-4251-8cb2-48fb354b55f4 -12V": [
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      },
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      }
+    ],
+    "588aca6e-e2a9-4695-9d15-5dd97e167a1e +5V": [
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      },
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      }
+    ],
+    "613d426f-3aa9-505b-8a6f-0020868dea29 +5V": [
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      }
+    ],
+    "6bf6e243-ce13-4e56-9663-f1926a5b60b7 +5V": [
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      },
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      }
+    ],
+    "7ff6bb5d-7fb8-4963-ac90-5c445989080f +5V": [
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      }
+    ],
+    "97ef5659-cb24-5673-8c54-55e1a82b725c +5V": [
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      },
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      }
+    ],
+    "9d9bd969-041d-5750-953f-d5da43f930bc +5V": [
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      },
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      }
+    ],
+    "b414093d-e6d5-419d-b12e-a099295f2832 +5V": [
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      }
+    ],
+    "e49d556e-40ab-439f-be4b-1bb39eaed9c6 +5V": [
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      },
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      }
+    ],
+    "eab3356d-1847-4f4f-8e2a-0944efe4ceb8 +12V": [
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      },
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      }
+    ]
+  },
+  "local_reference_and_thermals": {
+    "C776": {
+      "front": {
+        "sample_comparisons": 50,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "00000000-0000-0000-0000-0000609a5e48",
+              0
+            ],
+            "Net-(RN704-R8)",
+            18
+          ],
+          [
+            [
+              "00000000-0000-0000-0000-0000609a5e51",
+              1
+            ],
+            "Net-(C776-Pad2)",
+            9
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C794": {
+      "front": {
+        "sample_comparisons": 73,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "00000000-0000-0000-0000-0000609a5d07",
+              1
+            ],
+            "Net-(C794-Pad2)",
+            17
+          ],
+          [
+            [
+              "00000000-0000-0000-0000-0000609a5cef",
+              0
+            ],
+            "Net-(RN703-R8)",
+            18
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 47,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C664": {
+      "front": {
+        "sample_comparisons": 65,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "9706976d-ff4c-57d1-b6c5-6922211ecb06",
+              0
+            ],
+            "Net-(C664-Pad1)",
+            4
+          ],
+          [
+            [
+              "e2bd32b5-7425-5467-83c4-6f1dee4a4215",
+              0
+            ],
+            "Net-(C664-Pad1)",
+            14
+          ],
+          [
+            [
+              "a6a963f5-3b74-5d0a-b303-cd89a9ce52b1",
+              0
+            ],
+            "Net-(C664-Pad1)",
+            6
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 80,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C672": {
+      "front": {
+        "sample_comparisons": 76,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "0edbc436-5609-55e3-9ff2-3ce8d0e11c83",
+              0
+            ],
+            "Net-(C672-Pad1)",
+            17
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C711": {
+      "front": {
+        "sample_comparisons": 49,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "00000000-0000-0000-0000-0000609a621d",
+              0
+            ],
+            "Net-(RN700-R9)",
+            17
+          ],
+          [
+            [
+              "00000000-0000-0000-0000-0000609a6241",
+              1
+            ],
+            "Net-(C711-Pad2)",
+            15
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    },
+    "C789": {
+      "front": {
+        "sample_comparisons": 48,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "00000000-0000-0000-0000-0000609a5d67",
+              1
+            ],
+            "Net-(C789-Pad2)",
+            17
+          ],
+          [
+            [
+              "00000000-0000-0000-0000-0000609a5d5e",
+              0
+            ],
+            "Net-(RN704-R1)",
+            15
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {}
+    }
+  },
+  "reports": {
+    "violations": {
+      "before": {
+        "error": 73,
+        "warning": 202
+      },
+      "after": {
+        "error": 73,
+        "warning": 202
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              285.75,
+              165.1
+            ],
+            [
+              "Symbol #PWR0234 Hidden pin 1 [GND, Power input, Line]",
+              54.61,
+              151.13
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              204.47,
+              148.59
+            ],
+            [
+              "Symbol #PWR0240 Hidden pin 1 [GND, Power input, Line]",
+              248.92,
+              39.37
+            ]
+          ]
+        ]
+      ]
+    }
+  }
+}
