@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111916"><title>A2000 EATX · Engineering workbench</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="./css/workbench.css"><script type="module" src="./js/app.js"></script></head>
+<body>
+<header class="topbar"><a class="brand" href="#board" aria-label="A2000 EATX board explorer"><svg aria-hidden="true" viewBox="0 0 36 36"><rect x="2" y="2" width="32" height="32" rx="6" fill="#a9d7ac"/><g fill="none" stroke="#18382b" stroke-width="2.2" stroke-linecap="round"><path d="M8 25h5l9-15h6M9 18h4l5-8M18 25h5l4-7"/><circle cx="8" cy="25" r="1.5"/><circle cx="28" cy="10" r="1.5"/></g></svg><b>A2000 <span>EATX</span></b></a>
+<nav aria-label="Workbench pages"><button class="tab active" data-page="board">Board explorer</button><button class="tab" data-page="components">Components</button><button class="tab" data-page="verification">Verification</button></nav>
+<span id="snapshot-label" class="snapshot"><i></i> Read-only snapshot</span></header>
+<main><div id="notice" role="status" class="notice" hidden></div>
+<div class="heading"><div><div class="breadcrumb">Motherboard <span>/</span> Scenario B+</div><h1 id="page-title">Board explorer</h1><p id="page-subtitle">Commodore Authentic <span>·</span> Amiga 2000 EATX</p></div>
+<button id="compare" class="action" aria-pressed="false"><span data-icon="compare"></span>Compare revisions</button></div>
+<div id="metrics" class="metrics" aria-label="Conversion progress"></div>
+<section id="board-page" aria-label="Board explorer">
+<div class="bench"><section class="panel pcb-panel"><div class="panel-heading"><div class="panel-title"><span data-icon="board"></span><h2>PCB layout</h2></div><span class="mono subtle" id="board-size"></span></div>
+<div class="toolbar"><div class="search-wrap"><span data-icon="search"></span><input id="search" autocomplete="off" aria-label="Find a component by reference" placeholder="Find reference…" aria-controls="reference-list"><kbd>/</kbd><div id="reference-list" class="results" hidden></div></div>
+<select id="region" aria-label="Zoom to functional region"><option value="">All regions</option></select>
+<details id="layers" class="layer-menu"><summary><span data-icon="layers"></span>Layers</summary><div class="layer-options" id="layer-list"></div></details></div>
+<div id="workspace" tabindex="0" aria-label="PCB viewer. Use arrow keys to pan, plus and minus to zoom, Home to fit.">
+<div id="panes"></div><div id="hover-tip" hidden></div>
+<div class="view-controls"><button id="zoom-out" title="Zoom out" aria-label="Zoom out">−</button><span id="zoom-level" class="mono">100%</span><button id="zoom-in" title="Zoom in" aria-label="Zoom in">+</button><b></b><button id="fit" title="Fit motherboard" aria-label="Fit motherboard"><span data-icon="fit"></span></button><button id="reset" title="Reset camera and region" aria-label="Reset camera and region"><span data-icon="reset"></span></button></div></div>
+<div class="canvas-footer"><span><span class="crosshair">⌖</span> <span id="coordinate">Board coordinates · mm</span></span><span id="view-mode">Component side</span></div>
+<div id="legend" class="legend" aria-label="Conversion status filters"></div></section>
+<aside class="panel inspector"><div class="panel-heading"><div class="panel-title"><span data-icon="inspect"></span><h2>Component inspector</h2></div></div><div id="inspector" tabindex="-1"><p class="empty">Loading component records…</p></div></aside></div></section>
+<section id="components-page" hidden aria-label="Component register"><div class="panel"><div class="panel-heading"><div class="panel-title"><span data-icon="board"></span><h2>Component register</h2></div><span id="parts-count" class="mono subtle"></span></div>
+<div class="filters"><input type="search" id="table-search" aria-label="Filter component register" placeholder="Reference, value or footprint…"><select id="status-select" aria-label="Filter by conversion status"></select><select id="category-select" aria-label="Filter by component type"></select><label class="check"><input id="changes-only" type="checkbox">Changed packages</label></div>
+<div class="table-scroll"><table id="parts-table"><thead><tr><th>Reference</th><th>Value</th><th>Type</th><th>Conversion status</th><th>Current footprint</th><th>Change</th></tr></thead><tbody></tbody></table></div></div><div id="progress-panel" class="panel report-panel"></div></section>
+<section id="verification-page" hidden aria-label="Verification results"><div id="verification-content"></div></section>
+<footer><span>Jason Beer's Amiga 2000 EATX</span><span class="mono" id="source-id"></span></footer></main>
+<noscript>This engineering viewer requires JavaScript. The repository includes a static component CSV and summary JSON.</noscript></body></html>

@@ -1,0 +1,76 @@
+name: PCB dashboard
+
+on:
+  push:
+    branches: [feature/interactive-pcb-dashboard, implementation/scenario-b-plus]
+    paths:
+      - '2000EATX-KiCAD-R31/**'
+      - 'audit/**'
+      - 'coupon/**'
+      - 'reports/pcb-progress/**'
+      - 'tools/pcb-progress/**'
+      - 'dashboard/**'
+      - '*.md'
+      - '*.csv'
+      - '.github/workflows/pcb-dashboard.yml'
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the regenerated dashboard to GitHub Pages
+        type: boolean
+        default: false
+
+permissions: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Regenerate KiCad geometry and reporting data
+        # Official kicad/kicad:10.0.8, including the CLI and pcbnew Python module.
+        run: |
+          docker run --rm --user "$(id -u):$(id -g)" \
+            --tmpfs /home/kicad:mode=1777 \
+            --mount "type=bind,source=$GITHUB_WORKSPACE,target=/work" \
+            --workdir /work \
+            kicad/kicad@sha256:3f4a01786dfbe803a65f345c3342b765db9add913f5e9448f8356793714ddc34 \
+            python3 tools/pcb-progress/build.py
+
+      - name: Validate source coordinates, populations and branch mappings
+        run: python3 tools/pcb-progress/test_export.py
+
+      - name: Test the regenerated site in Chrome
+        run: |
+          python3 -m venv "$RUNNER_TEMP/dashboard-browser"
+          "$RUNNER_TEMP/dashboard-browser/bin/pip" install playwright==1.65.2
+          "$RUNNER_TEMP/dashboard-browser/bin/python" tools/pcb-progress/test_browser.py --browser "$(command -v google-chrome)"
+
+      - name: Package validated Pages site
+        if: github.event_name == 'workflow_dispatch' && inputs.publish
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dashboard
+
+  deploy:
+    if: github.event_name == 'workflow_dispatch' && inputs.publish
+    needs: check
+    runs-on: ubuntu-24.04
+    concurrency:
+      group: pcb-dashboard-pages
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish validated artifact
+        id: deployment
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
