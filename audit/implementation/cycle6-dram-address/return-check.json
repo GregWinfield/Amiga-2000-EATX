@@ -1,0 +1,37 @@
+{
+  "239f6641-2e33-454c-a001-396a7933156f": {
+    "net": "Net-(U540-O0a)",
+    "lost_mm": 0.836,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.836,
+    "max_distance_to_ground_mm": 0.75
+  },
+  "c8736274-94fa-4e1a-8eb3-313bbfed9309": {
+    "net": "Net-(U540-O1a)",
+    "lost_mm": 0.478,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.478,
+    "max_distance_to_ground_mm": 0.4
+  },
+  "9d28f312-dff7-4831-bcd3-775ec60d452e": {
+    "net": "Net-(U540-O3a)",
+    "lost_mm": 0.924,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.924,
+    "max_distance_to_ground_mm": 0.95
+  },
+  "5c0d7101-73e4-4d45-8bb5-1a2b5ffb8597": {
+    "net": "Net-(U541-O0a)",
+    "lost_mm": 0.099,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.099,
+    "max_distance_to_ground_mm": 0.1
+  },
+  "f91acba4-077a-4b7c-af26-b9aa548b3f3a": {
+    "net": "Net-(U540-O3b)",
+    "lost_mm": 0.497,
+    "gained_mm": 0.0,
+    "max_contiguous_loss_mm": 0.497,
+    "max_distance_to_ground_mm": 0.45
+  }
+}

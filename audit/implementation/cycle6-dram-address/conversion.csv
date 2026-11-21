@@ -1,0 +1,8 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R500-1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB0,Net-(U540-O0a),336.44581,345.1547,180.0
+R500-2,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB1,Net-(U540-O1a),336.47629,349.97054,180.0
+R500-4,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB3,Net-(U540-O3a),336.46613,359.46346,180.0
+R500-6,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB5,Net-(U540-O1b),336.48137,354.72034,180.0
+R500-7,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB6,Net-(U540-O2b),336.48645,347.56262,180.0
+R500-8,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB7,Net-(U540-O3b),336.43565,342.78234,180.0
+R500-9,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB8,Net-(U541-O0a),336.49153,363.30046,180.0
