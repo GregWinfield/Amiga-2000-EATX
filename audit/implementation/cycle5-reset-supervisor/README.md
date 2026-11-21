@@ -1,0 +1,9 @@
+# XU1 reset supervisor
+
+DS1813-5+ replaces the SOT-23 DS1813R-5+ specified in the original shopping list. Pin 1 is the active-low bidirectional reset, pin 2 is +5 V and pin 3 is ground on both devices. The 4.50–4.75 V trip range, internal pull-up, pushbutton response and 100–300 ms reset interval apply to both packages. [Analog Devices data sheet](https://www.analog.com/media/en/technical-documentation/data-sheets/DS1813.pdf)
+
+The project footprint takes formed leads at 2.54 mm pitch. The controlled maximum lead dimensions of 0.022 × 0.020 inches give a 0.756 mm diagonal. A 1.00 mm finished hole with ±0.075 mm diameter tolerance leaves at least 0.169 mm diametral clearance. The 1.80 mm land provides 0.40 mm nominal annular ring. Allowing 0.075 mm registration error, 0.025 mm radial etch loss, half the positive hole tolerance and 0.025 mm radial plating allowance gives about 0.238 mm on the drilled bore. These are layout assumptions for the fabricator to confirm. Form the outer leads with support and check fit and seating height on a sample. The nearest front courtyard is RN802 at 3.717 mm. [Manufacturer package drawing](https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/to92/21-0248.pdf)
+
+One 10.602 mm front branch joins the original reset junction. Both original signal tracks remain. The +5 V barrel replaces the old supply via and the ground barrel connects to the existing plane. Adjacent original front and back traces retain their sampled references. The refill preserved all plane island counts and auxiliary rail polygon areas. Bench checks cover slow supply ramps, brownout and pushbutton release with the intended reset load.
+
+[Part and pin assignment](conversion.csv) · [Copper lengths](routing.csv) · [Mechanical and electrical comparison](verification.json) · [Raw KiCad reports](kicad-reports.zip)

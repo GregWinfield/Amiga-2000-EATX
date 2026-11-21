@@ -16908,7 +16908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "AmigaFootprints:TO-92_DS1813_P2.54mm"
 			(at 335.28 35.56 0)
 			(effects
 				(font

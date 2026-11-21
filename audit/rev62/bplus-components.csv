@@ -581,5 +581,5 @@ X1,X1,THT,B,Oscillator:Oscillator_DIP-14,28.63636MHz,Retain production land and 
 X2,X2,SMD,E,Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm,7C-28.63636MBB-T,Preserve both mutually exclusive assembly options. Existing X1 or U899 already supports the leaded variant.
 XC1,XC1,SMD,E,Capacitor_SMD:C_1206_3216Metric,270pf,"Clock, RTC, sync or control-node loading. Lead and pad capacitance alter edge shaping or time constant at the named node."
 XR1,XR1,SMD,C,Resistor_SMD:R_1206_3216Metric,68,Series signal conditioning. Added lead length and moving the series element change the present source/load discontinuity. Review the two named pad nets together.
-XU1,XU1,THT,B,Package_TO_SOT_THT:TO-92_Inline,DS1813,"Keep the BOM -5 threshold grade, reset pulse width, open-drain behavior and manual reset. Check package view before insertion."
+XU1,XU1,THT,B,AmigaFootprints:TO-92_DS1813_P2.54mm,DS1813,"Keep the BOM -5 threshold grade, reset pulse width, open-drain behavior and manual reset. Check package view before insertion. Installed DS1813-5+ in cycle5-reset-supervisor. See audit/implementation/cycle5-reset-supervisor/verification.json."
 Y800,Y800,SMD,E,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,32.768KHz,"Optional RTC crystal. Motional parameters, load capacitance, ESR and drive level determine start-up and trim range."

@@ -546,7 +546,7 @@ X1,28.63636MHz,Oscillator:Oscillator_DIP-14,THT,
 X2,7C-28.63636MBB-T,Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm,SMD,
 XC1,270pf,Capacitor_SMD:C_1206_3216Metric,SMD,
 XR1,68,Resistor_SMD:R_1206_3216Metric,SMD,
-XU1,DS1813,Package_TO_SOT_SMD:SOT-23,SMD,
+XU1,DS1813,AmigaFootprints:TO-92_DS1813_P2.54mm,THT,DS1813-5+
 Y800,32.768KHz,Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm,SMD,
 ZS2,1k,AmigaFootprints:BPlus_SIP10_BCu140,THT,4610X-101-102LF
 ZS3,1k,AmigaFootprints:BPlus_SIP6_BCu140,THT,4606X-101-102LF

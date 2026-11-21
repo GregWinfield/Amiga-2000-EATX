@@ -1,0 +1,2 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,pin3_net,x_mm,y_mm,rotation_deg
+XU1,DS1813,DS1813-5+,Package_TO_SOT_SMD:SOT-23,AmigaFootprints:TO-92_DS1813_P2.54mm,/Serial/RESET,+5V,GND,366.473,204.9965,180.0
