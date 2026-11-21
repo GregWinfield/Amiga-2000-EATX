@@ -1,0 +1,541 @@
+{
+  "start_artwork": "7994c796b09d900ef0457c6b4a7c6ea9d2400fad",
+  "final_artwork": "65f3b2f564f3d54e0fc3f2c24a6000b5424bb32c",
+  "checked_board_lf_sha256": "c303c3880f1281cfa6789508069c1b4b92e307dc8cfaa9212d7b6cfa27457b90",
+  "verified_batches": [
+    {
+      "batch": "cycle6-video-series",
+      "commit": "437e65f5d49f968b8105561f606b151c39dcf69c",
+      "parts": [
+        "RN201A1",
+        "RN201B1",
+        "RN201C1",
+        "RN201D1",
+        "RN203E1"
+      ]
+    },
+    {
+      "batch": "cycle6-dram-address",
+      "commit": "170bea570ebe793ee9df87f7b011535010d13c55",
+      "parts": [
+        "R500-1",
+        "R500-2",
+        "R500-4",
+        "R500-6",
+        "R500-7",
+        "R500-8",
+        "R500-9"
+      ]
+    },
+    {
+      "batch": "cycle6-peripheral-interfaces",
+      "commit": "18cbdda1b0fef80b430db44b883ec507c18c5ca0",
+      "parts": [
+        "R606",
+        "R904",
+        "RN204C1"
+      ]
+    },
+    {
+      "batch": "cycle6-radial-shunts",
+      "commit": "65f3b2f564f3d54e0fc3f2c24a6000b5424bb32c",
+      "parts": [
+        "C675",
+        "C815"
+      ]
+    }
+  ],
+  "converted_positions": [
+    "C675",
+    "C815",
+    "R500-1",
+    "R500-2",
+    "R500-4",
+    "R500-6",
+    "R500-7",
+    "R500-8",
+    "R500-9",
+    "R606",
+    "R904",
+    "RN201A1",
+    "RN201B1",
+    "RN201C1",
+    "RN201D1",
+    "RN203E1",
+    "RN204C1"
+  ],
+  "population": {
+    "THT": 182,
+    "SMD": 372
+  },
+  "planned": 184,
+  "deferred": 100,
+  "original_through_hole": 65,
+  "converted_total": 117,
+  "physical_pad_net_records": 3698,
+  "schematic_pin_assignments": 3603,
+  "changed_net_assignments": 0,
+  "unrouted": 0,
+  "fixed_mounts": [
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9"
+  ],
+  "zorro_sockets": [
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605"
+  ],
+  "all_fixed_refs": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "vias_before": 1208,
+  "vias_after": 1208,
+  "vias_added": 0,
+  "retired_via_ids": [],
+  "diagnostics": {
+    "violations": {
+      "before": {
+        "error": 72,
+        "warning": 202
+      },
+      "after": {
+        "error": 72,
+        "warning": 202
+      },
+      "appeared": [
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint R601F1",
+              119.33169,
+              241.7005
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint R601G1",
+              119.33169,
+              246.2725
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint R601H1",
+              119.33169,
+              248.5585
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint R601I1",
+              118.04,
+              251.39
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C674",
+              115.01369,
+              338.03
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+          [
+            [
+              "Footprint U601",
+              215.31829,
+              270.2755
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+          [
+            [
+              "Footprint U604",
+              215.36909,
+              312.7443
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+          [
+            [
+              "Footprint U605",
+              215.36909,
+              352.1651
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint RN201A1",
+              219.96649,
+              96.9205
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint RN201B1",
+              219.91569,
+              100.2225
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint RN201C1",
+              219.91569,
+              104.0071
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint RN201D1",
+              219.91569,
+              107.5885
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint RN203E1",
+              219.91569,
+              111.3985
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint RN204C1",
+              370.02969,
+              106.8235
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C815",
+              371.24889,
+              184.3727
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C675",
+              199.351,
+              337.39
+            ]
+          ]
+        ]
+      ]
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              57.15
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              59.69
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              45.72
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB1 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              48.26
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              50.8
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              50.8
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              50.8
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              41.91
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB1 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              46.99
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              49.53
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              100.33
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              100.33
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "added_holds": [
+    "C310",
+    "C313",
+    "C314",
+    "C702",
+    "C703"
+  ],
+  "starting_held_rows_preserved": 95
+}

@@ -15,3 +15,5 @@ The verified batch is [cycle6-radial-shunts](cycle6-radial-shunts/README.md), wi
 [Object-level verification](cycle6-radial-shunts/verification.json) · [Native reports](cycle6-radial-shunts/kicad-reports.zip) · [Cycle 5 holds](cycle5/README.md) · [Current deferred register](cycle6/deferred.csv)
 
 Fabrication approval remains withheld. Fabricator tolerances, connector fit and insertion, lead forming, populated clearances, RTC leakage and retention, reset behaviour, populated audio, and loaded signal and rail measurements remain open.
+
+Final Cycle 6 artwork is `65f3b2f564f3d54e0fc3f2c24a6000b5424bb32c`. [Cycle report](cycle6/README.md) · [Cumulative CAD comparison](cycle6/cycle-check.json) · [Open holds](cycle6/deferred.csv). The separate PCB Explorer uses the engineering commit containing this comparison.
