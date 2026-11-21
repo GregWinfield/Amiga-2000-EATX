@@ -1,0 +1,6 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+C244,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,FLTLEFT,GND,295.00569,59.46578,90.0
+C812,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,/Buster and RTC/CLKVCC,GND,285.945698,379.81,180.0
+C413,0.01uf,C315C103K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,-5V,GND,208.57981,230.22902,90.0
+RN204B1,68,MBA0204AC6809FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Net-(U202-Zb),M1H,384.81249,101.4671,-90.0
+R500-10,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB9,Net-(U541-O1a),335.46537,365.63218,180.0

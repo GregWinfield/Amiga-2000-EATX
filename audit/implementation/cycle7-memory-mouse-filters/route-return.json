@@ -1,0 +1,187 @@
+{
+  "before": {
+    "GND": {
+      "sampled_mm": 3.5872,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(U202-Zb)": {
+      "sampled_mm": 10.3573,
+      "unreferenced_mm": 0.537,
+      "outside_terminal_mm": 0.537,
+      "max_distance_to_adjacent_plane_mm": 0.3,
+      "locations": [
+        [
+          378.099,
+          101.78
+        ],
+        [
+          378.099,
+          101.731
+        ],
+        [
+          378.099,
+          101.683
+        ],
+        [
+          378.099,
+          101.634
+        ],
+        [
+          378.099,
+          101.585
+        ],
+        [
+          378.099,
+          101.536
+        ],
+        [
+          378.099,
+          101.487
+        ],
+        [
+          378.099,
+          101.439
+        ],
+        [
+          378.099,
+          101.39
+        ],
+        [
+          378.099,
+          101.341
+        ],
+        [
+          378.099,
+          101.292
+        ]
+      ]
+    },
+    "Net-(U541-O1a)": {
+      "sampled_mm": 7.2011,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "/Memory and Kickstart/DRAB9": {
+      "sampled_mm": 12.9055,
+      "unreferenced_mm": 1.3102,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "-5V": {
+      "sampled_mm": 6.1642,
+      "unreferenced_mm": 0.7945,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "M1H": {
+      "sampled_mm": 2.9773,
+      "unreferenced_mm": 0.7904,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "Net-(U541-O1a)": {
+      "sampled_mm": 4.6613,
+      "unreferenced_mm": 1.0909,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(U202-Zb)": {
+      "sampled_mm": 13.1345,
+      "unreferenced_mm": 1.6438,
+      "outside_terminal_mm": 0.5462,
+      "max_distance_to_adjacent_plane_mm": 0.3,
+      "locations": [
+        [
+          378.006,
+          101.269
+        ],
+        [
+          378.009,
+          101.318
+        ],
+        [
+          378.012,
+          101.368
+        ],
+        [
+          378.015,
+          101.418
+        ],
+        [
+          378.018,
+          101.467
+        ],
+        [
+          378.021,
+          101.517
+        ],
+        [
+          378.024,
+          101.566
+        ],
+        [
+          378.027,
+          101.616
+        ],
+        [
+          378.03,
+          101.665
+        ],
+        [
+          378.033,
+          101.715
+        ],
+        [
+          378.037,
+          101.764
+        ]
+      ]
+    },
+    "/Memory and Kickstart/DRAB9": {
+      "sampled_mm": 12.1107,
+      "unreferenced_mm": 2.2937,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "M1H": {
+      "sampled_mm": 6.7058,
+      "unreferenced_mm": 1.8876,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "FLTLEFT": {
+      "sampled_mm": 2.2475,
+      "unreferenced_mm": 2.2475,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "/Buster and RTC/CLKVCC": {
+      "sampled_mm": 4.251,
+      "unreferenced_mm": 2.3727,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "-5V": {
+      "sampled_mm": 4.211,
+      "unreferenced_mm": 2.378,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}
