@@ -1,0 +1,6 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+RN201A1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,B0,Net-(CN203-Pad23),222.50649,96.9205,180.0
+RN201B1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,B3,Net-(CN203-Pad25),222.45569,100.2225,180.0
+RN201C1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,G3,Net-(CN203-Pad27),222.45569,104.0071,180.0
+RN201D1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,R3,Net-(CN203-Pad29),222.45569,107.5885,180.0
+RN203E1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Video/PIXELSW,Net-(U205-1Y2),217.37569,111.3985,0.0

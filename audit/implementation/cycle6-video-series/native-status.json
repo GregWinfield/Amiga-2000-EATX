@@ -1,0 +1,14 @@
+{
+  "drc": {
+    "status": 0,
+    "seconds": 89.4
+  },
+  "erc": {
+    "status": 0,
+    "seconds": 10.4
+  },
+  "net": {
+    "status": 0,
+    "seconds": 1.9
+  }
+}
