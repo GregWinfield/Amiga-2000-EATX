@@ -1,0 +1,4 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R606,1k,MRS16000C1001FCT00,Resistor_SMD:R_0805_2012Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,GND,Net-(C675-Pad1),205.586051,339.166051,135.0
+RN204C1,68,MBA0204AC6809FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,Net-(U202-Zc),M0V,368.92969,104.3835,-90.0
+R904,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,DOE,Net-(U800A-DOE),179.336838,121.0853,-15.0
