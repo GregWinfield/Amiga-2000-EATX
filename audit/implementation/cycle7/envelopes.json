@@ -1,0 +1,188 @@
+{
+  "R500-6 / R500-5": {
+    "max_body_gap_mm": 0.6516,
+    "body_polygons_mm": [
+      [
+        [
+          332.14137,
+          353.92034
+        ],
+        [
+          335.74137,
+          353.92034
+        ],
+        [
+          335.74137,
+          355.52034000000003
+        ],
+        [
+          332.14137,
+          355.52034000000003
+        ]
+      ],
+      [
+        [
+          332.27613,
+          356.17198
+        ],
+        [
+          335.57613,
+          356.17198
+        ],
+        [
+          335.57613,
+          357.92198
+        ],
+        [
+          332.27613,
+          357.92198
+        ]
+      ]
+    ],
+    "min_pad_centre_spacing_mm": 2.5577,
+    "nearest_foreign_copper": [
+      {
+        "pin": "1",
+        "layer": "B.Cu",
+        "foreign_track_or_via": "1791a3b5-4f79-4468-8969-192f33d345af",
+        "net": "_VPA",
+        "centre_to_copper_mm": 2.0289,
+        "land_to_copper_lower_bound_mm": 1.3289
+      },
+      {
+        "pin": "1",
+        "layer": "F.Cu",
+        "foreign_track_or_via": "f72b6a7e-42a9-447d-bb45-c71302a4078e",
+        "net": "/Memory and Kickstart/DRAB4",
+        "centre_to_copper_mm": 2.2016,
+        "land_to_copper_lower_bound_mm": 1.5016
+      },
+      {
+        "pin": "2",
+        "layer": "B.Cu",
+        "foreign_track_or_via": "bc145e77-9f0a-4386-8405-1a386baaea95",
+        "net": "A21",
+        "centre_to_copper_mm": 2.3258,
+        "land_to_copper_lower_bound_mm": 1.6258
+      },
+      {
+        "pin": "2",
+        "layer": "F.Cu",
+        "foreign_track_or_via": "1cfa96e8-eedc-4c38-a416-749837a83c66",
+        "net": "Net-(U540-O0b)",
+        "centre_to_copper_mm": 1.768,
+        "land_to_copper_lower_bound_mm": 1.068
+      }
+    ],
+    "reference_1206_body": "Vishay CRCW1206 envelope, original MPN unspecified"
+  },
+  "C675 / R606": {
+    "max_body_gap_mm": 2.3832,
+    "body_polygons_mm": [
+      [
+        [
+          196.146,
+          332.82
+        ],
+        [
+          199.956,
+          332.82
+        ],
+        [
+          199.956,
+          335.35999999999996
+        ],
+        [
+          196.146,
+          335.35999999999996
+        ]
+      ],
+      [
+        [
+          203.08289321881344,
+          335.531522368915
+        ],
+        [
+          205.62847763108502,
+          338.0771067811865
+        ],
+        [
+          204.49710678118655,
+          339.20847763108503
+        ],
+        [
+          201.95152236891496,
+          336.6628932188135
+        ]
+      ]
+    ],
+    "min_pad_centre_spacing_mm": 3.0572,
+    "nearest_foreign_copper": [
+      {
+        "pin": "1",
+        "layer": "B.Cu",
+        "foreign_track_or_via": "db0af238-1001-43f4-85f1-760ac5d8b740",
+        "net": "E7M",
+        "centre_to_copper_mm": 2.368,
+        "land_to_copper_lower_bound_mm": 1.568
+      },
+      {
+        "pin": "1",
+        "layer": "F.Cu",
+        "foreign_track_or_via": "2ac607e1-dbde-419e-9e6b-91ed77698edc",
+        "net": "BD5",
+        "centre_to_copper_mm": 1.4341,
+        "land_to_copper_lower_bound_mm": 0.6341
+      },
+      {
+        "pin": "2",
+        "layer": "B.Cu",
+        "foreign_track_or_via": "57ab270a-d72e-4b98-84c8-f318981e1518",
+        "net": "E7M",
+        "centre_to_copper_mm": 1.6179,
+        "land_to_copper_lower_bound_mm": 0.8179
+      },
+      {
+        "pin": "2",
+        "layer": "F.Cu",
+        "foreign_track_or_via": "2ac607e1-dbde-419e-9e6b-91ed77698edc",
+        "net": "BD5",
+        "centre_to_copper_mm": 1.4341,
+        "land_to_copper_lower_bound_mm": 0.6341
+      },
+      {
+        "pin": "1",
+        "layer": "B.Cu",
+        "foreign_track_or_via": "db0af238-1001-43f4-85f1-760ac5d8b740",
+        "net": "E7M",
+        "centre_to_copper_mm": 3.2087,
+        "land_to_copper_lower_bound_mm": 2.5087
+      },
+      {
+        "pin": "1",
+        "layer": "F.Cu",
+        "foreign_track_or_via": "e73c8a8e-a364-4711-9d97-14043c34d04a",
+        "net": "+5V",
+        "centre_to_copper_mm": 4.9425,
+        "land_to_copper_lower_bound_mm": 4.2425
+      },
+      {
+        "pin": "2",
+        "layer": "B.Cu",
+        "foreign_track_or_via": "0b0ed2eb-083f-4fd1-a590-da70a50fd321",
+        "net": "GND",
+        "centre_to_copper_mm": 2.7144,
+        "land_to_copper_lower_bound_mm": 2.0144
+      },
+      {
+        "pin": "2",
+        "layer": "F.Cu",
+        "foreign_track_or_via": "0b0ed2eb-083f-4fd1-a590-da70a50fd321",
+        "net": "GND",
+        "centre_to_copper_mm": 2.7144,
+        "land_to_copper_lower_bound_mm": 2.0144
+      }
+    ],
+    "reference_1206_body": null
+  }
+}
