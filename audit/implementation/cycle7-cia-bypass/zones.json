@@ -1,0 +1,206 @@
+{
+  "control": {
+    "00000000-0000-0000-0000-000061f11a47 F.Cu GND": {
+      "area": 28838.5383,
+      "outlines": 277
+    },
+    "752313d0-b56a-4468-89ad-09021da1816e B.Cu GND": {
+      "area": 31286.98,
+      "outlines": 174
+    },
+    "24fb3a22-9621-50fc-9c57-2ea155916a82 In1.Cu GND": {
+      "area": 67.1643,
+      "outlines": 1
+    },
+    "47578734-c322-4597-a67e-b5f76c57f39b In1.Cu GND": {
+      "area": 593.0604,
+      "outlines": 6
+    },
+    "5175addb-db9f-5b18-9f43-0f4a14a18455 In1.Cu GND": {
+      "area": 36.3138,
+      "outlines": 1
+    },
+    "52da9264-b986-414a-b478-5edf15caf204 In1.Cu GND": {
+      "area": 592.9216,
+      "outlines": 5
+    },
+    "698ed2d4-165a-51ff-a5e0-2589480ce711 In1.Cu GND": {
+      "area": 72.1926,
+      "outlines": 1
+    },
+    "80945dc7-0fc8-5710-82d6-7277d35d98e8 In1.Cu GND": {
+      "area": 42.2703,
+      "outlines": 1
+    },
+    "859a2f5f-a539-4c18-ba8a-cddf325c479d In1.Cu GND": {
+      "area": 85178.4174,
+      "outlines": 180
+    },
+    "8e7f25c9-b383-4620-9042-0ab68da69405 In1.Cu GND": {
+      "area": 587.7138,
+      "outlines": 7
+    },
+    "c09ee2d8-9c40-435e-ba12-4f187673cf9c In1.Cu GND": {
+      "area": 584.4915,
+      "outlines": 7
+    },
+    "f147ee7f-44d5-4732-ba6b-64595aa4fdb4 In1.Cu GND": {
+      "area": 597.1365,
+      "outlines": 4
+    },
+    "00000000-0000-0000-0000-000061f11a4a In2.Cu +5V": {
+      "area": 82462.6218,
+      "outlines": 7
+    },
+    "0a670621-705a-5f96-a5bc-b660db88235a In2.Cu +5V": {
+      "area": 37.041,
+      "outlines": 1
+    },
+    "3abc2beb-0a3c-4fbf-b69f-ba30e4ec5ce6 In2.Cu -5V": {
+      "area": 257.1549,
+      "outlines": 1
+    },
+    "3f4f6b1a-8d48-4251-8cb2-48fb354b55f4 In2.Cu -12V": {
+      "area": 466.1366,
+      "outlines": 1
+    },
+    "588aca6e-e2a9-4695-9d15-5dd97e167a1e In2.Cu +5V": {
+      "area": 504.6276,
+      "outlines": 4
+    },
+    "613d426f-3aa9-505b-8a6f-0020868dea29 In2.Cu +5V": {
+      "area": 72.9198,
+      "outlines": 1
+    },
+    "6bf6e243-ce13-4e56-9663-f1926a5b60b7 In2.Cu +5V": {
+      "area": 505.0068,
+      "outlines": 4
+    },
+    "7ff6bb5d-7fb8-4963-ac90-5c445989080f In2.Cu +5V": {
+      "area": 505.3021,
+      "outlines": 5
+    },
+    "97ef5659-cb24-5673-8c54-55e1a82b725c In2.Cu +5V": {
+      "area": 41.3048,
+      "outlines": 1
+    },
+    "9d9bd969-041d-5750-953f-d5da43f930bc In2.Cu +5V": {
+      "area": 66.1988,
+      "outlines": 1
+    },
+    "b414093d-e6d5-419d-b12e-a099295f2832 In2.Cu +5V": {
+      "area": 505.1757,
+      "outlines": 5
+    },
+    "e49d556e-40ab-439f-be4b-1bb39eaed9c6 In2.Cu +5V": {
+      "area": 501.4331,
+      "outlines": 3
+    },
+    "eab3356d-1847-4f4f-8e2a-0944efe4ceb8 In2.Cu +12V": {
+      "area": 583.3411,
+      "outlines": 1
+    }
+  },
+  "trial": {
+    "00000000-0000-0000-0000-000061f11a47 F.Cu GND": {
+      "area": 28835.4798,
+      "outlines": 279
+    },
+    "752313d0-b56a-4468-89ad-09021da1816e B.Cu GND": {
+      "area": 31275.8301,
+      "outlines": 176
+    },
+    "24fb3a22-9621-50fc-9c57-2ea155916a82 In1.Cu GND": {
+      "area": 67.1643,
+      "outlines": 1
+    },
+    "47578734-c322-4597-a67e-b5f76c57f39b In1.Cu GND": {
+      "area": 593.0604,
+      "outlines": 6
+    },
+    "5175addb-db9f-5b18-9f43-0f4a14a18455 In1.Cu GND": {
+      "area": 36.3138,
+      "outlines": 1
+    },
+    "52da9264-b986-414a-b478-5edf15caf204 In1.Cu GND": {
+      "area": 592.9216,
+      "outlines": 5
+    },
+    "698ed2d4-165a-51ff-a5e0-2589480ce711 In1.Cu GND": {
+      "area": 72.1926,
+      "outlines": 1
+    },
+    "80945dc7-0fc8-5710-82d6-7277d35d98e8 In1.Cu GND": {
+      "area": 42.2703,
+      "outlines": 1
+    },
+    "859a2f5f-a539-4c18-ba8a-cddf325c479d In1.Cu GND": {
+      "area": 85170.2671,
+      "outlines": 180
+    },
+    "8e7f25c9-b383-4620-9042-0ab68da69405 In1.Cu GND": {
+      "area": 587.7138,
+      "outlines": 7
+    },
+    "c09ee2d8-9c40-435e-ba12-4f187673cf9c In1.Cu GND": {
+      "area": 584.4915,
+      "outlines": 7
+    },
+    "f147ee7f-44d5-4732-ba6b-64595aa4fdb4 In1.Cu GND": {
+      "area": 597.1365,
+      "outlines": 4
+    },
+    "00000000-0000-0000-0000-000061f11a4a In2.Cu +5V": {
+      "area": 82454.4417,
+      "outlines": 7
+    },
+    "0a670621-705a-5f96-a5bc-b660db88235a In2.Cu +5V": {
+      "area": 37.041,
+      "outlines": 1
+    },
+    "3abc2beb-0a3c-4fbf-b69f-ba30e4ec5ce6 In2.Cu -5V": {
+      "area": 257.1549,
+      "outlines": 1
+    },
+    "3f4f6b1a-8d48-4251-8cb2-48fb354b55f4 In2.Cu -12V": {
+      "area": 466.1366,
+      "outlines": 1
+    },
+    "588aca6e-e2a9-4695-9d15-5dd97e167a1e In2.Cu +5V": {
+      "area": 504.6276,
+      "outlines": 4
+    },
+    "613d426f-3aa9-505b-8a6f-0020868dea29 In2.Cu +5V": {
+      "area": 72.9198,
+      "outlines": 1
+    },
+    "6bf6e243-ce13-4e56-9663-f1926a5b60b7 In2.Cu +5V": {
+      "area": 505.0068,
+      "outlines": 4
+    },
+    "7ff6bb5d-7fb8-4963-ac90-5c445989080f In2.Cu +5V": {
+      "area": 505.3021,
+      "outlines": 5
+    },
+    "97ef5659-cb24-5673-8c54-55e1a82b725c In2.Cu +5V": {
+      "area": 41.3048,
+      "outlines": 1
+    },
+    "9d9bd969-041d-5750-953f-d5da43f930bc In2.Cu +5V": {
+      "area": 66.1988,
+      "outlines": 1
+    },
+    "b414093d-e6d5-419d-b12e-a099295f2832 In2.Cu +5V": {
+      "area": 505.1757,
+      "outlines": 5
+    },
+    "e49d556e-40ab-439f-be4b-1bb39eaed9c6 In2.Cu +5V": {
+      "area": 501.4331,
+      "outlines": 3
+    },
+    "eab3356d-1847-4f4f-8e2a-0944efe4ceb8 In2.Cu +12V": {
+      "area": 583.3411,
+      "outlines": 1
+    }
+  }
+}
