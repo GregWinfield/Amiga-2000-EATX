@@ -1,0 +1,62 @@
+{
+  "engineering_commit": "48d13c0bddf7f719b214ad590d16da6c655de88f",
+  "artwork_commit": "65f3b2f564f3d54e0fc3f2c24a6000b5424bb32c",
+  "artwork_lf_sha256": "c303c3880f1281cfa6789508069c1b4b92e307dc8cfaa9212d7b6cfa27457b90",
+  "original_comparison_commit": "dfde4574396919e9cc51f5079ef054e4de3b9a07",
+  "original_assets_match_previous_export": true,
+  "checks": {
+    "export": {
+      "exit_code": 0,
+      "seconds": 51.7
+    },
+    "unit": {
+      "exit_code": 0,
+      "seconds": 1.1
+    },
+    "regression": {
+      "exit_code": 0,
+      "seconds": 29.3
+    },
+    "inspectors": {
+      "exit_code": 0,
+      "seconds": 7.6
+    }
+  },
+  "exporter_tests": [
+    "test_active_and_invalid_sip_mapping",
+    "test_asset_coordinates",
+    "test_missing_input_is_explicit",
+    "test_population_and_mappings",
+    "test_source_and_pad_coordinates"
+  ],
+  "browser_regression": "Chromium 158.0.4370.33: selection, search, comparison, cameras, layers, filters, verification, tablet layout, subdirectory assets and missing-input handling passed.",
+  "inspector_check": "158.0.4370.33 9 inspectors; checked CAD, every Cycle 6 conversion, all holds, counts, original source and verification",
+  "inspected_refs": [
+    "RN201A1",
+    "R500-6",
+    "RN204C1",
+    "R606",
+    "C313",
+    "C811",
+    "R232",
+    "C815",
+    "C675"
+  ],
+  "population": {
+    "tht": 182,
+    "smd": 372,
+    "total": 554,
+    "unknown": 0,
+    "percent": 32.9
+  },
+  "converted": 117,
+  "planned": 184,
+  "deferred": 100,
+  "drc_errors": 72,
+  "drc_warnings": 202,
+  "erc": {
+    "warning": 1182,
+    "error": 24
+  },
+  "unrouted": 0
+}
