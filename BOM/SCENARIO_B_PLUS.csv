@@ -1,6 +1,6 @@
 reference,schematic_value,installed_footprint,mount,selected_mpn_for_implemented_conversions
 BT800,Battery_Cell,Battery:BatteryHolder_Keystone_103_1x20mm,THT,
-C100,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
+C100,0.1uF,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,THT,C315C104K5R5TA
 C101,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C102,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C103,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
@@ -26,7 +26,7 @@ C211,0.047uF,AmigaFootprints:C_Radial_KEMET_C320_P2.54mm,THT,C320C473J5G5TA
 C212,0.047uF,AmigaFootprints:C_Radial_KEMET_C320_P2.54mm,THT,C320C473J5G5TA
 C213,0.047uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C214,470uF,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,THT,EEU-FR1C471
-C218,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
+C218,0.1uF,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,THT,C315C104K5R5TA
 C219,0.22uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C220,0.22uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C221,0.22uF,Capacitor_SMD:C_1206_3216Metric,SMD,
@@ -227,7 +227,7 @@ C912,470uF,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,THT,EEU-FR1C471
 C913,47pF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C914,100pF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C915,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
-C916,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
+C916,0.1uF,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,THT,C315C104K5R5TA
 C918,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C919,0.1uF,Capacitor_SMD:C_1206_3216Metric,SMD,
 C920,100pF,Capacitor_SMD:C_1206_3216Metric,SMD,

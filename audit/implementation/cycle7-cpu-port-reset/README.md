@@ -1,0 +1,13 @@
+﻿# CPU, game-port supply and peripheral reset capacitors
+
+Three nonpolar KEMET C315C104K5R5TA parts retain 100 nF, ±10%, X7R, 50 V on 5 V logic. Each uses 2.54 mm pitch, 0.80 mm holes and 1.60 mm lands. Allow 3.81 × 2.54 mm maximum body, 4.66 mm seated-height allowance and 0.61 mm maximum wire. Fit close to the board without loading the ceramic coating. [Manufacturer part drawing](https://search.kemet.com/component-documentation/download/specsheet/C315C104K5R5TA)
+
+C100 now sits 2.76 mm from MC68000 VCC pin 49, measured from the capacitor positive land, versus 5.22 mm previously. Its two new terminals couple directly to In2 +5 V and In1 GND. The 4.945 mm old positive leaf and 1.877 mm ground leaf were removed. C218 remains at the game-port feed by FB215 and D200. It replaces 2.642 mm of +5 V and 1.334 mm of ground leaf with connections to both dedicated planes. Both caps have four measured thermal sectors on each corresponding inner plane.
+
+For scale, an additional 2–5 nH in a formed 100 nF capacitor would contribute 0.13–0.31 Ω at 10 MHz and 0.63–1.57 Ω at 50 MHz. The removed surface paths and shorter or stationary tap geometries reduce board-side loop length. Neither the exact original MLCC ESL nor actual assembled loop impedance is specified. Verify CPU-pin droop under memory activity, game-port supply transients with real loads and impedance across the decoupling band before release.
+
+C916 retains the 100 nF shunt between the U607/EMI300 peripheral reset node and ground. Its 2.245 mm signal leaf becomes 2.249 mm. The 1.788 mm ground leaf becomes a local plated return with four inner ground spokes. The new signal leaf has an adjacent reference outside the immediate same-net terminals. Verify reset assertion and release on the external interface under load.
+
+The closest courtyards are C100 to U100 at 0.050 mm, C218 to FB215 at 0.174 mm, and C916 to C607 at 0.573 mm. At C100 the positive land centre is 1.145 mm outside the U100 courtyard edge. The centred maximum radial body ends 0.635 mm past that land, leaving about 0.510 mm to the socket courtyard. Confirm the chosen socket moulding, CPU extraction access and lead seating. Solder the neighbouring surface parts first.
+
+Native reports show zero opens, the inherited diagnostics and identical pin/pad assignments. No sampled preserved route lost its reference. Inner outline counts and auxiliary rail geometry matched. Front and back GND gained three and six contours respectively. Every changed output contour has an identified ground contact, and the refill reports zero isolated outer islands. [Ground contacts](ground-contacts.json) · [Plane and geometry verification](verification.json) · [Native reports](kicad-reports.zip)
