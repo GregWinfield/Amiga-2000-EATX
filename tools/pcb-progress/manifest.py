@@ -309,7 +309,7 @@ def build(root, original, current, provenance):
     target = index(table(root, TARGET, "eatx_reference physical_package authenticity construction proposed_footprint basis_or_release_condition"),
                    "eatx_reference", TARGET)
     hold_register = next((f"audit/implementation/{cycle}/deferred.csv"
-                          for cycle in ("cycle4", "resumed-cycle", "accelerated-cycle", "quick-win-cycle")
+                          for cycle in ("cycle5", "cycle4", "resumed-cycle", "accelerated-cycle", "quick-win-cycle")
                           if (root / "audit/implementation" / cycle / "deferred.csv").is_file()), None)
     holds = index(table(root, hold_register, "reference reason_for_hold"), "reference", hold_register) if hold_register else {}
     crosswalk = table(root, CROSSWALK, "eatx_cap eatx_element eatx_private eatx_signal eatx_contact historical_cap historical_element bplus_element return_net")
@@ -398,7 +398,12 @@ def build(root, original, current, provenance):
             warnings.append(f"{ref}: present in current PCB; original identity and disposition are undocumented.")
         notes = item.get("basis_or_release_condition") or base_row.get("rationale_and_checks") or MISSING
         if ref in holds:
-            notes += " Engineering hold: " + holds[ref]["reason_for_hold"]
+            hold = holds[ref]
+            notes += " Engineering hold: " + hold["reason_for_hold"]
+            if hold.get("category"):
+                names = {"A": "mechanical placement", "B": "copper geometry", "C": "electrical substitution",
+                         "D": "procurement", "E": "physical validation"}
+                notes += f" Hold category {hold['category']} ({names[hold['category']]})."
             sources.add(hold_register)
         if item.get("authenticity") == "D":
             notes = "Optional conversion trial. " + notes
