@@ -1,0 +1,4 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R500-3,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,/Memory and Kickstart/DRAB2,Net-(U540-O2a),336.48137,352.22322,180.0
+R105,22,MBA0204AC2209FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,_VPA,Net-(U102A-_VPA),342.55229,328.8721,-90.0
+R106,22,MBA0204AC2209FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,_DTACK,Net-(U102A-_DTACK),342.538239,323.357151,45.0
