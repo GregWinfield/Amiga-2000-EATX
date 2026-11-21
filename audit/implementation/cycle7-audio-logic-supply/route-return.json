@@ -1,0 +1,27 @@
+{
+  "before": {
+    "GND": {
+      "sampled_mm": 8.6564,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+AUD": {
+      "sampled_mm": 3.2228,
+      "unreferenced_mm": 0.7933,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "+AUD": {
+      "sampled_mm": 1.3026,
+      "unreferenced_mm": 1.3026,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

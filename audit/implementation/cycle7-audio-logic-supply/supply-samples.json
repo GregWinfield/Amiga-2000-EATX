@@ -1,0 +1,185 @@
+{
+  "C200": {
+    "front": {
+      "sample_comparisons": 24,
+      "changed_nearby_original_routes": []
+    },
+    "back": {
+      "sample_comparisons": 31,
+      "changed_nearby_original_routes": [
+        {
+          "segment": "7f13ae17-7e78-4e29-a409-804f947e57ab",
+          "net": "+AUD",
+          "lead": 1,
+          "changed": [
+            {
+              "xy": [
+                284.88889,
+                168.93490953333333
+              ],
+              "before": [
+                "+5V"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.24017
+            }
+          ]
+        }
+      ]
+    },
+    "inner_annulus_net_at_1p04mm_angles_deg": {
+      "2 In1.Cu GND": [
+        0,
+        5,
+        10,
+        80,
+        85,
+        90,
+        95,
+        100,
+        170,
+        175,
+        180,
+        185,
+        190,
+        260,
+        265,
+        270,
+        275,
+        280,
+        350,
+        355
+      ]
+    }
+  },
+  "C302": {
+    "front": {
+      "sample_comparisons": 24,
+      "changed_nearby_original_routes": [
+        {
+          "segment": "7e9a55f6-ad96-4f6e-ada2-a7c72a8983d1",
+          "net": "+5V",
+          "lead": 2,
+          "changed": [
+            {
+              "xy": [
+                246.58361,
+                252.85722869565217
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.18261
+            },
+            {
+              "xy": [
+                246.58361,
+                252.7833156521739
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.1087
+            },
+            {
+              "xy": [
+                246.58361,
+                252.70940260869565
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.03478
+            },
+            {
+              "xy": [
+                246.58361,
+                252.6354895652174
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.96087
+            },
+            {
+              "xy": [
+                246.58361,
+                252.56157652173914
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.88696
+            },
+            {
+              "xy": [
+                246.58361,
+                252.48766347826088
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.81304
+            }
+          ]
+        }
+      ]
+    },
+    "back": {
+      "sample_comparisons": 0,
+      "changed_nearby_original_routes": []
+    },
+    "inner_annulus_net_at_1p04mm_angles_deg": {
+      "1 In1.Cu GND": [
+        30,
+        35,
+        40,
+        45,
+        50,
+        120,
+        125,
+        130,
+        135,
+        140,
+        210,
+        215,
+        220,
+        225,
+        230,
+        300,
+        305,
+        310,
+        315,
+        320
+      ],
+      "2 In2.Cu +5V": [
+        30,
+        35,
+        40,
+        45,
+        50,
+        120,
+        125,
+        130,
+        135,
+        140,
+        210,
+        215,
+        220,
+        225,
+        230,
+        300,
+        305,
+        310,
+        315,
+        320
+      ]
+    }
+  }
+}
