@@ -1,0 +1,1469 @@
+{
+  "61": {
+    "control_board_sha256": "858bb48c87e077e4a65bc501629a8bc433eb83d48cb7b2e3cb48e9b4c62a1185",
+    "positions": {
+      "C811": {
+        "cost": 0.909,
+        "retired": [],
+        "old_mm": [
+          0,
+          0
+        ],
+        "kind": "film63",
+        "compact": false,
+        "angle": 90,
+        "paths": [
+          [
+            [
+              265.38169,
+              366.5635
+            ],
+            [
+              265.38169,
+              366.5415
+            ]
+          ],
+          [
+            [
+              265.38169,
+              362.9635
+            ],
+            [
+              265.38169,
+              361.5415
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "checked_refill": true,
+    "full_group": [
+      "C811"
+    ],
+    "introduced": [
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1733 mm)",
+        [
+          [
+            "PTH pad 2 [GND] of C811",
+            265.38169,
+            361.5415
+          ],
+          [
+            "Track [Net-(BT800-+)] on F.Cu, length 10.2836 mm",
+            258.21889,
+            367.1511
+          ]
+        ]
+      ]
+    ],
+    "resolved": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "Pad 2 [GND] of C811 on F.Cu",
+            265.38169,
+            362.9635
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "unrouted": {},
+    "local_planes": {
+      "C811": {
+        "front": {
+          "sample_comparisons": 132,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "4836f177-4ca2-4f0c-a72d-76d11fa927a8",
+                1
+              ],
+              "Net-(BT800-+)",
+              12
+            ],
+            [
+              [
+                "c21d66a1-5b37-44cc-93c5-663e58c9ae39",
+                0
+              ],
+              "/Buster and RTC/CLKVCC",
+              17
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 0,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      }
+    }
+  },
+  "65": {
+    "control_board_sha256": "858bb48c87e077e4a65bc501629a8bc433eb83d48cb7b2e3cb48e9b4c62a1185",
+    "positions": {
+      "C811": {
+        "cost": 0.909,
+        "retired": [],
+        "old_mm": [
+          0,
+          0
+        ],
+        "kind": "film63",
+        "compact": false,
+        "angle": 90,
+        "paths": [
+          [
+            [
+              265.38169,
+              366.5635
+            ],
+            [
+              265.69989,
+              366.8597
+            ]
+          ],
+          [
+            [
+              265.38169,
+              362.9635
+            ],
+            [
+              265.69989,
+              361.8597
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "checked_refill": true,
+    "full_group": [
+      "C811"
+    ],
+    "introduced": [
+      [
+        "courtyards_overlap",
+        "error",
+        "Courtyards overlap",
+        [
+          [
+            "Footprint C811",
+            265.69989,
+            366.8597
+          ],
+          [
+            "Footprint U801",
+            275.965698,
+            370.38
+          ]
+        ]
+      ]
+    ],
+    "resolved": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "Pad 2 [GND] of C811 on F.Cu",
+            265.38169,
+            362.9635
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "unrouted": {},
+    "local_planes": {
+      "C811": {
+        "front": {
+          "sample_comparisons": 89,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "c21d66a1-5b37-44cc-93c5-663e58c9ae39",
+                0
+              ],
+              "/Buster and RTC/CLKVCC",
+              15
+            ],
+            [
+              [
+                "0733fc26-5928-4324-9922-84948a5c0efa",
+                1
+              ],
+              "GND",
+              6
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 0,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      }
+    }
+  },
+  "67": {
+    "control_board_sha256": "f4cbbcdfab5afadf50a207eb4fee2075a6cbb81134c2fc1408e93bc0e3ffd14d",
+    "positions": {
+      "C811": {
+        "cost": 0.909,
+        "retired": [],
+        "old_mm": [
+          0,
+          0
+        ],
+        "kind": "film63",
+        "compact": false,
+        "angle": 90,
+        "paths": [
+          [
+            [
+              265.38169,
+              366.5635
+            ],
+            [
+              265.30169,
+              366.7865
+            ]
+          ],
+          [
+            [
+              265.38169,
+              362.9635
+            ],
+            [
+              265.30169,
+              361.7865
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "checked_refill": true,
+    "full_group": [
+      "C811",
+      "R806"
+    ],
+    "introduced": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C811",
+            265.30169,
+            361.7865
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "resolved": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "Pad 2 [GND] of C811 on F.Cu",
+            265.38169,
+            362.9635
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "unrouted": {},
+    "local_planes": {
+      "C811": {
+        "front": {
+          "sample_comparisons": 96,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "c21d66a1-5b37-44cc-93c5-663e58c9ae39",
+                0
+              ],
+              "/Buster and RTC/CLKVCC",
+              20
+            ],
+            [
+              [
+                "4836f177-4ca2-4f0c-a72d-76d11fa927a8",
+                1
+              ],
+              "Net-(BT800-+)",
+              6
+            ],
+            [
+              [
+                "0733fc26-5928-4324-9922-84948a5c0efa",
+                1
+              ],
+              "GND",
+              9
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 0,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      }
+    }
+  },
+  "69": {
+    "control_board_sha256": "f4cbbcdfab5afadf50a207eb4fee2075a6cbb81134c2fc1408e93bc0e3ffd14d",
+    "positions": {
+      "C311": {
+        "cost": 0.845,
+        "retired": [],
+        "old_mm": [
+          0,
+          0
+        ],
+        "kind": "radial",
+        "compact": false,
+        "angle": 180,
+        "paths": [
+          [
+            [
+              304.47529,
+              105.3279
+            ],
+            [
+              304.47229,
+              105.7089
+            ]
+          ],
+          [
+            [
+              301.62449,
+              105.2771
+            ],
+            [
+              301.93229,
+              105.7089
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      },
+      "C705": {
+        "cost": 3.641,
+        "retired": [],
+        "old_mm": [
+          0,
+          0
+        ],
+        "kind": "radial",
+        "compact": false,
+        "angle": 0,
+        "paths": [
+          [
+            [
+              136.93389,
+              151.3751
+            ],
+            [
+              136.93389,
+              151.7591
+            ],
+            [
+              135.79089,
+              152.9021
+            ],
+            [
+              135.79089,
+              154.8071
+            ],
+            [
+              135.40989,
+              155.1881
+            ]
+          ],
+          [
+            [
+              136.93389,
+              154.1751
+            ],
+            [
+              137.94989,
+              155.1881
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "checked_refill": true,
+    "full_group": [
+      "C311",
+      "C705"
+    ],
+    "introduced": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; 3 spokes connected to isolated island)",
+        [
+          [
+            "PTH pad 2 [GND] of C311",
+            301.93229,
+            105.7089
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "PCB text '1000pF' on F.Silkscreen",
+            302.71969,
+            107.7155
+          ],
+          [
+            "Segment of C311 on F.Silkscreen",
+            305.10729,
+            107.0989
+          ]
+        ]
+      ]
+    ],
+    "resolved": [],
+    "unrouted": {},
+    "local_planes": {
+      "C311": {
+        "front": {
+          "sample_comparisons": 136,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "8fa61dc3-5eaa-4116-a7c2-caebc344c047",
+                1
+              ],
+              "GND",
+              8
+            ],
+            [
+              [
+                "fcf8fac3-030d-41da-a3f1-2fd453431882",
+                0
+              ],
+              "Net-(C311-Pad1)",
+              16
+            ],
+            [
+              [
+                "396250b5-00b3-44ed-8758-a5bec2f22f56",
+                1
+              ],
+              "Net-(C312-Pad1)",
+              10
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 0,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      },
+      "C705": {
+        "front": {
+          "sample_comparisons": 38,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "00000000-0000-0000-0000-0000609a69c7",
+                1
+              ],
+              "GND",
+              18
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 188,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "00000000-0000-0000-0000-0000609a5d31",
+                0
+              ],
+              "Net-(C791-Pad2)",
+              11
+            ],
+            [
+              [
+                "00000000-0000-0000-0000-0000609a5d13",
+                0
+              ],
+              "Net-(C793-Pad2)",
+              5
+            ]
+          ]
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "1 In2.Cu +5V": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ],
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      }
+    }
+  },
+  "63": {
+    "control_board_sha256": "858bb48c87e077e4a65bc501629a8bc433eb83d48cb7b2e3cb48e9b4c62a1185",
+    "positions": {
+      "C704": {
+        "cost": 28.066,
+        "retired": [],
+        "old_mm": [
+          0,
+          0
+        ],
+        "kind": "radial",
+        "compact": false,
+        "angle": -90,
+        "paths": [
+          [
+            [
+              119.825,
+              100.775
+            ],
+            [
+              120.46,
+              100.726
+            ],
+            [
+              121.349,
+              99.837
+            ],
+            [
+              127.572,
+              99.837
+            ],
+            [
+              128.842,
+              98.567
+            ],
+            [
+              128.969,
+              98.567
+            ],
+            [
+              129.096,
+              98.44
+            ],
+            [
+              132.271,
+              98.44
+            ],
+            [
+              133.16,
+              99.329
+            ]
+          ],
+          [
+            [
+              119.825,
+              103.725
+            ],
+            [
+              123.889,
+              103.774
+            ],
+            [
+              124.143,
+              103.52
+            ],
+            [
+              131.509,
+              103.52
+            ],
+            [
+              133.16,
+              101.869
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      },
+      "R500": {
+        "cost": 32.239,
+        "retired": [
+          "529f7173-f4ff-4d6d-9a6f-7d89c452d416",
+          "79c88c58-86d3-4f69-bb10-7a0cf87d6c08",
+          "79dbc611-c862-4d68-94a9-b23838df3937",
+          "9b11ecfc-2ed3-40fb-aa2a-336efa4edd3a",
+          "bf05f8f0-558e-47e5-8f96-bbb485c5fe15"
+        ],
+        "old_mm": [
+          7.661269446084618,
+          12.915388685559785
+        ],
+        "kind": "0204V",
+        "compact": false,
+        "angle": 180,
+        "paths": [
+          [
+            [
+              341.93729,
+              294.51218
+            ],
+            [
+              341.93729,
+              294.2531
+            ],
+            [
+              340.66729,
+              292.9831
+            ],
+            [
+              340.66729,
+              291.0781
+            ],
+            [
+              338.76229,
+              289.1731
+            ],
+            [
+              338.76229,
+              289.0461
+            ],
+            [
+              338.63529,
+              288.9191
+            ],
+            [
+              338.63529,
+              288.7921
+            ],
+            [
+              339.01629,
+              288.4111
+            ],
+            [
+              339.14329,
+              288.4111
+            ],
+            [
+              339.27029,
+              288.2841
+            ],
+            [
+              341.81029,
+              288.2841
+            ],
+            [
+              342.31829,
+              287.7761
+            ],
+            [
+              342.44529,
+              287.7761
+            ],
+            [
+              342.57229,
+              287.6491
+            ],
+            [
+              343.46129,
+              287.6491
+            ],
+            [
+              344.09629,
+              287.0141
+            ]
+          ],
+          [
+            [
+              351.89409,
+              292.1703
+            ],
+            [
+              341.81029,
+              292.2211
+            ],
+            [
+              338.76229,
+              289.1731
+            ],
+            [
+              338.76229,
+              289.0461
+            ],
+            [
+              338.63529,
+              288.9191
+            ],
+            [
+              338.63529,
+              288.7921
+            ],
+            [
+              339.01629,
+              288.4111
+            ],
+            [
+              339.14329,
+              288.4111
+            ],
+            [
+              339.27029,
+              288.2841
+            ],
+            [
+              340.28629,
+              288.2841
+            ],
+            [
+              341.55629,
+              287.0141
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "checked_refill": true,
+    "full_group": [
+      "C704",
+      "C705",
+      "R500",
+      "R806"
+    ],
+    "introduced": [
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.5400 mm",
+            339.27029,
+            288.2841
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 1.0160 mm",
+            339.27029,
+            288.2841
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.6941 mm",
+            340.66729,
+            291.0781
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 0.1270 mm",
+            338.76229,
+            289.1731
+          ]
+        ]
+      ],
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0340 mm)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.6941 mm",
+            340.66729,
+            291.0781
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 0.1270 mm",
+            338.63529,
+            288.9191
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.5400 mm",
+            339.27029,
+            288.2841
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 1.7961 mm",
+            340.28629,
+            288.2841
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.5400 mm",
+            339.27029,
+            288.2841
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 0.1796 mm",
+            339.14329,
+            288.4111
+          ]
+        ]
+      ],
+      [
+        "shorting_items",
+        "error",
+        "Items shorting two nets (nets _EXRAM and +5V)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.6941 mm",
+            340.66729,
+            291.0781
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 0.1796 mm",
+            338.76229,
+            289.0461
+          ]
+        ]
+      ],
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1516 mm)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.6941 mm",
+            340.66729,
+            291.0781
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 0.5388 mm",
+            338.63529,
+            288.7921
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 0.1796 mm",
+            339.14329,
+            288.4111
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 1.0160 mm",
+            339.27029,
+            288.2841
+          ]
+        ]
+      ],
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1516 mm)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 0.5388 mm",
+            338.63529,
+            288.7921
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 4.3105 mm",
+            341.81029,
+            292.2211
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.6941 mm",
+            340.66729,
+            291.0781
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 4.3105 mm",
+            341.81029,
+            292.2211
+          ]
+        ]
+      ],
+      [
+        "shorting_items",
+        "error",
+        "Items shorting two nets (nets +5V and _EXRAM)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 0.1796 mm",
+            338.76229,
+            289.0461
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 4.3105 mm",
+            341.81029,
+            292.2211
+          ]
+        ]
+      ],
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0340 mm)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 0.1270 mm",
+            338.63529,
+            288.9191
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 4.3105 mm",
+            341.81029,
+            292.2211
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 1.9050 mm",
+            340.66729,
+            292.9831
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 4.3105 mm",
+            341.81029,
+            292.2211
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [+5V] on F.Cu, length 0.1270 mm",
+            338.76229,
+            289.1731
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 4.3105 mm",
+            341.81029,
+            292.2211
+          ]
+        ]
+      ],
+      [
+        "shorting_items",
+        "error",
+        "Items shorting two nets (nets _EXRAM and +5V)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 2.5400 mm",
+            339.27029,
+            288.2841
+          ],
+          [
+            "Track [_EXRAM] on F.Cu, length 0.1270 mm",
+            339.01629,
+            288.4111
+          ]
+        ]
+      ],
+      [
+        "track_dangling",
+        "warning",
+        "Track has unconnected end",
+        [
+          [
+            "Track [+12V] on F.Cu, length 0.6369 mm",
+            119.825,
+            100.775
+          ]
+        ]
+      ]
+    ],
+    "resolved": [],
+    "unrouted": {},
+    "local_planes": {
+      "C704": {
+        "front": {
+          "sample_comparisons": 141,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "00000000-0000-0000-0000-0000609a6163",
+                1
+              ],
+              "Net-(C722-Pad2)",
+              11
+            ],
+            [
+              [
+                "00000000-0000-0000-0000-0000609a6163",
+                0
+              ],
+              "Net-(C722-Pad2)",
+              11
+            ],
+            [
+              [
+                "d47fc139-7a4c-4114-85a3-707b862db605",
+                0
+              ],
+              "+12V",
+              21
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 94,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "1 In2.Cu +12V": [],
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      },
+      "R500": {
+        "front": {
+          "sample_comparisons": 42,
+          "changed_nearby_original_routes": []
+        },
+        "back": {
+          "sample_comparisons": 182,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "5efca5e2-07ca-4355-a64b-113166155937",
+                0
+              ],
+              "_REGEN",
+              11
+            ],
+            [
+              [
+                "5efca5e2-07ca-4355-a64b-113166155937",
+                1
+              ],
+              "_REGEN",
+              11
+            ]
+          ]
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "1 In2.Cu +5V": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      }
+    }
+  },
+  "70": {
+    "control_board_sha256": "f4cbbcdfab5afadf50a207eb4fee2075a6cbb81134c2fc1408e93bc0e3ffd14d",
+    "positions": {
+      "XU1": {
+        "cost": 12.668,
+        "retired": [
+          "005b9cf1-6dfb-4f9d-86b1-aa7a6a3477c8",
+          "24fc5511-508a-4484-910a-7c73b58c746d",
+          "e825ca61-4c8b-44f0-a977-69be2b57347e"
+        ],
+        "old_mm": [
+          0,
+          1.4499999999999886,
+          1.435355339059321
+        ],
+        "kind": "TO92",
+        "angle": 180,
+        "paths": [
+          [
+            [
+              377.075,
+              205.075
+            ],
+            [
+              366.473,
+              204.9965
+            ]
+          ],
+          [
+            [
+              375.175,
+              203.625
+            ],
+            [
+              363.933,
+              204.9965
+            ]
+          ],
+          [
+            [
+              376.1,
+              208.375
+            ],
+            [
+              361.39300000000003,
+              204.9965
+            ]
+          ]
+        ],
+        "direct": [
+          false,
+          true,
+          true
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "checked_refill": true,
+    "full_group": [
+      "XU1"
+    ],
+    "introduced": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 3 [GND] of XU1",
+            361.393,
+            204.9965
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "via_dangling",
+        "warning",
+        "Via is not connected or connected on only one layer",
+        [
+          [
+            "Via [+5V] on F.Cu - B.Cu",
+            375.175,
+            203.625
+          ]
+        ]
+      ]
+    ],
+    "resolved": [],
+    "unrouted": {},
+    "local_planes": {
+      "XU1": {
+        "front": {
+          "sample_comparisons": 141,
+          "changed_nearby_original_routes": []
+        },
+        "back": {
+          "sample_comparisons": 47,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "2 In2.Cu +5V": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ],
+          "3 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      }
+    }
+  }
+}

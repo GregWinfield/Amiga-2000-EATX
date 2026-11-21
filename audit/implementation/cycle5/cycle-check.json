@@ -1,0 +1,149 @@
+{
+  "start_artwork": "9f42a84b01259dd6c112fab168786e06c2e8e8ea",
+  "final_artwork": "7994c796b09d900ef0457c6b4a7c6ea9d2400fad",
+  "checked_board_lf_sha256": "60941ba2003f0ec8a2a6d713c8cf37cc3bfade16caf995e248f046751c49a934",
+  "verified_batches": [
+    {
+      "batch": "cycle5-audio-bias",
+      "commit": "141e05e4dea525c3609a2c0a2dd74d91eedead01",
+      "parts": [
+        "R202",
+        "R206",
+        "R213"
+      ]
+    },
+    {
+      "batch": "cycle5-keyboard-feed",
+      "commit": "c9fb54d0946b6f75a7347fba236c8f40bcac2986",
+      "parts": [
+        "R914"
+      ]
+    },
+    {
+      "batch": "cycle5-rtc-and-grant",
+      "commit": "bdf143a11889399fc2d9234dd2f6c76a53bde5ea",
+      "parts": [
+        "C811",
+        "R806"
+      ]
+    },
+    {
+      "batch": "cycle5-reset-supervisor",
+      "commit": "8c3a92d877cedc2a585fa53270c3035e00a930b8",
+      "parts": [
+        "XU1"
+      ]
+    },
+    {
+      "batch": "cycle5-filter-resistor",
+      "commit": "7994c796b09d900ef0457c6b4a7c6ea9d2400fad",
+      "parts": [
+        "R232"
+      ]
+    }
+  ],
+  "converted_positions": [
+    "C811",
+    "R202",
+    "R206",
+    "R213",
+    "R232",
+    "R806",
+    "R914",
+    "XU1"
+  ],
+  "population": {
+    "THT": 165,
+    "SMD": 389
+  },
+  "planned": 185,
+  "deferred": 95,
+  "original_through_hole": 65,
+  "converted_total": 100,
+  "physical_pad_net_records": 3698,
+  "schematic_pin_assignments": 3603,
+  "changed_net_assignments": 0,
+  "unrouted": 0,
+  "fixed_mounts": [
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9"
+  ],
+  "zorro_sockets": [
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605"
+  ],
+  "all_fixed_refs": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "vias_before": 1209,
+  "vias_after": 1208,
+  "vias_added": 0,
+  "retired_via_ids": [
+    "8ad42d83-2f59-4aa1-ac53-da8ac12708e4"
+  ]
+}

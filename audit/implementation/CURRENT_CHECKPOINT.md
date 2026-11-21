@@ -15,6 +15,4 @@ The verified artwork for this batch is the commit containing [cycle5-filter-resi
 
 The [deferral register](cycle5/deferred.csv) includes the nine ZS1 resistors, R800, C224 and R109. The batch verification file records individual DRC objects, reference-plane changes, clearances and the fixed mechanical datums. Fabrication release and bench qualification are pending.
 
-Next group: Paired audio filter capacitor routing.
-
-After an interruption, inspect both worktrees and compare this batch with the GitHub branch before resuming.
+Final Cycle 5 artwork is `7994c796b09d900ef0457c6b4a7c6ea9d2400fad`. [Cycle report](cycle5/README.md) · [CAD reconciliation](cycle5/cycle-check.json) · [Engineering holds](cycle5/deferred.csv). The next trial is the paired audio filter assessment. After an interruption, compare the published heads and inspect both worktrees before resuming.
