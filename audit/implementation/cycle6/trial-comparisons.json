@@ -1,0 +1,1653 @@
+{
+  "first_peripheral_trial": {
+    "options": {
+      "R606": [
+        {
+          "cost": 2.452,
+          "delta": [
+            0.689,
+            0.249
+          ],
+          "back": 3.209,
+          "kind": "0204",
+          "compact": true,
+          "angle": 135,
+          "paths": [
+            [
+              [
+                203.4825,
+                338.2825
+              ],
+              [
+                205.586051,
+                339.166051
+              ]
+            ],
+            [
+              [
+                199.3685,
+                336.4575
+              ],
+              [
+                201.993949,
+                335.573949
+              ]
+            ]
+          ],
+          "extra": [],
+          "retired": [
+            "420a1fb1-91cf-44e0-b943-f707e1bf5f7a",
+            "0faafe44-d1ad-41d8-b8ff-c21594acbfb4"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "face": "F.Cu"
+        }
+      ],
+      "RN204C1": [
+        {
+          "cost": 1.086,
+          "delta": [
+            -0.348,
+            0.107
+          ],
+          "back": 1.878,
+          "kind": "0204",
+          "compact": true,
+          "angle": -90,
+          "paths": [
+            [
+              [
+                370.02969,
+                103.8547
+              ],
+              [
+                368.92969,
+                104.3835
+              ]
+            ],
+            [
+              [
+                370.02969,
+                109.2395
+              ],
+              [
+                368.92969,
+                109.4635
+              ]
+            ]
+          ],
+          "extra": [],
+          "retired": [
+            "46301913-39d2-414a-85eb-9c72e7f69fb8",
+            "8c0de9ea-87b6-4eab-ba9b-e8bfe54d244a"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "face": "F.Cu"
+        }
+      ],
+      "C313": [
+        {
+          "cost": 9.512,
+          "delta": [
+            2.001,
+            3.003
+          ],
+          "back": 1.091,
+          "kind": "radial",
+          "compact": false,
+          "angle": 180,
+          "paths": [
+            [
+              [
+                298.09689,
+                96.3871
+              ],
+              [
+                296.01889,
+                93.3871
+              ]
+            ],
+            [
+              [
+                293.64889,
+                98.8255
+              ],
+              [
+                293.47889,
+                93.3871
+              ]
+            ]
+          ],
+          "extra": [],
+          "retired": [
+            "cf9182d6-0d23-4a3c-9859-b5d1cb6b30e9",
+            "986277ec-ab64-400b-8d76-aa05acee813f"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "face": "F.Cu"
+        }
+      ],
+      "C815": [
+        {
+          "cost": 6.048,
+          "delta": [
+            0.181,
+            0.998
+          ],
+          "back": 1.099,
+          "kind": "radial",
+          "compact": false,
+          "angle": -90,
+          "paths": [
+            [
+              [
+                373.0,
+                182.9727
+              ],
+              [
+                373.0,
+                182.9727
+              ]
+            ],
+            [
+              [
+                371.24889,
+                187.2683
+              ],
+              [
+                373.0,
+                185.5127
+              ]
+            ]
+          ],
+          "extra": [
+            [
+              1,
+              [
+                [
+                  368.35329,
+                  182.8995
+                ],
+                [
+                  373.0,
+                  182.9727
+                ]
+              ]
+            ]
+          ],
+          "retired": [
+            "4613b62c-5711-4678-9e10-bc1f02cf9e26",
+            "7d02d215-27b7-4935-b997-5ac72dd70d4d",
+            "74202cfa-6595-4258-8d42-2cb027459ef3"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "native": {
+      "drc": {
+        "status": 0,
+        "seconds": 80.6
+      },
+      "erc": {
+        "status": 0,
+        "seconds": 12.3
+      },
+      "net": {
+        "status": 0,
+        "seconds": 2.1
+      }
+    },
+    "findings": {
+      "violations": {
+        "before": {
+          "error": 72,
+          "warning": 202
+        },
+        "after": {
+          "error": 73,
+          "warning": 205
+        },
+        "appeared": [
+          [
+            "starved_thermal",
+            "error",
+            "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            [
+              [
+                "PTH pad 2 [GND] of C815",
+                373.0,
+                185.5127
+              ],
+              [
+                "Zone [GND] on B.Cu, priority 0",
+                405.503876,
+                53.9255
+              ]
+            ]
+          ],
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'",
+            [
+              [
+                "Footprint C674",
+                115.01369,
+                338.03
+              ]
+            ]
+          ],
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            [
+              [
+                "Footprint U601",
+                215.31829,
+                270.2755
+              ]
+            ]
+          ],
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            [
+              [
+                "Footprint U604",
+                215.36909,
+                312.7443
+              ]
+            ]
+          ],
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'SOIC-20W_7.5x12.8mm_P1.27mm' does not match copy in library 'Package_SO'",
+            [
+              [
+                "Footprint U605",
+                215.36909,
+                352.1651
+              ]
+            ]
+          ],
+          [
+            "silk_overlap",
+            "warning",
+            "Silkscreen clearance",
+            [
+              [
+                "Reference field of EMI310",
+                297.33489,
+                91.7135
+              ],
+              [
+                "Segment of C313 on F.Silkscreen",
+                296.65389,
+                91.9971
+              ]
+            ]
+          ],
+          [
+            "silk_over_copper",
+            "warning",
+            "Silkscreen clipped by solder mask",
+            [
+              [
+                "PTH pad 1 [Net-(C313-Pad1)] of C313",
+                296.01889,
+                93.3871
+              ],
+              [
+                "Segment on F.Silkscreen",
+                291.03569,
+                93.4915
+              ]
+            ]
+          ],
+          [
+            "silk_over_copper",
+            "warning",
+            "Silkscreen clipped by solder mask",
+            [
+              [
+                "PTH pad 2 [GND] of C313",
+                293.47889,
+                93.3871
+              ],
+              [
+                "Segment on F.Silkscreen",
+                291.03569,
+                93.4915
+              ]
+            ]
+          ]
+        ],
+        "absent": [
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+            [
+              [
+                "Footprint RN204C1",
+                370.02969,
+                106.8235
+              ]
+            ]
+          ],
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            [
+              [
+                "Footprint C815",
+                371.24889,
+                184.3727
+              ]
+            ]
+          ],
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+            [
+              [
+                "Footprint C313",
+                295.04889,
+                96.3871
+              ]
+            ]
+          ],
+          [
+            "lib_footprint_mismatch",
+            "warning",
+            "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'",
+            [
+              [
+                "Footprint R606",
+                201.89,
+                337.37
+              ]
+            ]
+          ]
+        ]
+      },
+      "unconnected_items": {
+        "before": {},
+        "after": {},
+        "appeared": [],
+        "absent": []
+      },
+      "schematic_parity": {
+        "before": {
+          "warning": 17
+        },
+        "after": {
+          "warning": 17
+        },
+        "appeared": [],
+        "absent": []
+      }
+    },
+    "reference_samples": {
+      "R606": {
+        "front": {
+          "sample_comparisons": 0,
+          "changed_nearby_original_routes": []
+        },
+        "back": {
+          "sample_comparisons": 0,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "1 In1.Cu GND": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            55,
+            60,
+            65,
+            70,
+            75,
+            80,
+            85,
+            90,
+            95,
+            100,
+            105,
+            110,
+            115,
+            120,
+            125,
+            130,
+            135,
+            140,
+            145,
+            150,
+            155,
+            160,
+            165,
+            170,
+            175,
+            180,
+            185,
+            190,
+            195,
+            200,
+            205,
+            210,
+            215,
+            220,
+            225,
+            230,
+            235,
+            240,
+            245,
+            250,
+            255,
+            260,
+            265,
+            270,
+            275,
+            280,
+            285,
+            290,
+            295,
+            300,
+            305,
+            310,
+            315,
+            320,
+            325,
+            330,
+            335,
+            340,
+            345,
+            350,
+            355
+          ]
+        }
+      },
+      "RN204C1": {
+        "front": {
+          "sample_comparisons": 76,
+          "changed_nearby_original_routes": []
+        },
+        "back": {
+          "sample_comparisons": 17,
+          "changed_nearby_original_routes": []
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {}
+      },
+      "C313": {
+        "front": {
+          "sample_comparisons": 109,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "ca0cf53c-6f85-4d5f-84c0-75b9a6783417",
+                1
+              ],
+              "PSTROBE",
+              7
+            ],
+            [
+              [
+                "5d181528-2fb5-4016-872a-a6c090526049",
+                1
+              ],
+              "PSTROBE",
+              15
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 47,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "749577bb-7fa1-4e6c-bd3a-b73b2c5d4979",
+                0
+              ],
+              "/Floppy and Parallel/_IORST",
+              2
+            ]
+          ]
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      },
+      "C815": {
+        "front": {
+          "sample_comparisons": 25,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "847e21ac-6582-41d3-a460-764b6f1776cf",
+                0
+              ],
+              "Net-(RN802A-R1.1)",
+              8
+            ],
+            [
+              [
+                "6aa736ff-9d52-4e7f-9cd1-3ebe083f3461",
+                0
+              ],
+              "Net-(RN802A-R1.1)",
+              6
+            ]
+          ]
+        },
+        "back": {
+          "sample_comparisons": 118,
+          "changed_nearby_original_routes": [
+            [
+              [
+                "170528b6-9430-469c-8e41-a0d6001533e6",
+                1
+              ],
+              "D15",
+              7
+            ],
+            [
+              [
+                "170528b6-9430-469c-8e41-a0d6001533e6",
+                0
+              ],
+              "D15",
+              7
+            ]
+          ]
+        },
+        "inner_annulus_net_at_1p04mm_angles_deg": {
+          "2 In1.Cu GND": [
+            35,
+            40,
+            45,
+            50,
+            55,
+            125,
+            130,
+            135,
+            140,
+            145,
+            215,
+            220,
+            225,
+            230,
+            235,
+            305,
+            310,
+            315,
+            320,
+            325
+          ]
+        }
+      }
+    },
+    "added_route_samples": {
+      "F.Cu GND": [
+        10.20225286563857,
+        1.6946059326172633,
+        0.0
+      ],
+      "F.Cu Net-(U202-Zc)": [
+        1.2205037648446642,
+        1.2205037648446642,
+        0.0
+      ],
+      "F.Cu M0V": [
+        1.1225756099256745,
+        1.1225756099256745,
+        0.0
+      ],
+      "F.Cu Net-(RN802A-R1.1)": [
+        4.6472865270069175,
+        1.1992997489050108,
+        0.0
+      ],
+      "F.Cu Net-(C313-Pad1)": [
+        3.6493950183557793,
+        1.9996685032086492,
+        0.7998674012834589
+      ],
+      "F.Cu Net-(C675-Pad1)": [
+        2.7701344409977673,
+        1.0882671018205503,
+        0.0
+      ]
+    }
+  },
+  "local_terminal_screen": {
+    "R606": {
+      "candidates": 160,
+      "best": {
+        "cost": 2.452,
+        "delta": [
+          0.689,
+          0.249
+        ],
+        "back": 3.209,
+        "kind": "0204",
+        "compact": true,
+        "angle": 135,
+        "paths": [
+          [
+            [
+              203.4825,
+              338.2825
+            ],
+            [
+              205.586051,
+              339.166051
+            ]
+          ],
+          [
+            [
+              199.3685,
+              336.4575
+            ],
+            [
+              201.993949,
+              335.573949
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "420a1fb1-91cf-44e0-b943-f707e1bf5f7a",
+          "0faafe44-d1ad-41d8-b8ff-c21594acbfb4"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "RN204A1": {
+      "candidates": 5,
+      "best": {
+        "cost": 6.947,
+        "delta": [
+          1.54,
+          -0.077
+        ],
+        "back": 1.099,
+        "kind": "0204V",
+        "compact": false,
+        "angle": -45,
+        "paths": [
+          [
+            [
+              373.78889,
+              103.9563
+            ],
+            [
+              372.890864,
+              106.803074
+            ]
+          ],
+          [
+            [
+              373.78889,
+              109.6967
+            ],
+            [
+              374.686916,
+              108.599126
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "373f81a5-64e4-46e6-a259-7d5b6bf46c09",
+          "a069f7c5-40ab-48d3-837d-14f92129ca34"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "RN204B1": {
+      "candidates": 107,
+      "best": {
+        "cost": 5.568,
+        "delta": [
+          2.758,
+          -0.45
+        ],
+        "back": 1.751,
+        "kind": "0204V",
+        "compact": false,
+        "angle": -135,
+        "paths": [
+          [
+            [
+              378.099489,
+              102.244099
+            ],
+            [
+              383.154516,
+              107.403074
+            ]
+          ],
+          [
+            [
+              379.71009,
+              109.7475
+            ],
+            [
+              381.358464,
+              109.199126
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "a63701aa-914b-444f-aa7c-fcf8cc5f293d",
+          "23dc302b-c2ef-48fa-a28d-9b351c0795d0"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "RN204C1": {
+      "candidates": 110,
+      "best": {
+        "cost": 1.086,
+        "delta": [
+          -0.348,
+          0.107
+        ],
+        "back": 1.878,
+        "kind": "0204",
+        "compact": true,
+        "angle": -90,
+        "paths": [
+          [
+            [
+              370.02969,
+              103.8547
+            ],
+            [
+              368.92969,
+              104.3835
+            ]
+          ],
+          [
+            [
+              370.02969,
+              109.2395
+            ],
+            [
+              368.92969,
+              109.4635
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "46301913-39d2-414a-85eb-9c72e7f69fb8",
+          "8c0de9ea-87b6-4eab-ba9b-e8bfe54d244a"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "RN204D1": {
+      "candidates": 0,
+      "best": null
+    },
+    "R203A1": {
+      "candidates": 0,
+      "best": null
+    },
+    "R203B1": {
+      "candidates": 20,
+      "best": {
+        "cost": 6.862,
+        "delta": [
+          -1.169,
+          0.738
+        ],
+        "back": 1.22,
+        "kind": "0204V",
+        "compact": false,
+        "angle": 180,
+        "paths": [
+          [
+            [
+              262.96869,
+              72.1271
+            ],
+            [
+              260.59209,
+              74.5271
+            ]
+          ],
+          [
+            [
+              262.773891,
+              79.008299
+            ],
+            [
+              258.05209,
+              74.5271
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "4fa203b4-d72d-437d-9c0d-4f4c0ef8a85e",
+          "50f4d101-526f-4a50-95bd-d27453c7ff39"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "R233": {
+      "candidates": 0,
+      "best": null
+    },
+    "R243": {
+      "candidates": 0,
+      "best": null
+    },
+    "R302": {
+      "candidates": 0,
+      "best": null
+    },
+    "C310": {
+      "candidates": 0,
+      "best": null
+    },
+    "C313": {
+      "candidates": 2,
+      "best": {
+        "cost": 9.512,
+        "delta": [
+          2.001,
+          3.003
+        ],
+        "back": 1.091,
+        "kind": "radial",
+        "compact": false,
+        "angle": 180,
+        "paths": [
+          [
+            [
+              298.09689,
+              96.3871
+            ],
+            [
+              296.01889,
+              93.3871
+            ]
+          ],
+          [
+            [
+              293.64889,
+              98.8255
+            ],
+            [
+              293.47889,
+              93.3871
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "cf9182d6-0d23-4a3c-9859-b5d1cb6b30e9",
+          "986277ec-ab64-400b-8d76-aa05acee813f"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C314": {
+      "candidates": 20,
+      "best": {
+        "cost": 11.972,
+        "delta": [
+          4.939,
+          2.346
+        ],
+        "back": 1.099,
+        "kind": "radial",
+        "compact": false,
+        "angle": 180,
+        "paths": [
+          [
+            [
+              345.92809,
+              97.8095
+            ],
+            [
+              342.89809,
+              93.9095
+            ]
+          ],
+          [
+            [
+              341.42929,
+              97.8095
+            ],
+            [
+              340.35809,
+              93.9095
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "3293d6d4-1783-4ccc-8baf-2e3300dda371"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C702": {
+      "candidates": 0,
+      "best": null
+    },
+    "C703": {
+      "candidates": 0,
+      "best": null
+    },
+    "C815": {
+      "candidates": 20,
+      "best": {
+        "cost": 6.048,
+        "delta": [
+          0.181,
+          0.998
+        ],
+        "back": 1.099,
+        "kind": "radial",
+        "compact": false,
+        "angle": -90,
+        "paths": [
+          [
+            [
+              373.0,
+              182.9727
+            ],
+            [
+              373.04889,
+              183.0027
+            ]
+          ],
+          [
+            [
+              371.24889,
+              187.2683
+            ],
+            [
+              373.04889,
+              185.5427
+            ]
+          ]
+        ],
+        "extra": [
+          [
+            1,
+            [
+              [
+                368.35329,
+                182.8995
+              ],
+              [
+                373.04889,
+                183.0027
+              ]
+            ]
+          ]
+        ],
+        "retired": [
+          "4613b62c-5711-4678-9e10-bc1f02cf9e26",
+          "7d02d215-27b7-4935-b997-5ac72dd70d4d",
+          "74202cfa-6595-4258-8d42-2cb027459ef3"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C617": {
+      "candidates": 0,
+      "best": null
+    },
+    "C620": {
+      "candidates": 0,
+      "best": null
+    },
+    "C621": {
+      "candidates": 0,
+      "best": null
+    },
+    "C622": {
+      "candidates": 0,
+      "best": null
+    },
+    "C623": {
+      "candidates": 0,
+      "best": null
+    },
+    "C624": {
+      "candidates": 0,
+      "best": null
+    },
+    "C625": {
+      "candidates": 0,
+      "best": null
+    },
+    "C626": {
+      "candidates": 0,
+      "best": null
+    },
+    "C627": {
+      "candidates": 0,
+      "best": null
+    },
+    "C632": {
+      "candidates": 0,
+      "best": null
+    },
+    "C633": {
+      "candidates": 0,
+      "best": null
+    },
+    "C673": {
+      "candidates": 0,
+      "best": null
+    },
+    "C674": {
+      "candidates": 0,
+      "best": null
+    },
+    "C668": {
+      "candidates": 0,
+      "best": null
+    },
+    "C728": {
+      "candidates": 0,
+      "best": null
+    },
+    "C734": {
+      "candidates": 0,
+      "best": null
+    },
+    "C738": {
+      "candidates": 0,
+      "best": null
+    },
+    "C742": {
+      "candidates": 0,
+      "best": null
+    },
+    "C778": {
+      "candidates": 0,
+      "best": null
+    },
+    "C790": {
+      "candidates": 0,
+      "best": null
+    },
+    "C670": {
+      "candidates": 0,
+      "best": null
+    }
+  },
+  "rotated_terminal_screen": {
+    "C815": {
+      "candidates": 0,
+      "best": null
+    },
+    "C313": {
+      "candidates": 0,
+      "best": null
+    },
+    "C314": {
+      "candidates": 0,
+      "best": null
+    },
+    "C310": {
+      "candidates": 0,
+      "best": null
+    },
+    "C702": {
+      "candidates": 0,
+      "best": null
+    },
+    "C703": {
+      "candidates": 0,
+      "best": null
+    },
+    "R233": {
+      "candidates": 0,
+      "best": null
+    },
+    "R243": {
+      "candidates": 0,
+      "best": null
+    },
+    "R302": {
+      "candidates": 0,
+      "best": null
+    },
+    "R203B1": {
+      "candidates": 0,
+      "best": null
+    },
+    "RN204B1": {
+      "candidates": 862,
+      "best": {
+        "cost": 5.446,
+        "delta": [
+          2.804,
+          -0.441
+        ],
+        "back": 1.796,
+        "kind": "0204V",
+        "compact": false,
+        "angle": -150,
+        "paths": [
+          [
+            [
+              378.099489,
+              102.244099
+            ],
+            [
+              383.256342,
+              107.3661
+            ]
+          ],
+          [
+            [
+              379.71009,
+              109.7475
+            ],
+            [
+              381.056638,
+              108.6361
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "a63701aa-914b-444f-aa7c-fcf8cc5f293d",
+          "23dc302b-c2ef-48fa-a28d-9b351c0795d0"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C204": {
+      "candidates": 0,
+      "best": null
+    },
+    "C219": {
+      "candidates": 0,
+      "best": null
+    },
+    "R904": {
+      "candidates": 3840,
+      "best": {
+        "cost": 1.055,
+        "delta": [
+          -0.77,
+          0.006
+        ],
+        "back": 2.01,
+        "kind": "0204",
+        "compact": true,
+        "angle": -15,
+        "paths": [
+          [
+            [
+              176.81189,
+              122.1935
+            ],
+            [
+              179.336838,
+              121.0853
+            ]
+          ],
+          [
+            [
+              184.73669,
+              120.2631
+            ],
+            [
+              184.243742,
+              122.4001
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "00000000-0000-0000-0000-0000609a666a",
+          "1ffeb9d5-fbad-4cd7-ae4d-f009e44fa6bd"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "R106": {
+      "candidates": 3458,
+      "best": {
+        "cost": 3.776,
+        "delta": [
+          0.028,
+          1.513
+        ],
+        "back": 1.81,
+        "kind": "0204",
+        "compact": true,
+        "angle": 60,
+        "paths": [
+          [
+            [
+              338.69879,
+              320.3516
+            ],
+            [
+              343.30429,
+              323.560805
+            ]
+          ],
+          [
+            [
+              351.84329,
+              320.1611
+            ],
+            [
+              345.84429,
+              319.161395
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "890c7836-47b4-4d43-a277-db187824e0dc",
+          "bc91d7c8-040c-47f2-af7c-6006b960d712"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C617": {
+      "candidates": 0,
+      "best": null
+    },
+    "C728": {
+      "candidates": 0,
+      "best": null
+    }
+  },
+  "short_remote_taps": {
+    "C310": {
+      "candidates": 0,
+      "best": null
+    },
+    "C313": {
+      "candidates": 0,
+      "best": null
+    },
+    "C314": {
+      "candidates": 0,
+      "best": null
+    },
+    "C702": {
+      "candidates": 0,
+      "best": null
+    },
+    "C703": {
+      "candidates": 0,
+      "best": null
+    },
+    "C815": {
+      "candidates": 309,
+      "best": {
+        "cost": 6.464,
+        "delta": [
+          3.801,
+          0.0
+        ],
+        "back": 1.846,
+        "kind": "radial",
+        "compact": false,
+        "angle": 90,
+        "paths": [
+          [
+            [
+              363.93369,
+              189.8591
+            ],
+            [
+              360.25369,
+              190.8091
+            ]
+          ],
+          [
+            [
+              360.25369,
+              188.2691
+            ],
+            [
+              360.25369,
+              188.2691
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [],
+        "direct": [
+          false,
+          true
+        ],
+        "face": "F.Cu",
+        "anchor_ref": "RN802.4"
+      }
+    }
+  },
+  "final_pass": {
+    "C259": {
+      "candidates": 346,
+      "best": {
+        "cost": 7.664,
+        "delta": [
+          5.153,
+          0.583
+        ],
+        "back": 2.998,
+        "kind": "radial",
+        "compact": false,
+        "angle": -90,
+        "paths": [
+          [
+            [
+              398.88409,
+              71.93914
+            ],
+            [
+              397.38409,
+              76.86914
+            ]
+          ],
+          [
+            [
+              398.88409,
+              76.99674
+            ],
+            [
+              397.38409,
+              79.40914
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "b55a0736-3daf-4337-be84-b4fe5ff792c5"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C260": {
+      "candidates": 1242,
+      "best": {
+        "cost": 1.705,
+        "delta": [
+          -0.067,
+          1.015
+        ],
+        "back": 1.789,
+        "kind": "radial",
+        "compact": false,
+        "angle": -60,
+        "paths": [
+          [
+            [
+              384.69565,
+              72.58938
+            ],
+            [
+              384.16065,
+              76.909128
+            ]
+          ],
+          [
+            [
+              384.69565,
+              79.80898
+            ],
+            [
+              385.43065,
+              79.108832
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "2ac8a3a3-efd1-4dea-bf36-72ecfbdafc27"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C261": {
+      "candidates": 0,
+      "best": null
+    },
+    "C304": {
+      "candidates": 0,
+      "best": null
+    },
+    "C306": {
+      "candidates": 160,
+      "best": {
+        "cost": 3.456,
+        "delta": [
+          0.606,
+          0.121
+        ],
+        "back": 2.11,
+        "kind": "radial",
+        "compact": false,
+        "angle": -90,
+        "paths": [
+          [
+            [
+              292.42253,
+              73.49154
+            ],
+            [
+              291.04905,
+              72.8301
+            ]
+          ],
+          [
+            [
+              293.92113,
+              74.84462
+            ],
+            [
+              291.04905,
+              75.3701
+            ]
+          ]
+        ],
+        "extra": [
+          [
+            1,
+            [
+              [
+                296.369871,
+                66.879279
+              ],
+              [
+                291.04905,
+                72.8301
+              ]
+            ]
+          ],
+          [
+            2,
+            [
+              [
+                285.09717,
+                74.85478
+              ],
+              [
+                291.04905,
+                75.3701
+              ]
+            ]
+          ]
+        ],
+        "retired": [
+          "4b04b1b6-8e1f-4d7f-8b4b-d7a17bea63a8",
+          "9e64f733-7535-463a-9046-0819217a6490",
+          "06f38a20-47d1-40f3-8925-7192396861f7",
+          "688253d9-d615-4169-861c-d3528aef4e8e"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    },
+    "C675": {
+      "candidates": 431,
+      "best": {
+        "cost": 3.779,
+        "delta": [
+          0.365,
+          -0.223
+        ],
+        "back": 1.647,
+        "kind": "radial",
+        "compact": false,
+        "angle": 165,
+        "paths": [
+          [
+            [
+              201.993949,
+              335.573949
+            ],
+            [
+              198.977726,
+              334.7187
+            ]
+          ],
+          [
+            [
+              194.31,
+              338.34
+            ],
+            [
+              196.524274,
+              334.0613
+            ]
+          ]
+        ],
+        "extra": [],
+        "retired": [
+          "df9767fc-030a-5110-9666-5893a1af5d19",
+          "ff8dc95d-aa0e-45b7-8949-eb34e89a3b0a"
+        ],
+        "direct": [
+          false,
+          false
+        ],
+        "face": "F.Cu"
+      }
+    }
+  }
+}

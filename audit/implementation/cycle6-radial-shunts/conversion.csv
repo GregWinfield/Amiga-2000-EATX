@@ -1,0 +1,3 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+C815,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,Net-(RN802A-R1.1),GND,359.61369,188.9091,90.0
+C675,1000pF,C315C102J5G5TA,Capacitor_SMD:C_0805_2012Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,Net-(C675-Pad1),_GBG,199.321,334.09,180.0
