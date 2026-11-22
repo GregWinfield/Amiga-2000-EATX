@@ -1,0 +1,132 @@
+{
+  "RN907C1.1 V7M": {},
+  "RN907C1.2 7MHz": {},
+  "C805.1 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          82269.461815
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C805.2 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          96.444265
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          84906.242101
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          307.084179
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "R302.1 AUDOUT": {},
+  "R302.2 Net-(C318-Pad2)": {},
+  "RN907A1.1 7M": {},
+  "RN907A1.2 7MHz": {},
+  "C540.1 GND": {
+    "F.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          24,
+          114,
+          204,
+          294
+        ],
+        "contour_areas_mm2": [
+          48.313795
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          24,
+          114,
+          204,
+          294
+        ],
+        "contour_areas_mm2": [
+          84906.242101
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 3,
+        "angular_sector_starts_deg": [
+          24,
+          204,
+          294
+        ],
+        "contour_areas_mm2": [
+          3.077782,
+          31.102166
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C540.2 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          24,
+          114,
+          204,
+          294
+        ],
+        "contour_areas_mm2": [
+          82269.461815
+        ],
+        "isolated": false
+      }
+    ]
+  }
+}

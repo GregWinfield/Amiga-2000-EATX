@@ -1,0 +1,177 @@
+{
+  "before": {
+    "+5V": {
+      "sampled_mm": 13.6363,
+      "unreferenced_mm": 0.7901,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "AUDOUT": {
+      "sampled_mm": 2.3876,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(C318-Pad2)": {
+      "sampled_mm": 21.269,
+      "unreferenced_mm": 1.9443,
+      "outside_terminal_mm": 0.897,
+      "max_distance_to_adjacent_plane_mm": 0.45,
+      "locations": [
+        [
+          278.014,
+          79.988
+        ],
+        [
+          278.014,
+          79.938
+        ],
+        [
+          278.014,
+          79.888
+        ],
+        [
+          278.014,
+          79.838
+        ],
+        [
+          278.014,
+          79.788
+        ],
+        [
+          278.014,
+          79.739
+        ],
+        [
+          278.014,
+          79.689
+        ],
+        [
+          278.014,
+          79.639
+        ],
+        [
+          278.014,
+          79.589
+        ],
+        [
+          278.014,
+          79.539
+        ],
+        [
+          278.014,
+          79.489
+        ],
+        [
+          278.014,
+          79.44
+        ],
+        [
+          278.014,
+          79.39
+        ],
+        [
+          278.014,
+          79.34
+        ],
+        [
+          278.014,
+          79.29
+        ],
+        [
+          278.014,
+          79.24
+        ],
+        [
+          278.014,
+          79.19
+        ],
+        [
+          278.014,
+          79.141
+        ]
+      ]
+    },
+    "7MHz": {
+      "sampled_mm": 7.8243,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "V7M": {
+      "sampled_mm": 1.0554,
+      "unreferenced_mm": 0.7676,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "7M": {
+      "sampled_mm": 10.629,
+      "unreferenced_mm": 0.7966,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 3.3901,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "7MHz": {
+      "sampled_mm": 9.0222,
+      "unreferenced_mm": 4.813,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 2.5003,
+      "unreferenced_mm": 1.3237,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "AUDOUT": {
+      "sampled_mm": 1.8646,
+      "unreferenced_mm": 1.0795,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "7M": {
+      "sampled_mm": 8.3749,
+      "unreferenced_mm": 1.8943,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+5V": {
+      "sampled_mm": 5.4013,
+      "unreferenced_mm": 1.1893,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(C318-Pad2)": {
+      "sampled_mm": 6.787,
+      "unreferenced_mm": 2.2956,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "V7M": {
+      "sampled_mm": 2.4514,
+      "unreferenced_mm": 1.863,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

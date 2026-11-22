@@ -1,0 +1,6 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R302,1k,MRS16000C1001FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,AUDOUT,Net-(C318-Pad2),281.776546,92.878405,0.0
+C540,0.1uF,C322C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm,GND,+5V,321.021411,339.683101,10.0
+C805,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,+5V,GND,388.75,175.52,90.0
+RN907A1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,7M,7MHz,257.20401,258.68266,180.0
+RN907C1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,V7M,7MHz,256.30401,261.72106,180.0
