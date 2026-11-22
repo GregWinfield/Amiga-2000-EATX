@@ -1,0 +1,25 @@
+rank,reference,candidate,deciding_check
+1,C501,KEMET C315 radial,Reconnect at distribution roots and inspect effective paths on both faces
+2,C600,KEMET C315 radial,Reconnect at distribution roots and inspect effective paths on both faces
+3,C203,KEMET C315/C322,Device proximity and supply/ground roots
+4,C205,KEMET C315/C322,Device proximity and supply/ground roots
+5,C300,KEMET C315/C322,Device proximity and supply/ground roots
+6,C504,KEMET C315/C322,Device proximity and supply/ground roots
+7,R310,Vishay PR01 radial N4 4.8 mm,Thermal load and two exits under formed body
+8,R233,DIN0204 and adjacent audio passives,Joint placement and short two-ended audio routes
+9,R243,DIN0204 and adjacent audio passives,Joint placement and short two-ended audio routes
+10,C234,DIN0204 and adjacent audio passives,Joint placement and short two-ended audio routes
+11,C220,220 nF KEMET C315,Preserve dedicated AUDIO copper and rail
+12,C219,220 nF KEMET C315,Preserve dedicated AUDIO copper and rail
+13,C221,220 nF KEMET C315,Preserve dedicated AUDIO copper and rail
+14,C261,100 pF C0G,Low-inductance keyboard or audio return
+15,C306,100 pF C0G,Low-inductance keyboard or audio return
+16,C259,100 pF C0G,Low-inductance keyboard or audio return
+17,C304,100 pF C0G,Low-inductance keyboard or audio return
+18,C322,Radial ceramic,Preserve fuse/connector or supply and standby loops
+19,C323,Radial ceramic,Preserve fuse/connector or supply and standby loops
+20,C9101,Radial ceramic,Preserve fuse/connector or supply and standby loops
+21,C9102,Radial ceramic,Preserve fuse/connector or supply and standby loops
+22,C112,Radial ceramic,Preserve fuse/connector or supply and standby loops
+23,C503,Radial ceramic,Preserve fuse/connector or supply and standby loops
+24,C804,Radial ceramic,Preserve fuse/connector or supply and standby loops

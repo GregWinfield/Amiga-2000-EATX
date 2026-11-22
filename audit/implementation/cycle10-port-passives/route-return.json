@@ -1,0 +1,69 @@
+{
+  "before": {
+    "Net-(EMI310-Pad2)": {
+      "sampled_mm": 8.3998,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "/Floppy and Parallel/_KBDATA": {
+      "sampled_mm": 7.9957,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 8.4074,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(D301-K)": {
+      "sampled_mm": 3.5921,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "GND": {
+      "sampled_mm": 5.8484,
+      "unreferenced_mm": 1.9832,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(EMI310-Pad2)": {
+      "sampled_mm": 4.9956,
+      "unreferenced_mm": 1.1989,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(D301-K)": {
+      "sampled_mm": 7.5726,
+      "unreferenced_mm": 1.1957,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "/Floppy and Parallel/_KBDATA": {
+      "sampled_mm": 7.9686,
+      "unreferenced_mm": 1.1911,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(C306-Pad1)": {
+      "sampled_mm": 1.2328,
+      "unreferenced_mm": 1.2328,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

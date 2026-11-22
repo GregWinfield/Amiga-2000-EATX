@@ -1,0 +1,4 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R310,47 0.5W,PR01000104709JR500,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,Net-(EMI310-Pad2),Net-(D301-K),300.96449,93.1895,180.0
+C261,100pF,C322C101J5G5TA,Capacitor_SMD:C_1206_3216Metric,Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm,/Floppy and Parallel/_KBDATA,GND,392.18685,78.38358,180.0
+C306,100pF,C315C101J5G5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,Net-(C306-Pad1),GND,290.99905,72.8801,-90.0

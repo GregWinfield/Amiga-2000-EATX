@@ -1,0 +1,288 @@
+{
+  "F.Cu": {
+    "prior_outlines": 294,
+    "final_outlines": 295,
+    "prior_isolated": 0,
+    "final_isolated": 0,
+    "removed": [
+      {
+        "isolated": false,
+        "bounds": [
+          100.876928,
+          53.925198,
+          405.53919,
+          384.017
+        ],
+        "area_mm2": 8751.46429,
+        "plated_ground_centres": [
+          "33a949c7-0b50-4582-a50c-a32d3ee3a787",
+          "8d97a38a-4481-4e84-a666-2b61e57c43cc",
+          "R244.1",
+          "ZS6.1"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          100.84019,
+          53.9247,
+          288.323929,
+          213.509456
+        ],
+        "area_mm2": 7213.33113,
+        "plated_ground_centres": [
+          "a14f8e1b-604c-4ee0-9bd3-9ad36928241a"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          293.43119,
+          96.4986,
+          301.85029,
+          105.3279
+        ],
+        "area_mm2": 20.39963,
+        "plated_ground_centres": [
+          "6e89eac2-0050-406a-a477-5cc8eb218421"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          282.695063,
+          72.938383,
+          296.33342,
+          79.175464
+        ],
+        "area_mm2": 36.69071,
+        "plated_ground_centres": []
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          387.80959,
+          68.088187,
+          389.41215,
+          71.407085
+        ],
+        "area_mm2": 2.89514,
+        "plated_ground_centres": []
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          362.67359,
+          93.6762,
+          368.410284,
+          99.219961
+        ],
+        "area_mm2": 12.67542,
+        "plated_ground_centres": [
+          "e7108146-c2b0-4c6d-8007-738534c6f4ac"
+        ]
+      }
+    ],
+    "added": [
+      {
+        "isolated": false,
+        "bounds": [
+          282.695063,
+          73.265779,
+          296.33342,
+          79.175464
+        ],
+        "area_mm2": 33.29816,
+        "plated_ground_centres": []
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          100.876928,
+          53.925198,
+          405.53919,
+          384.017
+        ],
+        "area_mm2": 8750.91389,
+        "plated_ground_centres": [
+          "33a949c7-0b50-4582-a50c-a32d3ee3a787",
+          "8d97a38a-4481-4e84-a666-2b61e57c43cc",
+          "R244.1",
+          "ZS6.1"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          290.176842,
+          74.599307,
+          290.952604,
+          75.373655
+        ],
+        "area_mm2": 0.31333,
+        "plated_ground_centres": []
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          362.67359,
+          93.6762,
+          368.410284,
+          99.219961
+        ],
+        "area_mm2": 12.67542,
+        "plated_ground_centres": [
+          "e7108146-c2b0-4c6d-8007-738534c6f4ac"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          387.637549,
+          68.088187,
+          389.41215,
+          73.057007
+        ],
+        "area_mm2": 4.04279,
+        "plated_ground_centres": []
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          100.84019,
+          53.9247,
+          288.323929,
+          213.509456
+        ],
+        "area_mm2": 7213.33113,
+        "plated_ground_centres": [
+          "a14f8e1b-604c-4ee0-9bd3-9ad36928241a"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          293.43119,
+          97.362775,
+          301.85029,
+          105.3279
+        ],
+        "area_mm2": 19.36082,
+        "plated_ground_centres": [
+          "6e89eac2-0050-406a-a477-5cc8eb218421"
+        ]
+      }
+    ]
+  },
+  "B.Cu": {
+    "prior_outlines": 196,
+    "final_outlines": 197,
+    "prior_isolated": 0,
+    "final_isolated": 0,
+    "removed": [
+      {
+        "isolated": false,
+        "bounds": [
+          100.84019,
+          53.925198,
+          405.503857,
+          384.017
+        ],
+        "area_mm2": 11086.39694,
+        "plated_ground_centres": [
+          "2d463ac8-bc2e-4fd6-a535-ee86728e079c",
+          "33a949c7-0b50-4582-a50c-a32d3ee3a787",
+          "84fa2fad-8006-400e-8531-60657aa633a1",
+          "8d97a38a-4481-4e84-a666-2b61e57c43cc",
+          "9b0a1292-56ef-467c-af41-e8ccfa627704",
+          "f2f6d8fc-131c-4ac3-8693-0aa1285e0fff",
+          "R244.1"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          100.84019,
+          53.9247,
+          292.159,
+          219.040972
+        ],
+        "area_mm2": 5144.20738,
+        "plated_ground_centres": [
+          "00000000-0000-0000-0000-0000609a69d0"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          291.496,
+          74.122477,
+          304.59139,
+          97.685151
+        ],
+        "area_mm2": 113.27336,
+        "plated_ground_centres": [
+          "15a49588-3cce-4bba-a249-4dbb7f482e74"
+        ]
+      }
+    ],
+    "added": [
+      {
+        "isolated": false,
+        "bounds": [
+          100.84019,
+          53.925198,
+          405.503857,
+          384.017
+        ],
+        "area_mm2": 11079.24779,
+        "plated_ground_centres": [
+          "2d463ac8-bc2e-4fd6-a535-ee86728e079c",
+          "33a949c7-0b50-4582-a50c-a32d3ee3a787",
+          "84fa2fad-8006-400e-8531-60657aa633a1",
+          "8d97a38a-4481-4e84-a666-2b61e57c43cc",
+          "9b0a1292-56ef-467c-af41-e8ccfa627704",
+          "f2f6d8fc-131c-4ac3-8693-0aa1285e0fff",
+          "R244.1"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          291.496,
+          74.122477,
+          304.59139,
+          97.68515
+        ],
+        "area_mm2": 106.97525,
+        "plated_ground_centres": [
+          "15a49588-3cce-4bba-a249-4dbb7f482e74"
+        ]
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          290.176842,
+          74.599307,
+          290.952604,
+          75.373655
+        ],
+        "area_mm2": 0.31333,
+        "plated_ground_centres": []
+      },
+      {
+        "isolated": false,
+        "bounds": [
+          100.84019,
+          53.9247,
+          292.159,
+          219.040972
+        ],
+        "area_mm2": 5131.47816,
+        "plated_ground_centres": [
+          "00000000-0000-0000-0000-0000609a69d0"
+        ]
+      }
+    ]
+  }
+}

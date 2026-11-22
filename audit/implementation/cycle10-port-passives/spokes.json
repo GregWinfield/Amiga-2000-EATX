@@ -1,0 +1,94 @@
+{
+  "C306.1 Net-(C306-Pad1)": {},
+  "C306.2 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          36,
+          126
+        ],
+        "contour_areas_mm2": [
+          33.298159
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          84874.338773
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          36,
+          126
+        ],
+        "contour_areas_mm2": [
+          5131.478156
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C261.1 /Floppy and Parallel/_KBDATA": {},
+  "C261.2 GND": {
+    "F.Cu": [
+      {
+        "sectors": 3,
+        "angular_sector_starts_deg": [
+          33,
+          123,
+          303
+        ],
+        "contour_areas_mm2": [
+          8750.913889
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          84874.338773
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 3,
+        "angular_sector_starts_deg": [
+          33,
+          123,
+          213
+        ],
+        "contour_areas_mm2": [
+          11079.247794
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "R310.1 Net-(EMI310-Pad2)": {},
+  "R310.2 Net-(D301-K)": {}
+}
