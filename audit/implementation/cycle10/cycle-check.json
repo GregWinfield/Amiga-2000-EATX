@@ -1,0 +1,529 @@
+{
+  "start_artwork": "bc28fab5ba558fc3a84b73baacfcd21978d78ab5",
+  "final_artwork": "edccfc4fbe53fcb0d5d7e9be5bf3d8b0e50b467d",
+  "checked_board_lf_sha256": "dbd51f73ce128b1bbdeba1044f23639b52c7b5667d404dff30c86035d3c6fc22",
+  "verified_batches": [
+    {
+      "batch": "cycle10-port-passives",
+      "commit": "175d9b9ad1b8b7d6264b4b0577b2a43907e048ed",
+      "parts": [
+        "C261",
+        "C306",
+        "R310"
+      ]
+    },
+    {
+      "batch": "cycle10-supply-returns",
+      "commit": "537eb0786b8328e717337d61f00f51bd89f1a3b1",
+      "parts": [
+        "C203",
+        "C205",
+        "C300",
+        "C409"
+      ]
+    },
+    {
+      "batch": "cycle10-audio-shunt",
+      "commit": "edccfc4fbe53fcb0d5d7e9be5bf3d8b0e50b467d",
+      "parts": [
+        "R234"
+      ]
+    }
+  ],
+  "converted_positions": [
+    "C203",
+    "C205",
+    "C261",
+    "C300",
+    "C306",
+    "C409",
+    "R234",
+    "R310"
+  ],
+  "population": {
+    "THT": 225,
+    "SMD": 329
+  },
+  "planned": 202,
+  "deferred": 137,
+  "original_through_hole": 65,
+  "converted_total": 160,
+  "physical_pad_net_records": 3698,
+  "schematic_pin_assignments": 3603,
+  "changed_net_assignments": 0,
+  "unrouted": 0,
+  "fixed_mounts": [
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9"
+  ],
+  "zorro_sockets": [
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605"
+  ],
+  "all_fixed_refs": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "vias_before": 1206,
+  "vias_after": 1206,
+  "vias_added": 0,
+  "retired_via_ids": [],
+  "diagnostics": {
+    "violations": {
+      "before": {
+        "error": 72,
+        "warning": 202
+      },
+      "after": {
+        "error": 71,
+        "warning": 202
+      },
+      "appeared": [
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C736",
+              156.31109,
+              119.8059
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C738",
+              156.33949,
+              122.3459
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C740",
+              156.33949,
+              124.8859
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C742",
+              156.33949,
+              127.4259
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C744",
+              156.33949,
+              129.9659
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C750",
+              156.33949,
+              137.5859
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C752",
+              156.33949,
+              140.1259
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C754",
+              156.33949,
+              142.6659
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "starved_thermal",
+          "error",
+          "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+          [
+            [
+              "Pad 1 [GND] of C205 on F.Cu",
+              244.42669,
+              109.3175
+            ],
+            [
+              "Zone [GND] on F.Cu, priority 0",
+              405.55669,
+              53.9255
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C205",
+              244.42669,
+              107.8425
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C409",
+              253.64689,
+              217.6467
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint R234",
+              287.63717,
+              73.37978
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C306",
+              291.24905,
+              73.4001
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C261",
+              390.48685,
+              78.38358
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C300",
+              323.03969,
+              169.4883
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'R_1206_3216Metric' does not match copy in library 'Resistor_SMD'",
+          [
+            [
+              "Footprint R310",
+              303.02449,
+              95.2695
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C203",
+              385.98089,
+              124.4287
+            ]
+          ]
+        ]
+      ]
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              50.8
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              50.8
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              285.75,
+              165.1
+            ],
+            [
+              "Symbol #PWR0234 Hidden pin 1 [GND, Power input, Line]",
+              54.61,
+              151.13
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              45.72
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB2 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              100.33
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              100.33
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              204.47,
+              148.59
+            ],
+            [
+              "Symbol #PWR0237 Hidden pin 1 [GND, Power input, Line]",
+              337.82,
+              86.36
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  "resolved_holds": [
+    "R234",
+    "R310"
+  ],
+  "updated_holds": [
+    "C501",
+    "C600",
+    "R233",
+    "R243"
+  ],
+  "added_holds": [
+    "C220",
+    "C504",
+    "RN204A1",
+    "R500-12"
+  ],
+  "starting_held_rows": 135,
+  "historical_register": "../cycle9/deferred.csv",
+  "fixed_native_findings": [
+    [
+      "starved_thermal",
+      "error",
+      "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+      [
+        [
+          "Pad 1 [GND] of C205 on F.Cu",
+          244.42669,
+          109.3175
+        ],
+        [
+          "Zone [GND] on F.Cu, priority 0",
+          405.55669,
+          53.9255
+        ]
+      ]
+    ]
+  ]
+}

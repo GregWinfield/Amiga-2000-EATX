@@ -1,0 +1,4087 @@
+{
+  "cycle10trialA": {
+    "placements": {
+      "C501": [
+        {
+          "cost": 5.988,
+          "kind": "radial",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                349.99521,
+                367.70378
+              ],
+              [
+                349.33193,
+                365.8303
+              ]
+            ],
+            [
+              [
+                347.40845,
+                368.28394
+              ],
+              [
+                346.79193,
+                365.8303
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "39dfbd2e-768e-4ae4-afc9-26785243604f",
+            "00000000-0000-0000-0000-000060b58a6c",
+            "792e001a-41be-4b83-a6ef-1e43af8a3f5a",
+            "ac2fa5f5-a13d-4a67-9d35-32de104cc4f8"
+          ],
+          "old": [
+            2.405031980322114,
+            3.0735188803625646
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            4,
+            3,
+            4,
+            3
+          ],
+          "ignore": []
+        }
+      ],
+      "C600": [
+        {
+          "cost": 10.525,
+          "kind": "radial",
+          "angle": 0,
+          "paths": [
+            [
+              [
+                213.67,
+                238.03
+              ],
+              [
+                216.875,
+                236.03
+              ]
+            ],
+            [
+              [
+                219.96829,
+                241.01171
+              ],
+              [
+                219.415,
+                236.03
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            true,
+            false
+          ],
+          "retired": [
+            "f874a430-ad44-4fd2-963a-71f3065d90ea",
+            "3981a6d2-8439-4e5b-b3fb-5df4c8d3a337",
+            "e56529cc-5627-4502-999c-51a9667b0aa0"
+          ],
+          "old": [
+            0,
+            5.8320815280171185
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "ignore": []
+        }
+      ],
+      "C203": [
+        {
+          "cost": 6.534,
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": -90,
+          "paths": [
+            [
+              [
+                385.98089,
+                122.9537
+              ],
+              [
+                387.48089,
+                122.4287
+              ]
+            ],
+            [
+              [
+                385.98089,
+                125.8287
+              ],
+              [
+                387.48089,
+                127.4287
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [],
+          "old": [
+            0,
+            0
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            3,
+            4,
+            3,
+            4
+          ],
+          "ignore": []
+        }
+      ],
+      "C205": [
+        {
+          "cost": 4.953,
+          "kind": "radial",
+          "angle": 90,
+          "paths": [
+            [
+              [
+                244.42669,
+                110.827
+              ],
+              [
+                244.17669,
+                108.8625
+              ]
+            ],
+            [
+              [
+                244.42669,
+                106.4425
+              ],
+              [
+                244.17669,
+                106.3225
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "ca00530a-d00b-41d8-b121-5e9298081d68"
+          ],
+          "old": [
+            1.5844999999999914,
+            0
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [
+            [
+              2,
+              [
+                [
+                  244.42669,
+                  106.4425
+                ],
+                [
+                  244.502849,
+                  106.366341
+                ]
+              ]
+            ]
+          ],
+          "thermals": [
+            2,
+            4,
+            3
+          ],
+          "ignore": []
+        }
+      ],
+      "C300": [
+        {
+          "cost": 12.216,
+          "kind": "radial",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                326.29089,
+                169.4883
+              ],
+              [
+                324.30969,
+                169.4883
+              ]
+            ],
+            [
+              [
+                316.94369,
+                163.5447
+              ],
+              [
+                321.76969,
+                169.4883
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "baebc3ad-b899-4620-9b00-6a886197df55",
+            "e0bbcd1b-94c0-4d58-8fdc-e6c1d3e30870",
+            "ea4ed34d-dcf2-4770-bd56-cd9f0568aed5"
+          ],
+          "old": [
+            1.8512000000000057,
+            7.888746888904037
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            2,
+            4,
+            3,
+            4
+          ],
+          "ignore": []
+        }
+      ],
+      "C504": [
+        {
+          "cost": 11.9,
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                364.30961,
+                359.46506
+              ],
+              [
+                366.06349,
+                359.48538
+              ]
+            ],
+            [
+              [
+                356.56769,
+                359.46506
+              ],
+              [
+                361.06349,
+                359.48538
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "00000000-0000-0000-0000-000060b37288",
+            "7c4a55dc-863b-42d9-a439-52a0b3c86eb3"
+          ],
+          "old": [
+            1.947720000000004,
+            2.994199999999978
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            4,
+            3,
+            4,
+            2
+          ],
+          "ignore": []
+        }
+      ]
+    },
+    "artwork_lf_sha256": "c8ebdf93c937b29af0677a0f80ff910e26b42edca6eabf7c922f54ee1d71a769",
+    "edits": {
+      "remove": [
+        "00000000-0000-0000-0000-000060b37288",
+        "00000000-0000-0000-0000-000060b58a6c",
+        "3981a6d2-8439-4e5b-b3fb-5df4c8d3a337",
+        "39dfbd2e-768e-4ae4-afc9-26785243604f",
+        "792e001a-41be-4b83-a6ef-1e43af8a3f5a",
+        "7c4a55dc-863b-42d9-a439-52a0b3c86eb3",
+        "ac2fa5f5-a13d-4a67-9d35-32de104cc4f8",
+        "baebc3ad-b899-4620-9b00-6a886197df55",
+        "ca00530a-d00b-41d8-b121-5e9298081d68",
+        "e0bbcd1b-94c0-4d58-8fdc-e6c1d3e30870",
+        "e56529cc-5627-4502-999c-51a9667b0aa0",
+        "ea4ed34d-dcf2-4770-bd56-cd9f0568aed5",
+        "f874a430-ad44-4fd2-963a-71f3065d90ea"
+      ]
+    },
+    "native_new": [
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1686 mm)",
+        [
+          [
+            "PTH pad 1 [GND] of C203",
+            387.48089,
+            122.4287
+          ],
+          [
+            "Track [Net-(J301-Pin_1)] on B.Cu, length 4.1656 mm",
+            386.38729,
+            124.1747
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C203 on F.Silkscreen",
+            388.50689,
+            122.2587
+          ],
+          [
+            "Value field of U203 (74LS38)",
+            389.43341,
+            124.21026
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C203 on F.Silkscreen",
+            389.20089,
+            122.2587
+          ],
+          [
+            "Value field of U203 (74LS38)",
+            389.43341,
+            124.21026
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C504 on F.Silkscreen",
+            360.89349,
+            357.76538
+          ],
+          [
+            "Value field of U502 (CY74FCT821T)",
+            360.99829,
+            357.37842
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C504 on F.Silkscreen",
+            360.89349,
+            358.45938
+          ],
+          [
+            "Value field of U502 (CY74FCT821T)",
+            360.99829,
+            357.37842
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U504",
+            360.97713,
+            361.6761
+          ],
+          [
+            "Segment of C504 on F.Silkscreen",
+            360.89349,
+            361.20538
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U504",
+            360.97713,
+            361.6761
+          ],
+          [
+            "Segment of C504 on F.Silkscreen",
+            366.23349,
+            361.20538
+          ]
+        ]
+      ]
+    ],
+    "ground_and_power_sections": {
+      "C205.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              36,
+              126
+            ],
+            "contour_areas_mm2": [
+              7.002346
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84850.492128
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              126
+            ],
+            "contour_areas_mm2": [
+              168.578125
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C205.2 +VID": {},
+      "C501.1 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216
+            ],
+            "contour_areas_mm2": [
+              82210.98941
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C501.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              216
+            ],
+            "contour_areas_mm2": [
+              462.137086
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84850.492128
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              126
+            ],
+            "contour_areas_mm2": [
+              38.41123
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C300.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              306
+            ],
+            "contour_areas_mm2": [
+              58.062322
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84850.492128
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              36
+            ],
+            "contour_areas_mm2": [
+              85.157035
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C300.2 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82210.98941
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C203.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              306
+            ],
+            "contour_areas_mm2": [
+              5.626586
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84850.492128
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              36,
+              306
+            ],
+            "contour_areas_mm2": [
+              53.204333
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C203.2 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82210.98941
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C600.1 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82210.98941
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C600.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              36,
+              306
+            ],
+            "contour_areas_mm2": [
+              94.351578
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84850.492128
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              306
+            ],
+            "contour_areas_mm2": [
+              470.955792
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C504.1 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216
+            ],
+            "contour_areas_mm2": [
+              82210.98941
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C504.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              462.137086
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84850.492128
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": []
+      }
+    },
+    "reference_changes": {
+      "C501": {
+        "front": [],
+        "back": []
+      },
+      "C600": {
+        "front": [],
+        "back": [
+          [
+            [
+              "f0324c8b-1d3e-4ae4-bf36-a8d344f8dbc4",
+              1
+            ],
+            "_OWN",
+            3
+          ],
+          [
+            [
+              "f0324c8b-1d3e-4ae4-bf36-a8d344f8dbc4",
+              0
+            ],
+            "_OWN",
+            15
+          ]
+        ]
+      },
+      "C203": {
+        "front": [
+          [
+            [
+              "9e73f2a6-bd11-49c7-b079-5924d5ede929",
+              0
+            ],
+            "GND",
+            9
+          ],
+          [
+            [
+              "6f55dfcf-1c8d-4343-81cc-e7d140b2568a",
+              0
+            ],
+            "GND",
+            8
+          ],
+          [
+            [
+              "2eb32694-1261-4bd4-8bcf-24f842fdfebf",
+              1
+            ],
+            "+5V",
+            29
+          ]
+        ],
+        "back": [
+          [
+            [
+              "23f1cd71-cc12-4af8-8861-cd80b4650f94",
+              0
+            ],
+            "Net-(J301-Pin_1)",
+            13
+          ]
+        ]
+      },
+      "C205": {
+        "front": [
+          [
+            [
+              "392894e4-ee3a-460d-8c5c-2da91eae55ec",
+              1
+            ],
+            "+VID",
+            12
+          ],
+          [
+            [
+              "6108792e-fbc5-45bc-aa55-d932352dbc21",
+              1
+            ],
+            "+VID",
+            20
+          ]
+        ],
+        "back": []
+      },
+      "C300": {
+        "front": [],
+        "back": []
+      },
+      "C504": {
+        "front": [
+          [
+            [
+              "0f094a3a-284f-48fd-bf2e-8091f76e3c53",
+              0
+            ],
+            "+5V",
+            6
+          ],
+          [
+            [
+              "b62b6603-1e22-4ba6-8b42-3a7a13eb0d65",
+              0
+            ],
+            "+5V",
+            11
+          ]
+        ],
+        "back": []
+      }
+    }
+  },
+  "cycle10trialB": {
+    "placements": {
+      "C261": [
+        {
+          "cost": 13.324,
+          "kind": "radial",
+          "angle": -135,
+          "paths": [
+            [
+              [
+                390.14441,
+                71.85278
+              ],
+              [
+                389.23685,
+                73.88358
+              ],
+              [
+                389.23685,
+                76.13358
+              ],
+              [
+                391.134876,
+                77.985554
+              ]
+            ],
+            [
+              [
+                384.69565,
+                79.80898
+              ],
+              [
+                389.338824,
+                79.781606
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "037c55d6-7f5d-4827-8413-1bcffc08b3ba",
+            "62cbca81-33c8-4715-bcc4-d6338a808b8c",
+            "fccfc4dd-5b49-4e63-909d-ac6e582f02c1",
+            "0de1e25d-2747-487d-b2d8-10dd0a31ffef",
+            "a745372f-f591-49fb-a003-40ac83b67f9e"
+          ],
+          "old": [
+            7.9956513479069375,
+            5.765800000000013
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            3,
+            4,
+            3
+          ],
+          "ignore": []
+        }
+      ],
+      "C306": [
+        {
+          "cost": 5.218,
+          "kind": "radial",
+          "angle": -90,
+          "paths": [
+            [
+              [
+                291.24905,
+                72.0001
+              ],
+              [
+                290.99905,
+                72.8801
+              ]
+            ],
+            [
+              [
+                293.92113,
+                74.84462
+              ],
+              [
+                290.99905,
+                75.4201
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "06f38a20-47d1-40f3-8925-7192396861f7"
+          ],
+          "old": [
+            0,
+            2.6415999999999826
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [
+            [
+              1,
+              [
+                [
+                  291.24905,
+                  72.0001
+                ],
+                [
+                  291.24905,
+                  72.31806
+                ]
+              ]
+            ]
+          ],
+          "thermals": [
+            3,
+            4,
+            4
+          ],
+          "ignore": []
+        }
+      ],
+      "C220": [
+        {
+          "cost": 13.142,
+          "kind": "radial",
+          "angle": 0,
+          "paths": [
+            [
+              [
+                274.22089,
+                133.8999
+              ],
+              [
+                274.66509,
+                127.5583
+              ]
+            ],
+            [
+              [
+                274.72204,
+                124.7843
+              ],
+              [
+                276.43509,
+                126.5583
+              ],
+              [
+                277.20509,
+                127.5583
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "bb2a0359-0f2e-4cef-91e4-07f6d93a796b"
+          ],
+          "old": [
+            6.140799999999999,
+            0
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [],
+          "ignore": []
+        }
+      ]
+    },
+    "artwork_lf_sha256": "8bc08fe5281b9ec6f587af5fef0b5a779af8b11ff022a993bf94075bcdb174de",
+    "edits": {
+      "remove": [
+        "037c55d6-7f5d-4827-8413-1bcffc08b3ba",
+        "06f38a20-47d1-40f3-8925-7192396861f7",
+        "0de1e25d-2747-487d-b2d8-10dd0a31ffef",
+        "62cbca81-33c8-4715-bcc4-d6338a808b8c",
+        "a745372f-f591-49fb-a003-40ac83b67f9e",
+        "bb2a0359-0f2e-4cef-91e4-07f6d93a796b",
+        "fccfc4dd-5b49-4e63-909d-ac6e582f02c1"
+      ]
+    },
+    "native_new": [
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of R242",
+            277.35899,
+            127.2083
+          ],
+          [
+            "Segment of C220 on F.Silkscreen",
+            274.03009,
+            126.1683
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [AUDIO] of C220",
+            277.20509,
+            127.5583
+          ],
+          [
+            "Reference field of R242",
+            277.35899,
+            127.2083
+          ]
+        ]
+      ]
+    ],
+    "ground_and_power_sections": {
+      "C306.1 Net-(C306-Pad1)": {},
+      "C306.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              36,
+              126
+            ],
+            "contour_areas_mm2": [
+              33.298159
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84873.226428
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              36,
+              126
+            ],
+            "contour_areas_mm2": [
+              5131.478156
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C261.1 /Floppy and Parallel/_KBDATA": {},
+      "C261.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              81,
+              171
+            ],
+            "contour_areas_mm2": [
+              8749.130483
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              81,
+              171,
+              261,
+              351
+            ],
+            "contour_areas_mm2": [
+              84873.226428
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              81,
+              171
+            ],
+            "contour_areas_mm2": [
+              11077.984229
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C220.1 +AV": {},
+      "C220.2 AUDIO": {}
+    },
+    "reference_changes": {
+      "C261": {
+        "front": [],
+        "back": [
+          [
+            [
+              "22684999-c8cb-470b-aa3e-4233945a4358",
+              0
+            ],
+            "_KBCLK",
+            7
+          ],
+          [
+            [
+              "22684999-c8cb-470b-aa3e-4233945a4358",
+              1
+            ],
+            "_KBCLK",
+            7
+          ]
+        ]
+      },
+      "C306": {
+        "front": [
+          [
+            [
+              "9e64f733-7535-463a-9046-0819217a6490",
+              0
+            ],
+            "Net-(C306-Pad1)",
+            5
+          ],
+          [
+            [
+              "4b04b1b6-8e1f-4d7f-8b4b-d7a17bea63a8",
+              0
+            ],
+            "Net-(C306-Pad1)",
+            18
+          ],
+          [
+            [
+              "688253d9-d615-4169-861c-d3528aef4e8e",
+              1
+            ],
+            "GND",
+            8
+          ]
+        ],
+        "back": []
+      },
+      "C220": {
+        "front": [
+          [
+            [
+              "3aafc4fd-3787-46c0-99ef-1c9a5dffa2db",
+              0
+            ],
+            "Vref",
+            8
+          ],
+          [
+            [
+              "47278536-4333-52bd-b713-294f2e5aaec5",
+              1
+            ],
+            "AUDIO",
+            26
+          ],
+          [
+            [
+              "5110a6c1-e2de-4c28-8c7e-158826bb8261",
+              0
+            ],
+            "Vref",
+            10
+          ],
+          [
+            [
+              "3aafc4fd-3787-46c0-99ef-1c9a5dffa2db",
+              1
+            ],
+            "Vref",
+            8
+          ]
+        ],
+        "back": []
+      }
+    }
+  },
+  "cycle10relief": {
+    "placements": {
+      "C501": [
+        {
+          "cost": 7.445,
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                349.99521,
+                367.70378
+              ],
+              [
+                349.21193,
+                366.0303
+              ]
+            ],
+            [
+              [
+                347.40845,
+                368.28394
+              ],
+              [
+                344.21193,
+                366.0303
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "39dfbd2e-768e-4ae4-afc9-26785243604f",
+            "00000000-0000-0000-0000-000060b58a6c",
+            "792e001a-41be-4b83-a6ef-1e43af8a3f5a",
+            "ac2fa5f5-a13d-4a67-9d35-32de104cc4f8"
+          ],
+          "old": [
+            2.405031980322114,
+            3.0735188803625646
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            4,
+            3,
+            4,
+            4
+          ],
+          "ignore": [],
+          "relief": 75,
+          "bound_spokes_estimate": [
+            3,
+            7,
+            4
+          ]
+        }
+      ],
+      "C600": [
+        {
+          "cost": 11.268,
+          "kind": "radial",
+          "angle": 0,
+          "paths": [
+            [
+              [
+                213.67,
+                238.03
+              ],
+              [
+                217.275,
+                235.83
+              ]
+            ],
+            [
+              [
+                219.96829,
+                241.01171
+              ],
+              [
+                219.815,
+                235.83
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            true,
+            false
+          ],
+          "retired": [
+            "f874a430-ad44-4fd2-963a-71f3065d90ea",
+            "3981a6d2-8439-4e5b-b3fb-5df4c8d3a337",
+            "e56529cc-5627-4502-999c-51a9667b0aa0"
+          ],
+          "old": [
+            0,
+            5.8320815280171185
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "ignore": [],
+          "relief": 85,
+          "bound_spokes_estimate": [
+            3,
+            7,
+            4
+          ]
+        }
+      ],
+      "C205": [
+        {
+          "cost": 5.146,
+          "kind": "radial",
+          "angle": 90,
+          "paths": [
+            [
+              [
+                244.42669,
+                110.827
+              ],
+              [
+                244.02669,
+                108.9125
+              ]
+            ],
+            [
+              [
+                244.42669,
+                106.4425
+              ],
+              [
+                244.02669,
+                106.3725
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "ca00530a-d00b-41d8-b121-5e9298081d68"
+          ],
+          "old": [
+            1.5844999999999914,
+            0
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [
+            [
+              2,
+              [
+                [
+                  244.42669,
+                  106.4425
+                ],
+                [
+                  244.502849,
+                  106.366341
+                ]
+              ]
+            ]
+          ],
+          "thermals": [
+            2,
+            4,
+            3
+          ],
+          "ignore": [],
+          "relief": 85,
+          "bound_spokes_estimate": [
+            0,
+            3,
+            4
+          ]
+        }
+      ],
+      "C300": [
+        {
+          "cost": 12.216,
+          "kind": "radial",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                326.29089,
+                169.4883
+              ],
+              [
+                324.30969,
+                169.4883
+              ]
+            ],
+            [
+              [
+                316.94369,
+                163.5447
+              ],
+              [
+                321.76969,
+                169.4883
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "baebc3ad-b899-4620-9b00-6a886197df55",
+            "e0bbcd1b-94c0-4d58-8fdc-e6c1d3e30870",
+            "ea4ed34d-dcf2-4770-bd56-cd9f0568aed5"
+          ],
+          "old": [
+            1.8512000000000057,
+            7.888746888904037
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            2,
+            4,
+            3,
+            4
+          ],
+          "ignore": [],
+          "relief": 10,
+          "bound_spokes_estimate": [
+            2,
+            5,
+            4
+          ]
+        }
+      ],
+      "C203": [
+        {
+          "cost": 10.143,
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": -90,
+          "paths": [
+            [
+              [
+                385.98089,
+                122.9537
+              ],
+              [
+                387.98089,
+                122.5287
+              ]
+            ],
+            [
+              [
+                385.98089,
+                125.8287
+              ],
+              [
+                387.98089,
+                127.5287
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [],
+          "old": [
+            0,
+            0
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            2,
+            4,
+            3,
+            4
+          ],
+          "ignore": [],
+          "relief": 85,
+          "bound_spokes_estimate": [
+            2,
+            5,
+            4
+          ]
+        }
+      ],
+      "C504": [
+        {
+          "cost": 14.758,
+          "kind": "radial",
+          "angle": -90,
+          "paths": [
+            [
+              [
+                364.30961,
+                359.46506
+              ],
+              [
+                361.26349,
+                358.21538
+              ]
+            ],
+            [
+              [
+                356.56769,
+                359.46506
+              ],
+              [
+                361.26349,
+                360.75538
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "00000000-0000-0000-0000-000060b37288",
+            "7c4a55dc-863b-42d9-a439-52a0b3c86eb3"
+          ],
+          "old": [
+            1.947720000000004,
+            2.994199999999978
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            4,
+            2,
+            4,
+            2
+          ],
+          "ignore": [],
+          "relief": 80,
+          "bound_spokes_estimate": [
+            2,
+            4,
+            4
+          ]
+        }
+      ],
+      "C409": [
+        {
+          "cost": 16.154,
+          "kind": "radial",
+          "angle": 90,
+          "paths": [
+            [
+              [
+                254.99609,
+                220.1359
+              ],
+              [
+                252.77189,
+                221.5217
+              ],
+              [
+                250.77189,
+                221.5217
+              ],
+              [
+                249.44689,
+                220.1167
+              ]
+            ],
+            [
+              [
+                252.24689,
+                217.6467
+              ],
+              [
+                249.44689,
+                217.5767
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "3f2ef8e4-275f-4ffb-aacb-5d2fab856e01"
+          ],
+          "old": [
+            2.4384000000000015,
+            0
+          ],
+          "width": 0.381,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            4,
+            4,
+            4
+          ],
+          "ignore": [],
+          "relief": 85,
+          "bound_spokes_estimate": [
+            4,
+            8,
+            4
+          ]
+        }
+      ]
+    },
+    "artwork_lf_sha256": "ba8ac12e1a253248328685af3890a4f423a07e16d74180fb85e1a882d94797ac",
+    "edits": {
+      "remove": [
+        "00000000-0000-0000-0000-000060b37288",
+        "00000000-0000-0000-0000-000060b58a6c",
+        "3981a6d2-8439-4e5b-b3fb-5df4c8d3a337",
+        "39dfbd2e-768e-4ae4-afc9-26785243604f",
+        "3f2ef8e4-275f-4ffb-aacb-5d2fab856e01",
+        "792e001a-41be-4b83-a6ef-1e43af8a3f5a",
+        "7c4a55dc-863b-42d9-a439-52a0b3c86eb3",
+        "ac2fa5f5-a13d-4a67-9d35-32de104cc4f8",
+        "baebc3ad-b899-4620-9b00-6a886197df55",
+        "ca00530a-d00b-41d8-b121-5e9298081d68",
+        "e0bbcd1b-94c0-4d58-8fdc-e6c1d3e30870",
+        "e56529cc-5627-4502-999c-51a9667b0aa0",
+        "ea4ed34d-dcf2-4770-bd56-cd9f0568aed5",
+        "f874a430-ad44-4fd2-963a-71f3065d90ea"
+      ]
+    },
+    "native_new": [
+      [
+        "track_dangling",
+        "warning",
+        "Track has unconnected end",
+        [
+          [
+            "Track [-12V] on F.Cu, length 12.8332 mm",
+            255.04689,
+            217.6467
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U205",
+            242.18819,
+            104.1759
+          ],
+          [
+            "Segment of C205 on F.Silkscreen",
+            242.63669,
+            109.5475
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 1 [-12V] of C409",
+            249.44689,
+            220.1167
+          ],
+          [
+            "Value field of C9000 (1uF)",
+            249.37969,
+            220.2375
+          ]
+        ]
+      ]
+    ],
+    "ground_and_power_sections": {
+      "C205.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              84,
+              174,
+              354
+            ],
+            "contour_areas_mm2": [
+              125.857149
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              87,
+              177,
+              282,
+              357
+            ],
+            "contour_areas_mm2": [
+              84848.098522
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              84,
+              174
+            ],
+            "contour_areas_mm2": [
+              168.700381
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C205.2 +VID": {},
+      "C409.1 -12V": {
+        "In2.Cu": []
+      },
+      "C409.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              174,
+              264,
+              354
+            ],
+            "contour_areas_mm2": [
+              407.601722
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              102,
+              177,
+              267,
+              357
+            ],
+            "contour_areas_mm2": [
+              84848.098522
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              174,
+              264,
+              354
+            ],
+            "contour_areas_mm2": [
+              211.081836
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C501.1 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82202.817763
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C501.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              3,
+              183,
+              273
+            ],
+            "contour_areas_mm2": [
+              457.199546
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              6,
+              96,
+              186,
+              276
+            ],
+            "contour_areas_mm2": [
+              84848.098522
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              3,
+              93,
+              183
+            ],
+            "contour_areas_mm2": [
+              38.958156
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C300.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              249,
+              339
+            ],
+            "contour_areas_mm2": [
+              58.984515
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              72,
+              162,
+              252,
+              342
+            ],
+            "contour_areas_mm2": [
+              84848.098522
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              69
+            ],
+            "contour_areas_mm2": [
+              85.701026
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C300.2 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82202.817763
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C203.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              174,
+              264,
+              354
+            ],
+            "contour_areas_mm2": [
+              15.058376
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              87,
+              177,
+              267,
+              357
+            ],
+            "contour_areas_mm2": [
+              84848.098522
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              84,
+              264,
+              354
+            ],
+            "contour_areas_mm2": [
+              51.657448
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C203.2 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82202.817763
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C600.1 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82202.817763
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C600.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              84,
+              264,
+              354
+            ],
+            "contour_areas_mm2": [
+              94.297364
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              87,
+              192,
+              267,
+              357
+            ],
+            "contour_areas_mm2": [
+              84848.098522
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              264
+            ],
+            "contour_areas_mm2": [
+              470.320486
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C504.1 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              82202.817763
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C504.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              87,
+              177,
+              357
+            ],
+            "contour_areas_mm2": [
+              457.199546
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              0,
+              90,
+              180,
+              282
+            ],
+            "contour_areas_mm2": [
+              84848.098522
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": []
+      }
+    },
+    "outer_contour_contacts": {
+      "F.Cu": [
+        {
+          "plated_ground": "C812.2",
+          "contact_mm": [
+            283.033698,
+            380.454323
+          ]
+        },
+        {
+          "plated_ground": "U102.1",
+          "contact_mm": [
+            367.87809,
+            332.8103
+          ]
+        },
+        {
+          "plated_ground": "C500.2",
+          "contact_mm": [
+            332.58961,
+            339.346553
+          ]
+        },
+        {
+          "plated_ground": "84fa2fad-8006-400e-8531-60657aa633a1",
+          "contact_mm": [
+            387.047839,
+            368.726
+          ]
+        },
+        {
+          "plated_ground": "C416.2",
+          "contact_mm": [
+            197.49585,
+            223.255583
+          ]
+        },
+        {
+          "ground_track": "00000000-0000-0000-0000-0000609a1299",
+          "contact_mm": [
+            166.942555,
+            283.567329
+          ]
+        },
+        {
+          "plated_ground": "C600.2",
+          "contact_mm": [
+            220.559,
+            235.83
+          ]
+        },
+        {
+          "plated_ground": "C409.2",
+          "contact_mm": [
+            250.19089,
+            217.5767
+          ]
+        },
+        {
+          "plated_ground": "CN604.2",
+          "contact_mm": [
+            130.22962,
+            222.201444
+          ]
+        },
+        {
+          "plated_ground": "CN202.0",
+          "contact_mm": [
+            277.397105,
+            66.722343
+          ]
+        },
+        {
+          "plated_ground": "CN1.3",
+          "contact_mm": [
+            269.68519,
+            178.8535
+          ]
+        },
+        {
+          "plated_ground": "Q9100.2",
+          "contact_mm": [
+            241.544485,
+            168.609178
+          ]
+        },
+        {
+          "plated_ground": "C300.1",
+          "contact_mm": [
+            325.05369,
+            169.4883
+          ]
+        },
+        {
+          "plated_ground": "C203.1",
+          "contact_mm": [
+            388.72489,
+            122.5287
+          ]
+        },
+        {
+          "plated_ground": "C205.1",
+          "contact_mm": [
+            244.77069,
+            108.9125
+          ]
+        }
+      ],
+      "B.Cu": [
+        {
+          "plated_ground": "C812.2",
+          "contact_mm": [
+            283.033698,
+            380.454323
+          ]
+        },
+        {
+          "plated_ground": "C501.2",
+          "contact_mm": [
+            344.95593,
+            366.0303
+          ]
+        },
+        {
+          "plated_ground": "C502.2",
+          "contact_mm": [
+            368.762613,
+            339.41542
+          ]
+        },
+        {
+          "plated_ground": "J9100.2",
+          "contact_mm": [
+            115.022599,
+            359.160369
+          ]
+        },
+        {
+          "plated_ground": "e3bcac9a-1213-4a75-bcbf-d4b6d233d5cc",
+          "contact_mm": [
+            272.51009,
+            235.6807
+          ]
+        },
+        {
+          "plated_ground": "C600.2",
+          "contact_mm": [
+            219.685806,
+            235.097303
+          ]
+        },
+        {
+          "plated_ground": "C409.2",
+          "contact_mm": [
+            250.19089,
+            217.5767
+          ]
+        },
+        {
+          "plated_ground": "J9003.1",
+          "contact_mm": [
+            252.602429,
+            135.375471
+          ]
+        },
+        {
+          "plated_ground": "U200.8",
+          "contact_mm": [
+            324.586896,
+            173.683203
+          ]
+        },
+        {
+          "plated_ground": "RN701.1",
+          "contact_mm": [
+            163.58589,
+            123.3111
+          ]
+        },
+        {
+          "plated_ground": "C203.1",
+          "contact_mm": [
+            388.72489,
+            122.5287
+          ]
+        },
+        {
+          "plated_ground": "C205.1",
+          "contact_mm": [
+            244.155884,
+            109.645197
+          ]
+        }
+      ]
+    },
+    "reference_changes": {
+      "C501": {
+        "front": [],
+        "back": []
+      },
+      "C600": {
+        "front": [],
+        "back": []
+      },
+      "C205": {
+        "front": [
+          [
+            [
+              "6108792e-fbc5-45bc-aa55-d932352dbc21",
+              1
+            ],
+            "+VID",
+            23
+          ],
+          [
+            [
+              "392894e4-ee3a-460d-8c5c-2da91eae55ec",
+              1
+            ],
+            "+VID",
+            12
+          ]
+        ],
+        "back": []
+      },
+      "C300": {
+        "front": [],
+        "back": []
+      },
+      "C203": {
+        "front": [
+          [
+            [
+              "9e73f2a6-bd11-49c7-b079-5924d5ede929",
+              0
+            ],
+            "GND",
+            8
+          ],
+          [
+            [
+              "6f55dfcf-1c8d-4343-81cc-e7d140b2568a",
+              0
+            ],
+            "GND",
+            13
+          ],
+          [
+            [
+              "2eb32694-1261-4bd4-8bcf-24f842fdfebf",
+              1
+            ],
+            "+5V",
+            23
+          ]
+        ],
+        "back": []
+      },
+      "C504": {
+        "front": [],
+        "back": []
+      },
+      "C409": {
+        "front": [],
+        "back": []
+      }
+    }
+  },
+  "cycle10power": {
+    "placements": {
+      "R310": [
+        {
+          "cost": 20.535,
+          "kind": "PR01V",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                297.28409,
+                89.8115
+              ],
+              [
+                300.14949,
+                92.2695
+              ],
+              [
+                301.31449,
+                93.0195
+              ]
+            ],
+            [
+              [
+                301.88449,
+                97.8095
+              ],
+              [
+                296.23449,
+                93.0195
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "79c8b0c1-c644-420b-9d31-14bc952eb99b",
+            "3a621abd-d51c-4dfd-8a73-dfedcf25ded6",
+            "1389d89f-254c-4d79-a367-bcb92942aaff",
+            "36d1e3b3-df95-4c4f-a3dc-0b6a8ee53fbf"
+          ],
+          "old": [
+            8.399776301521985,
+            3.59210244842764
+          ],
+          "width": 0.4572,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [],
+          "ignore": []
+        }
+      ]
+    },
+    "artwork_lf_sha256": "ded42f0d4e7960e792f597c41b8ef8f959e7f4b3a1a5fad434d9cbf96ad23c13",
+    "edits": {
+      "remove": [
+        "1389d89f-254c-4d79-a367-bcb92942aaff",
+        "36d1e3b3-df95-4c4f-a3dc-0b6a8ee53fbf",
+        "3a621abd-d51c-4dfd-8a73-dfedcf25ded6",
+        "79c8b0c1-c644-420b-9d31-14bc952eb99b"
+      ]
+    },
+    "native_new": [
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Circle of R310 on F.Silkscreen",
+            301.31449,
+            93.0195
+          ],
+          [
+            "Reference field of EMI300",
+            304.14209,
+            91.7643
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [Net-(D301-K)] of R310",
+            296.23449,
+            93.0195
+          ],
+          [
+            "Segment on F.Silkscreen",
+            291.03569,
+            93.4915
+          ]
+        ]
+      ]
+    ],
+    "reference_changes": {
+      "R310": {
+        "front": [],
+        "back": [
+          [
+            [
+              "749577bb-7fa1-4e6c-bd3a-b73b2c5d4979",
+              1
+            ],
+            "/Floppy and Parallel/_IORST",
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "cycle10eligible": {
+    "placements": {
+      "R310": [
+        {
+          "cost": 20.875,
+          "kind": "PR01V",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                297.28409,
+                89.8115
+              ],
+              [
+                300.96449,
+                93.1895
+              ]
+            ],
+            [
+              [
+                301.88449,
+                97.8095
+              ],
+              [
+                295.88449,
+                93.1895
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "79c8b0c1-c644-420b-9d31-14bc952eb99b",
+            "3a621abd-d51c-4dfd-8a73-dfedcf25ded6",
+            "1389d89f-254c-4d79-a367-bcb92942aaff",
+            "36d1e3b3-df95-4c4f-a3dc-0b6a8ee53fbf"
+          ],
+          "old": [
+            8.399776301521985,
+            3.59210244842764
+          ],
+          "width": 0.4572,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [],
+          "ignore": [],
+          "clear": 1.2581008640009068,
+          "gap_port_legend": true
+        }
+      ],
+      "C306": [
+        {
+          "cost": 5.218,
+          "kind": "radial",
+          "angle": -90,
+          "paths": [
+            [
+              [
+                291.24905,
+                72.0001
+              ],
+              [
+                290.99905,
+                72.8801
+              ]
+            ],
+            [
+              [
+                293.92113,
+                74.84462
+              ],
+              [
+                290.99905,
+                75.4201
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "06f38a20-47d1-40f3-8925-7192396861f7"
+          ],
+          "old": [
+            0,
+            2.6415999999999826
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [
+            [
+              1,
+              [
+                [
+                  291.24905,
+                  72.0001
+                ],
+                [
+                  291.24905,
+                  72.31806
+                ]
+              ]
+            ]
+          ],
+          "thermals": [
+            3,
+            4,
+            4
+          ],
+          "ignore": []
+        }
+      ],
+      "RN204A1": [
+        {
+          "cost": 5.181,
+          "kind": "0204V",
+          "angle": -60,
+          "paths": [
+            [
+              [
+                373.78889,
+                103.9563
+              ],
+              [
+                373.40389,
+                106.201248
+              ]
+            ],
+            [
+              [
+                373.78889,
+                109.6967
+              ],
+              [
+                374.67389,
+                108.400952
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "373f81a5-64e4-46e6-a259-7d5b6bf46c09",
+            "a069f7c5-40ab-48d3-837d-14f92129ca34"
+          ],
+          "old": [
+            1.4448000000000008,
+            1.4956000000000103
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [],
+          "ignore": []
+        }
+      ],
+      "C261": [
+        {
+          "cost": 14.463,
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 180,
+          "paths": [
+            [
+              [
+                390.14441,
+                71.85278
+              ],
+              [
+                389.23685,
+                73.88358
+              ],
+              [
+                389.23685,
+                75.50858
+              ],
+              [
+                392.18685,
+                78.38358
+              ]
+            ],
+            [
+              [
+                384.69565,
+                79.80898
+              ],
+              [
+                387.18685,
+                78.38358
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            false,
+            false
+          ],
+          "retired": [
+            "037c55d6-7f5d-4827-8413-1bcffc08b3ba",
+            "62cbca81-33c8-4715-bcc4-d6338a808b8c",
+            "fccfc4dd-5b49-4e63-909d-ac6e582f02c1",
+            "0de1e25d-2747-487d-b2d8-10dd0a31ffef",
+            "a745372f-f591-49fb-a003-40ac83b67f9e"
+          ],
+          "old": [
+            7.9956513479069375,
+            5.765800000000013
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            3,
+            4,
+            3
+          ],
+          "ignore": [],
+          "relief": 45,
+          "bound_spokes_estimate": [
+            2,
+            5,
+            4
+          ]
+        }
+      ]
+    },
+    "artwork_lf_sha256": "a84a1eeab5a05bc7d3ceaa06b411efcc9771aaf3f50692df5dbefe1cc6876323",
+    "edits": {
+      "remove": [
+        "037c55d6-7f5d-4827-8413-1bcffc08b3ba",
+        "06f38a20-47d1-40f3-8925-7192396861f7",
+        "0de1e25d-2747-487d-b2d8-10dd0a31ffef",
+        "1389d89f-254c-4d79-a367-bcb92942aaff",
+        "36d1e3b3-df95-4c4f-a3dc-0b6a8ee53fbf",
+        "373f81a5-64e4-46e6-a259-7d5b6bf46c09",
+        "3a621abd-d51c-4dfd-8a73-dfedcf25ded6",
+        "62cbca81-33c8-4715-bcc4-d6338a808b8c",
+        "79c8b0c1-c644-420b-9d31-14bc952eb99b",
+        "a069f7c5-40ab-48d3-837d-14f92129ca34",
+        "a745372f-f591-49fb-a003-40ac83b67f9e",
+        "fccfc4dd-5b49-4e63-909d-ac6e582f02c1"
+      ]
+    },
+    "native_new": [
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C261 on F.Silkscreen",
+            387.01685,
+            80.10358
+          ],
+          [
+            "Value field of C260 (100pF)",
+            386.82925,
+            78.40898
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C261 on F.Silkscreen",
+            387.01685,
+            77.35758
+          ],
+          [
+            "Value field of C260 (100pF)",
+            386.82925,
+            78.40898
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C261 on F.Silkscreen",
+            387.01685,
+            76.66358
+          ],
+          [
+            "Value field of C260 (100pF)",
+            386.82925,
+            78.40898
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C261 on F.Silkscreen",
+            392.35685,
+            80.10358
+          ],
+          [
+            "Value field of C260 (100pF)",
+            386.82925,
+            78.40898
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [M1V] of RN204A1",
+            374.67389,
+            108.400953
+          ],
+          [
+            "Reference field of RN204D1",
+            375.82089,
+            106.8011
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [GND] of C261",
+            387.18685,
+            78.38358
+          ],
+          [
+            "Value field of C260 (100pF)",
+            386.82925,
+            78.40898
+          ]
+        ]
+      ]
+    ],
+    "ground_and_power_sections": {
+      "C306.1 Net-(C306-Pad1)": {},
+      "C306.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              36,
+              126
+            ],
+            "contour_areas_mm2": [
+              33.298159
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84866.926956
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              36,
+              126
+            ],
+            "contour_areas_mm2": [
+              5131.478156
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C261.1 /Floppy and Parallel/_KBDATA": {},
+      "C261.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              33,
+              123,
+              303
+            ],
+            "contour_areas_mm2": [
+              8750.91389
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84866.926956
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 3,
+            "angular_sector_starts_deg": [
+              33,
+              123,
+              213
+            ],
+            "contour_areas_mm2": [
+              11079.247794
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "R310.1 Net-(EMI310-Pad2)": {},
+      "R310.2 Net-(D301-K)": {},
+      "RN204A1.1 Net-(U202-Za)": {},
+      "RN204A1.2 M1V": {}
+    },
+    "reference_changes": {
+      "R310": {
+        "front": [],
+        "back": []
+      },
+      "C306": {
+        "front": [
+          [
+            [
+              "4b04b1b6-8e1f-4d7f-8b4b-d7a17bea63a8",
+              0
+            ],
+            "Net-(C306-Pad1)",
+            18
+          ],
+          [
+            [
+              "688253d9-d615-4169-861c-d3528aef4e8e",
+              1
+            ],
+            "GND",
+            8
+          ],
+          [
+            [
+              "9e64f733-7535-463a-9046-0819217a6490",
+              0
+            ],
+            "Net-(C306-Pad1)",
+            5
+          ]
+        ],
+        "back": []
+      },
+      "RN204A1": {
+        "front": [],
+        "back": [
+          [
+            [
+              "bf040537-ba46-4d05-869a-974be8788b34",
+              1
+            ],
+            "M0V",
+            7
+          ],
+          [
+            [
+              "bf040537-ba46-4d05-869a-974be8788b34",
+              0
+            ],
+            "M0V",
+            7
+          ],
+          [
+            [
+              "9afdf65a-aaf6-468a-a3dc-1dad42891a33",
+              1
+            ],
+            "M1V",
+            25
+          ]
+        ]
+      },
+      "C261": {
+        "front": [],
+        "back": []
+      }
+    }
+  },
+  "cycle10joint5": {
+    "placements": {
+      "R233": [
+        {
+          "kind": "ax",
+          "angle": -90,
+          "compact": false,
+          "paths": [
+            [
+              [
+                282.55717,
+                71.97978
+              ],
+              [
+                282.77,
+                70.93
+              ]
+            ],
+            [
+              [
+                281.63769,
+                76.7275
+              ],
+              [
+                282.77,
+                76.01
+              ]
+            ]
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "width": 0.25,
+          "extra": [
+            [
+              1,
+              [
+                [
+                  282.55717,
+                  71.55098
+                ],
+                [
+                  282.55717,
+                  71.97978
+                ]
+              ]
+            ]
+          ],
+          "old": [],
+          "retired": [
+            "e112ac7a-5a9f-4894-aad3-040490b1cf86",
+            "f59d85b8-1ada-4f1c-b780-0bf23ac2ead2"
+          ]
+        }
+      ],
+      "R243": [
+        {
+          "kind": "ax",
+          "angle": -90,
+          "compact": false,
+          "paths": [
+            [
+              [
+                274.53077,
+                71.97978
+              ],
+              [
+                275.13,
+                71.0
+              ]
+            ],
+            [
+              [
+                274.53077,
+                78.065178
+              ],
+              [
+                275.13,
+                76.08
+              ]
+            ]
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "width": 0.25,
+          "extra": [],
+          "old": [],
+          "retired": [
+            "6a4091db-2375-48f1-b685-35d718e07e28"
+          ]
+        }
+      ]
+    },
+    "artwork_lf_sha256": "a59f1d8ecd6dd1d6360b77a77a84ec49f9b1c659c9e24e75cb105eb01b27d8bb",
+    "edits": {
+      "remove": [
+        "6a4091db-2375-48f1-b685-35d718e07e28",
+        "e112ac7a-5a9f-4894-aad3-040490b1cf86",
+        "f59d85b8-1ada-4f1c-b780-0bf23ac2ead2"
+      ],
+      "shifts": {
+        "C234": [
+          0.5,
+          0
+        ]
+      }
+    },
+    "native_new": [
+      [
+        "shorting_items",
+        "error",
+        "Items shorting two nets (nets /Video/BLUE and Net-(C233-Pad2))",
+        [
+          [
+            "PTH pad 2 [Net-(C233-Pad2)] of R233",
+            282.77,
+            76.01
+          ],
+          [
+            "Track [/Video/BLUE] on B.Cu, length 1.4625 mm",
+            281.884762,
+            75.90157
+          ]
+        ]
+      ],
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0669 mm)",
+        [
+          [
+            "PTH pad 2 [Net-(C233-Pad2)] of R233",
+            282.77,
+            76.01
+          ],
+          [
+            "Track [/Video/BLUE] on B.Cu, length 27.2981 mm",
+            254.58669,
+            75.90157
+          ]
+        ]
+      ],
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1126 mm)",
+        [
+          [
+            "PTH pad 2 [Net-(C233-Pad2)] of R233",
+            282.77,
+            76.01
+          ],
+          [
+            "Track [/Video/BLUE] on B.Cu, length 1.6366 mm",
+            282.91889,
+            78.5723
+          ]
+        ]
+      ],
+      [
+        "shorting_items",
+        "error",
+        "Items shorting two nets (nets FLTRIGHT and Net-(D401-A))",
+        [
+          [
+            "PTH pad 1 [FLTRIGHT] of R233",
+            282.77,
+            70.93
+          ],
+          [
+            "Track [Net-(D401-A)] on In2.Cu, length 55.5041 mm",
+            237.74649,
+            71.3427
+          ]
+        ]
+      ],
+      [
+        "shorting_items",
+        "error",
+        "Items shorting two nets (nets FLTRIGHT and FLTLEFT)",
+        [
+          [
+            "PTH pad 1 [FLTLEFT] of R243",
+            275.13,
+            71.0
+          ],
+          [
+            "Track [FLTRIGHT] on B.Cu, length 68.1228 mm",
+            212.846689,
+            70.283701
+          ]
+        ]
+      ],
+      [
+        "shorting_items",
+        "error",
+        "Items shorting two nets (nets /Video/_COMPSYNC and Net-(C233-Pad2))",
+        [
+          [
+            "PTH pad 2 [Net-(C233-Pad2)] of R233",
+            282.77,
+            76.01
+          ],
+          [
+            "Track [/Video/_COMPSYNC] on B.Cu, length 4.2664 mm",
+            281.442102,
+            74.8225
+          ]
+        ]
+      ],
+      [
+        "courtyards_overlap",
+        "error",
+        "Courtyards overlap",
+        [
+          [
+            "Footprint C234",
+            285.59717,
+            73.37978
+          ],
+          [
+            "Footprint R234",
+            287.63717,
+            73.37978
+          ]
+        ]
+      ],
+      [
+        "solder_mask_bridge",
+        "error",
+        "Rear solder mask aperture bridges items with different nets",
+        [
+          [
+            "PTH pad 2 [AUDOUT] of R243",
+            275.13,
+            76.08
+          ],
+          [
+            "Track [/Video/BLUE] on B.Cu, length 27.2981 mm",
+            254.58669,
+            75.90157
+          ]
+        ]
+      ],
+      [
+        "solder_mask_bridge",
+        "error",
+        "Rear solder mask aperture bridges items with different nets",
+        [
+          [
+            "PTH pad 2 [Net-(C233-Pad2)] of R233",
+            282.77,
+            76.01
+          ],
+          [
+            "Track [/Video/BLUE] on B.Cu, length 1.4625 mm",
+            281.884762,
+            75.90157
+          ]
+        ]
+      ],
+      [
+        "solder_mask_bridge",
+        "error",
+        "Rear solder mask aperture bridges items with different nets",
+        [
+          [
+            "PTH pad 2 [Net-(C233-Pad2)] of R233",
+            282.77,
+            76.01
+          ],
+          [
+            "Track [/Video/_COMPSYNC] on B.Cu, length 4.2664 mm",
+            281.442102,
+            74.8225
+          ]
+        ]
+      ],
+      [
+        "solder_mask_bridge",
+        "error",
+        "Rear solder mask aperture bridges items with different nets",
+        [
+          [
+            "PTH pad 1 [FLTLEFT] of R243",
+            275.13,
+            71.0
+          ],
+          [
+            "Track [FLTRIGHT] on B.Cu, length 68.1228 mm",
+            212.846689,
+            70.283701
+          ]
+        ]
+      ]
+    ],
+    "reference_changes": {
+      "R233": {
+        "front": [
+          [
+            [
+              "2589b995-0a26-4994-9856-c84a2bfb0e6d",
+              0
+            ],
+            "FLTRIGHT",
+            17
+          ],
+          [
+            [
+              "0afd98a7-0189-4b89-bfb0-4be8037101b8",
+              0
+            ],
+            "FLTRIGHT",
+            8
+          ]
+        ],
+        "back": [
+          [
+            [
+              "785b5f95-2c6d-4507-a38b-493714ca42c2",
+              1
+            ],
+            "/Video/BLUE",
+            4
+          ],
+          [
+            [
+              "a445d598-7e92-4136-8232-55e1ac70219d",
+              1
+            ],
+            "/Video/BLUE",
+            14
+          ],
+          [
+            [
+              "03307f48-9f9c-4e78-a83c-044bd394295f",
+              1
+            ],
+            "/Video/BLUE",
+            3
+          ],
+          [
+            [
+              "68bc45e3-c69f-4c2a-a643-51ee30b3d180",
+              1
+            ],
+            "/Video/_COMPSYNC",
+            29
+          ]
+        ]
+      },
+      "R243": {
+        "front": [
+          [
+            [
+              "5015c82f-ed14-4513-8b2c-a92d71224310",
+              0
+            ],
+            "FLTLEFT",
+            18
+          ],
+          [
+            [
+              "c964c3ff-0602-440d-b923-a7e32308bc31",
+              0
+            ],
+            "FLTLEFT",
+            6
+          ],
+          [
+            [
+              "537dbac4-480c-4758-bc55-e6a0b6f7b915",
+              0
+            ],
+            "FLTLEFT",
+            13
+          ]
+        ],
+        "back": [
+          [
+            [
+              "785b5f95-2c6d-4507-a38b-493714ca42c2",
+              1
+            ],
+            "/Video/BLUE",
+            29
+          ],
+          [
+            [
+              "3eaa2cf8-1a6d-4800-87af-143185eaf03b",
+              0
+            ],
+            "FLTRIGHT",
+            23
+          ]
+        ]
+      }
+    }
+  },
+  "cycle10audio": {
+    "placements": {
+      "R234": [
+        {
+          "cost": 2.743,
+          "kind": "0204V",
+          "angle": 90,
+          "paths": [
+            [
+              [
+                287.63717,
+                74.84228
+              ],
+              [
+                288.38717,
+                75.39978
+              ]
+            ],
+            [
+              [
+                287.63717,
+                71.97978
+              ],
+              [
+                288.38717,
+                72.85978
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            true,
+            false
+          ],
+          "retired": [],
+          "old": [
+            0,
+            0
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            3,
+            4,
+            3
+          ],
+          "ignore": [
+            "C234"
+          ],
+          "relief": 5
+        }
+      ]
+    },
+    "artwork_lf_sha256": "bfef54faae08a046da64cd3f24c883d572cd73312f0c7747d9bdfe3241fc4526",
+    "edits": {
+      "remove": []
+    },
+    "native_new": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; pad min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 1 [GND] of R234",
+            288.38717,
+            75.39978
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "ground_and_power_sections": {
+      "R234.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              72,
+              162
+            ],
+            "contour_areas_mm2": [
+              32.063847
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              75,
+              165,
+              255,
+              345
+            ],
+            "contour_areas_mm2": [
+              84868.381345
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              72
+            ],
+            "contour_areas_mm2": [
+              7.404729
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "R234.2 FLTRIGHT": {}
+    },
+    "reference_changes": {
+      "R234": {
+        "front": [
+          [
+            [
+              "688253d9-d615-4169-861c-d3528aef4e8e",
+              0
+            ],
+            "GND",
+            18
+          ]
+        ],
+        "back": []
+      }
+    }
+  },
+  "cycle10shunt": {
+    "placements": {
+      "R234": [
+        {
+          "cost": 2.743,
+          "kind": "0204V",
+          "angle": 90,
+          "paths": [
+            [
+              [
+                287.63717,
+                74.84228
+              ],
+              [
+                288.38717,
+                75.39978
+              ]
+            ],
+            [
+              [
+                287.63717,
+                71.97978
+              ],
+              [
+                288.38717,
+                72.85978
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            true,
+            false
+          ],
+          "retired": [],
+          "old": [
+            0,
+            0
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            3,
+            4,
+            3
+          ],
+          "ignore": [
+            "C234"
+          ],
+          "relief": 45,
+          "back_clear": 1.4318863994524518,
+          "conductors": [
+            [
+              1,
+              [
+                [
+                  288.38717,
+                  75.39978
+                ],
+                [
+                  290.99905,
+                  75.4201
+                ]
+              ],
+              0.381,
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    "artwork_lf_sha256": "c3b4548eebf4a5519c0c5dffa6cabf617be58fc75df39e8afce7b85c65a7ad02",
+    "edits": {
+      "remove": []
+    },
+    "native_new": [],
+    "ground_and_power_sections": {
+      "R234.1 GND": {
+        "F.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              30,
+              120,
+              210,
+              309
+            ],
+            "contour_areas_mm2": [
+              33.423418
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              36,
+              126,
+              216,
+              306
+            ],
+            "contour_areas_mm2": [
+              84839.644476
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              30,
+              309
+            ],
+            "contour_areas_mm2": [
+              8.849496
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "R234.2 FLTRIGHT": {}
+    },
+    "outer_contour_contacts": {
+      "F.Cu": [
+        {
+          "plated_ground": "C812.2",
+          "contact_mm": [
+            283.033698,
+            380.454323
+          ]
+        },
+        {
+          "plated_ground": "R234.1",
+          "contact_mm": [
+            288.950953,
+            75.72528
+          ]
+        }
+      ],
+      "B.Cu": [
+        {
+          "plated_ground": "CN202.0",
+          "contact_mm": [
+            280.017533,
+            66.493085
+          ]
+        },
+        {
+          "plated_ground": "R234.1",
+          "contact_mm": [
+            288.950953,
+            75.72528
+          ]
+        }
+      ]
+    },
+    "reference_changes": {
+      "R234": {
+        "front": [
+          [
+            [
+              "688253d9-d615-4169-861c-d3528aef4e8e",
+              0
+            ],
+            "GND",
+            7
+          ]
+        ],
+        "back": []
+      }
+    }
+  },
+  "cycle10service": {
+    "placements": {
+      "R234": [
+        {
+          "cost": 2.743,
+          "kind": "0204V",
+          "angle": 90,
+          "paths": [
+            [
+              [
+                287.63717,
+                74.84228
+              ],
+              [
+                288.00717,
+                75.39978
+              ]
+            ],
+            [
+              [
+                287.63717,
+                71.97978
+              ],
+              [
+                288.00717,
+                72.85978
+              ]
+            ]
+          ],
+          "compact": false,
+          "direct": [
+            true,
+            false
+          ],
+          "retired": [],
+          "old": [
+            0,
+            0
+          ],
+          "width": 0.25,
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "extra": [],
+          "thermals": [
+            3,
+            4,
+            3
+          ],
+          "ignore": [
+            "C234"
+          ],
+          "relief": 45,
+          "back_clear": 1.4318863994524518,
+          "conductors": [
+            [
+              1,
+              [
+                [
+                  288.00717,
+                  75.39978
+                ],
+                [
+                  290.99905,
+                  75.4201
+                ]
+              ],
+              0.381,
+              "B.Cu"
+            ]
+          ]
+        }
+      ]
+    },
+    "artwork_lf_sha256": "455da01d0bbd83720eb534f117e09f5bf4dcc83d545c7e66f6d8687a13fead2a",
+    "edits": {
+      "remove": []
+    },
+    "native_new": [],
+    "reference_changes": {
+      "R234": {
+        "front": [
+          [
+            [
+              "0afd98a7-0189-4b89-bfb0-4be8037101b8",
+              1
+            ],
+            "FLTRIGHT",
+            4
+          ],
+          [
+            [
+              "fc31e679-73c4-4b87-8e17-69c3a5bec135",
+              1
+            ],
+            "FLTRIGHT",
+            4
+          ],
+          [
+            [
+              "688253d9-d615-4169-861c-d3528aef4e8e",
+              0
+            ],
+            "GND",
+            7
+          ]
+        ],
+        "back": []
+      }
+    }
+  },
+  "geometry_screen_counts": {
+    "grid-C107": 14,
+    "grid-C112": 0,
+    "grid-C202": 0,
+    "grid-C203": 4,
+    "grid-C204": 0,
+    "grid-C205": 8,
+    "grid-C207": 0,
+    "grid-C219": 0,
+    "grid-C220": 2,
+    "grid-C221": 0,
+    "grid-C234": 0,
+    "grid-C259": 0,
+    "grid-C261": 48,
+    "grid-C300": 13,
+    "grid-C303": 0,
+    "grid-C304": 0,
+    "grid-C305": 0,
+    "grid-C306": 5,
+    "grid-C322": 0,
+    "grid-C323": 0,
+    "grid-C409": 17,
+    "grid-C501": 61,
+    "grid-C503": 0,
+    "grid-C504": 20,
+    "grid-C600": 49,
+    "grid-C804": 0,
+    "grid-C9001": 0,
+    "grid-C903": 0,
+    "grid-C910": 0,
+    "grid-C9101": 0,
+    "grid-C9102": 0,
+    "grid-C918": 0,
+    "grid-CX2": 0,
+    "grid-R203A1": 0,
+    "grid-R203B1": 0,
+    "grid-R233_C234": 0,
+    "grid-R243_C243": 0,
+    "grid-R310": 8,
+    "grid-R500-11": 0,
+    "grid-R500-12": 20,
+    "grid-R500-14": 0,
+    "grid-R500-15": 0,
+    "grid-RN204A1": 38,
+    "guard-C107": 4,
+    "guard-C203": 2,
+    "guard-C205": 8,
+    "guard-C220": 0,
+    "guard-C234_C233_R234": 0,
+    "guard-C261": 8,
+    "guard-C300": 0,
+    "guard-C306": 4,
+    "guard-C409": 9,
+    "guard-C501": 27,
+    "guard-C504": 12,
+    "guard-C600": 16,
+    "guard-R233_C234_R234": 0,
+    "guard-R243_R233_C234": 0,
+    "guard-RN204A1": 0,
+    "joint-C204_R205": 0,
+    "joint-C219_C220": 0,
+    "joint-C219_C220_C242": 16,
+    "joint-C220_C219": 2,
+    "joint-C220_C219_C242": 8,
+    "joint-C234_R233_R234": 20,
+    "joint-C234_R234": 19,
+    "joint-C304_C306": 0,
+    "joint-C306_C304": 11,
+    "joint-C9101_C9102": 0,
+    "joint-C9102_C9101": 0,
+    "joint-R205_C204": 0,
+    "joint-R233": 0,
+    "joint-R233_C234_R234": 0,
+    "joint-R234_C234": 24,
+    "joint-R234_R233_C234": 28,
+    "joint-R243": 0,
+    "joint-R243_R233_C234": 0,
+    "fine-R310": 54,
+    "powerform-R310": 8
+  }
+}

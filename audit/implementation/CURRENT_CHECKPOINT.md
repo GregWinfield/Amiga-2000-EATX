@@ -6,7 +6,7 @@ The verified batch is [cycle10-audio-shunt](cycle10-audio-shunt/README.md), with
 |---|---|
 | Converted positions | R234 |
 | Physical packages | 225 THT, 329 SMD, 554 total, 40.6% THT |
-| Conversion plan | 160 completed, 198 planned SMD, 133 deferred |
+| Conversion plan | 160 completed, 202 planned SMD, 137 deferred |
 | ERC | 24 errors and 1182 warnings |
 | Refilled DRC | 71 errors and 202 warnings |
 | Schematic parity | 17 inherited warnings |
@@ -15,3 +15,5 @@ The verified batch is [cycle10-audio-shunt](cycle10-audio-shunt/README.md), with
 [Object-level verification](cycle10-audio-shunt/verification.json) · [Native reports](cycle10-audio-shunt/kicad-reports.zip) · [Cycle 5 holds](cycle5/README.md) · [Current deferred register](cycle10/deferred.csv)
 
 Fabrication approval remains withheld. Fabricator tolerances, connector fit and insertion, lead forming, populated clearances, RTC leakage and retention, reset behaviour, populated audio, and loaded signal and rail measurements remain open.
+
+Final Cycle 10 artwork is `edccfc4fbe53fcb0d5d7e9be5bf3d8b0e50b467d`. [Cycle report](cycle10/README.md) · [Cumulative CAD comparison](cycle10/cycle-check.json) · [Open holds](cycle10/deferred.csv). The separate PCB Explorer uses the engineering commit containing this comparison.

@@ -1,0 +1,13 @@
+reference,before,after,deferral_change,physical_qualification
+C203,retained,converted,,pending
+C205,retained,converted,,pending
+C220,retained,planned,new,
+C261,retained,converted,,pending
+C300,planned,converted,,pending
+C306,retained,converted,,pending
+C409,retained,converted,,pending
+C504,retained,planned,new,
+R234,planned,converted,resolved,pending
+R310,planned,converted,resolved,pending
+R500-12,retained,planned,new,
+RN204A1,retained,planned,new,
