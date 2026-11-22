@@ -309,7 +309,7 @@ def build(root, original, current, provenance):
     target = index(table(root, TARGET, "eatx_reference physical_package authenticity construction proposed_footprint basis_or_release_condition"),
                    "eatx_reference", TARGET)
     hold_register = next((f"audit/implementation/{cycle}/deferred.csv"
-                          for cycle in ("cycle7", "cycle6", "cycle5", "cycle4", "resumed-cycle", "accelerated-cycle", "quick-win-cycle")
+                          for cycle in ("cycle8", "cycle7", "cycle6", "cycle5", "cycle4", "resumed-cycle", "accelerated-cycle", "quick-win-cycle")
                           if (root / "audit/implementation" / cycle / "deferred.csv").is_file()), None)
     holds = index(table(root, hold_register, "reference reason_for_hold"), "reference", hold_register) if hold_register else {}
     crosswalk = table(root, CROSSWALK, "eatx_cap eatx_element eatx_private eatx_signal eatx_contact historical_cap historical_element bplus_element return_net")
