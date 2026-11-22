@@ -6,12 +6,14 @@ The verified batch is [cycle9-u106-bypass](cycle9-u106-bypass/README.md), with p
 |---|---|
 | Converted positions | C106 |
 | Physical packages | 217 THT, 337 SMD, 554 total, 39.2% THT |
-| Conversion plan | 152 completed, 195 planned SMD, 125 deferred |
+| Conversion plan | 152 completed, 201 planned SMD, 135 deferred |
 | ERC | 24 errors and 1182 warnings |
 | Refilled DRC | 72 errors and 202 warnings |
 | Schematic parity | 17 inherited warnings |
 | Connectivity | Zero unrouted. All 3,603 schematic pins and 3,698 physical pad-net assignments match the control. |
 
-[Object-level verification](cycle9-u106-bypass/verification.json) · [Native reports](cycle9-u106-bypass/kicad-reports.zip) · [Cycle 5 holds](cycle5/README.md) · [Current deferred register](cycle8/deferred.csv)
+[Object-level verification](cycle9-u106-bypass/verification.json) · [Native reports](cycle9-u106-bypass/kicad-reports.zip) · [Cycle 5 holds](cycle5/README.md) · [Current deferred register](cycle9/deferred.csv)
 
 Fabrication approval remains withheld. Fabricator tolerances, connector fit and insertion, lead forming, populated clearances, RTC leakage and retention, reset behaviour, populated audio, and loaded signal and rail measurements remain open.
+
+Final Cycle 9 artwork is `bc28fab5ba558fc3a84b73baacfcd21978d78ab5`. [Cycle report](cycle9/README.md) · [Cumulative CAD comparison](cycle9/cycle-check.json) · [Open holds](cycle9/deferred.csv). The separate PCB Explorer uses the engineering commit containing this comparison.

@@ -1,0 +1,27 @@
+{
+  "artwork": "ce6eb1bf04c4958ade17b9757210480bca72c8a9",
+  "engineering": "4ad392c04865b577656d729258805f8d61894412",
+  "explorer": "de34e1001d88d0f6415e8725ca465da5636c8623",
+  "native_board_lf_sha256": "c30e609e3eb8f0cb9af823ecec771d8915bd6700fb126928cd8ade977c9b4989",
+  "installed": {
+    "THT": 206,
+    "SMD": 348
+  },
+  "bom_agrees_with_every_installed_footprint": true,
+  "prior_verified_report": "../cycle8/cycle-check.json",
+  "fresh_native_diagnostic_control": "../cycle9-logic-supplies/kicad-reports.zip",
+  "native_status": {
+    "drc": {
+      "status": 0,
+      "seconds": 92.6
+    },
+    "erc": {
+      "status": 0,
+      "seconds": 13.4
+    },
+    "net": {
+      "status": 0,
+      "seconds": 2.3
+    }
+  }
+}

@@ -1,0 +1,3070 @@
+{
+  "cycle9audio": {
+    "positions": [
+      "R302",
+      "C540",
+      "C601",
+      "C805"
+    ],
+    "tested_layouts": {
+      "R302": [
+        {
+          "cost": 15.0082,
+          "angle": 0,
+          "kind": "0204",
+          "compact": true,
+          "paths": [
+            [
+              [
+                283.00169,
+                94.284
+              ],
+              [
+                281.776546,
+                92.878405
+              ]
+            ],
+            [
+              [
+                283.15089,
+                87.1923
+              ],
+              [
+                286.856546,
+                92.878405
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "retained copper vertex",
+            "C318.2"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "94d2d920-fff2-4b62-b61c-eff7c68f02cb",
+            "ac235062-d7e6-493d-ab89-5e78e5927a23",
+            "e1e3035b-9024-46e8-8977-241553d6ca76",
+            "0be18da5-094c-4b71-8d10-9f0d207eb0bc",
+            "71933913-276d-4c52-a237-1e2f24e4e73c",
+            "f2372e70-9995-4ef7-8b3d-0813fdfd8efe",
+            "e27fdc2d-93fd-4fa8-bb14-da413ce56f99",
+            "31c3028a-f934-466f-8d1b-ecbcb6d7fcdb",
+            "f9972c0d-7e98-4ef7-8b44-21aca534eed5"
+          ],
+          "thermals": 4,
+          "width": 0.25,
+          "face": "F.Cu",
+          "via_ids": []
+        }
+      ],
+      "C540": [
+        {
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 10,
+          "compact": false,
+          "paths": [
+            [
+              [
+                318.62009,
+                340.3795
+              ],
+              [
+                321.021411,
+                339.683101
+              ]
+            ],
+            [
+              [
+                326.06409,
+                344.2149
+              ],
+              [
+                325.94545,
+                338.81486
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "new plated land",
+            "via"
+          ],
+          "retired": [
+            "597ad38c-a374-41bc-969f-6ea7d07af523",
+            "3105a9c5-c7dd-4f6b-8311-d88e77d4b1df",
+            "2a2f8799-436d-4438-91a6-8e24c0a24546",
+            "0f2010fa-7a8c-4765-bc09-981f2070240a",
+            "e1eb56bc-f0ac-4599-a34d-2b931a855a6a"
+          ],
+          "via_ids": [
+            "597ad38c-a374-41bc-969f-6ea7d07af523"
+          ],
+          "width": 0.4572,
+          "device": "U540",
+          "old_distance": 6.204841413605987,
+          "new_distance": 5.40134311548525,
+          "signal_edge_margin": 1.290288364680518,
+          "score": 10.981288855471227
+        }
+      ],
+      "C601": [
+        {
+          "kind": "radial",
+          "angle": 240,
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.43689,
+                258.7947
+              ],
+              [
+                213.51189,
+                257.14
+              ]
+            ],
+            [
+              [
+                216.31189,
+                260.48
+              ],
+              [
+                212.24189,
+                259.339705
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "via",
+            "new plated land"
+          ],
+          "retired": [
+            "afff126c-703f-4f42-a664-27de736035e1",
+            "7aa6750c-7cc9-4ed7-8c0f-3c1f812d447d"
+          ],
+          "via_ids": [
+            "afff126c-703f-4f42-a664-27de736035e1"
+          ],
+          "width": 0.381,
+          "device": "U600",
+          "old_distance": 5.629983197132973,
+          "new_distance": 4.316516791349215,
+          "signal_edge_margin": 1.1378400000000113,
+          "score": 7.194040657465679
+        }
+      ],
+      "C805": [
+        {
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 90,
+          "compact": false,
+          "paths": [
+            [
+              [
+                384.87749,
+                180.2071
+              ],
+              [
+                380.9679,
+                180.2071
+              ],
+              [
+                380.95,
+                181.0
+              ]
+            ],
+            [
+              [
+                380.95,
+                176.0
+              ],
+              [
+                380.95,
+                176.0
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "new plated land",
+            "via"
+          ],
+          "retired": [
+            "06bd41a4-fde4-4c36-8741-62756f8ffe7d",
+            "da1a16f7-1431-4b86-a353-5b7fd5679a34",
+            "9735b05f-a62e-40e8-8300-87b79b61c2b1"
+          ],
+          "via_ids": [
+            "06bd41a4-fde4-4c36-8741-62756f8ffe7d"
+          ],
+          "width": 0.381,
+          "device": "U805",
+          "old_distance": 3.92753079047132,
+          "new_distance": 4.006727855757148,
+          "signal_edge_margin": 1.1141000000000076,
+          "score": 6.618718998059992
+        }
+      ]
+    },
+    "new_native_findings": [
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Circle on F.Silkscreen",
+            382.98369,
+            176.5495
+          ],
+          [
+            "Segment of C805 on F.Silkscreen",
+            382.67,
+            175.83
+          ]
+        ]
+      ]
+    ],
+    "changed_adjacent_route_samples": {
+      "R302": {
+        "front": [
+          [
+            [
+              "13bc32f9-445f-421e-9451-e9cc7f5a214e",
+              0
+            ],
+            "AUDOUT",
+            29
+          ]
+        ]
+      },
+      "C540": {},
+      "C601": {
+        "front": [
+          [
+            [
+              "cba01985-d16f-4932-aebd-bb496bc9e323",
+              0
+            ],
+            "+5V",
+            6
+          ],
+          [
+            [
+              "cba01985-d16f-4932-aebd-bb496bc9e323",
+              1
+            ],
+            "+5V",
+            10
+          ]
+        ]
+      },
+      "C805": {
+        "back": [
+          [
+            [
+              "823fd41d-cc44-43bb-9ee6-c634ba257bfc",
+              0
+            ],
+            "Net-(RN802C-R3.2)",
+            11
+          ]
+        ]
+      }
+    }
+  },
+  "cycle9distribution": {
+    "positions": [
+      "C104",
+      "C802",
+      "C805"
+    ],
+    "tested_layouts": {
+      "C104": [
+        {
+          "cost": 9.3135,
+          "angle": 135,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                375.375,
+                237.525
+              ],
+              [
+                366.289716,
+                237.991526
+              ]
+            ],
+            [
+              [
+                367.2,
+                236.5
+              ],
+              [
+                364.493664,
+                236.195474
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.80891,
+            2.11938
+          ],
+          "retired": [
+            "ff8f4540-9a79-4c72-8bbd-419fab44b2c1",
+            "e77187f4-b02f-4c94-baf9-4812a942581c",
+            "e2548719-c8b4-427f-80cd-e8b358509395",
+            "06c61a10-97c1-4e59-a3d3-b89541dc0f93",
+            "07503188-5787-4003-824a-639d403923d2",
+            "0249188f-bfa9-4e5c-a3a6-e75d6c30ec4d"
+          ],
+          "thermals": 3,
+          "width": 0.4572,
+          "face": "F.Cu"
+        }
+      ],
+      "C802": [
+        {
+          "cost": 12.3994,
+          "angle": -105,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                219.10497,
+                177.986092
+              ],
+              [
+                209.43367,
+                179.955734
+              ]
+            ],
+            [
+              [
+                224.33529,
+                179.7499
+              ],
+              [
+                208.77627,
+                182.409186
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.19637,
+            3.02371
+          ],
+          "retired": [
+            "0457824e-b67d-4574-91c0-a53a8a65a58f",
+            "57724d0f-d1dd-4508-852c-497f29fe12c5",
+            "6eae03e8-4bc6-4e5b-aae9-aac8b959809c"
+          ],
+          "thermals": 3,
+          "width": 0.7,
+          "face": "F.Cu"
+        }
+      ],
+      "C805": [
+        {
+          "cost": 8.6582,
+          "angle": 90,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                384.87749,
+                180.2071
+              ],
+              [
+                388.75,
+                175.52
+              ]
+            ],
+            [
+              [
+                380.95,
+                176.0
+              ],
+              [
+                388.75,
+                172.98
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.90959,
+            1.275
+          ],
+          "retired": [
+            "da1a16f7-1431-4b86-a353-5b7fd5679a34",
+            "9735b05f-a62e-40e8-8300-87b79b61c2b1"
+          ],
+          "thermals": 4,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "new_native_findings": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C802",
+            208.77627,
+            182.409186
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C802",
+            208.77627,
+            182.409186
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of R802",
+            388.6,
+            172.975
+          ],
+          [
+            "Segment of C805 on F.Silkscreen",
+            390.14,
+            176.155
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of R802",
+            388.6,
+            172.975
+          ],
+          [
+            "Segment of C805 on F.Silkscreen",
+            387.36,
+            176.155
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [GND] of C805",
+            388.75,
+            172.98
+          ],
+          [
+            "Reference field of R802",
+            388.6,
+            172.975
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 1 [+5V] of C805",
+            388.75,
+            175.52
+          ],
+          [
+            "Reference field of U805",
+            387.35249,
+            176.1971
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 30 [PPD7] of CN207",
+            211.25429,
+            179.2621
+          ],
+          [
+            "Segment of C802 on F.Silkscreen",
+            210.940657,
+            179.70213
+          ]
+        ]
+      ]
+    ],
+    "effective_sectors": {
+      "C802.1 +5V": {
+        "In2.Cu": [
+          3
+        ]
+      },
+      "C802.2 GND": {
+        "F.Cu": [
+          1
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          1
+        ]
+      },
+      "C805.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C805.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C104.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C104.2 GND": {
+        "F.Cu": [
+          1
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      }
+    },
+    "changed_adjacent_route_samples": {
+      "C104": {},
+      "C802": {},
+      "C805": {}
+    }
+  },
+  "cycle9first": {
+    "positions": [
+      "C109",
+      "C103",
+      "C501",
+      "C540",
+      "C541"
+    ],
+    "tested_layouts": {
+      "C109": [
+        {
+          "cost": 2.9015,
+          "angle": -120,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                251.10689,
+                242.62326
+              ],
+              [
+                252.04189,
+                242.698408
+              ]
+            ],
+            [
+              [
+                251.10689,
+                245.57326
+              ],
+              [
+                250.77189,
+                244.898112
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C103": [
+        {
+          "cost": 5.2516,
+          "angle": -165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                356.85,
+                236.5
+              ],
+              [
+                355.254416,
+                236.5156
+              ]
+            ],
+            [
+              [
+                351.275,
+                236.525
+              ],
+              [
+                352.800964,
+                237.173
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            1.44066,
+            1.25839
+          ],
+          "retired": [
+            "d9ddfad6-327d-4b8e-bf08-cb52c52597c0",
+            "a2f0800f-4fa5-4217-b3d2-67cca8187c85",
+            "c31cc4b5-f00a-4d5e-a1b6-a833f70bee3c"
+          ],
+          "thermals": 3,
+          "width": 0.4572,
+          "face": "F.Cu"
+        }
+      ],
+      "C501": [
+        {
+          "cost": 8.4244,
+          "angle": 165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                349.99521,
+                367.70378
+              ],
+              [
+                348.838656,
+                366.459
+              ]
+            ],
+            [
+              [
+                347.40845,
+                368.28394
+              ],
+              [
+                346.385204,
+                365.8016
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            2.40503,
+            3.07352
+          ],
+          "retired": [
+            "39dfbd2e-768e-4ae4-afc9-26785243604f",
+            "00000000-0000-0000-0000-000060b58a6c",
+            "792e001a-41be-4b83-a6ef-1e43af8a3f5a",
+            "ac2fa5f5-a13d-4a67-9d35-32de104cc4f8"
+          ],
+          "thermals": 2,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C540": [
+        {
+          "cost": 5.6432,
+          "angle": 60,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                318.62009,
+                340.3795
+              ],
+              [
+                320.59801,
+                340.214712
+              ]
+            ],
+            [
+              [
+                322.93301,
+                338.81486
+              ],
+              [
+                321.86801,
+                338.015008
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            2.1151,
+            0.0
+          ],
+          "retired": [
+            "3105a9c5-c7dd-4f6b-8311-d88e77d4b1df"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C541": [
+        {
+          "cost": 11.0115,
+          "angle": -15,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                317.97,
+                374.98
+              ],
+              [
+                319.123274,
+                376.7913
+              ]
+            ],
+            [
+              [
+                325.17,
+                377.42
+              ],
+              [
+                321.576726,
+                377.4487
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            3.3828,
+            1.845
+          ],
+          "retired": [
+            "04416519-1f0c-484c-9b8e-c8bf4b0b1f15",
+            "4cd8d906-e886-4cdf-a2f5-abbfeb84f66d",
+            "b8d38f68-114d-4484-a97d-967150b17f59"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "new_native_findings": [
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C541 on F.Silkscreen",
+            318.86967,
+            375.284313
+          ],
+          [
+            "Value field of U541 (74AHCT244)",
+            321.41409,
+            375.3647
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U501",
+            347.63197,
+            368.49542
+          ],
+          [
+            "Segment of C501 on F.Silkscreen",
+            349.09226,
+            367.965987
+          ]
+        ]
+      ]
+    ],
+    "effective_sectors": {
+      "C103.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C103.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C501.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C501.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          1
+        ]
+      },
+      "C540.1 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          1
+        ]
+      },
+      "C540.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C541.1 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C541.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C109.1 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C109.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      }
+    },
+    "changed_adjacent_route_samples": {
+      "C109": {
+        "front": [
+          [
+            [
+              "5ecf2a61-08ed-44b5-9c77-df442ab8c702",
+              0
+            ],
+            "GND",
+            5
+          ],
+          [
+            [
+              "6150f3a9-0fec-42dd-b54c-61c514834d85",
+              1
+            ],
+            "+5V",
+            19
+          ],
+          [
+            [
+              "d0706e0d-7b13-46df-8273-ad4992137507",
+              0
+            ],
+            "GND",
+            12
+          ],
+          [
+            [
+              "b48f4e26-f9e0-42b0-bdd5-02294c3007fc",
+              1
+            ],
+            "+5V",
+            7
+          ]
+        ]
+      },
+      "C103": {},
+      "C501": {},
+      "C540": {},
+      "C541": {}
+    }
+  },
+  "cycle9logic": {
+    "positions": [
+      "C109",
+      "C103",
+      "C540",
+      "C541"
+    ],
+    "tested_layouts": {
+      "C109": [
+        {
+          "cost": 2.9015,
+          "angle": -120,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                251.10689,
+                242.62326
+              ],
+              [
+                252.04189,
+                242.698408
+              ]
+            ],
+            [
+              [
+                251.10689,
+                245.57326
+              ],
+              [
+                250.77189,
+                244.898112
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C103": [
+        {
+          "cost": 5.2516,
+          "angle": -165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                356.85,
+                236.5
+              ],
+              [
+                355.254416,
+                236.5156
+              ]
+            ],
+            [
+              [
+                351.275,
+                236.525
+              ],
+              [
+                352.800964,
+                237.173
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            1.44066,
+            1.25839
+          ],
+          "retired": [
+            "d9ddfad6-327d-4b8e-bf08-cb52c52597c0",
+            "a2f0800f-4fa5-4217-b3d2-67cca8187c85",
+            "c31cc4b5-f00a-4d5e-a1b6-a833f70bee3c"
+          ],
+          "thermals": 3,
+          "width": 0.4572,
+          "face": "F.Cu"
+        }
+      ],
+      "C540": [
+        {
+          "cost": 5.6432,
+          "angle": 60,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                318.62009,
+                340.3795
+              ],
+              [
+                320.59801,
+                340.214712
+              ]
+            ],
+            [
+              [
+                322.93301,
+                338.81486
+              ],
+              [
+                321.86801,
+                338.015008
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            2.1151,
+            0.0
+          ],
+          "retired": [
+            "3105a9c5-c7dd-4f6b-8311-d88e77d4b1df"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C541": [
+        {
+          "cost": 11.0115,
+          "angle": -15,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                317.97,
+                374.98
+              ],
+              [
+                319.123274,
+                376.7913
+              ]
+            ],
+            [
+              [
+                325.17,
+                377.42
+              ],
+              [
+                321.576726,
+                377.4487
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "original trunk",
+            "original trunk"
+          ],
+          "old": [
+            3.3828,
+            1.845
+          ],
+          "retired": [
+            "04416519-1f0c-484c-9b8e-c8bf4b0b1f15",
+            "4cd8d906-e886-4cdf-a2f5-abbfeb84f66d",
+            "b8d38f68-114d-4484-a97d-967150b17f59"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "new_native_findings": [],
+    "effective_sectors": {
+      "C103.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C103.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C540.1 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          1
+        ]
+      },
+      "C540.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C541.1 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C541.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C109.1 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C109.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      }
+    },
+    "changed_adjacent_route_samples": {
+      "C109": {
+        "front": [
+          [
+            [
+              "b48f4e26-f9e0-42b0-bdd5-02294c3007fc",
+              1
+            ],
+            "+5V",
+            7
+          ],
+          [
+            [
+              "d0706e0d-7b13-46df-8273-ad4992137507",
+              0
+            ],
+            "GND",
+            12
+          ],
+          [
+            [
+              "6150f3a9-0fec-42dd-b54c-61c514834d85",
+              1
+            ],
+            "+5V",
+            19
+          ],
+          [
+            [
+              "5ecf2a61-08ed-44b5-9c77-df442ab8c702",
+              0
+            ],
+            "GND",
+            5
+          ]
+        ]
+      },
+      "C103": {},
+      "C540": {},
+      "C541": {}
+    }
+  },
+  "cycle9mixed": {
+    "positions": [
+      "R302",
+      "C540",
+      "C805",
+      "C104"
+    ],
+    "tested_layouts": {
+      "R302": [
+        {
+          "cost": 15.0082,
+          "angle": 0,
+          "kind": "0204",
+          "compact": true,
+          "paths": [
+            [
+              [
+                283.00169,
+                94.284
+              ],
+              [
+                281.776546,
+                92.878405
+              ]
+            ],
+            [
+              [
+                283.15089,
+                87.1923
+              ],
+              [
+                286.856546,
+                92.878405
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "retained copper vertex",
+            "C318.2"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "94d2d920-fff2-4b62-b61c-eff7c68f02cb",
+            "ac235062-d7e6-493d-ab89-5e78e5927a23",
+            "e1e3035b-9024-46e8-8977-241553d6ca76",
+            "0be18da5-094c-4b71-8d10-9f0d207eb0bc",
+            "71933913-276d-4c52-a237-1e2f24e4e73c",
+            "f2372e70-9995-4ef7-8b3d-0813fdfd8efe",
+            "e27fdc2d-93fd-4fa8-bb14-da413ce56f99",
+            "31c3028a-f934-466f-8d1b-ecbcb6d7fcdb",
+            "f9972c0d-7e98-4ef7-8b44-21aca534eed5"
+          ],
+          "thermals": 4,
+          "width": 0.25,
+          "face": "F.Cu",
+          "via_ids": []
+        }
+      ],
+      "C540": [
+        {
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 10,
+          "compact": false,
+          "paths": [
+            [
+              [
+                318.62009,
+                340.3795
+              ],
+              [
+                321.021411,
+                339.683101
+              ]
+            ],
+            [
+              [
+                326.06409,
+                344.2149
+              ],
+              [
+                325.94545,
+                338.81486
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "new plated land",
+            "via"
+          ],
+          "retired": [
+            "597ad38c-a374-41bc-969f-6ea7d07af523",
+            "3105a9c5-c7dd-4f6b-8311-d88e77d4b1df",
+            "2a2f8799-436d-4438-91a6-8e24c0a24546",
+            "0f2010fa-7a8c-4765-bc09-981f2070240a",
+            "e1eb56bc-f0ac-4599-a34d-2b931a855a6a"
+          ],
+          "via_ids": [
+            "597ad38c-a374-41bc-969f-6ea7d07af523"
+          ],
+          "width": 0.4572,
+          "device": "U540",
+          "old_distance": 6.204841413605987,
+          "new_distance": 5.40134311548525,
+          "signal_edge_margin": 1.290288364680518,
+          "score": 10.981288855471227
+        }
+      ],
+      "C805": [
+        {
+          "cost": 8.6582,
+          "angle": 90,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                384.87749,
+                180.2071
+              ],
+              [
+                388.75,
+                175.52
+              ]
+            ],
+            [
+              [
+                380.95,
+                176.0
+              ],
+              [
+                388.75,
+                172.98
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.90959,
+            1.275
+          ],
+          "retired": [
+            "da1a16f7-1431-4b86-a353-5b7fd5679a34",
+            "9735b05f-a62e-40e8-8300-87b79b61c2b1"
+          ],
+          "thermals": 4,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C104": [
+        {
+          "cost": 9.878,
+          "angle": 150,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                375.375,
+                237.525
+              ],
+              [
+                365.891542,
+                238.3285
+              ]
+            ],
+            [
+              [
+                367.2,
+                236.5
+              ],
+              [
+                363.691838,
+                237.0585
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.80891,
+            2.11938
+          ],
+          "retired": [
+            "ff8f4540-9a79-4c72-8bbd-419fab44b2c1",
+            "e77187f4-b02f-4c94-baf9-4812a942581c",
+            "e2548719-c8b4-427f-80cd-e8b358509395",
+            "06c61a10-97c1-4e59-a3d3-b89541dc0f93",
+            "07503188-5787-4003-824a-639d403923d2",
+            "0249188f-bfa9-4e5c-a3a6-e75d6c30ec4d"
+          ],
+          "thermals": 4,
+          "width": 0.4572,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "new_native_findings": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C104",
+            363.691837,
+            237.0585
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "effective_sectors": {
+      "C805.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C805.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C104.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C104.2 GND": {
+        "F.Cu": [
+          1
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "R302.1 AUDOUT": {},
+      "R302.2 Net-(C318-Pad2)": {},
+      "C540.1 GND": {
+        "F.Cu": [
+          4
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          3
+        ]
+      },
+      "C540.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      }
+    },
+    "changed_adjacent_route_samples": {
+      "R302": {
+        "front": [
+          [
+            [
+              "13bc32f9-445f-421e-9451-e9cc7f5a214e",
+              0
+            ],
+            "AUDOUT",
+            29
+          ]
+        ]
+      },
+      "C540": {},
+      "C805": {},
+      "C104": {}
+    }
+  },
+  "cycle9peripheral": {
+    "positions": [
+      "C607",
+      "C106"
+    ],
+    "tested_layouts": {
+      "C607": [
+        {
+          "cost": 7.5118,
+          "angle": 0,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                270.26761,
+                114.7513
+              ],
+              [
+                263.89761,
+                116.2513
+              ]
+            ],
+            [
+              [
+                270.26761,
+                114.7513
+              ],
+              [
+                266.43761,
+                116.2513
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            false
+          ],
+          "taps": [
+            "plane",
+            "U607.14"
+          ],
+          "old": [
+            0,
+            5.021000000000001
+          ],
+          "retired": [
+            "1fbcb7c3-a0d7-49cf-a815-de916526b70d"
+          ],
+          "thermals": 2,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "extra": [
+            [
+              1,
+              [
+                [
+                  273.05429,
+                  119.8059
+                ],
+                [
+                  273.05429,
+                  120.64571
+                ]
+              ]
+            ]
+          ],
+          "original_pin_distance": 5.057237841193544,
+          "new_pin_distance": 4.113259048491826
+        }
+      ],
+      "C106": [
+        {
+          "cost": 5.8254,
+          "angle": 90,
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "compact": false,
+          "paths": [
+            [
+              [
+                375.39089,
+                220.5677
+              ],
+              [
+                373.89089,
+                218.2677
+              ]
+            ],
+            [
+              [
+                375.39089,
+                220.5677
+              ],
+              [
+                373.89089,
+                213.2677
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "U106.20",
+            "plane"
+          ],
+          "old": [
+            1.2750000000000057,
+            1.3000000000000114
+          ],
+          "retired": [
+            "06a73342-3ff3-40a4-ae25-052ce0695cec",
+            "d0f0d76a-e990-44af-9e7f-52a4c8eee3ed"
+          ],
+          "thermals": 2,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "extra": [],
+          "original_pin_distance": 3.09271341738934,
+          "new_pin_distance": 2.7459060435492058
+        }
+      ]
+    },
+    "new_native_findings": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 1 [GND] of C607",
+            263.89761,
+            116.2513
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "via_dangling",
+        "warning",
+        "Via is not connected or connected on only one layer",
+        [
+          [
+            "Via [+5V] on F.Cu - B.Cu",
+            270.20769,
+            116.8595
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U106",
+            370.74089,
+            218.9327
+          ],
+          [
+            "Segment of C106 on F.Silkscreen",
+            372.17089,
+            218.4377
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U106",
+            370.74089,
+            218.9327
+          ],
+          [
+            "Segment of C106 on F.Silkscreen",
+            372.86489,
+            218.4377
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [+5V] of C607",
+            266.43761,
+            116.2513
+          ],
+          [
+            "Reference field of C916",
+            267.21609,
+            117.0313
+          ]
+        ]
+      ]
+    ],
+    "effective_sectors": {
+      "C106.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C106.2 GND": {
+        "F.Cu": [
+          4
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C607.1 GND": {
+        "F.Cu": [
+          1
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C607.2 +5V": {
+        "In2.Cu": [
+          3
+        ]
+      }
+    },
+    "changed_adjacent_route_samples": {
+      "C607": {},
+      "C106": {}
+    }
+  },
+  "cycle9returns": {
+    "positions": [
+      "C601",
+      "C805",
+      "C540",
+      "C600"
+    ],
+    "tested_layouts": {
+      "C601": [
+        {
+          "kind": "radial",
+          "angle": 240,
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.43689,
+                258.7947
+              ],
+              [
+                213.51189,
+                257.14
+              ]
+            ],
+            [
+              [
+                216.31189,
+                260.48
+              ],
+              [
+                212.24189,
+                259.339705
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            false
+          ],
+          "taps": [
+            "via",
+            "new plated land"
+          ],
+          "retired": [
+            "afff126c-703f-4f42-a664-27de736035e1",
+            "7aa6750c-7cc9-4ed7-8c0f-3c1f812d447d"
+          ],
+          "via_ids": [
+            "afff126c-703f-4f42-a664-27de736035e1"
+          ],
+          "width": 0.381,
+          "device": "U600",
+          "old_distance": 5.629983197132973,
+          "new_distance": 4.316516791349215,
+          "signal_edge_margin": 1.1378400000000113,
+          "score": 7.194040657465679
+        }
+      ],
+      "C805": [
+        {
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 90,
+          "compact": false,
+          "paths": [
+            [
+              [
+                384.87749,
+                180.2071
+              ],
+              [
+                380.95,
+                181.0
+              ]
+            ],
+            [
+              [
+                380.95,
+                176.0
+              ],
+              [
+                380.95,
+                176.0
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "new plated land",
+            "via"
+          ],
+          "retired": [
+            "06bd41a4-fde4-4c36-8741-62756f8ffe7d",
+            "da1a16f7-1431-4b86-a353-5b7fd5679a34",
+            "9735b05f-a62e-40e8-8300-87b79b61c2b1"
+          ],
+          "via_ids": [
+            "06bd41a4-fde4-4c36-8741-62756f8ffe7d"
+          ],
+          "width": 0.381,
+          "device": "U805",
+          "old_distance": 3.92753079047132,
+          "new_distance": 4.006727855757148,
+          "signal_edge_margin": 1.1141000000000076,
+          "score": 6.618718998059992
+        }
+      ],
+      "C540": [
+        {
+          "kind": "C_Disc_D5.1mm_W3.2mm_P5.00mm",
+          "angle": 10,
+          "compact": false,
+          "paths": [
+            [
+              [
+                318.62009,
+                340.3795
+              ],
+              [
+                321.021411,
+                339.683101
+              ]
+            ],
+            [
+              [
+                326.06409,
+                344.2149
+              ],
+              [
+                325.94545,
+                338.81486
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "new plated land",
+            "via"
+          ],
+          "retired": [
+            "597ad38c-a374-41bc-969f-6ea7d07af523",
+            "3105a9c5-c7dd-4f6b-8311-d88e77d4b1df",
+            "2a2f8799-436d-4438-91a6-8e24c0a24546",
+            "0f2010fa-7a8c-4765-bc09-981f2070240a"
+          ],
+          "via_ids": [
+            "597ad38c-a374-41bc-969f-6ea7d07af523"
+          ],
+          "width": 0.4572,
+          "device": "U540",
+          "old_distance": 6.204841413605987,
+          "new_distance": 5.40134311548525,
+          "signal_edge_margin": 1.290288364680518,
+          "score": 10.981288855471227
+        }
+      ],
+      "C600": [
+        {
+          "cost": 9.0379,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                210.66829,
+                253.8925
+              ],
+              [
+                211.03829,
+                256.5925
+              ]
+            ],
+            [
+              [
+                210.66829,
+                253.8925
+              ],
+              [
+                208.49829,
+                256.5925
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "U600.20",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "f874a430-ad44-4fd2-963a-71f3065d90ea",
+            "3981a6d2-8439-4e5b-b3fb-5df4c8d3a337",
+            "e56529cc-5627-4502-999c-51a9667b0aa0",
+            "ca1cc32a-36df-419a-8bf4-aa36fae42b0f"
+          ],
+          "thermals": 0,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "old_pin_distance": 16.144013415941533
+        }
+      ]
+    },
+    "new_native_findings": [
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [GND] on F.Cu, length 4.2267 mm",
+            216.31189,
+            260.48
+          ],
+          [
+            "Track [_D2P] on F.Cu, length 17.2383 mm",
+            215.23,
+            245.221666
+          ]
+        ]
+      ],
+      [
+        "clearance",
+        "error",
+        "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1700 mm)",
+        [
+          [
+            "Track [+5V] on F.Cu, length 4.0067 mm",
+            384.87749,
+            180.2071
+          ],
+          [
+            "Via [Net-(U805A--)] on F.Cu - B.Cu",
+            382.93289,
+            181.3755
+          ]
+        ]
+      ],
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [GND] on F.Cu, length 4.2267 mm",
+            216.31189,
+            260.48
+          ],
+          [
+            "Track [_DBOE] on F.Cu, length 51.1651 mm",
+            214.77473,
+            245.03
+          ]
+        ]
+      ],
+      [
+        "courtyards_overlap",
+        "error",
+        "Courtyards overlap",
+        [
+          [
+            "Footprint C600",
+            211.03829,
+            256.5925
+          ],
+          [
+            "Footprint C601",
+            213.51189,
+            257.14
+          ]
+        ]
+      ],
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; 2 spokes connected to isolated island)",
+        [
+          [
+            "PTH pad 2 [GND] of C600",
+            208.49829,
+            256.5925
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "track_dangling",
+        "warning",
+        "Track has unconnected end",
+        [
+          [
+            "Track [+5V] on F.Cu, length 3.0124 mm",
+            322.93301,
+            338.81486
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C600 on F.Silkscreen",
+            211.67329,
+            257.9825
+          ],
+          [
+            "Segment of C601 on F.Silkscreen",
+            212.625615,
+            255.895074
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Circle on F.Silkscreen",
+            382.98369,
+            176.5495
+          ],
+          [
+            "Segment of C805 on F.Silkscreen",
+            382.67,
+            175.83
+          ]
+        ]
+      ]
+    ],
+    "effective_sectors": {
+      "C805.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C805.2 GND": {
+        "F.Cu": [
+          3
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          3
+        ]
+      },
+      "C600.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C600.2 GND": {
+        "F.Cu": [],
+        "In1.Cu": [
+          3
+        ],
+        "B.Cu": [
+          1
+        ]
+      },
+      "C601.1 +5V": {
+        "In2.Cu": [
+          3
+        ]
+      },
+      "C601.2 GND": {
+        "F.Cu": [],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C540.1 GND": {
+        "F.Cu": [
+          3
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          3
+        ]
+      },
+      "C540.2 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      }
+    },
+    "changed_adjacent_route_samples": {
+      "C601": {
+        "front": [
+          [
+            [
+              "cba01985-d16f-4932-aebd-bb496bc9e323",
+              1
+            ],
+            "+5V",
+            10
+          ],
+          [
+            [
+              "cba01985-d16f-4932-aebd-bb496bc9e323",
+              0
+            ],
+            "+5V",
+            6
+          ]
+        ]
+      },
+      "C805": {
+        "back": [
+          [
+            [
+              "823fd41d-cc44-43bb-9ee6-c634ba257bfc",
+              0
+            ],
+            "Net-(RN802C-R3.2)",
+            11
+          ]
+        ]
+      },
+      "C540": {
+        "front": [
+          [
+            [
+              "e1eb56bc-f0ac-4599-a34d-2b931a855a6a",
+              1
+            ],
+            "+5V",
+            6
+          ]
+        ]
+      },
+      "C600": {}
+    }
+  },
+  "cycle9second": {
+    "positions": [
+      "C500",
+      "C603",
+      "C102",
+      "C108"
+    ],
+    "tested_layouts": {
+      "C500": [
+        {
+          "cost": 7.2784,
+          "angle": -60,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                328.75977,
+                332.04862
+              ],
+              [
+                330.57561,
+                337.146848
+              ]
+            ],
+            [
+              [
+                335.88701,
+                329.09174
+              ],
+              [
+                331.84561,
+                339.346552
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.94892,
+            2.96945
+          ],
+          "retired": [
+            "267e0e29-fcd0-4bce-8982-d1ccdbbc4698",
+            "e3a1a215-0843-4cda-b0df-51c7623730e8",
+            "8939da99-3feb-4b97-a87d-c1e19ce65b58"
+          ],
+          "thermals": 4,
+          "width": 0.7,
+          "face": "F.Cu"
+        }
+      ],
+      "C603": [
+        {
+          "cost": 3.0659,
+          "angle": -120,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.91829,
+                340.4303
+              ],
+              [
+                213.85329,
+                340.530448
+              ]
+            ],
+            [
+              [
+                216.76609,
+                340.4781
+              ],
+              [
+                212.58329,
+                342.730152
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C102": [
+        {
+          "cost": 4.4092,
+          "angle": 30,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                371.72429,
+                290.7479
+              ],
+              [
+                371.199438,
+                291.0829
+              ]
+            ],
+            [
+              [
+                376.88769,
+                290.7479
+              ],
+              [
+                373.399142,
+                289.8129
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            2.41
+          ],
+          "retired": [
+            "cfa381ba-00b3-4cc8-a1ef-02716de67001"
+          ],
+          "thermals": 2,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ],
+      "C108": [
+        {
+          "kind": "radial",
+          "angle": 86.762147,
+          "compact": false,
+          "paths": [
+            [
+              [
+                388.13689,
+                147.8251
+              ],
+              [
+                388.144359,
+                147.693073
+              ]
+            ],
+            [
+              [
+                388.29529,
+                145.0251
+              ],
+              [
+                388.287821,
+                145.157127
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "converted via",
+            "converted via"
+          ],
+          "retired": [
+            "c7a544a2-6b8a-420e-991d-c0a38ac91952",
+            "655c9493-4ab4-4967-8937-3f2ebf818be4",
+            "0018a8f3-7aa4-4328-97fd-a6d581e0c534",
+            "c654c193-ac88-47f0-a52a-baa363dffc3c"
+          ],
+          "via_ids": [
+            "c7a544a2-6b8a-420e-991d-c0a38ac91952",
+            "655c9493-4ab4-4967-8937-3f2ebf818be4"
+          ],
+          "width": 0.4572,
+          "original_span": 2.8044768781360836,
+          "score": 4.085064065274144
+        }
+      ]
+    },
+    "new_native_findings": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 1 [GND] of C108",
+            388.144359,
+            147.693073
+          ],
+          [
+            "Zone [GND] on F.Cu, priority 0",
+            405.55669,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C102",
+            373.399143,
+            289.8129
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Segment of C108 on F.Silkscreen",
+            389.496275,
+            148.405568
+          ],
+          [
+            "Value field of U108 (74HCT74)",
+            389.38769,
+            146.6791
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 1 [GND] of C108",
+            388.144359,
+            147.693073
+          ],
+          [
+            "Value field of U108 (74HCT74)",
+            389.38769,
+            146.6791
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [+5V] of C108",
+            388.287821,
+            145.157128
+          ],
+          [
+            "Value field of U108 (74HCT74)",
+            389.38769,
+            146.6791
+          ]
+        ]
+      ]
+    ],
+    "effective_sectors": {
+      "C102.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C102.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": []
+      },
+      "C500.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C500.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      },
+      "C108.1 GND": {
+        "F.Cu": [
+          1
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": []
+      },
+      "C108.2 +5V": {
+        "In2.Cu": [
+          3
+        ]
+      },
+      "C603.1 +5V": {
+        "In2.Cu": [
+          4
+        ]
+      },
+      "C603.2 GND": {
+        "F.Cu": [
+          2
+        ],
+        "In1.Cu": [
+          4
+        ],
+        "B.Cu": [
+          2
+        ]
+      }
+    },
+    "changed_adjacent_route_samples": {
+      "C500": {},
+      "C603": {
+        "front": [
+          [
+            [
+              "7fc8ac80-58e4-45f2-a86b-51324d12bd03",
+              0
+            ],
+            "+5V",
+            15
+          ],
+          [
+            [
+              "53b56918-63e6-4d79-9bd1-c7b9df294f93",
+              0
+            ],
+            "+5V",
+            18
+          ]
+        ]
+      },
+      "C102": {
+        "front": [
+          [
+            [
+              "cb573033-4925-4671-b909-6f1c20aab227",
+              0
+            ],
+            "+5V",
+            24
+          ],
+          [
+            [
+              "471f9f2b-ee28-41eb-bcc3-ffa70ad36232",
+              0
+            ],
+            "+5V",
+            18
+          ]
+        ]
+      },
+      "C108": {
+        "front": [
+          [
+            [
+              "a711c104-b365-46cd-bad4-146cca78f0c3",
+              1
+            ],
+            "+5V",
+            7
+          ],
+          [
+            [
+              "3431215d-46f1-4466-b083-58102e33f72b",
+              1
+            ],
+            "_BRST",
+            11
+          ],
+          [
+            [
+              "3431215d-46f1-4466-b083-58102e33f72b",
+              0
+            ],
+            "_BRST",
+            11
+          ]
+        ]
+      }
+    }
+  },
+  "geometry_only": {
+    "pair-C104": 0,
+    "pair-C105": 0,
+    "pair-C106": 0,
+    "pair-C107": 0,
+    "pair-C108": 1,
+    "pair-C109": 1,
+    "pair-C203": 0,
+    "pair-C207": 0,
+    "pair-C303": 0,
+    "pair-C500": 0,
+    "pair-C501": 0,
+    "pair-C540": 0,
+    "pair-C541": 0,
+    "pair-C600": 0,
+    "pair-C601": 0,
+    "pair-C607": 0,
+    "pair-C802": 0,
+    "pair-C804": 0,
+    "pair-C910": 0,
+    "pair-CX2": 0,
+    "pick-C103": 140,
+    "pick-C104": 0,
+    "pick-C106": 0,
+    "pick-C109": 105,
+    "pick-C112": 0,
+    "pick-C203": 0,
+    "pick-C207": 0,
+    "pick-C300": 0,
+    "pick-C303": 0,
+    "pick-C305": 0,
+    "pick-C500": 0,
+    "pick-C501": 27,
+    "pick-C504": 0,
+    "pick-C540": 47,
+    "pick-C541": 11,
+    "pick-C600": 0,
+    "pick-C601": 0,
+    "pick-C802": 0,
+    "pick-C804": 0,
+    "pick-C805": 0,
+    "pick-C9001": 0,
+    "pick-C910": 0,
+    "pick-C9101": 0,
+    "pick-C9102": 0,
+    "plane-C102": 32,
+    "plane-C104": 0,
+    "plane-C106": 0,
+    "plane-C107": 0,
+    "plane-C108": 0,
+    "plane-C203": 0,
+    "plane-C300": 0,
+    "plane-C303": 0,
+    "plane-C305": 0,
+    "plane-C500": 1,
+    "plane-C504": 0,
+    "plane-C600": 0,
+    "plane-C601": 0,
+    "plane-C603": 159,
+    "plane-C607": 0,
+    "plane-C802": 0,
+    "plane-C804": 0,
+    "plane-C805": 0,
+    "plane-C903": 0,
+    "plane-C910": 0,
+    "plane-C918": 0,
+    "pin-C106": 4,
+    "pin-C107": 0,
+    "pin-C203": 0,
+    "pin-C207": 0,
+    "pin-C300": 0,
+    "pin-C303": 0,
+    "pin-C305": 0,
+    "pin-C504": 0,
+    "pin-C601": 0,
+    "pin-C607": 10,
+    "pin-C802": 0,
+    "pin-C804": 0,
+    "distributed-C104": 32,
+    "distributed-C106": 0,
+    "distributed-C107": 0,
+    "distributed-C504": 0,
+    "distributed-C802": 8,
+    "distributed-C804": 0,
+    "distributed-C805": 36,
+    "distributed-C910": 0,
+    "vert-R203A1": 0,
+    "vert-R203B1": 0,
+    "vert-R205": 0,
+    "vert-R233": 0,
+    "vert-R243": 0,
+    "vert-R302": 0,
+    "vert-R310": 0,
+    "vert-R500-11": 0,
+    "vert-R500-12": 0,
+    "vert-R500-14": 0,
+    "vert-R500-15": 0,
+    "vert-RN204A1": 0,
+    "vert-RN204D1": 0,
+    "vert-RN907A1": 0,
+    "vert-RN907C1": 0,
+    "vert-XR1": 0,
+    "remote-R203A1": 0,
+    "remote-R203B1": 0,
+    "remote-R205": 0,
+    "remote-R233": 0,
+    "remote-R302": 17,
+    "remote-RN204A1": 0,
+    "remote-RN204D1": 0,
+    "anchor-R203A1": 0,
+    "anchor-R203B1": 0,
+    "anchor-R205": 0,
+    "anchor-R233": 0,
+    "anchor-R243": 0,
+    "anchor-R302": 0,
+    "anchor-R500-11": 0,
+    "anchor-R500-12": 0,
+    "anchor-R500-14": 0,
+    "anchor-R500-15": 0,
+    "anchor-RN204A1": 0,
+    "anchor-RN204D1": 0,
+    "anchor-RN907A1": 0,
+    "anchor-RN907C1": 3,
+    "anchor-XR1": 0,
+    "single-C102": 0,
+    "single-C104": 0,
+    "single-C106": 0,
+    "single-C107": 0,
+    "single-C108": 0,
+    "single-C202": 0,
+    "single-C203": 0,
+    "single-C207": 0,
+    "single-C300": 0,
+    "single-C303": 0,
+    "single-C305": 0,
+    "single-C500": 0,
+    "single-C501": 1,
+    "single-C504": 0,
+    "single-C540": 8,
+    "single-C541": 0,
+    "single-C600": 0,
+    "single-C601": 6,
+    "single-C607": 0,
+    "single-C802": 0,
+    "single-C804": 0,
+    "single-C805": 1,
+    "single-C903": 0,
+    "single-C910": 0,
+    "single-C918": 0,
+    "trunk-RN907A1": 50,
+    "trunk-RN907C1": 68,
+    "tap-C540": 1,
+    "tap-C601": 1,
+    "tap-C805": 1,
+    "RN204D1_final_two_end_routable": 0
+  }
+}
