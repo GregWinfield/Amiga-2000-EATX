@@ -1,0 +1,47 @@
+{
+  "control_artwork": "45aaed01bb321b46009c996124a4218e386e168b",
+  "native_run": {
+    "drc": {
+      "status": 0,
+      "seconds": 82.8
+    },
+    "erc": {
+      "status": 0,
+      "seconds": 9.7
+    },
+    "net": {
+      "status": 0,
+      "seconds": 2.0
+    }
+  },
+  "native_differences": {
+    "violations": {
+      "before": {
+        "error": 72,
+        "warning": 202
+      },
+      "after": {
+        "error": 72,
+        "warning": 202
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    }
+  }
+}

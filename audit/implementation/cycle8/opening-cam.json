@@ -1,0 +1,382 @@
+{
+  "5": {
+    "precision_mm": 1e-05,
+    "isolated_diagnostic_plot_sha256": "899019226085528826c2e6f3a1bfe09bb7c7b67dfa711993735993dfe1450257",
+    "kicad_exit": {
+      "code": 0,
+      "seconds": 33.77
+    },
+    "triangles": [
+      {
+        "points_nm": [
+          [
+            110890860,
+            227087760
+          ],
+          [
+            110889040,
+            227093360
+          ],
+          [
+            110924380,
+            226984580
+          ]
+        ],
+        "standalone_positive_region": 1,
+        "projected_area_nm2": 37800.0,
+        "altitude_nm": 0.660974,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          },
+          {
+            "region": 33,
+            "vertices_and_centroid": [
+              "interior",
+              "interior",
+              "interior",
+              "interior"
+            ],
+            "shared_vertices": 0
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            131312450,
+            227087760
+          ],
+          [
+            131310640,
+            227093360
+          ],
+          [
+            131345980,
+            226984580
+          ]
+        ],
+        "standalone_positive_region": 2,
+        "projected_area_nm2": 506100.0,
+        "altitude_nm": 8.849713,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          },
+          {
+            "region": 13,
+            "vertices_and_centroid": [
+              "outside",
+              "interior",
+              "interior",
+              "interior"
+            ],
+            "shared_vertices": 0
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            151632450,
+            227087760
+          ],
+          [
+            151630640,
+            227093360
+          ],
+          [
+            151665980,
+            226984580
+          ]
+        ],
+        "standalone_positive_region": 3,
+        "projected_area_nm2": 506100.0,
+        "altitude_nm": 8.849713,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          },
+          {
+            "region": 30,
+            "vertices_and_centroid": [
+              "outside",
+              "interior",
+              "interior",
+              "interior"
+            ],
+            "shared_vertices": 0
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            171952460,
+            227087760
+          ],
+          [
+            171950640,
+            227093360
+          ],
+          [
+            171985980,
+            226984580
+          ]
+        ],
+        "standalone_positive_region": 4,
+        "projected_area_nm2": 37800.0,
+        "altitude_nm": 0.660974,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          },
+          {
+            "region": 23,
+            "vertices_and_centroid": [
+              "interior",
+              "interior",
+              "interior",
+              "interior"
+            ],
+            "shared_vertices": 0
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            192272460,
+            227087760
+          ],
+          [
+            192270640,
+            227093360
+          ],
+          [
+            192305980,
+            226984580
+          ]
+        ],
+        "standalone_positive_region": 5,
+        "projected_area_nm2": 37800.0,
+        "altitude_nm": 0.660974,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          },
+          {
+            "region": 18,
+            "vertices_and_centroid": [
+              "interior",
+              "interior",
+              "interior",
+              "interior"
+            ],
+            "shared_vertices": 0
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "precision_mm": 1e-06,
+    "isolated_diagnostic_plot_sha256": "95e4adfc7d5c341e70df7f6be1a4e4abb162ba313767b1c6974148d16d4a2ed1",
+    "kicad_exit": {
+      "code": 0,
+      "seconds": 34.31
+    },
+    "triangles": [
+      {
+        "points_nm": [
+          [
+            110890855,
+            227087765
+          ],
+          [
+            110889037,
+            227093357
+          ],
+          [
+            110924382,
+            226984577
+          ]
+        ],
+        "standalone_positive_region": 1,
+        "projected_area_nm2": 56400.0,
+        "altitude_nm": 0.986202,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            131312455,
+            227087765
+          ],
+          [
+            131310637,
+            227093357
+          ],
+          [
+            131345982,
+            226984577
+          ]
+        ],
+        "standalone_positive_region": 2,
+        "projected_area_nm2": 56400.0,
+        "altitude_nm": 0.986202,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            151632455,
+            227087765
+          ],
+          [
+            151630637,
+            227093357
+          ],
+          [
+            151665982,
+            226984577
+          ]
+        ],
+        "standalone_positive_region": 3,
+        "projected_area_nm2": 56400.0,
+        "altitude_nm": 0.986202,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            171952455,
+            227087765
+          ],
+          [
+            171950637,
+            227093357
+          ],
+          [
+            171985982,
+            226984577
+          ]
+        ],
+        "standalone_positive_region": 4,
+        "projected_area_nm2": 56400.0,
+        "altitude_nm": 0.986202,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          }
+        ]
+      },
+      {
+        "points_nm": [
+          [
+            192272455,
+            227087765
+          ],
+          [
+            192270637,
+            227093357
+          ],
+          [
+            192305982,
+            226984577
+          ]
+        ],
+        "standalone_positive_region": 5,
+        "projected_area_nm2": 56400.0,
+        "altitude_nm": 0.986202,
+        "other_positive_regions": [
+          {
+            "region": 6,
+            "vertices_and_centroid": [
+              "outside",
+              "outside",
+              "boundary",
+              "outside"
+            ],
+            "shared_vertices": 1
+          }
+        ]
+      }
+    ]
+  }
+}

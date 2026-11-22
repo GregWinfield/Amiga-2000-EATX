@@ -1,0 +1,110 @@
+{
+  "C206.1 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          231,
+          321
+        ],
+        "contour_areas_mm2": [
+          229.572645
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          51,
+          141,
+          231,
+          321
+        ],
+        "contour_areas_mm2": [
+          85032.900882
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          231,
+          321
+        ],
+        "contour_areas_mm2": [
+          289.070398
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C206.2 +VID": {},
+  "RN907B1.1 E7M": {},
+  "RN907B1.2 Net-(RN907B1-Pad2)": {},
+  "C901.1 AUDIO": {},
+  "C901.2 -AV": {},
+  "C605.1 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          36,
+          306
+        ],
+        "contour_areas_mm2": [
+          185.073141
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          85032.900882
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          36,
+          306
+        ],
+        "contour_areas_mm2": [
+          1279.683274
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C605.2 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          82398.934143
+        ],
+        "isolated": false
+      }
+    ]
+  }
+}

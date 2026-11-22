@@ -1,0 +1,22 @@
+reference,opening_status,closing_status,opening_mount,closing_mount,active_deferral,physical_qualification
+C206,retained,converted,SMD,THT,no,CAD verified; hardware pending
+C318,planned,converted,SMD,THT,no,CAD verified; hardware pending
+C502,retained,converted,SMD,THT,no,CAD verified; hardware pending
+C602,retained,converted,SMD,THT,no,CAD verified; hardware pending
+C604,retained,converted,SMD,THT,no,CAD verified; hardware pending
+C605,retained,converted,SMD,THT,no,CAD verified; hardware pending
+C901,retained,converted,SMD,THT,no,CAD verified; hardware pending
+R212,retained,converted,SMD,THT,no,CAD verified; hardware pending
+R905,retained,converted,SMD,THT,no,CAD verified; hardware pending
+RN907B1,retained,converted,SMD,THT,no,CAD verified; hardware pending
+C105,retained,planned,SMD,SMD,yes,SMD retained pending register condition
+C225,planned,planned,SMD,SMD,yes,SMD retained pending register condition
+C501,retained,planned,SMD,SMD,yes,SMD retained pending register condition
+C600,retained,planned,SMD,SMD,yes,SMD retained pending register condition
+Q202,planned,planned,SMD,SMD,yes,SMD retained pending register condition
+Q300,planned,planned,SMD,SMD,yes,SMD retained pending register condition
+Q301,planned,planned,SMD,SMD,yes,SMD retained pending register condition
+R310,planned,planned,SMD,SMD,yes,SMD retained pending register condition
+R500-13,retained,planned,SMD,SMD,yes,SMD retained pending register condition
+C9103,planned,planned,SMD,SMD,yes,SMD retained pending register condition
+C9105,planned,planned,SMD,SMD,yes,SMD retained pending register condition

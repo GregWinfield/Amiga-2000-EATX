@@ -1,0 +1,242 @@
+{
+  "board_lf_sha256": "1a76c491b318db4e33af29a494ce1c57ef64e69b837551fae2cf58bf7b4986f1",
+  "artwork": "45aaed01bb321b46009c996124a4218e386e168b",
+  "engineering": "cffff5ad5a1a3b1068d821a9ab1d117d2292ace1",
+  "explorer": "7be1917244eef26f52d95c6b987d8b609daced59",
+  "installed_packages": {
+    "THT": 196,
+    "SMD": 358,
+    "total": 554
+  },
+  "physical_pad_net_assignments": 3698,
+  "planned": 193,
+  "deferred": 114,
+  "native": {
+    "drc": {
+      "status": 0,
+      "seconds": 114.0
+    },
+    "erc": {
+      "status": 0,
+      "seconds": 39.9
+    },
+    "net": {
+      "status": 0,
+      "seconds": 2.5
+    }
+  },
+  "diagnostics": {
+    "violations": {
+      "before": {
+        "error": 72,
+        "warning": 202
+      },
+      "after": {
+        "error": 72,
+        "warning": 202
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              57.15
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              59.69
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB8 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              88.9
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              90.17
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB4 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              55.88
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              58.42
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              204.47,
+              148.59
+            ],
+            [
+              "Symbol #PWR0231 Hidden pin 1 [GND, Power input, Line]",
+              142.24,
+              153.67
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              41.91
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB4 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              62.23
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              64.77
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB8 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              90.17
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              91.44
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              204.47,
+              148.59
+            ],
+            [
+              "Symbol #PWR0237 Hidden pin 1 [GND, Power input, Line]",
+              337.82,
+              86.36
+            ]
+          ]
+        ]
+      ]
+    }
+  }
+}

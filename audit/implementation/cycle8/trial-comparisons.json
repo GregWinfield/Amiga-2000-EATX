@@ -1,0 +1,3632 @@
+{
+  "cycle8first": {
+    "trial_board_lf_sha256": "711e50d3c6678256371a7951624c245a7df9ca1e764af6bda041c0c2c660a26b",
+    "positions": [
+      "RN907B1",
+      "C901",
+      "C206",
+      "C105",
+      "C605",
+      "C501",
+      "C502"
+    ],
+    "placed": {
+      "RN907B1": {
+        "terminal_centres_mm": [
+          [
+            256.94053,
+            266.7189
+          ],
+          [
+            251.86053,
+            266.7189
+          ]
+        ],
+        "angle": 180
+      },
+      "C901": {
+        "terminal_centres_mm": [
+          [
+            304.67209,
+            139.9015
+          ],
+          [
+            302.13209,
+            139.9015
+          ]
+        ],
+        "angle": 180
+      },
+      "C206": {
+        "terminal_centres_mm": [
+          [
+            264.93089,
+            101.599274
+          ],
+          [
+            264.27349,
+            104.052726
+          ]
+        ],
+        "angle": -105
+      },
+      "C105": {
+        "terminal_centres_mm": [
+          [
+            349.49,
+            217.699852
+          ],
+          [
+            350.76,
+            215.500148
+          ]
+        ],
+        "angle": 60
+      },
+      "C605": {
+        "terminal_centres_mm": [
+          [
+            213.33229,
+            360.8615
+          ],
+          [
+            210.79229,
+            360.8615
+          ]
+        ],
+        "angle": 180
+      },
+      "C501": {
+        "terminal_centres_mm": [
+          [
+            348.711782,
+            366.7653
+          ],
+          [
+            346.512078,
+            365.4953
+          ]
+        ],
+        "angle": 150
+      },
+      "C502": {
+        "terminal_centres_mm": [
+          [
+            363.00969,
+            338.74966
+          ],
+          [
+            360.46969,
+            338.74966
+          ]
+        ],
+        "angle": 180
+      }
+    },
+    "native_status": {
+      "drc": {
+        "status": 0,
+        "seconds": 88.5
+      },
+      "erc": {
+        "status": 0,
+        "seconds": 11.1
+      },
+      "net": {
+        "status": 0,
+        "seconds": 2.0
+      }
+    },
+    "introduced": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C105",
+            350.76,
+            215.500147
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C501",
+            346.512077,
+            365.4953
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "via_dangling",
+        "warning",
+        "Via is not connected or connected on only one layer",
+        [
+          [
+            "Via [+5V] on F.Cu - B.Cu",
+            348.025,
+            218.475
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U605",
+            215.36909,
+            359.5151
+          ],
+          [
+            "Segment of C605 on F.Silkscreen",
+            213.96729,
+            359.4715
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U502",
+            360.99829,
+            340.07842
+          ],
+          [
+            "Segment of C502 on F.Silkscreen",
+            363.64469,
+            340.13966
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of U501",
+            347.63197,
+            368.49542
+          ],
+          [
+            "Segment of C501 on F.Silkscreen",
+            348.566708,
+            368.286575
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 2 [GND] of C502",
+            360.46969,
+            338.74966
+          ],
+          [
+            "Reference field of U502",
+            360.99829,
+            340.07842
+          ]
+        ]
+      ]
+    ],
+    "changed_adjacent_samples": {
+      "RN907B1": {},
+      "C901": {
+        "front": [
+          [
+            [
+              "73361e84-6cf5-4624-9a7d-24350f0b5afb",
+              0
+            ],
+            "AUDIO",
+            22
+          ]
+        ]
+      },
+      "C206": {
+        "front": [
+          [
+            [
+              "d965aa90-c7aa-44a9-a91f-7a44fef2dac4",
+              1
+            ],
+            "+VID",
+            14
+          ],
+          [
+            [
+              "724e0512-f26d-4e25-b97e-01e60aa035b8",
+              1
+            ],
+            "+VID",
+            17
+          ]
+        ]
+      },
+      "C105": {},
+      "C605": {
+        "front": [
+          [
+            [
+              "6dce2b72-452d-4242-bb36-042aa2f2b62a",
+              1
+            ],
+            "+5V",
+            9
+          ],
+          [
+            [
+              "3c432a79-e5a6-4ea7-a34c-9b1e3e002f02",
+              1
+            ],
+            "+5V",
+            24
+          ]
+        ]
+      },
+      "C501": {},
+      "C502": {
+        "front": [
+          [
+            [
+              "d46072bd-5ed8-4aea-af47-5663d5b60726",
+              0
+            ],
+            "+5V",
+            17
+          ],
+          [
+            [
+              "376835ff-1faa-4641-ad49-f0bcc82baffa",
+              0
+            ],
+            "+5V",
+            4
+          ]
+        ]
+      }
+    }
+  },
+  "cycle8cans": {
+    "trial_board_lf_sha256": "606107679432ddea91630f419f92e8727238f6f431eccf7f28b923a868d7191a",
+    "positions": [
+      "C318",
+      "C501",
+      "C502",
+      "C604",
+      "C602",
+      "C600"
+    ],
+    "placed": {
+      "C318": {
+        "terminal_centres_mm": [
+          [
+            288.15089,
+            87.1923
+          ],
+          [
+            283.15089,
+            87.1923
+          ]
+        ],
+        "angle": 180
+      },
+      "C501": {
+        "terminal_centres_mm": [
+          [
+            348.506822,
+            367.00042
+          ],
+          [
+            346.307118,
+            365.73042
+          ]
+        ],
+        "angle": 150
+      },
+      "C502": {
+        "terminal_centres_mm": [
+          [
+            365.57829,
+            339.04342
+          ],
+          [
+            368.11829,
+            339.04342
+          ]
+        ],
+        "angle": 0
+      },
+      "C604": {
+        "terminal_centres_mm": [
+          [
+            208.08909,
+            318.4593
+          ],
+          [
+            205.54909,
+            318.4593
+          ]
+        ],
+        "angle": 180
+      },
+      "C602": {
+        "terminal_centres_mm": [
+          [
+            211.03829,
+            300.0265
+          ],
+          [
+            208.49829,
+            300.0265
+          ]
+        ],
+        "angle": 180
+      },
+      "C600": {
+        "terminal_centres_mm": [
+          [
+            211.03829,
+            256.5925
+          ],
+          [
+            208.49829,
+            256.5925
+          ]
+        ],
+        "angle": 180
+      }
+    },
+    "native_status": {
+      "drc": {
+        "status": 0,
+        "seconds": 88.5
+      },
+      "erc": {
+        "status": 0,
+        "seconds": 11.4
+      },
+      "net": {
+        "status": 0,
+        "seconds": 1.9
+      }
+    },
+    "introduced": [
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C501",
+            346.307117,
+            365.73042
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; 2 spokes connected to isolated island)",
+        [
+          [
+            "PTH pad 2 [GND] of C600",
+            208.49829,
+            256.5925
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ],
+      [
+        "silk_overlap",
+        "warning",
+        "Silkscreen clearance",
+        [
+          [
+            "Reference field of C601",
+            211.73689,
+            258.7947
+          ],
+          [
+            "Segment of C600 on F.Silkscreen",
+            211.67329,
+            257.9825
+          ]
+        ]
+      ],
+      [
+        "silk_over_copper",
+        "warning",
+        "Silkscreen clipped by solder mask",
+        [
+          [
+            "PTH pad 1 [+5V] of C600",
+            211.03829,
+            256.5925
+          ],
+          [
+            "Reference field of C601",
+            211.73689,
+            258.7947
+          ]
+        ]
+      ]
+    ],
+    "changed_adjacent_samples": {
+      "C318": {
+        "front": [
+          [
+            [
+              "6d661d9e-0f74-41c2-bae6-57c12ca750c9",
+              0
+            ],
+            "Net-(C304-Pad1)",
+            17
+          ],
+          [
+            [
+              "94d2d920-fff2-4b62-b61c-eff7c68f02cb",
+              1
+            ],
+            "Net-(C318-Pad2)",
+            15
+          ]
+        ]
+      },
+      "C501": {},
+      "C502": {
+        "front": [
+          [
+            [
+              "62b5544f-bfdb-4409-ba9a-92594b7787c4",
+              0
+            ],
+            "+5V",
+            22
+          ],
+          [
+            [
+              "225223db-56e5-40b2-9d4d-912dac19652f",
+              0
+            ],
+            "+5V",
+            14
+          ]
+        ]
+      },
+      "C604": {},
+      "C602": {},
+      "C600": {}
+    }
+  },
+  "cycle8priority": {
+    "trial_board_lf_sha256": "22b945539c8b86c06267003d82709639f9415df09110187de3f9548284268603",
+    "positions": [
+      "C401",
+      "C915"
+    ],
+    "placed": {
+      "C401": {
+        "terminal_centres_mm": [
+          [
+            240.73619,
+            174.750226
+          ],
+          [
+            241.39359,
+            172.296774
+          ]
+        ],
+        "angle": 75
+      },
+      "C915": {
+        "terminal_centres_mm": [
+          [
+            245.583416,
+            158.9694
+          ],
+          [
+            243.129964,
+            159.6268
+          ]
+        ],
+        "angle": -165
+      }
+    },
+    "native_status": {
+      "drc": {
+        "status": 0,
+        "seconds": 92.2
+      },
+      "erc": {
+        "status": 0,
+        "seconds": 9.7
+      },
+      "net": {
+        "status": 0,
+        "seconds": 1.9
+      }
+    },
+    "introduced": [
+      [
+        "tracks_crossing",
+        "error",
+        "Tracks crossing",
+        [
+          [
+            "Track [GND] on B.Cu, length 3.6098 mm",
+            239.57529,
+            158.9981
+          ],
+          [
+            "Track [_XCLKEN] on B.Cu, length 4.7177 mm",
+            242.54842,
+            157.8923
+          ]
+        ]
+      ],
+      [
+        "starved_thermal",
+        "error",
+        "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+        [
+          [
+            "PTH pad 2 [GND] of C401",
+            241.39359,
+            172.296774
+          ],
+          [
+            "Zone [GND] on B.Cu, priority 0",
+            405.503876,
+            53.9255
+          ]
+        ]
+      ]
+    ],
+    "changed_adjacent_samples": {
+      "C401": {
+        "front": [
+          [
+            [
+              "4b7fbedd-b19c-5fc9-b66c-91a4148cc9ce",
+              0
+            ],
+            "+5V",
+            14
+          ],
+          [
+            [
+              "36335e9e-953e-50a9-8498-5ba8dac6dede",
+              0
+            ],
+            "+5V",
+            3
+          ],
+          [
+            [
+              "7f14eda8-5780-47ea-bff0-80fc47f0716d",
+              0
+            ],
+            "+5V",
+            4
+          ]
+        ]
+      },
+      "C915": {
+        "front": [
+          [
+            [
+              "4e660081-8f96-4400-ba35-fa6e54bb82f4",
+              0
+            ],
+            "TBASE",
+            10
+          ],
+          [
+            [
+              "cbd84f2c-e779-42d7-9371-a1fef99bbfe5",
+              1
+            ],
+            "TBASE",
+            24
+          ],
+          [
+            [
+              "cbd84f2c-e779-42d7-9371-a1fef99bbfe5",
+              0
+            ],
+            "TBASE",
+            31
+          ],
+          [
+            [
+              "e4bcd30e-4d68-4b40-a919-7d61c343ff79",
+              1
+            ],
+            "TBASE",
+            8
+          ],
+          [
+            [
+              "4e660081-8f96-4400-ba35-fa6e54bb82f4",
+              1
+            ],
+            "TBASE",
+            10
+          ]
+        ]
+      }
+    },
+    "measured_copper_sectors": {
+      "C915.1 TBASE": {},
+      "C915.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              201
+            ],
+            "contour_areas_mm2": [
+              7.153941
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              21,
+              111,
+              201,
+              291
+            ],
+            "contour_areas_mm2": [
+              84982.493051
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              111
+            ],
+            "contour_areas_mm2": [
+              960.104268
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C401.1 +5V": {
+        "In2.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              51,
+              141,
+              231,
+              321
+            ],
+            "contour_areas_mm2": [
+              82347.102334
+            ],
+            "isolated": false
+          }
+        ]
+      },
+      "C401.2 GND": {
+        "F.Cu": [
+          {
+            "sectors": 2,
+            "angular_sector_starts_deg": [
+              231,
+              321
+            ],
+            "contour_areas_mm2": [
+              55.269427
+            ],
+            "isolated": false
+          }
+        ],
+        "In1.Cu": [
+          {
+            "sectors": 4,
+            "angular_sector_starts_deg": [
+              51,
+              141,
+              231,
+              321
+            ],
+            "contour_areas_mm2": [
+              84982.493051
+            ],
+            "isolated": false
+          }
+        ],
+        "B.Cu": [
+          {
+            "sectors": 1,
+            "angular_sector_starts_deg": [
+              231
+            ],
+            "contour_areas_mm2": [
+              4.459775
+            ],
+            "isolated": false
+          }
+        ]
+      }
+    }
+  },
+  "geometry_only": {
+    "alt-C225": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "alt-C401": {
+      "layouts_retained": 49,
+      "best_trial": [
+        {
+          "cost": 5.4932,
+          "angle": 75,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                241.07689,
+                175.7875
+              ],
+              [
+                241.04819,
+                174.914226
+              ]
+            ],
+            [
+              [
+                241.07689,
+                175.7875
+              ],
+              [
+                241.70559,
+                172.460774
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "old 0.7 mm trunk",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "49750afd-e063-4967-8dde-7912836b470c",
+            "d5a2161c-5651-4c51-a159-9a2d12bc72d6",
+            "75b5db3a-b7ca-4433-9a01-85de602fadbd",
+            "9b57a3cd-2fe9-4312-8f34-87cc3bf616d6"
+          ],
+          "thermals": 1,
+          "width": 0.381,
+          "face": "F.Cu",
+          "origin": "old 0.7 mm trunk"
+        }
+      ]
+    },
+    "alt-C407": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "alt-C915": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "bulk-C225": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "bulk-C318": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "form-C318": {
+      "layouts_retained": 1,
+      "best_trial": [
+        {
+          "paths": [
+            [
+              [
+                288.35089,
+                87.1923
+              ],
+              [
+                288.15089,
+                87.1923
+              ]
+            ],
+            [
+              [
+                282.95089,
+                87.1923
+              ],
+              [
+                283.15089,
+                87.1923
+              ]
+            ]
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "angle": 180,
+          "kind": "CP_Radial_D8.0mm_P5.00mm",
+          "retired": [],
+          "compact": false,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "ic-C104": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C105": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C202": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C203": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C207": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C300": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C501": {
+      "layouts_retained": 34,
+      "best_trial": [
+        {
+          "cost": 6.4451,
+          "angle": 150,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                350.10697,
+                369.96542
+              ],
+              [
+                348.506822,
+                367.00042
+              ]
+            ],
+            [
+              [
+                350.10697,
+                369.96542
+              ],
+              [
+                346.307118,
+                365.73042
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "U501.14",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "39dfbd2e-768e-4ae4-afc9-26785243604f",
+            "00000000-0000-0000-0000-000060b58a6c",
+            "792e001a-41be-4b83-a6ef-1e43af8a3f5a",
+            "ac2fa5f5-a13d-4a67-9d35-32de104cc4f8"
+          ],
+          "thermals": 2,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "old_pin_distance": 4.340705359270516
+        }
+      ]
+    },
+    "ic-C502": {
+      "layouts_retained": 232,
+      "best_trial": [
+        {
+          "cost": 4.2501,
+          "angle": 0,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                365.64829,
+                341.74342
+              ],
+              [
+                365.57829,
+                339.04342
+              ]
+            ],
+            [
+              [
+                365.64829,
+                341.74342
+              ],
+              [
+                368.11829,
+                339.04342
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "U502.24",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "d53eff34-654a-41dd-8f3e-bfb29c5802e5",
+            "6047546d-a505-4b5e-9220-8b88aa2db7de"
+          ],
+          "thermals": 4,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "old_pin_distance": 4.935999989627249
+        }
+      ]
+    },
+    "ic-C600": {
+      "layouts_retained": 8,
+      "best_trial": [
+        {
+          "cost": 9.0379,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                210.66829,
+                253.8925
+              ],
+              [
+                211.03829,
+                256.5925
+              ]
+            ],
+            [
+              [
+                210.66829,
+                253.8925
+              ],
+              [
+                208.49829,
+                256.5925
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "U600.20",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "f874a430-ad44-4fd2-963a-71f3065d90ea",
+            "3981a6d2-8439-4e5b-b3fb-5df4c8d3a337",
+            "e56529cc-5627-4502-999c-51a9667b0aa0",
+            "ca1cc32a-36df-419a-8bf4-aa36fae42b0f"
+          ],
+          "thermals": 0,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "old_pin_distance": 16.144013415941533
+        }
+      ]
+    },
+    "ic-C601": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C602": {
+      "layouts_retained": 142,
+      "best_trial": [
+        {
+          "cost": 9.1545,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                210.66829,
+                297.3265
+              ],
+              [
+                211.03829,
+                300.0265
+              ]
+            ],
+            [
+              [
+                210.66829,
+                297.3265
+              ],
+              [
+                208.49829,
+                300.0265
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "U602.20",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "4b6d847c-8df0-4f3e-8eb5-2aa2d2591e9e",
+            "646521f8-3ebf-44d0-b04c-1ae3c054b268"
+          ],
+          "thermals": 0,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "old_pin_distance": 17.115709946540353
+        }
+      ]
+    },
+    "ic-C604": {
+      "layouts_retained": 230,
+      "best_trial": [
+        {
+          "cost": 9.3734,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                210.71909,
+                318.4593
+              ],
+              [
+                208.08909,
+                318.4593
+              ]
+            ],
+            [
+              [
+                210.71909,
+                318.4593
+              ],
+              [
+                205.54909,
+                318.4593
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "U604.20",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [
+            "77cc464b-65ec-481b-ae5d-67eccaaac102",
+            "a288a9c6-bd8a-4986-aaea-fc3904ac9592",
+            "2dc70af1-d540-4c1d-9356-bc6c9f3668df"
+          ],
+          "thermals": 0,
+          "width": 0.4572,
+          "face": "F.Cu",
+          "old_pin_distance": 17.18681197895639
+        }
+      ]
+    },
+    "ic-C802": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C804": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "ic-C805": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "long-R205": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "long-R233": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "long-R243": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "long-R302": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "long-R310": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-C204": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-C205": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-C206": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-C207": {
+      "layouts_retained": 4,
+      "best_trial": [
+        {
+          "cost": 9.898,
+          "delta": [
+            2.413,
+            4.33
+          ],
+          "old": [
+            2.2266899999999907,
+            1.7749999999999915
+          ],
+          "angle": -90,
+          "paths": [
+            [
+              [
+                250.328,
+                88.853
+              ],
+              [
+                252.55469,
+                84.783
+              ]
+            ],
+            [
+              [
+                252.55469,
+                93.428
+              ],
+              [
+                252.55469,
+                87.323
+              ]
+            ]
+          ],
+          "kind": "radial",
+          "compact": false,
+          "retired": [
+            "c2c51c36-e7ca-4413-b412-48a9080a722e",
+            "2283b412-b1af-4555-977d-9619ea4f6c29"
+          ],
+          "face": "F.Cu",
+          "other_edge": 1.035
+        }
+      ]
+    },
+    "option-C219": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-C220": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-C221": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-C234": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-CX2": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-R212": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-R500-11": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-R500-12": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-R500-13": {
+      "layouts_retained": 2,
+      "best_trial": [
+        {
+          "cost": 12.313,
+          "delta": [
+            1.371,
+            7.457
+          ],
+          "old": [
+            3.6596799999999803,
+            11.029889554307001
+          ],
+          "angle": 0,
+          "paths": [
+            [
+              [
+                339.00613,
+                377.21458
+              ],
+              [
+                335.03629,
+                380.30474
+              ]
+            ],
+            [
+              [
+                322.355735,
+                375.174265
+              ],
+              [
+                340.11629,
+                380.30474
+              ]
+            ]
+          ],
+          "kind": "0204",
+          "compact": true,
+          "retired": [
+            "e01e5d28-e876-4c89-8567-a24815371447",
+            "6026d4e4-ab94-4967-984c-01c88df1c7bd",
+            "0dcdda3c-cd75-4240-bf4c-7fe552a072ab",
+            "fd72fb19-15d4-443f-bd12-14a134db249f"
+          ],
+          "face": "F.Cu",
+          "other_edge": 0.982
+        }
+      ]
+    },
+    "option-R500-14": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-R500-15": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-R905": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-RN907A1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-RN907B1": {
+      "layouts_retained": 32,
+      "best_trial": [
+        {
+          "cost": 0.234,
+          "delta": [
+            -2.744,
+            -0.005
+          ],
+          "old": [
+            12.02367751154589,
+            3.8008800000000065
+          ],
+          "angle": 180,
+          "paths": [
+            [
+              [
+                264.87369,
+                261.90366
+              ],
+              [
+                256.94053,
+                266.7189
+              ]
+            ],
+            [
+              [
+                248.06501,
+                266.70426
+              ],
+              [
+                251.86053,
+                266.7189
+              ]
+            ]
+          ],
+          "kind": "0204",
+          "compact": true,
+          "retired": [
+            "6899aa6a-d884-44f5-9b05-0264c78be653",
+            "17b50f36-de90-4a0c-b4bb-1cd4b015327f",
+            "7d34ab61-f2e1-42d8-bfb0-3781dd052807"
+          ],
+          "face": "F.Cu",
+          "other_edge": 1.492
+        }
+      ]
+    },
+    "option-RN907C1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "option-XR1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C102": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C104": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 6.0194,
+          "angle": 135,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                375.375,
+                237.525
+              ],
+              [
+                366.289716,
+                237.991526
+              ]
+            ],
+            [
+              [
+                367.2,
+                236.5
+              ],
+              [
+                364.493664,
+                236.195474
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.80891,
+            2.11938
+          ],
+          "retired": [
+            "ff8f4540-9a79-4c72-8bbd-419fab44b2c1",
+            "e77187f4-b02f-4c94-baf9-4812a942581c",
+            "e2548719-c8b4-427f-80cd-e8b358509395",
+            "06c61a10-97c1-4e59-a3d3-b89541dc0f93",
+            "07503188-5787-4003-824a-639d403923d2",
+            "0249188f-bfa9-4e5c-a3a6-e75d6c30ec4d"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C105": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 1.1436,
+          "angle": 15,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                348.025,
+                218.475
+              ],
+              [
+                348.298274,
+                216.9287
+              ]
+            ],
+            [
+              [
+                350.975,
+                218.475
+              ],
+              [
+                350.751726,
+                216.2713
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            1.58536,
+            1.58536
+          ],
+          "retired": [
+            "2593818c-5514-4dc3-a9ea-7fcd67a9a2cb",
+            "31fdff65-e83e-420f-a055-b1d6ca14ec1d",
+            "4ecb3912-5db6-4223-8473-a926c9f8b906",
+            "5be77c79-dc74-4a63-a27f-1d9f13cd5e05"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C107": {
+      "layouts_retained": 25,
+      "best_trial": [
+        {
+          "cost": 15.0248,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                277.01489,
+                208.0739
+              ],
+              [
+                276.02,
+                210.845
+              ]
+            ],
+            [
+              [
+                273.27,
+                220.46
+              ],
+              [
+                273.48,
+                210.845
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "EMI229.1",
+            "plane"
+          ],
+          "old": [
+            1.0845,
+            1.48414
+          ],
+          "retired": [
+            "399fefcf-9e74-4770-88de-af02bad8be83",
+            "d798d8bb-06c1-400f-ad50-c73b5afed007",
+            "00ef6635-986c-4125-8d25-70b94e6505ef",
+            "3901baf4-1cdf-416a-abf9-d467156e0549"
+          ],
+          "thermals": 0,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C108": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C109": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 0.8122,
+          "angle": -60,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                251.10689,
+                242.62326
+              ],
+              [
+                250.17189,
+                242.698408
+              ]
+            ],
+            [
+              [
+                251.10689,
+                245.57326
+              ],
+              [
+                251.44189,
+                244.898112
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C112": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C202": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C203": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 9.7388,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                385.98089,
+                122.9537
+              ],
+              [
+                389.95089,
+                117.5287
+              ]
+            ],
+            [
+              [
+                385.98089,
+                125.8287
+              ],
+              [
+                387.41089,
+                117.5287
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [],
+          "thermals": 0,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C204": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C205": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C206": {
+      "layouts_retained": 170,
+      "best_trial": [
+        {
+          "cost": 2.7752,
+          "angle": -105,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                264.34029,
+                99.40716
+              ],
+              [
+                264.93089,
+                101.599274
+              ]
+            ],
+            [
+              [
+                264.30219,
+                104.226
+              ],
+              [
+                264.27349,
+                104.052726
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "old",
+            "old"
+          ],
+          "old": [
+            1.94264,
+            0.0
+          ],
+          "retired": [
+            "c4fc3ee1-f4c8-41af-9b05-46e32f68b248"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C207": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C219": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C220": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C221": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C225": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C234": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C300": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C303": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C305": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C318": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C322": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C323": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C401": {
+      "layouts_retained": 33,
+      "best_trial": [
+        {
+          "cost": 5.9704,
+          "angle": 90,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                241.07689,
+                175.7875
+              ],
+              [
+                240.90229,
+                174.7729
+              ]
+            ],
+            [
+              [
+                248.58841,
+                169.6407
+              ],
+              [
+                240.90229,
+                172.2329
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.7592,
+            12.57217
+          ],
+          "retired": [
+            "49750afd-e063-4967-8dde-7912836b470c",
+            "d5a2161c-5651-4c51-a159-9a2d12bc72d6",
+            "75b5db3a-b7ca-4433-9a01-85de602fadbd",
+            "9b57a3cd-2fe9-4312-8f34-87cc3bf616d6"
+          ],
+          "thermals": 0,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C407": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C409": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C500": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 4.6528,
+          "angle": -15,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                328.75977,
+                332.04862
+              ],
+              [
+                330.583884,
+                337.318
+              ]
+            ],
+            [
+              [
+                335.88701,
+                329.09174
+              ],
+              [
+                333.037336,
+                337.9754
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.94892,
+            2.96945
+          ],
+          "retired": [
+            "267e0e29-fcd0-4bce-8982-d1ccdbbc4698",
+            "e3a1a215-0843-4cda-b0df-51c7623730e8",
+            "8939da99-3feb-4b97-a87d-c1e19ce65b58"
+          ],
+          "thermals": 4,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C501": {
+      "layouts_retained": 72,
+      "best_trial": [
+        {
+          "cost": 2.0535,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                349.99521,
+                367.70378
+              ],
+              [
+                347.68193,
+                365.5303
+              ]
+            ],
+            [
+              [
+                347.40845,
+                368.28394
+              ],
+              [
+                345.14193,
+                365.5303
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            2.40503,
+            3.07352
+          ],
+          "retired": [
+            "39dfbd2e-768e-4ae4-afc9-26785243604f",
+            "00000000-0000-0000-0000-000060b58a6c",
+            "792e001a-41be-4b83-a6ef-1e43af8a3f5a",
+            "ac2fa5f5-a13d-4a67-9d35-32de104cc4f8"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C502": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 0.8121,
+          "angle": -165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                362.60065,
+                337.85982
+              ],
+              [
+                362.066416,
+                338.12096
+              ]
+            ],
+            [
+              [
+                356.59563,
+                338.26368
+              ],
+              [
+                359.612964,
+                338.77836
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            3.3723
+          ],
+          "retired": [
+            "d53eff34-654a-41dd-8f3e-bfb29c5802e5",
+            "6047546d-a505-4b5e-9220-8b88aa2db7de"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C503": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C504": {
+      "layouts_retained": 12,
+      "best_trial": [
+        {
+          "cost": 11.7028,
+          "angle": 90,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                364.30961,
+                359.46506
+              ],
+              [
+                361.36349,
+                360.75538
+              ]
+            ],
+            [
+              [
+                356.56769,
+                359.46506
+              ],
+              [
+                361.36349,
+                358.21538
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            false
+          ],
+          "taps": [
+            "plane",
+            "old"
+          ],
+          "old": [
+            1.94772,
+            2.9942
+          ],
+          "retired": [
+            "00000000-0000-0000-0000-000060b37288",
+            "7c4a55dc-863b-42d9-a439-52a0b3c86eb3"
+          ],
+          "thermals": 1,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C600": {
+      "layouts_retained": 80,
+      "best_trial": [
+        {
+          "cost": 3.4349,
+          "angle": 30,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.67,
+                238.03
+              ],
+              [
+                217.045148,
+                235.665
+              ]
+            ],
+            [
+              [
+                219.96,
+                241.02
+              ],
+              [
+                219.244852,
+                234.395
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            5.84381
+          ],
+          "retired": [
+            "f874a430-ad44-4fd2-963a-71f3065d90ea",
+            "3981a6d2-8439-4e5b-b3fb-5df4c8d3a337",
+            "e56529cc-5627-4502-999c-51a9667b0aa0",
+            "ca1cc32a-36df-419a-8bf4-aa36fae42b0f"
+          ],
+          "thermals": 4,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C601": {
+      "layouts_retained": 105,
+      "best_trial": [
+        {
+          "cost": 4.6455,
+          "angle": 120,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.43689,
+                258.7947
+              ],
+              [
+                213.14689,
+                258.994552
+              ]
+            ],
+            [
+              [
+                216.31189,
+                260.48
+              ],
+              [
+                211.87689,
+                256.794848
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "old",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            1.6853
+          ],
+          "retired": [
+            "7aa6750c-7cc9-4ed7-8c0f-3c1f812d447d"
+          ],
+          "thermals": 0,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C602": {
+      "layouts_retained": 48,
+      "best_trial": [
+        {
+          "cost": 15.8125,
+          "angle": -165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.35949,
+                280.4355
+              ],
+              [
+                205.661726,
+                293.9113
+              ]
+            ],
+            [
+              [
+                216.3,
+                278.82
+              ],
+              [
+                203.208274,
+                294.5687
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            1.46802
+          ],
+          "retired": [
+            "4b6d847c-8df0-4f3e-8eb5-2aa2d2591e9e",
+            "646521f8-3ebf-44d0-b04c-1ae3c054b268"
+          ],
+          "thermals": 0,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C603": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C604": {
+      "layouts_retained": 128,
+      "best_trial": [
+        {
+          "cost": 5.4886,
+          "angle": 90,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.96909,
+                301.5683
+              ],
+              [
+                219.86909,
+                302.2383
+              ]
+            ],
+            [
+              [
+                220.01729,
+                304.1337
+              ],
+              [
+                219.86909,
+                299.6983
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            5.50501
+          ],
+          "retired": [
+            "77cc464b-65ec-481b-ae5d-67eccaaac102",
+            "a288a9c6-bd8a-4986-aaea-fc3904ac9592",
+            "2dc70af1-d540-4c1d-9356-bc6c9f3668df"
+          ],
+          "thermals": 2,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C605": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 0.6864,
+          "angle": -165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                213.16229,
+                357.3183
+              ],
+              [
+                213.289016,
+                360.8328
+              ]
+            ],
+            [
+              [
+                210.36229,
+                361.4615
+              ],
+              [
+                210.835564,
+                361.4902
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            4.1432,
+            0.0
+          ],
+          "retired": [
+            "212a2ab1-f9f2-4cdb-8ec7-d387f931e4ac"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C607": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C802": {
+      "layouts_retained": 192,
+      "best_trial": [
+        {
+          "cost": 8.0974,
+          "angle": -105,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                219.10497,
+                177.986092
+              ],
+              [
+                209.43367,
+                179.955734
+              ]
+            ],
+            [
+              [
+                224.33529,
+                179.7499
+              ],
+              [
+                208.77627,
+                182.409186
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.19637,
+            3.02371
+          ],
+          "retired": [
+            "0457824e-b67d-4574-91c0-a53a8a65a58f",
+            "57724d0f-d1dd-4508-852c-497f29fe12c5",
+            "6eae03e8-4bc6-4e5b-aae9-aac8b959809c"
+          ],
+          "thermals": 3,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C804": {
+      "layouts_retained": 39,
+      "best_trial": [
+        {
+          "cost": 8.5884,
+          "angle": -90,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                229.03129,
+                180.5627
+              ],
+              [
+                238.83129,
+                186.1927
+              ]
+            ],
+            [
+              [
+                238.27689,
+                183.7123
+              ],
+              [
+                238.83129,
+                188.7327
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            7.75021
+          ],
+          "retired": [
+            "0372cf71-46ec-42f1-847e-8016c7fd7db4",
+            "24905d54-5e14-4f1a-865b-2b75682fc6be",
+            "00000000-0000-0000-0000-000060bc0d7d",
+            "0a2cf1b5-027a-44bd-b20b-ce1ec8ded8ae"
+          ],
+          "thermals": 4,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C805": {
+      "layouts_retained": 144,
+      "best_trial": [
+        {
+          "cost": 5.3858,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                384.87749,
+                180.2071
+              ],
+              [
+                379.52,
+                176.65
+              ]
+            ],
+            [
+              [
+                380.95,
+                176.0
+              ],
+              [
+                376.98,
+                176.65
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            3.90959,
+            1.275
+          ],
+          "retired": [
+            "da1a16f7-1431-4b86-a353-5b7fd5679a34",
+            "9735b05f-a62e-40e8-8300-87b79b61c2b1"
+          ],
+          "thermals": 2,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C9000": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C9001": {
+      "layouts_retained": 1,
+      "best_trial": [
+        {
+          "cost": 7.7302,
+          "angle": 45,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                236.42569,
+                229.1529
+              ],
+              [
+                232.640864,
+                229.398726
+              ]
+            ],
+            [
+              [
+                240.43889,
+                229.2007
+              ],
+              [
+                234.436916,
+                227.602674
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "via",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            0.0
+          ],
+          "retired": [],
+          "thermals": 2,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C901": {
+      "layouts_retained": 17,
+      "best_trial": [
+        {
+          "cost": 8.2,
+          "angle": 180,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                304.57897,
+                141.24858
+              ],
+              [
+                304.67209,
+                139.9015
+              ]
+            ],
+            [
+              [
+                300.98233,
+                143.38846
+              ],
+              [
+                302.13209,
+                139.9015
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "old",
+            "C223.2"
+          ],
+          "old": [
+            5.68014,
+            6.96655
+          ],
+          "retired": [
+            "785bd560-832d-466e-a6b1-ef9e169ffeae",
+            "a9c05f31-1587-4d2c-b8bb-80c72df6f413",
+            "66879743-18fb-4b32-8e9d-cef8f22ee4ab",
+            "1db1709e-3748-430f-a181-07fbe5e26cc2",
+            "6f407436-1e03-47ce-b03a-3e18980477ed",
+            "b4196011-0c72-42b8-8e71-0afcfd9f1c9d"
+          ],
+          "thermals": 4,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C903": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C910": {
+      "layouts_retained": 148,
+      "best_trial": [
+        {
+          "cost": 12.1713,
+          "angle": 165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                331.710689,
+                265.5511
+              ],
+              [
+                323.966416,
+                270.4712
+              ]
+            ],
+            [
+              [
+                332.56769,
+                267.8655
+              ],
+              [
+                321.512964,
+                269.8138
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            true,
+            true
+          ],
+          "taps": [
+            "plane",
+            "plane"
+          ],
+          "old": [
+            5.45358,
+            4.2896
+          ],
+          "retired": [
+            "6becb61f-5d8d-4cbe-bd70-d2fd2bec74f7",
+            "0b39e4e9-7bbf-4581-81dc-a7a08b92d218",
+            "f154385f-8cea-4d81-b104-969d0802587f",
+            "e5704cf1-a850-4c9b-8864-83d92f11b644"
+          ],
+          "thermals": 0,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C9101": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C9102": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C9103": {
+      "layouts_retained": 1,
+      "best_trial": [
+        {
+          "cost": 8.3418,
+          "angle": -90,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                244.14221,
+                200.0445
+              ],
+              [
+                239.39073,
+                203.44978
+              ]
+            ],
+            [
+              [
+                239.79073,
+                197.80122
+              ],
+              [
+                239.39073,
+                205.98978
+              ]
+            ]
+          ],
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "old",
+            "plane"
+          ],
+          "old": [
+            3.51792,
+            5.11856
+          ],
+          "retired": [
+            "efbfdd01-924c-4e0b-a634-387679a71c48",
+            "f0729e5a-75ce-4752-bf00-3130ee1dcf7b",
+            "213786c3-f503-417f-84c4-034cabcb1db6"
+          ],
+          "thermals": 2,
+          "width": 0.381,
+          "face": "B.Cu"
+        }
+      ]
+    },
+    "pick-C9105": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-C915": {
+      "layouts_retained": 8,
+      "best_trial": [
+        {
+          "cost": 4.9448,
+          "angle": -165,
+          "kind": "radial",
+          "compact": false,
+          "paths": [
+            [
+              [
+                244.55669,
+                158.9981
+              ],
+              [
+                245.583416,
+                158.9694
+              ]
+            ],
+            [
+              [
+                239.57529,
+                158.9981
+              ],
+              [
+                243.129964,
+                159.6268
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            true
+          ],
+          "taps": [
+            "old",
+            "plane"
+          ],
+          "old": [
+            0.0,
+            2.1814
+          ],
+          "retired": [
+            "6bab7eac-1280-4ada-9c49-c96a64f4ed7f"
+          ],
+          "thermals": 0,
+          "width": 0.381,
+          "face": "F.Cu"
+        }
+      ]
+    },
+    "pick-C918": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "pick-CX2": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "short-R205": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "short-R233": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "short-R243": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "short-R302": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "short-R310": {
+      "layouts_retained": 7,
+      "best_trial": [
+        {
+          "cost": 3.8708,
+          "angle": 0,
+          "kind": "0204",
+          "compact": true,
+          "paths": [
+            [
+              [
+                297.28409,
+                92.8819
+              ],
+              [
+                295.31449,
+                93.1695
+              ]
+            ],
+            [
+              [
+                301.88449,
+                97.8095
+              ],
+              [
+                302.93449,
+                93.1695
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "preserved vertex",
+            "preserved vertex"
+          ],
+          "old": [
+            0,
+            0
+          ],
+          "retired": [
+            "79c8b0c1-c644-420b-9d31-14bc952eb99b",
+            "3a621abd-d51c-4dfd-8a73-dfedcf25ded6",
+            "36d1e3b3-df95-4c4f-a3dc-0b6a8ee53fbf"
+          ],
+          "old_mm": [
+            5.329376301521979,
+            3.59210244842764
+          ],
+          "thermals": 4,
+          "width": 0.25,
+          "face": "F.Cu",
+          "delta": [
+            -3.3389,
+            1.1652
+          ]
+        }
+      ]
+    },
+    "to92-Q202": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "to92-Q300": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "to92-Q301": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C204": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C207": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C219": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C220": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C221": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C234": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C617": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C620": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C621": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C622": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C623": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C624": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C625": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C626": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C627": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C628": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C629": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C630": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C631": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C632": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C633": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C635": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C637": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C639": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C641": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C645": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C647": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C649": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C650": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C651": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C652": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C654": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C655": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C657": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C658": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C659": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C660": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C661": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C662": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C663": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C665": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C666": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C667": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C668": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C669": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C670": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C671": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C673": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C674": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C728": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C730": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C732": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C734": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C736": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C738": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C740": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C742": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C744": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C756": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C770": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C778": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-C790": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R203A1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R203B1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R205": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R212": {
+      "layouts_retained": 7,
+      "best_trial": [
+        {
+          "cost": 3.028,
+          "angle": 30,
+          "kind": "0204",
+          "compact": true,
+          "paths": [
+            [
+              [
+                225.95581,
+                128.2641
+              ],
+              [
+                226.741185,
+                129.2465
+              ]
+            ],
+            [
+              [
+                232.44089,
+                125.8765
+              ],
+              [
+                231.140595,
+                126.7065
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "preserved vertex",
+            "preserved vertex"
+          ],
+          "old": [
+            0,
+            0
+          ],
+          "retired": [
+            "6e45412f-eee2-4470-9df2-0681c19e3898",
+            "c5b376d7-200d-48ca-80bd-33aff7df71cc",
+            "89ed8994-47a6-41ca-9792-4a8dd82899ec"
+          ],
+          "old_mm": [
+            5.538794240746849,
+            0.0
+          ],
+          "thermals": 4,
+          "width": 0.25,
+          "face": "F.Cu",
+          "delta": [
+            -4.281,
+            1.5426
+          ]
+        }
+      ]
+    },
+    "trim-R233": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R243": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R302": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R310": {
+      "layouts_retained": 2,
+      "best_trial": [
+        {
+          "cost": 3.8682,
+          "angle": 0,
+          "kind": "0204",
+          "compact": true,
+          "paths": [
+            [
+              [
+                297.28409,
+                92.8819
+              ],
+              [
+                295.98449,
+                93.1695
+              ]
+            ],
+            [
+              [
+                301.88449,
+                97.8095
+              ],
+              [
+                301.06449,
+                93.1695
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "preserved vertex",
+            "preserved vertex"
+          ],
+          "old": [
+            0,
+            0
+          ],
+          "retired": [
+            "79c8b0c1-c644-420b-9d31-14bc952eb99b",
+            "3a621abd-d51c-4dfd-8a73-dfedcf25ded6",
+            "36d1e3b3-df95-4c4f-a3dc-0b6a8ee53fbf"
+          ],
+          "old_mm": [
+            5.329376301521979,
+            3.59210244842764
+          ],
+          "thermals": 4,
+          "width": 0.25,
+          "face": "F.Cu",
+          "delta": [
+            -3.9983,
+            1.1198
+          ]
+        }
+      ]
+    },
+    "trim-R500-11": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R500-12": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R500-13": {
+      "layouts_retained": 25,
+      "best_trial": [
+        {
+          "cost": 11.1787,
+          "angle": 120,
+          "kind": "0204",
+          "compact": true,
+          "paths": [
+            [
+              [
+                339.00613,
+                377.21458
+              ],
+              [
+                338.80629,
+                383.924445
+              ]
+            ],
+            [
+              [
+                332.53629,
+                377.22474
+              ],
+              [
+                336.26629,
+                379.525035
+              ]
+            ]
+          ],
+          "layers": [
+            "B.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "plated tap",
+            "preserved vertex"
+          ],
+          "old": [
+            0,
+            0
+          ],
+          "retired": [
+            "e01e5d28-e876-4c89-8567-a24815371447"
+          ],
+          "old_mm": [
+            3.6596799999999803,
+            0.0
+          ],
+          "thermals": 4,
+          "width": 0.25,
+          "face": "F.Cu",
+          "delta": [
+            3.0532,
+            4.3823
+          ]
+        }
+      ]
+    },
+    "trim-R500-14": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R500-15": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-R905": {
+      "layouts_retained": 121,
+      "best_trial": [
+        {
+          "cost": 1.6345,
+          "angle": -135,
+          "kind": "0204",
+          "compact": true,
+          "paths": [
+            [
+              [
+                198.86209,
+                118.3073
+              ],
+              [
+                199.258141,
+                117.711249
+              ]
+            ],
+            [
+              [
+                197.31,
+                120.34
+              ],
+              [
+                195.666039,
+                121.303351
+              ]
+            ]
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Cu"
+          ],
+          "direct": [
+            false,
+            false
+          ],
+          "taps": [
+            "preserved vertex",
+            "preserved vertex"
+          ],
+          "old": [
+            0,
+            0
+          ],
+          "retired": [
+            "2a532169-d7fb-4eb0-b91f-fe3ea5e1215e"
+          ],
+          "old_mm": [
+            0.0,
+            1.8531995942693238
+          ],
+          "thermals": 4,
+          "width": 0.25,
+          "face": "F.Cu",
+          "delta": [
+            0.7156,
+            0.0522
+          ]
+        }
+      ]
+    },
+    "trim-RN204A1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-RN204D1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-RN907A1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-RN907C1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "trim-XR1": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "via-C401": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "via-C407": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "via-C915": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "wide-C225": {
+      "layouts_retained": 0,
+      "best_trial": []
+    },
+    "wider-C407": {
+      "layouts_retained": 0,
+      "best_trial": []
+    }
+  }
+}
