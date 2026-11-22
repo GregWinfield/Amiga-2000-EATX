@@ -309,9 +309,12 @@ def build(root, original, current, provenance):
     target = index(table(root, TARGET, "eatx_reference physical_package authenticity construction proposed_footprint basis_or_release_condition"),
                    "eatx_reference", TARGET)
     hold_register = next((f"audit/implementation/{cycle}/deferred.csv"
-                          for cycle in ("cycle9", "cycle8", "cycle7", "cycle6", "cycle5", "cycle4", "resumed-cycle", "accelerated-cycle", "quick-win-cycle")
+                          for cycle in ("cycle10", "cycle9", "cycle8", "cycle7", "cycle6", "cycle5", "cycle4", "resumed-cycle", "accelerated-cycle", "quick-win-cycle")
                           if (root / "audit/implementation" / cycle / "deferred.csv").is_file()), None)
     holds = index(table(root, hold_register, "reference reason_for_hold"), "reference", hold_register) if hold_register else {}
+    resolved_register = "audit/implementation/cycle10/resolved.csv"
+    resolved = (index(table(root, resolved_register, "reference original_reason physical_validation"),
+                      "reference", resolved_register) if (root / resolved_register).is_file() else {})
     crosswalk = table(root, CROSSWALK, "eatx_cap eatx_element eatx_private eatx_signal eatx_contact historical_cap historical_element bplus_element return_net")
     index(crosswalk, "eatx_cap", CROSSWALK)
     sips = index(table(root, SIPS, "reference topology historical_function_lookup"), "reference", SIPS)
@@ -397,6 +400,9 @@ def build(root, original, current, provenance):
         if after and not base_row:
             warnings.append(f"{ref}: present in current PCB; original identity and disposition are undocumented.")
         notes = item.get("basis_or_release_condition") or base_row.get("rationale_and_checks") or MISSING
+        if ref in resolved and status == "converted":
+            notes += " Historical hold resolved in Cycle 10. " + resolved[ref]["physical_validation"].rstrip(".") + "."
+            sources.add(resolved_register)
         if ref in holds:
             hold = holds[ref]
             notes += " Engineering hold: " + hold["reason_for_hold"]
