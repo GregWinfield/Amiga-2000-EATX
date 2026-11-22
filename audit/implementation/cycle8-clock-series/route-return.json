@@ -1,0 +1,55 @@
+{
+  "before": {
+    "Net-(U800A-_C4)": {
+      "sampled_mm": 1.8532,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "XCLK": {
+      "sampled_mm": 5.5388,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "_C4": {
+      "sampled_mm": 7.62,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "XCLK": {
+      "sampled_mm": 1.2577,
+      "unreferenced_mm": 1.1126,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(U800A-_C4)": {
+      "sampled_mm": 1.7552,
+      "unreferenced_mm": 1.1214,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(R212-Pad2)": {
+      "sampled_mm": 1.5426,
+      "unreferenced_mm": 1.0948,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "_C4": {
+      "sampled_mm": 7.0365,
+      "unreferenced_mm": 1.0979,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

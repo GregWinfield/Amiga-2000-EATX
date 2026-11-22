@@ -1,0 +1,3 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+R212,22,MBA0204AC2209FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,XCLK,Net-(R212-Pad2),226.741185,129.2465,30.0
+R905,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,_C4,Net-(U800A-_C4),199.961795,117.6373,-150.0
