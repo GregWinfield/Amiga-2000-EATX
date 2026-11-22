@@ -1,0 +1,34 @@
+{
+  "before": {
+    "GND": {
+      "sampled_mm": 7.6106,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+5V": {
+      "sampled_mm": 7.2346,
+      "unreferenced_mm": 2.7984,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "GND": {
+      "sampled_mm": 4.7432,
+      "unreferenced_mm": 1.382,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+5V": {
+      "sampled_mm": 5.9427,
+      "unreferenced_mm": 4.3457,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

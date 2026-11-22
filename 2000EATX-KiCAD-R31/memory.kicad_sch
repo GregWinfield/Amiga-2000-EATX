@@ -15587,7 +15587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "AmigaFootprints:C_Radial_KEMET_C315_P2.54mm"
 			(at 166.0652 246.38 0)
 			(effects
 				(font
@@ -19704,7 +19704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "AmigaFootprints:C_Radial_KEMET_C315_P2.54mm"
 			(at 196.85 93.0148 0)
 			(effects
 				(font

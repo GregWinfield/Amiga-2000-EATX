@@ -1,0 +1,302 @@
+{
+  "C500.1 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          6,
+          96,
+          186,
+          276
+        ],
+        "contour_areas_mm2": [
+          82308.624499
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C500.2 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          6,
+          96
+        ],
+        "contour_areas_mm2": [
+          460.705962
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          6,
+          96,
+          186,
+          276
+        ],
+        "contour_areas_mm2": [
+          84943.209616
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          6,
+          96
+        ],
+        "contour_areas_mm2": [
+          277.643098
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C103.1 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          21,
+          111,
+          201,
+          291
+        ],
+        "contour_areas_mm2": [
+          82308.624499
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C103.2 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          111,
+          201
+        ],
+        "contour_areas_mm2": [
+          34.641889
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          21,
+          111,
+          201,
+          291
+        ],
+        "contour_areas_mm2": [
+          84943.209616
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          111,
+          201
+        ],
+        "contour_areas_mm2": [
+          541.8741
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C603.1 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          66,
+          156,
+          246,
+          336
+        ],
+        "contour_areas_mm2": [
+          82308.624499
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C603.2 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          66,
+          156
+        ],
+        "contour_areas_mm2": [
+          181.199588
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          66,
+          156,
+          246,
+          336
+        ],
+        "contour_areas_mm2": [
+          84943.209616
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          66,
+          156
+        ],
+        "contour_areas_mm2": [
+          1251.672379
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C541.1 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          141,
+          231
+        ],
+        "contour_areas_mm2": [
+          182.352431
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          51,
+          141,
+          231,
+          321
+        ],
+        "contour_areas_mm2": [
+          84943.209616
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          141,
+          231
+        ],
+        "contour_areas_mm2": [
+          33.22543
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C541.2 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          51,
+          141,
+          231,
+          321
+        ],
+        "contour_areas_mm2": [
+          82308.624499
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C109.1 GND": {
+    "F.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          246,
+          336
+        ],
+        "contour_areas_mm2": [
+          102.705065
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          66,
+          156,
+          246,
+          336
+        ],
+        "contour_areas_mm2": [
+          84943.209616
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          246,
+          336
+        ],
+        "contour_areas_mm2": [
+          440.388498
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C109.2 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          66,
+          156,
+          246,
+          336
+        ],
+        "contour_areas_mm2": [
+          82308.624499
+        ],
+        "isolated": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+C103,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,+5V,GND,355.254416,236.5156,-165.0
+C109,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,GND,+5V,252.04189,242.698408,-120.0
+C541,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,GND,+5V,319.123274,376.7913,-15.0
+C500,0.22uF,C315C224K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,+5V,GND,330.57561,337.146848,-60.0
+C603,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,+5V,GND,213.85329,340.530448,-120.0

@@ -1,0 +1,31 @@
+priority,reference,candidate_footprint,electrical_confidence,placement,copper_risk,sourcing,rework,selection_condition
+1,C103,"C315 radial, 2.54 mm",high,moderate,local,stocked,top access near logic,Retain original supply entries. Check real bottom thermal exits.
+2,C109,"C315 radial, 2.54 mm",high,moderate,local,stocked,top access near logic,Retain original supply entries. Check real bottom thermal exits.
+3,C540,"C315 radial, 2.54 mm",high,moderate,local,stocked,top access near logic,Retain original supply entries. Check real bottom thermal exits.
+4,C541,"C315 radial, 2.54 mm",high,moderate,local,stocked,top access near logic,Retain original supply entries. Check real bottom thermal exits.
+5,C500,"C315 radial, 2.54 mm",high,moderate,local,stocked,ROM/buffer service envelope,Compare wide feed branches and connected outer contours.
+6,C603,"C315 radial, 2.54 mm",high,moderate,local,stocked,ROM/buffer service envelope,Compare wide feed branches and connected outer contours.
+7,C102,"C315 radial, 2.54 mm",high,moderate,local,stocked,ROM/buffer service envelope,Compare wide feed branches and connected outer contours.
+8,R310,"47 ohm power axial, 7.62 mm horizontal or upright",conditional,tight,local,pitch-specific part unresolved,port connector and hot resistor,"Require worst-case load, original tolerance, qualified bend and thermal derating."
+9,C501,"C315 radial, 2.54 mm",conditional,tight,local,stocked,beside logic,Verify the original dielectric and tolerance and two connected ground exits on each face.
+10,C600,"C315 radial, 2.54 mm",conditional,tight,local,stocked,beside logic,Verify the original dielectric and tolerance and two connected ground exits on each face.
+11,R302,"horizontal DIN0204, 5.08 mm",high,tight,local audio routing,established family,audio connector and nearby cans,Reuse the coupling or feedback node. Preserve return and isolate low-level audio.
+12,R233,"horizontal DIN0204, 5.08 mm",high,tight,local audio routing,established family,audio connector and nearby cans,Reuse the coupling or feedback node. Preserve return and isolate low-level audio.
+13,R205,"horizontal DIN0204, 5.08 mm",high,tight,local audio routing,established family,audio connector and nearby cans,Reuse the coupling or feedback node. Preserve return and isolate low-level audio.
+14,R243,"horizontal DIN0204, 5.08 mm",high,tight,local audio routing,established family,audio connector and nearby cans,Reuse the coupling or feedback node. Preserve return and isolate low-level audio.
+15,C601,C315 radial 2.54 mm or C322 radial 5.00 mm,high,tight,plated rail entry,stocked,inspect device-side access,Replace a same-net via with a full plated lead. Check opposite-face signals and thermal relief.
+16,C805,C315 radial 2.54 mm or C322 radial 5.00 mm,high,tight,plated rail entry,stocked,inspect device-side access,Replace a same-net via with a full plated lead. Check opposite-face signals and thermal relief.
+17,C108,C315 radial 2.54 mm or C322 radial 5.00 mm,high,tight,plated rail entry,stocked,inspect device-side access,Replace a same-net via with a full plated lead. Check opposite-face signals and thermal relief.
+18,C104,"C315 radial, 2.54 mm",high,tight,rail leaves and planes,stocked,beside bus logic,"Compare discrete feed length, distance to the consumer, and reference changes."
+19,C802,"C315 radial, 2.54 mm",high,tight,rail leaves and planes,stocked,beside bus logic,"Compare discrete feed length, distance to the consumer, and reference changes."
+20,C804,"C315 radial, 2.54 mm",high,tight,rail leaves and planes,stocked,beside bus logic,"Compare discrete feed length, distance to the consumer, and reference changes."
+21,C504,"C315 radial, 2.54 mm",high,tight,rail leaves and planes,stocked,beside bus logic,"Compare discrete feed length, distance to the consumer, and reference changes."
+22,C106,"C315 radial, 2.54 mm",high,tight,busy logic or video fanout,stocked,top-side hand soldering,Find a pair of clear lands without extending a supply tap or damaging signal references.
+23,C107,"C315 radial, 2.54 mm",high,tight,busy logic or video fanout,stocked,top-side hand soldering,Find a pair of clear lands without extending a supply tap or damaging signal references.
+24,C203,"C315 radial, 2.54 mm",high,tight,busy logic or video fanout,stocked,top-side hand soldering,Find a pair of clear lands without extending a supply tap or damaging signal references.
+25,C207,"C315 radial, 2.54 mm",high,tight,busy logic or video fanout,stocked,top-side hand soldering,Find a pair of clear lands without extending a supply tap or damaging signal references.
+26,C303,"C315 radial, 2.54 mm",high,tight,busy logic or video fanout,stocked,top-side hand soldering,Find a pair of clear lands without extending a supply tap or damaging signal references.
+27,C305,"C315 radial, 2.54 mm",high,tight,busy logic or video fanout,stocked,top-side hand soldering,Find a pair of clear lands without extending a supply tap or damaging signal references.
+28,R203A1,horizontal or upright DIN0204,conditional,tight,edge-sensitive,established RF family,around video and mouse logic,Preserve driver-side damping and scope both sides of each proposed resistor.
+29,RN204A1,horizontal or upright DIN0204,conditional,tight,edge-sensitive,established RF family,around video and mouse logic,Preserve driver-side damping and scope both sides of each proposed resistor.
+30,RN204D1,horizontal or upright DIN0204,conditional,tight,edge-sensitive,established RF family,around video and mouse logic,Preserve driver-side damping and scope both sides of each proposed resistor.
