@@ -1,0 +1,27 @@
+{
+  "before": {
+    "+5V": {
+      "sampled_mm": 1.275,
+      "unreferenced_mm": 0.7846,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 1.3,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "+5V": {
+      "sampled_mm": 2.7459,
+      "unreferenced_mm": 1.1982,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

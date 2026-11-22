@@ -1,0 +1,2 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+C106,0.1uF,C322C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm,+5V,GND,373.89089,218.2677,90.0

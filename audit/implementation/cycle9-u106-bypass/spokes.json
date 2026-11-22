@@ -1,0 +1,64 @@
+{
+  "C106.1 +5V": {
+    "In2.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          82261.781498
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "C106.2 GND": {
+    "F.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          239.769126
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          84898.576277
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          36,
+          306
+        ],
+        "contour_areas_mm2": [
+          69.36704
+        ],
+        "isolated": false
+      }
+    ]
+  }
+}
