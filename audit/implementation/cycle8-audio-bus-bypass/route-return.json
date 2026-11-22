@@ -1,0 +1,20 @@
+{
+  "before": {
+    "GND": {
+      "sampled_mm": 10.3453,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "+5V": {
+      "sampled_mm": 8.0561,
+      "unreferenced_mm": 3.5587,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

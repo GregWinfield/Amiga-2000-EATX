@@ -1,0 +1,5 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+C318,22uF,25TWL22MEFC5X11,Capacitor_SMD:CP_Elec_6.3x5.8,Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,Net-(C304-Pad1),Net-(C318-Pad2),288.15089,87.1923,180.0
+C502,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,+5V,GND,365.57829,339.04342,0.0
+C602,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,+5V,GND,211.03829,300.0265,180.0
+C604,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,+5V,GND,208.08909,318.4593,180.0
