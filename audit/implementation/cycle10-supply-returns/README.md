@@ -1,0 +1,14 @@
+# Logic, video and negative-supply bypasses
+
+C203, C205, C300 and C409 bring the board to 224 through-hole packages. All four use 100 nF, ±10%, 50 V KEMET X7R radials rated −55 to +125 °C. C203 uses C322C104K5R5TA on the 5.00 mm footprint for 5.08 mm leads. The other three use C315C104K5R5TA at 2.54 mm. These exact parts have manufacturer drawings and documented distributor availability. Both use 0.80 mm finished holes. The C322 envelope allows 5.08 × 3.18 mm and 6.60 mm seated height. The C315 body allows 3.81 × 2.54 mm. The EATX shopping list specifies nominal capacitance and construction without a fitted manufacturer code. Seat the ceramics low and check rail transients with the devices switching. [C315 drawing](https://search.kemet.com/component-documentation/download/specsheet/C315C104K5R5TA) · [C322 drawing](https://search.kemet.com/component-documentation/download/specsheet/C322C104K5R5TA) · [C315 sourcing](https://www.digikey.com/en/products/detail/kemet/C315C104K5R5TA/12701330) · [C322 sourcing](https://www.digikey.com/en/products/detail/kemet/C322C104K5R5TA/818105)
+
+| Position | Supply pad to associated device, before → after | Effective GND paths on front / In1 / back | Closest courtyard |
+|---|---|---|---|
+| C203, U203.14 logic supply | 12.57 → 10.58 mm | 3 / 4 / 3 | U203, 0.213 mm |
+| C205, U205.20 video supply | 4.59 → 4.25 mm | 3 / 4 / 2 | U205, 0.929 mm |
+| C300, U300.20 peripheral supply | 7.53 → 7.66 mm | 2 / 4 / 1 thermal plus a bottom copper track | U200, 2.268 mm |
+| C409, U9000.2 negative regulator input | 13.17 → 11.30 mm | 3 / 4 / 3 | C9000, 0.239 mm |
+
+C300's 0.40 mm bottom ground track runs 1.981 mm east from pad 1 to an existing plated ground via. It provides a second return independent of the bottom pour spoke that starts at 69°. C409 preserves the 1.0 mm distribution feed and branches to the new capacitor from its existing supply junction. All 14 changed outer ground contours have identified contacts. Added copper retains its adjacent reference outside same-net terminal regions. Local changes beneath surviving routes occur on the affected bypass nets. The separate sampled signal routes preserve their references. [Ground branch and via identity](ground-branch.json) · [Measured thermals](spokes.json) · [Ground contacts](ground-contacts.json) · [Return comparison](route-return.json)
+
+The refill **clears the inherited C205 front-ground thermal error**. The board now has 71 DRC errors, 202 DRC warnings and 17 parity warnings, with zero opens. Individual findings reconcile to the previous artwork. ERC remains at 24 errors and 1,182 warnings. All 3,603 schematic pins, 3,698 physical pad assignments, fixed connectors, mounting centres, vias, board outline and stack agree. Inspect the U203 and C9000 joints before fitting the nearby radials. Check the video supply and negative regulator under representative loads. [Native reports](kicad-reports.zip) · [Object comparison](verification.json)

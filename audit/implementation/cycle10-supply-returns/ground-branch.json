@@ -1,0 +1,21 @@
+{
+  "component": "C300",
+  "pin": "1",
+  "net": "GND",
+  "layer": "B.Cu",
+  "pad_centre_mm": [
+    324.30969,
+    169.4883
+  ],
+  "ground_via_centre_mm": [
+    326.29089,
+    169.4883
+  ],
+  "via_uuid": "20bea4e8-5019-47f1-ba75-841fc254e117",
+  "segment_uuid": "5f35742d-fef6-5c84-a8c4-289c9db6ff05",
+  "track_width_mm": 0.4,
+  "length_mm": 1.9812,
+  "separate_pour_sector_starts_deg": [
+    69
+  ]
+}

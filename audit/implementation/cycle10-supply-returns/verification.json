@@ -1,0 +1,933 @@
+{
+  "control_commit": "175d9b9ad1b8b7d6264b4b0577b2a43907e048ed",
+  "kicad": "10.0.8",
+  "checked_board_sha256": "8e2076fac3c30c55be1135bc8adf5f4ab92d3e8ce9ec8a71558e42f3aa451f21",
+  "schematic_pin_assignments": [
+    3603,
+    3603
+  ],
+  "pad_net_records": [
+    3698,
+    3698
+  ],
+  "expanded_differences": 0,
+  "via_objects_identical": true,
+  "via_count": 1206,
+  "existing_track_objects_identical": false,
+  "removed_segments": [
+    "3f2ef8e4-275f-4ffb-aacb-5d2fab856e01",
+    "79b3d14b-84a0-4b15-95d9-e9ca2df6a9e0",
+    "baebc3ad-b899-4620-9b00-6a886197df55",
+    "ca00530a-d00b-41d8-b121-5e9298081d68",
+    "e0bbcd1b-94c0-4d58-8fdc-e6c1d3e30870",
+    "ea4ed34d-dcf2-4770-bd56-cd9f0568aed5"
+  ],
+  "added_front_segments": 13,
+  "added_back_segments": 1,
+  "added_route_plane_samples_mm": {
+    "F.Cu +5V": [
+      10.281032526028257,
+      3.47552775461359,
+      1.0937359394781367
+    ],
+    "F.Cu GND": [
+      8.782572573298284,
+      2.5172581494165196,
+      0.0
+    ],
+    "B.Cu GND": [
+      1.9812000000000012,
+      1.9812000000000012,
+      0.69342
+    ],
+    "F.Cu +VID": [
+      0.5137839007817115,
+      0.5137839007817115,
+      0.0
+    ],
+    "F.Cu -12V": [
+      16.916865152135074,
+      1.1884493402411087,
+      0.0
+    ]
+  },
+  "physical_stackup_and_edges_equal": true,
+  "fixed_datums": [
+    "CN1",
+    "CN200",
+    "CN202",
+    "CN203",
+    "CN205",
+    "CN207",
+    "CN300",
+    "CN303",
+    "CN304",
+    "CN305",
+    "CN600",
+    "CN601",
+    "CN602",
+    "CN603",
+    "CN604",
+    "CN605",
+    "CN700",
+    "CN701",
+    "CN702",
+    "H1",
+    "H10",
+    "H11",
+    "H12",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H9",
+    "J102",
+    "J300",
+    "J301",
+    "J503",
+    "J900",
+    "J9001",
+    "J9002",
+    "J9003",
+    "J9004",
+    "J9100",
+    "JA1",
+    "JA10",
+    "JA11",
+    "JA12",
+    "JA13",
+    "JA14",
+    "JA2",
+    "JA3",
+    "JA4",
+    "JA5",
+    "JA6",
+    "JA7",
+    "JA8",
+    "JA9"
+  ],
+  "added": [],
+  "removed": [],
+  "changed_shared_footprints": [
+    "C203",
+    "C205",
+    "C300",
+    "C409"
+  ],
+  "population": {
+    "THT": 224,
+    "SMD": 330
+  },
+  "nearest_front_courtyards_mm": {
+    "C409": [
+      [
+        0.2392,
+        "C9000"
+      ],
+      [
+        2.0264,
+        "H5"
+      ],
+      [
+        3.7956,
+        "U9000"
+      ]
+    ],
+    "C300": [
+      [
+        2.2676,
+        "U200"
+      ],
+      [
+        2.7936,
+        "U300"
+      ],
+      [
+        10.002,
+        "R301"
+      ]
+    ],
+    "C203": [
+      [
+        0.2125,
+        "U203"
+      ],
+      [
+        3.0642,
+        "U900"
+      ],
+      [
+        3.826,
+        "U301"
+      ]
+    ],
+    "C205": [
+      [
+        0.9285,
+        "U205"
+      ],
+      [
+        2.3254,
+        "U206"
+      ],
+      [
+        9.974,
+        "U303"
+      ]
+    ]
+  },
+  "plane_areas": {
+    "24fb3a22-9621-50fc-9c57-2ea155916a82 GND": [
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      },
+      {
+        "area_mm2": 67.1643,
+        "islands": 1
+      }
+    ],
+    "47578734-c322-4597-a67e-b5f76c57f39b GND": [
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      },
+      {
+        "area_mm2": 593.0604,
+        "islands": 6
+      }
+    ],
+    "5175addb-db9f-5b18-9f43-0f4a14a18455 GND": [
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      },
+      {
+        "area_mm2": 36.3138,
+        "islands": 1
+      }
+    ],
+    "52da9264-b986-414a-b478-5edf15caf204 GND": [
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      },
+      {
+        "area_mm2": 592.9216,
+        "islands": 5
+      }
+    ],
+    "698ed2d4-165a-51ff-a5e0-2589480ce711 GND": [
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.1926,
+        "islands": 1
+      }
+    ],
+    "80945dc7-0fc8-5710-82d6-7277d35d98e8 GND": [
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      },
+      {
+        "area_mm2": 42.2703,
+        "islands": 1
+      }
+    ],
+    "859a2f5f-a539-4c18-ba8a-cddf325c479d GND": [
+      {
+        "area_mm2": 84978.7331,
+        "islands": 180
+      },
+      {
+        "area_mm2": 84949.9959,
+        "islands": 180
+      }
+    ],
+    "8e7f25c9-b383-4620-9042-0ab68da69405 GND": [
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      },
+      {
+        "area_mm2": 587.7138,
+        "islands": 7
+      }
+    ],
+    "c09ee2d8-9c40-435e-ba12-4f187673cf9c GND": [
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      },
+      {
+        "area_mm2": 584.4915,
+        "islands": 7
+      }
+    ],
+    "f147ee7f-44d5-4732-ba6b-64595aa4fdb4 GND": [
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      },
+      {
+        "area_mm2": 597.1365,
+        "islands": 4
+      }
+    ],
+    "00000000-0000-0000-0000-000061f11a4a +5V": [
+      {
+        "area_mm2": 82256.6922,
+        "islands": 7
+      },
+      {
+        "area_mm2": 82222.1929,
+        "islands": 7
+      }
+    ],
+    "0a670621-705a-5f96-a5bc-b660db88235a +5V": [
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      },
+      {
+        "area_mm2": 37.041,
+        "islands": 1
+      }
+    ],
+    "3abc2beb-0a3c-4fbf-b69f-ba30e4ec5ce6 -5V": [
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      },
+      {
+        "area_mm2": 257.1549,
+        "islands": 1
+      }
+    ],
+    "3f4f6b1a-8d48-4251-8cb2-48fb354b55f4 -12V": [
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      },
+      {
+        "area_mm2": 466.1366,
+        "islands": 1
+      }
+    ],
+    "588aca6e-e2a9-4695-9d15-5dd97e167a1e +5V": [
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      },
+      {
+        "area_mm2": 504.6276,
+        "islands": 4
+      }
+    ],
+    "613d426f-3aa9-505b-8a6f-0020868dea29 +5V": [
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      },
+      {
+        "area_mm2": 72.9198,
+        "islands": 1
+      }
+    ],
+    "6bf6e243-ce13-4e56-9663-f1926a5b60b7 +5V": [
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      },
+      {
+        "area_mm2": 505.0068,
+        "islands": 4
+      }
+    ],
+    "7ff6bb5d-7fb8-4963-ac90-5c445989080f +5V": [
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.3021,
+        "islands": 5
+      }
+    ],
+    "97ef5659-cb24-5673-8c54-55e1a82b725c +5V": [
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      },
+      {
+        "area_mm2": 41.3048,
+        "islands": 1
+      }
+    ],
+    "9d9bd969-041d-5750-953f-d5da43f930bc +5V": [
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      },
+      {
+        "area_mm2": 66.1988,
+        "islands": 1
+      }
+    ],
+    "b414093d-e6d5-419d-b12e-a099295f2832 +5V": [
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      },
+      {
+        "area_mm2": 505.1757,
+        "islands": 5
+      }
+    ],
+    "e49d556e-40ab-439f-be4b-1bb39eaed9c6 +5V": [
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      },
+      {
+        "area_mm2": 501.4331,
+        "islands": 3
+      }
+    ],
+    "eab3356d-1847-4f4f-8e2a-0944efe4ceb8 +12V": [
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      },
+      {
+        "area_mm2": 583.3411,
+        "islands": 1
+      }
+    ]
+  },
+  "local_reference_and_thermals": {
+    "C409": {
+      "front": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In2.Cu -12V": [],
+        "2 In1.Cu GND": [
+          0,
+          5,
+          10,
+          15,
+          85,
+          90,
+          95,
+          100,
+          105,
+          175,
+          180,
+          185,
+          190,
+          195,
+          265,
+          270,
+          275,
+          280,
+          285,
+          355
+        ]
+      }
+    },
+    "C300": {
+      "front": {
+        "sample_comparisons": 94,
+        "changed_nearby_original_routes": []
+      },
+      "back": {
+        "sample_comparisons": 94,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In1.Cu GND": [
+          0,
+          70,
+          75,
+          80,
+          85,
+          90,
+          160,
+          165,
+          170,
+          175,
+          180,
+          250,
+          255,
+          260,
+          265,
+          270,
+          340,
+          345,
+          350,
+          355
+        ],
+        "2 In2.Cu +5V": [
+          35,
+          40,
+          45,
+          50,
+          55,
+          125,
+          130,
+          135,
+          140,
+          145,
+          215,
+          220,
+          225,
+          230,
+          235,
+          305,
+          310,
+          315,
+          320,
+          325
+        ]
+      }
+    },
+    "C203": {
+      "front": {
+        "sample_comparisons": 118,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "9e73f2a6-bd11-49c7-b079-5924d5ede929",
+              0
+            ],
+            "GND",
+            8
+          ],
+          [
+            [
+              "6f55dfcf-1c8d-4343-81cc-e7d140b2568a",
+              0
+            ],
+            "GND",
+            13
+          ],
+          [
+            [
+              "2eb32694-1261-4bd4-8bcf-24f842fdfebf",
+              1
+            ],
+            "+5V",
+            23
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 46,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In1.Cu GND": [
+          0,
+          5,
+          10,
+          15,
+          85,
+          90,
+          95,
+          100,
+          105,
+          175,
+          180,
+          185,
+          190,
+          195,
+          265,
+          270,
+          275,
+          280,
+          285,
+          355
+        ],
+        "2 In2.Cu +5V": [
+          35,
+          40,
+          45,
+          50,
+          55,
+          125,
+          130,
+          135,
+          140,
+          145,
+          215,
+          220,
+          225,
+          230,
+          235,
+          305,
+          310,
+          315,
+          320,
+          325
+        ]
+      }
+    },
+    "C205": {
+      "front": {
+        "sample_comparisons": 53,
+        "changed_nearby_original_routes": [
+          [
+            [
+              "392894e4-ee3a-460d-8c5c-2da91eae55ec",
+              1
+            ],
+            "+VID",
+            12
+          ],
+          [
+            [
+              "6108792e-fbc5-45bc-aa55-d932352dbc21",
+              1
+            ],
+            "+VID",
+            23
+          ]
+        ]
+      },
+      "back": {
+        "sample_comparisons": 0,
+        "changed_nearby_original_routes": []
+      },
+      "inner_annulus_net_at_1p04mm_angles_deg": {
+        "1 In1.Cu GND": [
+          0,
+          5,
+          10,
+          15,
+          85,
+          90,
+          95,
+          100,
+          105,
+          175,
+          180,
+          185,
+          190,
+          195,
+          265,
+          270,
+          275,
+          280,
+          285,
+          355
+        ]
+      }
+    }
+  },
+  "reports": {
+    "violations": {
+      "before": {
+        "error": 72,
+        "warning": 202
+      },
+      "after": {
+        "error": 71,
+        "warning": 202
+      },
+      "appeared": [
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C742",
+              156.33949,
+              127.4259
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C744",
+              156.33949,
+              129.9659
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C750",
+              156.33949,
+              137.5859
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C752",
+              156.33949,
+              140.1259
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "starved_thermal",
+          "error",
+          "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+          [
+            [
+              "Pad 1 [GND] of C205 on F.Cu",
+              244.42669,
+              109.3175
+            ],
+            [
+              "Zone [GND] on F.Cu, priority 0",
+              405.55669,
+              53.9255
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C205",
+              244.42669,
+              107.8425
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C409",
+              253.64689,
+              217.6467
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C300",
+              323.03969,
+              169.4883
+            ]
+          ]
+        ],
+        [
+          "lib_footprint_mismatch",
+          "warning",
+          "Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'",
+          [
+            [
+              "Footprint C203",
+              385.98089,
+              124.4287
+            ]
+          ]
+        ]
+      ]
+    },
+    "unconnected_items": {
+      "before": {},
+      "after": {},
+      "appeared": [],
+      "absent": []
+    },
+    "schematic_parity": {
+      "before": {
+        "warning": 17
+      },
+      "after": {
+        "warning": 17
+      },
+      "appeared": [],
+      "absent": []
+    },
+    "erc": {
+      "before": {
+        "warning": 1182,
+        "error": 24
+      },
+      "after": {
+        "warning": 1182,
+        "error": 24
+      },
+      "appeared": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              41.91
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              57.15
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              59.69
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB4 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              297.18,
+              62.23
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              64.77
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              204.47,
+              148.59
+            ],
+            [
+              "Symbol #PWR0239 Hidden pin 1 [GND, Power input, Line]",
+              354.33,
+              43.18
+            ]
+          ]
+        ]
+      ],
+      "absent": [
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB0 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              45.72
+            ],
+            [
+              "Vertical Bus, length 3.81 mm",
+              299.72,
+              44.45
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB4 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              55.88
+            ],
+            [
+              "Vertical Bus, length 1.27 mm",
+              299.72,
+              58.42
+            ]
+          ]
+        ],
+        [
+          "net_not_bus_member",
+          "warning",
+          "Net /Memory and Kickstart/DRAB3 is graphically connected to bus /Memory and Kickstart/<NO NET> but is not a member of that bus",
+          [
+            [
+              "Bus to wire entry",
+              302.26,
+              102.87
+            ],
+            [
+              "Vertical Bus, length 2.54 mm",
+              299.72,
+              105.41
+            ]
+          ]
+        ],
+        [
+          "multiple_net_names",
+          "warning",
+          "Both GND and _CSO are attached to the same items; GND will be used in the netlist",
+          [
+            [
+              "Label '_CSO'",
+              285.75,
+              165.1
+            ],
+            [
+              "Symbol #PWR0239 Hidden pin 1 [GND, Power input, Line]",
+              354.33,
+              43.18
+            ]
+          ]
+        ]
+      ]
+    }
+  }
+}

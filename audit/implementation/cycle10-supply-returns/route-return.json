@@ -1,0 +1,55 @@
+{
+  "before": {
+    "-12V": {
+      "sampled_mm": 15.2716,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 3.4357,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+5V": {
+      "sampled_mm": 7.8887,
+      "unreferenced_mm": 1.0979,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "GND": {
+      "sampled_mm": 10.7638,
+      "unreferenced_mm": 4.4985,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+VID": {
+      "sampled_mm": 0.5138,
+      "unreferenced_mm": 0.5138,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "-12V": {
+      "sampled_mm": 16.9169,
+      "unreferenced_mm": 1.1884,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+5V": {
+      "sampled_mm": 10.281,
+      "unreferenced_mm": 3.4755,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}
