@@ -21955,7 +21955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47 0.5W"
+		(property "Value" "47 1W"
 			(at 281.178 133.223 0)
 			(effects
 				(font

@@ -1,0 +1,48 @@
+{
+  "R234.1 GND": {
+    "F.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          30,
+          120,
+          210,
+          309
+        ],
+        "contour_areas_mm2": [
+          32.998736
+        ],
+        "isolated": false
+      }
+    ],
+    "In1.Cu": [
+      {
+        "sectors": 4,
+        "angular_sector_starts_deg": [
+          36,
+          126,
+          216,
+          306
+        ],
+        "contour_areas_mm2": [
+          84839.644476
+        ],
+        "isolated": false
+      }
+    ],
+    "B.Cu": [
+      {
+        "sectors": 2,
+        "angular_sector_starts_deg": [
+          30,
+          309
+        ],
+        "contour_areas_mm2": [
+          9.536329
+        ],
+        "isolated": false
+      }
+    ]
+  },
+  "R234.2 FLTRIGHT": {}
+}

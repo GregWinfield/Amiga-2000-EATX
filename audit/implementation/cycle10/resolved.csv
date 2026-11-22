@@ -1,2 +1,3 @@
 reference,previous_register,original_reason,accepted_design,physical_validation
 R310,../cycle9/deferred.csv,No 10.16 mm site. Seven 7.62 mm sites require a short-pitch 47 ohm device rated at least 0.5 W. The evaluated Vishay L0 ordering code has a discontinuation notice and no confirmed stock.,../cycle10-port-passives/README.md,Maximum local ambient and grounded pin 14 board/lead temperatures in populated enclosure
+R234,../cycle9/deferred.csv,The verified left audio output resistor takes the only routable local corridor found for the right branch.,../cycle10-audio-shunt/README.md,Measure loaded left and right audio response and inspect access to both upright leads.

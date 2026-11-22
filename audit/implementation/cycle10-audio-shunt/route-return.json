@@ -1,0 +1,19 @@
+{
+  "before": {},
+  "after": {
+    "FLTRIGHT": {
+      "sampled_mm": 0.9546,
+      "unreferenced_mm": 0.9546,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 2.9919,
+      "unreferenced_mm": 2.2938,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}
