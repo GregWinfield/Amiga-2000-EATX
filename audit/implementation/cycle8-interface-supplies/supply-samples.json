@@ -1,0 +1,1098 @@
+{
+  "RN907B1": {
+    "front": {
+      "sample_comparisons": 0,
+      "changed_nearby_original_routes": []
+    },
+    "back": {
+      "sample_comparisons": 47,
+      "changed_nearby_original_routes": []
+    },
+    "inner_annulus_net_at_1p04mm_angles_deg": {}
+  },
+  "C901": {
+    "front": {
+      "sample_comparisons": 61,
+      "changed_nearby_original_routes": [
+        {
+          "segment": "73361e84-6cf5-4624-9a7d-24350f0b5afb",
+          "net": "AUDIO",
+          "lead": 1,
+          "changed": [
+            {
+              "xy": [
+                305.8455833333333,
+                139.98196666666666
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.17625
+            },
+            {
+              "xy": [
+                305.7928077777778,
+                140.03474222222223
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.12861
+            },
+            {
+              "xy": [
+                305.7400322222222,
+                140.08751777777778
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.08402
+            },
+            {
+              "xy": [
+                305.68725666666666,
+                140.14029333333332
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.04287
+            },
+            {
+              "xy": [
+                305.6344811111111,
+                140.1930688888889
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.00559
+            },
+            {
+              "xy": [
+                305.5817055555556,
+                140.24584444444446
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.97261
+            },
+            {
+              "xy": [
+                305.52893,
+                140.29862
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.94439
+            },
+            {
+              "xy": [
+                305.47615444444443,
+                140.35139555555554
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.92137
+            },
+            {
+              "xy": [
+                305.4233788888889,
+                140.4041711111111
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.90394
+            },
+            {
+              "xy": [
+                305.37060333333335,
+                140.45694666666668
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.89244
+            },
+            {
+              "xy": [
+                305.3178277777778,
+                140.50972222222222
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.88708
+            },
+            {
+              "xy": [
+                305.2650522222222,
+                140.56249777777776
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.88799
+            },
+            {
+              "xy": [
+                305.2122766666667,
+                140.61527333333333
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.89514
+            },
+            {
+              "xy": [
+                305.1595011111111,
+                140.6680488888889
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.90839
+            },
+            {
+              "xy": [
+                305.10672555555556,
+                140.72082444444445
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.92747
+            },
+            {
+              "xy": [
+                305.05395,
+                140.7736
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.95204
+            },
+            {
+              "xy": [
+                305.0011744444445,
+                140.82637555555556
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.98168
+            },
+            {
+              "xy": [
+                304.9483988888889,
+                140.87915111111113
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.01595
+            },
+            {
+              "xy": [
+                304.89562333333333,
+                140.93192666666667
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.05439
+            },
+            {
+              "xy": [
+                304.8428477777778,
+                140.9847022222222
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.09658
+            },
+            {
+              "xy": [
+                304.79007222222225,
+                141.03747777777778
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.14209
+            },
+            {
+              "xy": [
+                304.7372966666667,
+                141.09025333333335
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.19054
+            }
+          ]
+        }
+      ]
+    },
+    "back": {
+      "sample_comparisons": 0,
+      "changed_nearby_original_routes": []
+    },
+    "inner_annulus_net_at_1p04mm_angles_deg": {}
+  },
+  "C206": {
+    "front": {
+      "sample_comparisons": 49,
+      "changed_nearby_original_routes": [
+        {
+          "segment": "d965aa90-c7aa-44a9-a91f-7a44fef2dac4",
+          "net": "+VID",
+          "lead": 2,
+          "changed": [
+            {
+              "xy": [
+                264.30219,
+                105.18686956521739
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.13451
+            },
+            {
+              "xy": [
+                264.30219,
+                105.11295652173914
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.06062
+            },
+            {
+              "xy": [
+                264.30219,
+                105.03904347826087
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.98673
+            },
+            {
+              "xy": [
+                264.30219,
+                104.96513043478261
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.91286
+            },
+            {
+              "xy": [
+                264.30219,
+                104.89121739130435
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.83898
+            },
+            {
+              "xy": [
+                264.30219,
+                104.81730434782608
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.76512
+            },
+            {
+              "xy": [
+                264.30219,
+                104.74339130434782
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.69126
+            },
+            {
+              "xy": [
+                264.30219,
+                104.66947826086957
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.61742
+            },
+            {
+              "xy": [
+                264.30219,
+                104.5955652173913
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.5436
+            },
+            {
+              "xy": [
+                264.30219,
+                104.52165217391304
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.4698
+            },
+            {
+              "xy": [
+                264.30219,
+                104.44773913043478
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.39605
+            },
+            {
+              "xy": [
+                264.30219,
+                104.37382608695653
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.32238
+            },
+            {
+              "xy": [
+                264.30219,
+                104.29991304347826
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.24885
+            },
+            {
+              "xy": [
+                264.30219,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.17563
+            }
+          ]
+        },
+        {
+          "segment": "724e0512-f26d-4e25-b97e-01e60aa035b8",
+          "net": "+VID",
+          "lead": 2,
+          "changed": [
+            {
+              "xy": [
+                264.30219,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.17563
+            },
+            {
+              "xy": [
+                264.23016083333334,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.17861
+            },
+            {
+              "xy": [
+                264.15813166666663,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.20816
+            },
+            {
+              "xy": [
+                264.0861025,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.25522
+            },
+            {
+              "xy": [
+                264.01407333333333,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.31196
+            },
+            {
+              "xy": [
+                263.9420441666667,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.37401
+            },
+            {
+              "xy": [
+                263.87001499999997,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.43911
+            },
+            {
+              "xy": [
+                263.7979858333333,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.50609
+            },
+            {
+              "xy": [
+                263.72595666666666,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.5743
+            },
+            {
+              "xy": [
+                263.6539275,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.64334
+            },
+            {
+              "xy": [
+                263.5818983333333,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.71297
+            },
+            {
+              "xy": [
+                263.50986916666665,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.78303
+            },
+            {
+              "xy": [
+                263.43784,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.85343
+            },
+            {
+              "xy": [
+                263.36581083333334,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.92407
+            },
+            {
+              "xy": [
+                263.29378166666663,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.99491
+            },
+            {
+              "xy": [
+                263.2217525,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.06592
+            },
+            {
+              "xy": [
+                263.1497233333333,
+                104.226
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.13705
+            }
+          ]
+        }
+      ]
+    },
+    "back": {
+      "sample_comparisons": 0,
+      "changed_nearby_original_routes": []
+    },
+    "inner_annulus_net_at_1p04mm_angles_deg": {
+      "1 In1.Cu GND": [
+        50,
+        55,
+        60,
+        65,
+        70,
+        140,
+        145,
+        150,
+        155,
+        160,
+        230,
+        235,
+        240,
+        245,
+        250,
+        320,
+        325,
+        330,
+        335,
+        340
+      ]
+    }
+  },
+  "C605": {
+    "front": {
+      "sample_comparisons": 56,
+      "changed_nearby_original_routes": [
+        {
+          "segment": "3c432a79-e5a6-4ea7-a34c-9b1e3e002f02",
+          "net": "+5V",
+          "lead": 2,
+          "changed": [
+            {
+              "xy": [
+                210.36229,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.73817
+            },
+            {
+              "xy": [
+                210.36229,
+                361.3873064516129
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.67924
+            },
+            {
+              "xy": [
+                210.36229,
+                361.31311290322583
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.62358
+            },
+            {
+              "xy": [
+                210.36229,
+                361.2389193548387
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.57214
+            },
+            {
+              "xy": [
+                210.36229,
+                361.1647258064516
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.52616
+            },
+            {
+              "xy": [
+                210.36229,
+                361.0905322580645
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.48719
+            },
+            {
+              "xy": [
+                210.36229,
+                361.0163387096774
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.45703
+            },
+            {
+              "xy": [
+                210.36229,
+                360.94214516129034
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.4375
+            },
+            {
+              "xy": [
+                210.36229,
+                360.8679516129032
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.43005
+            },
+            {
+              "xy": [
+                210.36229,
+                360.7937580645161
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.4353
+            },
+            {
+              "xy": [
+                210.36229,
+                360.719564516129
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.45282
+            },
+            {
+              "xy": [
+                210.36229,
+                360.64537096774194
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.48126
+            },
+            {
+              "xy": [
+                210.36229,
+                360.57117741935485
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.51883
+            },
+            {
+              "xy": [
+                210.36229,
+                360.4969838709677
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.56371
+            },
+            {
+              "xy": [
+                210.36229,
+                360.4227903225806
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.6143
+            },
+            {
+              "xy": [
+                210.36229,
+                360.34859677419354
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.66931
+            },
+            {
+              "xy": [
+                210.36229,
+                360.27440322580645
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.72772
+            },
+            {
+              "xy": [
+                210.36229,
+                360.20020967741937
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.7888
+            },
+            {
+              "xy": [
+                210.36229,
+                360.1260161290322
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.85196
+            },
+            {
+              "xy": [
+                210.36229,
+                360.05182258064514
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.91678
+            },
+            {
+              "xy": [
+                210.36229,
+                359.97762903225805
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.98292
+            },
+            {
+              "xy": [
+                210.36229,
+                359.90343548387096
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.05014
+            },
+            {
+              "xy": [
+                210.36229,
+                359.8292419354839
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.11824
+            },
+            {
+              "xy": [
+                210.36229,
+                359.75504838709674
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.18707
+            }
+          ]
+        },
+        {
+          "segment": "6dce2b72-452d-4242-bb36-042aa2f2b62a",
+          "net": "+5V",
+          "lead": 2,
+          "changed": [
+            {
+              "xy": [
+                210.36229,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.73817
+            },
+            {
+              "xy": [
+                210.28837695652174,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.78354
+            },
+            {
+              "xy": [
+                210.2144639130435,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.833
+            },
+            {
+              "xy": [
+                210.14055086956523,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.88587
+            },
+            {
+              "xy": [
+                210.06663782608695,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.94158
+            },
+            {
+              "xy": [
+                209.9927247826087,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 0.99965
+            },
+            {
+              "xy": [
+                209.91881173913043,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.0597
+            },
+            {
+              "xy": [
+                209.84489869565218,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.12141
+            },
+            {
+              "xy": [
+                209.77098565217392,
+                361.4615
+              ],
+              "before": [
+                "GND"
+              ],
+              "after": [],
+              "distance_to_own_land_mm": 1.18451
+            }
+          ]
+        }
+      ]
+    },
+    "back": {
+      "sample_comparisons": 0,
+      "changed_nearby_original_routes": []
+    },
+    "inner_annulus_net_at_1p04mm_angles_deg": {
+      "1 In1.Cu GND": [
+        35,
+        40,
+        45,
+        50,
+        55,
+        125,
+        130,
+        135,
+        140,
+        145,
+        215,
+        220,
+        225,
+        230,
+        235,
+        305,
+        310,
+        315,
+        320,
+        325
+      ],
+      "2 In2.Cu +5V": [
+        35,
+        40,
+        45,
+        50,
+        55,
+        125,
+        130,
+        135,
+        140,
+        145,
+        215,
+        220,
+        225,
+        230,
+        235,
+        305,
+        310,
+        315,
+        320,
+        325
+      ]
+    }
+  }
+}

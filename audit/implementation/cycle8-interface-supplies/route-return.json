@@ -1,0 +1,83 @@
+{
+  "before": {
+    "E7M": {
+      "sampled_mm": 12.0237,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "AUDIO": {
+      "sampled_mm": 5.6801,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(RN907B1-Pad2)": {
+      "sampled_mm": 3.8009,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 6.0858,
+      "unreferenced_mm": 0,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "-AV": {
+      "sampled_mm": 6.9665,
+      "unreferenced_mm": 0.691,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  },
+  "after": {
+    "E7M": {
+      "sampled_mm": 9.2802,
+      "unreferenced_mm": 1.0977,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "-AV": {
+      "sampled_mm": 3.6716,
+      "unreferenced_mm": 2.3816,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "Net-(RN907B1-Pad2)": {
+      "sampled_mm": 3.7955,
+      "unreferenced_mm": 1.0987,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "GND": {
+      "sampled_mm": 2.2703,
+      "unreferenced_mm": 0.691,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "AUDIO": {
+      "sampled_mm": 1.3503,
+      "unreferenced_mm": 1.2056,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    },
+    "+VID": {
+      "sampled_mm": 0.1756,
+      "unreferenced_mm": 0.1756,
+      "outside_terminal_mm": 0,
+      "max_distance_to_adjacent_plane_mm": 0,
+      "locations": []
+    }
+  }
+}

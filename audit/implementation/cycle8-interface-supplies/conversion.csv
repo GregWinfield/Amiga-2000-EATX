@@ -1,0 +1,5 @@
+reference,value,selected_mpn,previous_footprint,installed_footprint,pin1_net,pin2_net,x_mm,y_mm,rotation_deg
+RN907B1,47,MBA0204AC4709FCT00,Resistor_SMD:R_1206_3216Metric,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,E7M,Net-(RN907B1-Pad2),256.94053,266.7189,180.0
+C901,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,AUDIO,-AV,304.67209,139.9015,180.0
+C206,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,GND,+VID,264.93089,101.599274,-105.0
+C605,0.1uF,C315C104K5R5TA,Capacitor_SMD:C_1206_3216Metric,AmigaFootprints:C_Radial_KEMET_C315_P2.54mm,GND,+5V,213.33229,360.8615,180.0
